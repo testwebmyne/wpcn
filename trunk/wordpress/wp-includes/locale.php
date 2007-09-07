@@ -12,7 +12,7 @@ class WP_Locale {
 
 	var $meridiem;
 
-	var $text_direction = '';
+	var $text_direction = 'ltr';
 	var $locale_vars = array('text_direction');
 
 	function init() {
@@ -86,6 +86,18 @@ class WP_Locale {
 		$this->meridiem['pm'] = __('pm');
 		$this->meridiem['AM'] = __('AM');
 		$this->meridiem['PM'] = __('PM');
+
+		// Numbers formatting
+		// See http://php.net/number_format
+
+		$trans = _c('number_format_decimals|$decimals argument for http://php.net/number_format, default is 0');
+		$this->number_format['decimals'] = ('number_format_decimals' == $trans) ? 0 : $trans;
+
+		$trans = _c('number_format_decimal_point|$dec_point argument for http://php.net/number_format, default is .');
+		$this->number_format['decimal_point'] = ('number_format_decimal_point' == $trans) ? '.' : $trans;
+
+		$trans = _c('number_format_thousands_sep|$thousands_sep argument for http://php.net/number_format, default is ,');
+		$this->number_format['thousands_sep'] = ('number_format_thousands_sep' == $trans) ? ',' : $trans;
 
 		// Import global locale vars set during inclusion of $locale.php.
 		foreach ( $this->locale_vars as $var ) {

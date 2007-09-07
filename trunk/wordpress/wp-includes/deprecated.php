@@ -1,9 +1,9 @@
 <?php
 
 /*
- *  Deprecated global variables.
+ * Deprecated global variables.
  */
- 
+
 $tableposts = $wpdb->posts;
 $tableusers = $wpdb->users;
 $tablecategories = $wpdb->categories;
@@ -15,10 +15,10 @@ $tableoptions = $wpdb->options;
 $tablepostmeta = $wpdb->postmeta;
 
 /*
- * Deprecated functios come here to die.
+ * Deprecated functions come here to die.
  */
 
-// Deprecated.  Use get_post().
+// Use get_post().
 function get_postdata($postid) {
 	$post = &get_post($postid);
 
@@ -43,7 +43,7 @@ function get_postdata($postid) {
 	return $postdata;
 }
 
-// Deprecated.  Use the new post loop.
+// Use the new post loop.
 function start_wp() {
 	global $wp_query, $post;
 
@@ -53,11 +53,10 @@ function start_wp() {
 	setup_postdata($post);
 }
 
-// Deprecated.
 function the_category_ID($echo = true) {
 	// Grab the first cat in the list.
 	$categories = get_the_category();
-	$cat = $categories[0]->cat_ID;
+	$cat = $categories[0]->term_id;
 
 	if ( $echo )
 		echo $cat;
@@ -65,7 +64,6 @@ function the_category_ID($echo = true) {
 	return $cat;
 }
 
-// Deprecated.
 function the_category_head($before='', $after='') {
 	global $currentcat, $previouscat;
 	// Grab the first cat in the list.
@@ -79,7 +77,7 @@ function the_category_head($before='', $after='') {
 	}
 }
 
-// Deprecated.	Use previous_post_link().
+// Use previous_post_link().
 function previous_post($format='%', $previous='previous post: ', $title='yes', $in_same_cat='no', $limitprev=1, $excluded_categories='') {
 
 	if ( empty($in_same_cat) || 'no' == $in_same_cat )
@@ -100,7 +98,7 @@ function previous_post($format='%', $previous='previous post: ', $title='yes', $
 	echo $format;
 }
 
-// Deprecated.	Use next_post_link().
+// Use next_post_link().
 function next_post($format='%', $next='next post: ', $title='yes', $in_same_cat='no', $limitnext=1, $excluded_categories='') {
 
 	if ( empty($in_same_cat) || 'no' == $in_same_cat )
@@ -122,7 +120,7 @@ function next_post($format='%', $next='next post: ', $title='yes', $in_same_cat=
 }
 
 //
-// These are deprecated.  Use current_user_can().
+// Use current_user_can() for these.
 //
 
 /* returns true if $user_id can create a new post */
@@ -219,12 +217,10 @@ function get_linksbyname($cat_name = "noname", $before = '', $after = '<br />',
 												 $limit = -1, $show_updated = 0) {
 		global $wpdb;
 		$cat_id = -1;
-		$results = $wpdb->get_results("SELECT cat_ID FROM $wpdb->categories WHERE cat_name='$cat_name'");
-		if ($results) {
-				foreach ($results as $result) {
-						$cat_id = $result->cat_ID;
-				}
-		}
+		$cat = get_term_by('name', $cat_name, 'link_category');
+		if ( $cat )
+			$cat_id = $cat->term_id;
+
 		get_links($cat_id, $before, $after, $between, $show_images, $orderby,
 							$show_description, $show_rating, $limit, $show_updated);
 }
@@ -237,14 +233,14 @@ function get_linksbyname($cat_name = "noname", $before = '', $after = '<br />',
 function wp_get_linksbyname($category, $args = '') {
 	global $wpdb;
 
-	$cat_id = $wpdb->get_var("SELECT cat_ID FROM $wpdb->categories WHERE cat_name='$category' LIMIT 1");
-
-	if (! $cat_id)
-		return;
+	$cat = get_term_by('name', $cat_name, 'link_category');
+	if ( !$cat )
+		return false;
+	$cat_id = $cat->term_id;
 
 	$args = add_query_arg('category', $cat_id, $args);
 	wp_get_links($args);
-} // end wp_get_linksbyname
+}
 
 /** function get_linkobjectsbyname()
  ** Gets an array of link objects associated with category 'cat_name'.
@@ -265,17 +261,13 @@ function wp_get_linksbyname($category, $args = '') {
  **   echo '<li>'.$link->link_name.'</li>';
  ** }
  **/
-// Deprecate in favor of get_linkz().
 function get_linkobjectsbyname($cat_name = "noname" , $orderby = 'name', $limit = -1) {
 		global $wpdb;
 		$cat_id = -1;
-		//$results = $wpdb->get_results("SELECT cat_id FROM $wpdb->linkcategories WHERE cat_name='$cat_name'");
-		// TODO: Fix me.
-		if ($results) {
-				foreach ($results as $result) {
-						$cat_id = $result->cat_id;
-				}
-		}
+		$cat = get_term_by('name', $cat_name, 'link_category');
+		if ( $cat )
+			$cat_id = $cat->term_id;
+
 		return get_linkobjects($cat_id, $orderby, $limit);
 }
 
@@ -315,41 +307,17 @@ function get_linkobjectsbyname($cat_name = "noname" , $orderby = 'name', $limit 
  ** link_notes
  **/
 // Deprecate in favor of get_linkz().
-function get_linkobjects($category = -1, $orderby = 'name', $limit = -1) {
+function get_linkobjects($category = 0, $orderby = 'name', $limit = 0) {
 		global $wpdb;
 
-		$sql = "SELECT * FROM $wpdb->links WHERE link_visible = 'Y'";
-		if ($category != -1) {
-				$sql .= " AND link_category = $category ";
-		}
-		if ($orderby == '')
-				$orderby = 'id';
-		if (substr($orderby,0,1) == '_') {
-				$direction = ' DESC';
-				$orderby = substr($orderby,1);
-		}
-		if (strcasecmp('rand',$orderby) == 0) {
-				$orderby = 'rand()';
-		} else {
-				$orderby = " link_" . $orderby;
-		}
-		$sql .= ' ORDER BY ' . $orderby;
-		$sql .= $direction;
-		/* The next 2 lines implement LIMIT TO processing */
-		if ($limit != -1)
-				$sql .= " LIMIT $limit";
+		$links = get_bookmarks("category=$category&orderby=$orderby&limit=$limit");
 
-		$results = $wpdb->get_results($sql);
-		if ($results) {
-				foreach ($results as $result) {
-						$result->link_url         = $result->link_url;
-						$result->link_name        = $result->link_name;
-						$result->link_description = $result->link_description;
-						$result->link_notes       = $result->link_notes;
-						$newresults[] = $result;
-				}
+		$links_array = array();
+		foreach ($links as $link) {
+			$links_array[] = $link;
 		}
-		return $newresults;
+
+		return $links_array;
 }
 
 /** function get_linksbyname_withrating()
@@ -421,6 +389,7 @@ function get_autotoggle($id = 0) {
 	return 0;
 }
 
+// Use wp_list_cats().
 function list_cats($optionall = 1, $all = 'All', $sort_column = 'ID', $sort_order = 'asc', $file = '', $list = true, $optiondates = 0, $optioncount = 0, $hide_empty = 1, $use_desc_for_title = 1, $children=FALSE, $child_of=0, $categories=0, $recurse=0, $feed = '', $feed_image = '', $exclude = '', $hierarchical=FALSE) {
 	$query = compact('optionall', 'all', 'sort_column', 'sort_order', 'file', 'list', 'optiondates', 'optioncount', 'hide_empty', 'use_desc_for_title', 'children',
 		'child_of', 'categories', 'recurse', 'feed', 'feed_image', 'exclude', 'hierarchical');
@@ -428,10 +397,7 @@ function list_cats($optionall = 1, $all = 'All', $sort_column = 'ID', $sort_orde
 }
 
 function wp_list_cats($args = '') {
-	if ( is_array($args) )
-		$r = &$args;
-	else
-		parse_str($args, $r);
+	$r = wp_parse_args( $args );
 
 	// Map to new names.
 	if ( isset($r['optionall']) && isset($r['all']))
@@ -469,9 +435,9 @@ function dropdown_cats($optionall = 1, $all = 'All', $orderby = 'ID', $order = '
 	return wp_dropdown_categories($query);
 }
 
-// Deprecated.  Use wp_print_scripts() or WP_Scripts instead.
+// Use wp_print_scripts() or WP_Scripts.
 function tinymce_include() {
-	wp_print_script( 'wp_tiny_mce' );
+	wp_print_script('wp_tiny_mce');
 }
 
 function list_authors($optioncount = false, $exclude_admin = true, $show_fullname = false, $hide_empty = true, $feed = '', $feed_image = '') {
@@ -487,12 +453,13 @@ function wp_set_post_cats($blogid = '1', $post_ID = 0, $post_categories = array(
 	return wp_set_post_categories($post_ID, $post_categories);
 }
 
+// Use wp_get_archives().
 function get_archives($type='', $limit='', $format='html', $before = '', $after = '', $show_post_count = false) {
 	$args = compact('type', 'limit', 'format', 'before', 'after', 'show_post_count');
 	return wp_get_archives($args);
 }
 
-// Deprecated. Use get_author_posts_url().
+// Use get_author_posts_url().
 function get_author_link($echo = false, $author_id, $author_nicename = '') {
 	$link = get_author_posts_url($author_id, $author_nicename);
 
@@ -501,13 +468,25 @@ function get_author_link($echo = false, $author_id, $author_nicename = '') {
 	return $link;
 }
 
+// Use wp_link_pages().
 function link_pages($before='<br />', $after='<br />', $next_or_number='number', $nextpagelink='next page', $previouspagelink='previous page', $pagelink='%', $more_file='') {
 	$args = compact('before', 'after', 'next_or_number', 'nextpagelink', 'previouspagelink', 'pagelink', 'more_file');
 	return wp_link_pages($args);
 }
 
+// Use get_option().
 function get_settings($option) {
 	return get_option($option);
+}
+
+// Use the_permalink().
+function permalink_link() {
+	the_permalink();
+}
+
+// Use the_permalink_rss()
+function permalink_single_rss($file = '') {
+	the_permalink_rss();
 }
 
 ?>

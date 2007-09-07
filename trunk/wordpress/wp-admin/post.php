@@ -38,6 +38,9 @@ case 'post':
 	if ( isset($_POST['save']) )
 		$location = "post.php?action=edit&post=$post_ID";
 
+	if ( empty($post_ID) )
+		$location = 'post-new.php';
+
 	wp_redirect($location);
 	exit();
 	break;
@@ -47,7 +50,9 @@ case 'edit':
 	$editing = true;
 	$post_ID = $p = (int) $_GET['post'];
 	$post = get_post($post_ID);
-	
+
+	if ( empty($post->ID) ) wp_die( __("You attempted to edit a post that doesn't exist. Perhaps it was deleted?") );
+
 	if ( 'page' == $post->post_type ) {
 		wp_redirect("page.php?action=edit&post=$post_ID");
 		exit();
@@ -66,12 +71,6 @@ case 'edit':
 
 	include('edit-form-advanced.php');
 
-	?>
-	<div id='preview' class='wrap'>
-	<h2 id="preview-post"><?php _e('Post Preview (updated when post is saved)'); ?></h2>
-		<iframe src="<?php echo attribute_escape(apply_filters('preview_post_link', add_query_arg('preview', 'true', get_permalink($post->ID)))); ?>" width="100%" height="600" ></iframe>
-	</div>
-	<?php
 	break;
 
 case 'editattachment':
@@ -119,7 +118,7 @@ case 'editpost':
 		if ( !empty($_POST['referredby']) )
 			$referredby = preg_replace('|https?://[^/]+|i', '', $_POST['referredby']);
 		$referer = preg_replace('|https?://[^/]+|i', '', wp_get_referer());
-	
+
 		if ($_POST['save']) {
 			$location = "post.php?action=edit&post=$post_ID";
 		} elseif ($_POST['updatemeta']) {
@@ -155,13 +154,13 @@ case 'delete':
 		if ( ! wp_delete_attachment($post_id) )
 			wp_die( __('Error in deleting...') );
 	} else {
-		if ( !wp_delete_post($post_id) ) 
+		if ( !wp_delete_post($post_id) )
 			wp_die( __('Error in deleting...') );
 	}
 
 	$sendback = wp_get_referer();
-	if (strstr($sendback, 'post.php')) $sendback = get_option('siteurl') .'/wp-admin/post-new.php';
-	elseif (strstr($sendback, 'attachments.php')) $sendback = get_option('siteurl') .'/wp-admin/attachments.php';
+	if (strpos($sendback, 'post.php') !== false) $sendback = get_option('siteurl') .'/wp-admin/post-new.php';
+	elseif (strpos($sendback, 'attachments.php') !== false) $sendback = get_option('siteurl') .'/wp-admin/attachments.php';
 	$sendback = preg_replace('|[^a-z0-9-~+_.?#=&;,/:]|i', '', $sendback);
 	wp_redirect($sendback);
 	exit();

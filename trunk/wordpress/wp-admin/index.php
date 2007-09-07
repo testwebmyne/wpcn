@@ -1,22 +1,22 @@
 <?php
-require_once('admin.php'); 
+require_once('admin.php');
 
 function index_js() {
 ?>
 <script type="text/javascript">
-Event.observe( window, 'load', dashboard_init, false );
-function dashboard_init() {
-	var update1 = new Ajax.Updater( 'incominglinks', 'index-extra.php?jax=incominglinks' );
-	var update2 = new Ajax.Updater( 'devnews', 'index-extra.php?jax=devnews' );
-	var update3 = new Ajax.Updater( 'planetnews', 'index-extra.php?jax=planetnews'	);
-}
+	jQuery(function() {
+		jQuery('#incominglinks').load('index-extra.php?jax=incominglinks');
+		jQuery('#devnews').load('index-extra.php?jax=devnews');
+		jQuery('#planetnews').load('index-extra.php?jax=planetnews');
+	});
 </script>
 <?php
 }
 add_action( 'admin_head', 'index_js' );
-wp_enqueue_script('prototype');
 
-$title = __('Dashboard'); 
+wp_enqueue_script( 'jquery' );
+
+$title = __('Dashboard');
 $parent_file = 'index.php';
 require_once('admin-header.php');
 
@@ -39,10 +39,10 @@ $numcomments = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->comments WHERE commen
 if ( $comments || $numcomments ) :
 ?>
 <div>
-<h3><?php _e('Comments'); ?> <a href="edit-comments.php" title="<?php _e('More comments...'); ?>">&raquo;</a></h3>
+<h3><?php printf( __( 'Comments <a href="%s" title="More comments&#8230;">&raquo;</a>' ), 'edit-comments.php' ); ?></h3>
 
 <?php if ( $numcomments ) : ?>
-<p><strong><a href="moderation.php"><?php echo sprintf(__('Comments in moderation (%s)'), number_format($numcomments) ); ?> &raquo;</a></strong></p>
+<p><strong><a href="moderation.php"><?php echo sprintf(__('Comments in moderation (%s) &raquo;'), number_format_i18n($numcomments) ); ?></a></strong></p>
 <?php endif; ?>
 
 <ul>
@@ -60,10 +60,10 @@ foreach ($comments as $comment) {
 <?php endif; ?>
 
 <?php
-if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_type = 'post' AND post_status = 'publish' AND post_date_gmt < '$today' ORDER BY post_date DESC LIMIT 5") ) :
+if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_type = 'post' AND " . get_private_posts_cap_sql('post') . " AND post_date_gmt < '$today' ORDER BY post_date DESC LIMIT 5") ) :
 ?>
 <div>
-<h3><?php _e('Posts'); ?> <a href="edit.php" title="<?php _e('More posts...'); ?>">&raquo;</a></h3>
+<h3><?php printf( __( 'Posts <a href="%s" title="More posts&#8230;">&raquo;</a>' ), 'edit.php' ); ?></h3>
 <ul>
 <?php
 foreach ($recentposts as $post) {
@@ -98,21 +98,18 @@ foreach ($scheduled as $post) {
 <div>
 <h3><?php _e('Blog Stats'); ?></h3>
 <?php
-$numposts = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_type = 'post' AND post_status = 'publish'");
-if (0 < $numposts) $numposts = number_format($numposts);
+$numposts = (int) $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_type = 'post' AND post_status = 'publish'");
+$numcomms = (int) $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->comments WHERE comment_approved = '1'");
+$numcats  = wp_count_terms('category');
+$numtags = wp_count_terms('post_tag');
 
-$numcomms = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->comments WHERE comment_approved = '1'");
-if (0 < $numcomms) $numcomms = number_format($numcomms);
-
-$numcats = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->categories");
-if (0 < $numcats) $numcats = number_format($numcats);
+$post_str = sprintf(__ngettext('%1$s <a href="%2$s" title="Posts">post</a>', '%1$s <a href="%2$s" title="Posts">posts</a>', $numposts), number_format_i18n($numposts), 'edit.php');
+$comm_str = sprintf(__ngettext('%1$s <a href="%2$s" title="Comments">comment</a>', '%1$s <a href="%2$s" title="Comments">comments</a>', $numcomms), number_format_i18n($numcomms), 'edit-comments.php');
+$cat_str  = sprintf(__ngettext('%1$s <a href="%2$s" title="Categories">category</a>', '%1$s <a href="%2$s" title="Categories">categories</a>', $numcats), number_format_i18n($numcats), 'categories.php');
+$tag_str  = sprintf(__ngettext('%1$s tag', '%1$s tags', $numtags), number_format_i18n($numtags));
 ?>
-<p><?php
-$post_str = sprintf(__ngettext('%1$s <a href="%2$s" title="Posts">post</a>', '%1$s <a href="%2$s" title="Posts">posts</a>', $numposts), $numposts, 'edit.php');
-$comm_str = sprintf(__ngettext('%1$s <a href="%2$s" title="Comments">comment</a>', '%1$s <a href="%2$s" title="Comments">comments</a>', $numcomms), $numcomms, 'edit-comments.php');
-$cat_str = sprintf(__ngettext('%1$s <a href="%2$s" title="Categories">category</a>', '%1$s <a href="%2$s" title="Categories">categories</a>', $numcats), $numcats, 'categories.php');
 
-printf(__('There are currently %1$s and %2$s, contained within %3$s.'), $post_str, $comm_str, $cat_str); ?></p>
+<p><?php printf(__('There are currently %1$s and %2$s, contained within %3$s and %4$s.'), $post_str, $comm_str, $cat_str, $tag_str); ?></p>
 </div>
 
 <?php do_action('activity_box_end'); ?>
@@ -126,7 +123,7 @@ printf(__('There are currently %1$s and %2$s, contained within %3$s.'), $post_st
 <?php endif; ?>
 	<li><a href="profile.php"><?php _e('Update your profile or change your password'); ?></a></li>
 <?php if ( current_user_can('manage_links') ) : ?>
-	<li><a href="link-add.php"><?php _e('Add a bookmark to your blogroll'); ?></a></li>
+	<li><a href="link-add.php"><?php _e('Add a link to your blogroll'); ?></a></li>
 <?php endif; ?>
 <?php if ( current_user_can('switch_themes') ) : ?>
 	<li><a href="themes.php"><?php _e('Change your site&#8217;s look or theme'); ?></a></li>

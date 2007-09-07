@@ -4,12 +4,12 @@ if ( defined('ABSPATH') )
 else
     require_once('../wp-config.php');
 
-if ( get_option('db_version') != $wp_db_version )
-	wp_die(sprintf(__("Your database is out-of-date.  Please <a href='%s'>upgrade</a>."), get_option('siteurl') . '/wp-admin/upgrade.php'));
-    
-require_once(ABSPATH . 'wp-admin/admin-functions.php');
-require_once(ABSPATH . 'wp-admin/admin-db.php');
-require_once(ABSPATH . WPINC . '/registration.php');
+if ( get_option('db_version') != $wp_db_version ) {
+	wp_redirect(get_option('siteurl') . '/wp-admin/upgrade.php?_wp_http_referer=' . urlencode(stripslashes($_SERVER['REQUEST_URI'])));
+	exit;
+}
+
+require_once(ABSPATH . 'wp-admin/includes/admin.php');
 
 auth_redirect();
 
@@ -35,7 +35,7 @@ if (isset($_GET['page'])) {
 	$plugin_page = plugin_basename($plugin_page);
 }
 
-require(ABSPATH . '/wp-admin/menu.php');
+require(ABSPATH . 'wp-admin/menu.php');
 
 // Handle plugin admin pages.
 if (isset($plugin_page)) {
@@ -44,7 +44,7 @@ if (isset($plugin_page)) {
 	if ( $page_hook ) {
 		do_action('load-' . $page_hook);
 		if (! isset($_GET['noheader']))
-			require_once(ABSPATH . '/wp-admin/admin-header.php');
+			require_once(ABSPATH . 'wp-admin/admin-header.php');
 
 		do_action($page_hook);
 	} else {
@@ -58,7 +58,7 @@ if (isset($plugin_page)) {
 		do_action('load-' . $plugin_page);
 
 		if (! isset($_GET['noheader']))
-			require_once(ABSPATH . '/wp-admin/admin-header.php');
+			require_once(ABSPATH . 'wp-admin/admin-header.php');
 
 		include(ABSPATH . PLUGINDIR . "/$plugin_page");
 	}
@@ -77,10 +77,15 @@ if (isset($plugin_page)) {
 		wp_die(__('Invalid importer.'));
 	}
 
-	if (! file_exists(ABSPATH . "wp-admin/import/$importer.php"))
-		wp_die(__('Cannot load importer.'));
-
-	include(ABSPATH . "wp-admin/import/$importer.php");
+	// Allow plugins to define importers as well
+	if (! function_exists($wp_importers[$importer][2]))
+	{
+		if (! file_exists(ABSPATH . "wp-admin/import/$importer.php"))
+		{
+			wp_die(__('Cannot load importer.'));
+		}
+		include(ABSPATH . "wp-admin/import/$importer.php");
+	}
 
 	$parent_file = 'edit.php';
 	$submenu_file = 'import.php';
@@ -89,7 +94,7 @@ if (isset($plugin_page)) {
 	if (! isset($_GET['noheader']))
 		require_once(ABSPATH . 'wp-admin/admin-header.php');
 
-	require_once(ABSPATH . 'wp-admin/upgrade-functions.php');
+	require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 
 	define('WP_IMPORTING', true);
 

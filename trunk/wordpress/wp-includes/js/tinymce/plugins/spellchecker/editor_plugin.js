@@ -1,27 +1,26 @@
 /**
- * $RCSfile: editor_plugin_src.js,v $
- * $Revision: 1.4 $
- * $Date: 2006/03/24 17:24:50 $
+ * $Id: editor_plugin_src.js 289 2007-05-28 09:12:16Z spocke $
  *
  * @author Moxiecode
  * @copyright Copyright © 2004-2006, Moxiecode Systems AB, All rights reserved.
  */
 
-tinyMCE.importPluginLanguagePack('spellchecker', 'en,sv,nn,nb');
+tinyMCE.importPluginLanguagePack('spellchecker', 'en,fr,sv,nn,nb');
 
 // Plucin static class
 var TinyMCE_SpellCheckerPlugin = {
 	_contextMenu : new TinyMCE_Menu(),
 	_menu : new TinyMCE_Menu(),
 	_counter : 0,
+	_ajaxPage : '/tinyspell.php',
 
 	getInfo : function() {
 		return {
-			longname : 'Spellchecker',
+			longname : 'Spellchecker PHP',
 			author : 'Moxiecode Systems AB',
 			authorurl : 'http://tinymce.moxiecode.com',
-			infourl : 'http://tinymce.moxiecode.com/tinymce/docs/plugin_spellchecker.html',
-			version : tinyMCE.majorVersion + "." + tinyMCE.minorVersion
+			infourl : 'http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/spellchecker',
+			version : "1.0.5"
 		};
 	},
 
@@ -40,7 +39,7 @@ var TinyMCE_SpellCheckerPlugin = {
 
 					// Setup arguments
 					args += 'id=' + inst.editorId + "|" + (++self._counter);
-					args += '&cmd=suggest&check=' + escape(elm.innerHTML);
+					args += '&cmd=suggest&check=' + encodeURIComponent(elm.innerHTML);
 					args += '&lang=' + escape(inst.spellCheckerLang);
 
 					elm = inst.spellCheckerElm;
@@ -59,7 +58,7 @@ var TinyMCE_SpellCheckerPlugin = {
 
 					inst.selection.selectNode(elm, false, false);
 
-					self._sendAjax(self.baseURL + "/tinyspell.php", self._ajaxResponse, 'post', args);
+					self._sendAjax(self.baseURL + self._ajaxPage, self._ajaxResponse, 'post', args);
 
 					tinyMCE.cancelEvent(e);
 					return false;
@@ -138,7 +137,7 @@ var TinyMCE_SpellCheckerPlugin = {
 	},
 
 	setupContent : function(editor_id, body, doc) {
-		TinyMCE_SpellCheckerPlugin._removeWords(doc);
+		TinyMCE_SpellCheckerPlugin._removeWords(doc, null, true);
 	},
 
 	getControlHTML : function(cn) {
@@ -201,6 +200,15 @@ var TinyMCE_SpellCheckerPlugin = {
 	},
 
 	_menuButtonEvent : function(e, o) {
+		var t = this;
+
+		// Give IE some time since it's buggy!! :(
+		window.setTimeout(function() {
+			t._menuButtonEvent2(e, o);
+		}, 1);
+	},
+
+	_menuButtonEvent2 : function(e, o) {
 		if (o.className == 'mceMenuButtonFocus')
 			return;
 
@@ -241,7 +249,7 @@ var TinyMCE_SpellCheckerPlugin = {
 	},
 
 	execCommand : function(editor_id, element, command, user_interface, value) {
-		var inst = tinyMCE.getInstanceById(editor_id), self = TinyMCE_SpellCheckerPlugin, args = '', co, bb, mb, nl, i, e;
+		var inst = tinyMCE.getInstanceById(editor_id), self = TinyMCE_SpellCheckerPlugin, args = '', co, bb, mb, nl, i, e, mbs;
 
 		// Handle commands
 		switch (command) {
@@ -249,9 +257,13 @@ var TinyMCE_SpellCheckerPlugin = {
 				if (!inst.spellcheckerOn) {
 					inst.spellCheckerBookmark = inst.selection.getBookmark();
 
+					// Fix for IE bug: #1610184
+					if (tinyMCE.isRealIE)
+						tinyMCE.setInnerHTML(inst.getBody(), inst.getBody().innerHTML);
+
 					// Setup arguments
 					args += 'id=' + inst.editorId + "|" + (++self._counter);
-					args += '&cmd=spell&check=' + escape(self._getWordList(inst.getBody())).replace(/%20/g, '+');
+					args += '&cmd=spell&check=' + encodeURIComponent(self._getWordList(inst.getBody())).replace(/\'/g, '%27');
 					args += '&lang=' + escape(inst.spellCheckerLang);
 
 					co = document.getElementById(inst.editorId + '_parent').firstChild;
@@ -263,7 +275,14 @@ var TinyMCE_SpellCheckerPlugin = {
 					// Setup message box
 					mb = self._getMsgBoxLayer(inst);
 					e = mb.getElement();
-					e.innerHTML = '<span>' + tinyMCE.getLang('lang_spellchecker_swait', '', true) + '</span>';
+
+					if (e.childNodes[0])
+						e.removeChild(e.childNodes[0]);
+
+					mbs = document.createElement("span");
+					mbs.innerHTML = '<span>' + tinyMCE.getLang('lang_spellchecker_swait', '', true) + '</span>';
+					e.appendChild(mbs);
+
 					mb.show();
 					mb.moveRelativeTo(co, 'cc');
 
@@ -276,7 +295,7 @@ var TinyMCE_SpellCheckerPlugin = {
 					inst.spellcheckerOn = true;
 					tinyMCE.switchClass(editor_id + '_spellchecker', 'mceMenuButtonSelected');
 
-					self._sendAjax(self.baseURL + "/tinyspell.php", self._ajaxResponse, 'post', args);
+					self._sendAjax(self.baseURL + self._ajaxPage, self._ajaxResponse, 'post', args);
 				} else {
 					self._removeWords(inst.getDoc());
 					inst.spellcheckerOn = false;
@@ -329,7 +348,7 @@ var TinyMCE_SpellCheckerPlugin = {
 	cleanup : function(type, content, inst) {
 		switch (type) {
 			case "get_from_editor_dom":
-				TinyMCE_SpellCheckerPlugin._removeWords(content);
+				TinyMCE_SpellCheckerPlugin._removeWords(content, null, true);
 				inst.spellcheckerOn = false;
 				break;
 		}
@@ -353,10 +372,13 @@ var TinyMCE_SpellCheckerPlugin = {
 		}
 
 		bb.hide();
+
+		// Boom, crash in FF if focus isn't else were
+		// el.style.display='none' on a opacity element seems to crash it
 		mb.hide();
 	},
 
-	_ajaxResponse : function(xml) {
+	_ajaxResponse : function(xml, text) {
 		var el = xml ? xml.documentElement : null;
 		var inst = tinyMCE.selectedInstance, self = TinyMCE_SpellCheckerPlugin;
 		var cmd = el ? el.getAttribute("cmd") : null, err, id = el ? el.getAttribute("id") : null;
@@ -364,16 +386,31 @@ var TinyMCE_SpellCheckerPlugin = {
 		if (id)
 			inst = tinyMCE.getInstanceById(id.substring(0, id.indexOf('|')));
 
+		// Workaround for crash in Gecko
+		if (tinyMCE.isGecko)
+			window.focus();
+
 		self._displayUI(inst);
+
+		// Restore the selection again
+		if (tinyMCE.isGecko) {
+			inst.getWin().focus();
+			inst.selection.moveToBookmark(inst.spellCheckerBookmark);
+		}
 
 		// Ignore suggestions for other ajax responses
 		if (cmd == "suggest" && id != inst.editorId + "|" + self._counter)
 			return;
 
 		if (!el) {
+			text = '' + text;
+
+			if (text.length > 500)
+				text = text.substring(500);
+
 			inst.spellcheckerOn = false;
 			tinyMCE.switchClass(inst.editorId + '_spellchecker', 'mceMenuButton');
-			alert("Could not execute AJAX call, server didn't return valid a XML.");
+			alert("Could not execute AJAX call, server didn't return valid a XML.\nResponse: " + text);
 			return;
 		}
 
@@ -389,17 +426,23 @@ var TinyMCE_SpellCheckerPlugin = {
 		switch (cmd) {
 			case "spell":
 				if (xml.documentElement.firstChild) {
-					self._markWords(inst.getDoc(), inst.getBody(), el.firstChild.nodeValue.split(' '));
+					self._markWords(inst.getDoc(), inst.getBody(), decodeURIComponent(el.firstChild.nodeValue).split('+'));
 					inst.selection.moveToBookmark(inst.spellCheckerBookmark);
+
+					if(tinyMCE.getParam('spellchecker_report_misspellings', false))
+						alert(tinyMCE.getLang('lang_spellchecker_mpell_found', '', true, {words : self._countWords(inst)}));
 				} else
 					alert(tinyMCE.getLang('lang_spellchecker_no_mpell', '', true));
 
 				self._checkDone(inst);
 
+				// Odd stuff FF removed useCSS, disable state for it
+				inst.useCSS = false;
+
 				break;
 
 			case "suggest":
-				self._buildMenu(el.firstChild ? el.firstChild.nodeValue.split(' ') : null, 10);
+				self._buildMenu(el.firstChild ? decodeURIComponent(el.firstChild.nodeValue).split('+') : null, 10);
 				self._contextMenu.show();
 				break;
 		}
@@ -415,11 +458,13 @@ var TinyMCE_SpellCheckerPlugin = {
 	},
 
 	_getWordList : function(n) {
-		var i, x, s, nv = '', nl = tinyMCE.getNodeTree(n, new Array(), 3), wl = new Array();
+		var i, x, s, nv = '', nl = tinyMCE.getNodeTree(n, [], 3), wl = [];
 		var re = TinyMCE_SpellCheckerPlugin._getWordSeparators();
 
-		for (i=0; i<nl.length; i++)
-			nv += nl[i].nodeValue + " ";
+		for (i=0; i<nl.length; i++) {
+			if (!new RegExp('/SCRIPT|STYLE/').test(nl[i].parentNode.nodeName))
+				nv += nl[i].nodeValue + " ";
+		}
 
 		nv = nv.replace(new RegExp('([0-9]|[' + re + '])', 'g'), ' ');
 		nv = tinyMCE.trim(nv.replace(/(\s+)/g, ' '));
@@ -434,14 +479,14 @@ var TinyMCE_SpellCheckerPlugin = {
 				}
 			}
 
-			if (!s)
+			if (!s && nl[i].length > 0)
 				wl[wl.length] = nl[i];
 		}
 
 		return wl.join(' ');
 	},
 
-	_removeWords : function(doc, word) {
+	_removeWords : function(doc, word, cleanup) {
 		var i, c, nl = doc.getElementsByTagName("span");
 		var self = TinyMCE_SpellCheckerPlugin;
 		var inst = tinyMCE.selectedInstance, b = inst ? inst.selection.getBookmark() : null;
@@ -455,12 +500,23 @@ var TinyMCE_SpellCheckerPlugin = {
 				self._removeWord(nl[i]);
 		}
 
-		if (b)
+		if (b && !cleanup)
 			inst.selection.moveToBookmark(b);
 	},
 
 	_checkDone : function(inst) {
-		var i, w = 0, nl = inst.getDoc().getElementsByTagName("span")
+		var self = TinyMCE_SpellCheckerPlugin;
+		var w = self._countWords(inst);
+
+		if (w == 0) {
+			self._removeWords(inst.getDoc());
+			inst.spellcheckerOn = false;
+			tinyMCE.switchClass(inst.editorId + '_spellchecker', 'mceMenuButton');
+		}
+	},
+
+	_countWords : function(inst) {
+		var i, w = 0, nl = inst.getDoc().getElementsByTagName("span"), c;
 		var self = TinyMCE_SpellCheckerPlugin;
 
 		for (i=nl.length-1; i>=0; i--) {
@@ -470,15 +526,12 @@ var TinyMCE_SpellCheckerPlugin = {
 				w++;
 		}
 
-		if (w == 0) {
-			self._removeWords(inst.getDoc());
-			inst.spellcheckerOn = false;
-			tinyMCE.switchClass(inst.editorId + '_spellchecker', 'mceMenuButton');
-		}
+		return w;
 	},
 
 	_removeWord : function(e) {
-		tinyMCE.setOuterHTML(e, e.innerHTML);
+		if (e != null)
+			tinyMCE.setOuterHTML(e, e.innerHTML);
 	},
 
 	_markWords : function(doc, n, wl) {
@@ -486,19 +539,22 @@ var TinyMCE_SpellCheckerPlugin = {
 		var r1, r2, r3, r4, r5, w = '';
 		var re = TinyMCE_SpellCheckerPlugin._getWordSeparators();
 
-		for (i=0; i<wl.length; i++)
-			w += wl[i] + ((i == wl.length-1) ? '' : '|');
-
-		r1 = new RegExp('([' + re + '])(' + w + ')([' + re + '])', 'g');
-		r2 = new RegExp('^(' + w + ')', 'g');
-		r3 = new RegExp('(' + w + ')([' + re + ']?)$', 'g');
-		r4 = new RegExp('^(' + w + ')([' + re + ']?)$', 'g');
-		r5 = new RegExp('(' + w + ')([' + re + '])', 'g');
+		for (i=0; i<wl.length; i++) {
+			if (wl[i].length > 0)
+				w += wl[i] + ((i == wl.length-1) ? '' : '|');
+		}
 
 		for (i=0; i<nl.length; i++) {
 			nv = nl[i].nodeValue;
+
+			r1 = new RegExp('([' + re + '])(' + w + ')([' + re + '])', 'g');
+			r2 = new RegExp('^(' + w + ')', 'g');
+			r3 = new RegExp('(' + w + ')([' + re + ']?)$', 'g');
+			r4 = new RegExp('^(' + w + ')([' + re + ']?)$', 'g');
+			r5 = new RegExp('(' + w + ')([' + re + '])', 'g');
+
 			if (r1.test(nv) || r2.test(nv) || r3.test(nv) || r4.test(nv)) {
-				nv = tinyMCE.xmlEncode(nv);
+				nv = tinyMCE.xmlEncode(nv).replace('&#39;', "'");
 				nv = nv.replace(r5, '<span class="mceItemHiddenSpellWord">$1</span>$2');
 				nv = nv.replace(r3, '<span class="mceItemHiddenSpellWord">$1</span>$2');
 
@@ -524,10 +580,11 @@ var TinyMCE_SpellCheckerPlugin = {
 				cm.addItem(sg[i], 'tinyMCE.execCommand("mceSpellCheckReplace",false,"' + sg[i] + '");');
 
 			cm.addSeparator();
-			cm.addItem(tinyMCE.getLang('lang_spellchecker_ignore_word', '', true), 'tinyMCE.execCommand(\'mceSpellCheckIgnore\');');
-			cm.addItem(tinyMCE.getLang('lang_spellchecker_ignore_words', '', true), 'tinyMCE.execCommand(\'mceSpellCheckIgnoreAll\');');
 		} else
 			cm.addTitle(tinyMCE.getLang('lang_spellchecker_no_sug', '', true));
+
+		cm.addItem(tinyMCE.getLang('lang_spellchecker_ignore_word', '', true), 'tinyMCE.execCommand(\'mceSpellCheckIgnore\');');
+		cm.addItem(tinyMCE.getLang('lang_spellchecker_ignore_words', '', true), 'tinyMCE.execCommand(\'mceSpellCheckIgnoreAll\');');
 
 		cm.update();
 	},
@@ -559,7 +616,7 @@ var TinyMCE_SpellCheckerPlugin = {
 
 		x.onreadystatechange = function() {
 			if (x.readyState == 4)
-				f(x.responseXML);
+				f(x.responseXML, x.responseText);
 		};
 
 		if (m == 'post')

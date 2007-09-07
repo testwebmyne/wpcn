@@ -37,7 +37,7 @@ else
 
 
 $content  = wp_specialchars($_REQUEST['content']);
-$popupurl = attribute_escape($_REQUEST['popupurl']);
+$popupurl = clean_url($_REQUEST['popupurl']);
 if ( !empty($content) ) {
 	$post->post_content = wp_specialchars( stripslashes($_REQUEST['content']) );
 } else {
@@ -51,7 +51,7 @@ if ( !empty($content) ) {
 <head>
 <title><?php bloginfo('name') ?> &rsaquo; Bookmarklet &#8212; WordPress</title>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php echo get_option('blog_charset'); ?>" />
-<link rel="stylesheet" href="wp-admin.css" type="text/css" />
+<?php wp_admin_css(); ?>
 
 <style type="text/css">
 <!--

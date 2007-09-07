@@ -6,10 +6,7 @@ header('Content-Type: text/html; charset=' . get_bloginfo('charset'));
 <head>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php echo get_option('blog_charset'); ?>" />
 <title><?php _e('Rich Editor Help') ?></title>
-<link rel="stylesheet" href="<?php echo get_option('siteurl') ?>/wp-admin/wp-admin.css?version=<?php bloginfo('version'); ?>" type="text/css" />
-<?php if ( ('rtl' == $wp_locale->text_direction) ) : ?>
-<link rel="stylesheet" href="<?php echo get_option('siteurl') ?>/wp-admin/rtl.css?version=<?php bloginfo('version'); ?>" type="text/css" />
-<?php endif; ?> 
+<?php wp_admin_css(); ?>
 <style type="text/css">
 	#wphead {
 		padding-top: 5px;
@@ -93,7 +90,7 @@ header('Content-Type: text/html; charset=' . get_bloginfo('charset'));
 	#keys .right { text-align: left; }
 	td b { font-family: Tahoma, "Times New Roman", Times, serif }
 </style>
-<?php endif; ?> 
+<?php endif; ?>
 <script type="text/javascript">
 	window.onkeydown = window.onkeypress = function (e) {
 		e = e ? e : window.event;
@@ -166,8 +163,8 @@ header('Content-Type: text/html; charset=' . get_bloginfo('charset'));
 
 <div id="content4" class="hidden">
 	<h2><?php _e('About TinyMCE'); ?></h2>
-	<p><?php printf(__('Version: %s'), '2.0.8') ?></p>
-	<p><?php printf(__('TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under %sLGPL</a>	by Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances.'), '<a href="'.get_bloginfo('home').'/wp-includes/js/tinymce/license.txt" target="_blank" title="'.__('GNU Library General Public Licence').'">') ?></p>
+	<p><?php printf(__('Version: %s'), '2.0.9') ?></p>
+	<p><?php printf(__('TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under %sLGPL</a>	by Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances.'), '<a href="'.get_bloginfo('url').'/wp-includes/js/tinymce/license.txt" target="_blank" title="'.__('GNU Library General Public Licence').'">') ?></p>
 	<p><?php _e('Copyright &copy; 2005, <a href="http://www.moxiecode.com" target="_blank">Moxiecode Systems AB</a>, All rights reserved.') ?></p>
 	<p><?php _e('For more information about this software visit the <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE website</a>.') ?></p>
 
@@ -183,4 +180,3 @@ header('Content-Type: text/html; charset=' . get_bloginfo('charset'));
 
 </body>
 </html>
-

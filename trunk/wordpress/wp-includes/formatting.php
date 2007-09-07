@@ -11,17 +11,17 @@ function wptexturize($text) {
 	// if a plugin has provided an autocorrect array, use it
 	if ( isset($wp_cockneyreplace) ) {
 		$cockney = array_keys($wp_cockneyreplace);
-		$cockney_replace = array_values($wp_cockneyreplace);
+		$cockneyreplace = array_values($wp_cockneyreplace);
 	} else {
 		$cockney = array("'tain't","'twere","'twas","'tis","'twill","'til","'bout","'nuff","'round","'cause");
 		$cockneyreplace = array("&#8217;tain&#8217;t","&#8217;twere","&#8217;twas","&#8217;tis","&#8217;twill","&#8217;til","&#8217;bout","&#8217;nuff","&#8217;round","&#8217;cause");
 	}
 
-	$static_characters = array_merge(array('---', ' -- ', '--', 'xn&#8211;', '...', '``', '\'s', '\'\'', ' (tm)'), $cockney); 
+	$static_characters = array_merge(array('---', ' -- ', '--', 'xn&#8211;', '...', '``', '\'s', '\'\'', ' (tm)'), $cockney);
 	$static_replacements = array_merge(array('&#8212;', ' &#8212; ', '&#8211;', 'xn--', '&#8230;', '&#8220;', '&#8217;s', '&#8221;', ' &#8482;'), $cockneyreplace);
 
 	$dynamic_characters = array('/\'(\d\d(?:&#8217;|\')?s)/', '/(\s|\A|")\'/', '/(\d+)"/', '/(\d+)\'/', '/(\S)\'([^\'\s])/', '/(\s|\A)"(?!\s)/', '/"(\s|\S|\Z)/', '/\'([\s.]|\Z)/', '/(\d+)x(\d+)/');
-	$dynamic_replacements = array('&#8217;$1','$1&#8216;', '$1&#8243;', '$1&#8242;', '$1&#8217;$2', '$1&#8220;$2', '&#8221;$1', '&#8217;$1', '$1&#215;$2');	
+	$dynamic_replacements = array('&#8217;$1','$1&#8216;', '$1&#8243;', '$1&#8242;', '$1&#8217;$2', '$1&#8220;$2', '&#8221;$1', '&#8217;$1', '$1&#215;$2');
 
 	for ( $i = 0; $i < $stop; $i++ ) {
  		$curl = $textarr[$i];
@@ -29,10 +29,9 @@ function wptexturize($text) {
 		if (isset($curl{0}) && '<' != $curl{0} && $next) { // If it's not a tag
 			// static strings
 			$curl = str_replace($static_characters, $static_replacements, $curl);
-
 			// regular expressions
 			$curl = preg_replace($dynamic_characters, $dynamic_replacements, $curl);
-		} elseif ( strstr($curl, '<code') || strstr($curl, '<pre') || strstr($curl, '<kbd') || strstr($curl, '<style') || strstr($curl, '<script') ) { 
+		} elseif (strpos($curl, '<code') !== false || strpos($curl, '<pre') !== false || strpos($curl, '<kbd') !== false || strpos($curl, '<style') !== false || strpos($curl, '<script') !== false) {
 			$next = false;
 		} else {
 			$next = true;
@@ -56,7 +55,7 @@ function wpautop($pee, $br = 1) {
 	$pee = $pee . "\n"; // just to make things a little easier, pad the end
 	$pee = preg_replace('|<br />\s*<br />|', "\n\n", $pee);
 	// Space things out a little
-	$allblocks = '(?:table|thead|tfoot|caption|colgroup|tbody|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|select|form|blockquote|address|math|style|script|object|input|param|p|h[1-6])';
+	$allblocks = '(?:table|thead|tfoot|caption|colgroup|tbody|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|select|form|map|area|blockquote|address|math|style|input|p|h[1-6]|hr)';
 	$pee = preg_replace('!(<' . $allblocks . '[^>]*>)!', "\n$1", $pee);
 	$pee = preg_replace('!(</' . $allblocks . '>)!', "$1\n\n", $pee);
 	$pee = str_replace(array("\r\n", "\r"), "\n", $pee); // cross-platform newlines
@@ -78,7 +77,7 @@ function wpautop($pee, $br = 1) {
 	}
 	$pee = preg_replace('!(</?' . $allblocks . '[^>]*>)\s*<br />!', "$1", $pee);
 	$pee = preg_replace('!<br />(\s*</?(?:p|li|div|dl|dd|dt|th|pre|td|ul|ol)[^>]*>)!', '$1', $pee);
-	if ( strstr( $pee, '<pre' ) )
+	if (strpos($pee, '<pre') !== false)
 		$pee = preg_replace('!(<pre.*?>)(.*?)</pre>!ise', " stripslashes('$1') .  stripslashes(clean_pre('$2'))  . '</pre>' ", $pee);
 	$pee = preg_replace( "|\n</p>$|", '</p>', $pee );
 
@@ -132,7 +131,7 @@ function utf8_uri_encode( $utf8_string, $length = 0 ) {
 
 		if ( $value < 128 ) {
 			if ( $length && ( strlen($unicode) + 1 > $length ) )
-				break; 
+				break;
 			$unicode .= chr($value);
 		} else {
 			if ( count( $values ) == 0 ) $num_octets = ( $value < 224 ) ? 2 : 3;
@@ -167,30 +166,33 @@ function remove_accents($string) {
 		chr(195).chr(128) => 'A', chr(195).chr(129) => 'A',
 		chr(195).chr(130) => 'A', chr(195).chr(131) => 'A',
 		chr(195).chr(132) => 'A', chr(195).chr(133) => 'A',
-		chr(195).chr(135) => 'C', chr(195).chr(136) => 'E',
-		chr(195).chr(137) => 'E', chr(195).chr(138) => 'E',
-		chr(195).chr(139) => 'E', chr(195).chr(140) => 'I',
-		chr(195).chr(141) => 'I', chr(195).chr(142) => 'I',
-		chr(195).chr(143) => 'I', chr(195).chr(145) => 'N',
+		chr(195).chr(134) => 'AE',chr(195).chr(135) => 'C',
+		chr(195).chr(136) => 'E', chr(195).chr(137) => 'E',
+		chr(195).chr(138) => 'E', chr(195).chr(139) => 'E',
+		chr(195).chr(140) => 'I', chr(195).chr(141) => 'I',
+		chr(195).chr(142) => 'I', chr(195).chr(143) => 'I',
+		chr(195).chr(144) => 'D', chr(195).chr(145) => 'N',
 		chr(195).chr(146) => 'O', chr(195).chr(147) => 'O',
 		chr(195).chr(148) => 'O', chr(195).chr(149) => 'O',
 		chr(195).chr(150) => 'O', chr(195).chr(153) => 'U',
 		chr(195).chr(154) => 'U', chr(195).chr(155) => 'U',
 		chr(195).chr(156) => 'U', chr(195).chr(157) => 'Y',
-		chr(195).chr(159) => 's', chr(195).chr(160) => 'a',
-		chr(195).chr(161) => 'a', chr(195).chr(162) => 'a',
-		chr(195).chr(163) => 'a', chr(195).chr(164) => 'a',
-		chr(195).chr(165) => 'a', chr(195).chr(167) => 'c',
+		chr(195).chr(158) => 'TH',chr(195).chr(159) => 's',
+		chr(195).chr(160) => 'a', chr(195).chr(161) => 'a',
+		chr(195).chr(162) => 'a', chr(195).chr(163) => 'a',
+		chr(195).chr(164) => 'a', chr(195).chr(165) => 'a',
+		chr(195).chr(166) => 'ae',chr(195).chr(167) => 'c',
 		chr(195).chr(168) => 'e', chr(195).chr(169) => 'e',
 		chr(195).chr(170) => 'e', chr(195).chr(171) => 'e',
 		chr(195).chr(172) => 'i', chr(195).chr(173) => 'i',
 		chr(195).chr(174) => 'i', chr(195).chr(175) => 'i',
-		chr(195).chr(177) => 'n', chr(195).chr(178) => 'o',
-		chr(195).chr(179) => 'o', chr(195).chr(180) => 'o',
-		chr(195).chr(181) => 'o', chr(195).chr(182) => 'o',
-		chr(195).chr(182) => 'o', chr(195).chr(185) => 'u',
-		chr(195).chr(186) => 'u', chr(195).chr(187) => 'u',
-		chr(195).chr(188) => 'u', chr(195).chr(189) => 'y',
+		chr(195).chr(176) => 'd', chr(195).chr(177) => 'n',
+		chr(195).chr(178) => 'o', chr(195).chr(179) => 'o',
+		chr(195).chr(180) => 'o', chr(195).chr(181) => 'o',
+		chr(195).chr(182) => 'o', chr(195).chr(182) => 'o',
+		chr(195).chr(185) => 'u', chr(195).chr(186) => 'u',
+		chr(195).chr(187) => 'u', chr(195).chr(188) => 'u',
+		chr(195).chr(189) => 'y', chr(195).chr(190) => 'th',
 		chr(195).chr(191) => 'y',
 		// Decompositions for Latin Extended-A
 		chr(196).chr(128) => 'A', chr(196).chr(129) => 'a',
@@ -414,8 +416,14 @@ function funky_javascript_fix($text) {
 	return $text;
 }
 
+function balanceTags( $text, $force = false ) {
+	if ( !$force && get_option('use_balanceTags') == 0 )
+		return $text;
+	return force_balance_tags( $text );
+}
+
 /*
- balanceTags
+ force_balance_tags
 
  Balances Tags of string using a modified stack.
 
@@ -434,12 +442,10 @@ function funky_javascript_fix($text) {
 	     Added Cleaning Hooks
 	1.0  First Version
 */
-function balanceTags($text, $force = false) {
-
-	if ( !$force && get_option('use_balanceTags') == 0 )
-		return $text;
-
+function force_balance_tags( $text ) {
 	$tagstack = array(); $stacksize = 0; $tagqueue = ''; $newtext = '';
+	$single_tags = array('br', 'hr', 'img', 'input'); //Known single-entity/self-closing tags
+	$nestable_tags = array('blockquote', 'div', 'span'); //Tags that can be immediately nested within themselves
 
 	# WP bug fix for comments - in case you REALLY meant to type '< !--'
 	$text = str_replace('< !--', '<    !--', $text);
@@ -490,11 +496,11 @@ function balanceTags($text, $force = false) {
 			if((substr($regex[2],-1) == '/') || ($tag == '')) {
 			}
 			// ElseIf it's a known single-entity tag but it doesn't close itself, do so
-			elseif ($tag == 'br' || $tag == 'img' || $tag == 'hr' || $tag == 'input') {
+			elseif ( in_array($tag, $single_tags) ) {
 				$regex[2] .= '/';
 			} else {	// Push the tag onto the stack
 				// If the top of the stack is the same as the tag we want to push, close previous tag
-				if (($stacksize > 0) && ($tag != 'div') && ($tagstack[$stacksize - 1] == $tag)) {
+				if (($stacksize > 0) && !in_array($tag, $nestable_tags) && ($tagstack[$stacksize - 1] == $tag)) {
 					$tagqueue = '</' . array_pop ($tagstack) . '>';
 					$stacksize--;
 				}
@@ -535,10 +541,6 @@ function balanceTags($text, $force = false) {
 	return $newtext;
 }
 
-function force_balance_tags($text) {
-	return balanceTags($text, true);
-}
-
 function format_to_edit($content, $richedit = false) {
 	$content = apply_filters('format_to_edit', $content);
 	if (! $richedit )
@@ -564,10 +566,11 @@ function backslashit($string) {
 }
 
 function trailingslashit($string) {
-		if ( '/' != substr($string, -1)) {
-				$string .= '/';
-		}
-		return $string;
+	return untrailingslashit($string) . '/';
+}
+
+function untrailingslashit($string) {
+	return rtrim($string, '/');
 }
 
 function addslashes_gpc($gpc) {
@@ -581,11 +584,18 @@ function addslashes_gpc($gpc) {
 }
 
 
-function stripslashes_deep($value)
-{
+function stripslashes_deep($value) {
 	 $value = is_array($value) ?
-							 array_map('stripslashes_deep', $value) :
-							 stripslashes($value);
+		 array_map('stripslashes_deep', $value) :
+		 stripslashes($value);
+
+	 return $value;
+}
+
+function urlencode_deep($value) {
+	 $value = is_array($value) ?
+		 array_map('urlencode_deep', $value) :
+		 urlencode($value);
 
 	 return $value;
 }
@@ -640,13 +650,13 @@ function convert_smilies($text) {
 	if (get_option('use_smilies')) {
 		// HTML loop taken from texturize function, could possible be consolidated
 		$textarr = preg_split("/(<.*>)/U", $text, -1, PREG_SPLIT_DELIM_CAPTURE); // capture the tags as well as in between
-		$stop = count($textarr);// loop stuff 
-		for ($i = 0; $i < $stop; $i++) { 
-			$content = $textarr[$i]; 
-			if ((strlen($content) > 0) && ('<' != $content{0})) { // If it's not a tag 
-				$content = preg_replace($wp_smiliessearch, $wp_smiliesreplace, $content); 
-			} 
-			$output .= $content; 
+		$stop = count($textarr);// loop stuff
+		for ($i = 0; $i < $stop; $i++) {
+			$content = $textarr[$i];
+			if ((strlen($content) > 0) && ('<' != $content{0})) { // If it's not a tag
+				$content = preg_replace($wp_smiliessearch, $wp_smiliesreplace, $content);
+			}
+			$output .= $content;
 		}
 	} else {
 		// return default text.
@@ -658,7 +668,7 @@ function convert_smilies($text) {
 
 function is_email($user_email) {
 	$chars = "/^([a-z0-9+_]|\\-|\\.)+@(([a-z0-9_]|\\-)+\\.)+[a-z]{2,6}\$/i";
-	if(strstr($user_email, '@') && strstr($user_email, '.')) {
+	if (strpos($user_email, '@') !== false && strpos($user_email, '.') !== false) {
 		if (preg_match($chars, $user_email)) {
 			return true;
 		} else {
@@ -1067,18 +1077,28 @@ function wp_richedit_pre($text) {
 }
 
 function clean_url( $url, $protocols = null ) {
+	$original_url = $url;
+
 	if ('' == $url) return $url;
-	$url = preg_replace('|[^a-z0-9-~+_.?#=!&;,/:%]|i', '', $url);
+	$url = preg_replace('|[^a-z0-9-~+_.?#=!&;,/:%@]|i', '', $url);
 	$strip = array('%0d', '%0a');
 	$url = str_replace($strip, '', $url);
 	$url = str_replace(';//', '://', $url);
-	$url = (!strstr($url, '://')) ? 'http://'.$url : $url;
+	/* If the URL doesn't appear to contain a scheme, we
+	 * presume it needs http:// appended (unless a relative
+	 * link starting with / or a php file).
+	*/
+	if ( strpos($url, ':') === false &&
+		substr( $url, 0, 1 ) != '/' && !preg_match('/^[a-z0-9-]+?\.php/i', $url) )
+		$url = 'http://' . $url;
+
 	$url = preg_replace('/&([^#])(?![a-z]{2,8};)/', '&#038;$1', $url);
 	if ( !is_array($protocols) )
-		$protocols = array('http', 'https', 'ftp', 'ftps', 'mailto', 'news', 'irc', 'gopher', 'nntp', 'feed', 'telnet'); 
+		$protocols = array('http', 'https', 'ftp', 'ftps', 'mailto', 'news', 'irc', 'gopher', 'nntp', 'feed', 'telnet');
 	if ( wp_kses_bad_protocol( $url, $protocols ) != $url )
 		return '';
-	return $url;
+
+	return apply_filters('clean_url', $url, $original_url);
 }
 
 // Borrowed from the PHP Manual user notes. Convert entities, while
@@ -1092,7 +1112,7 @@ function htmlentities2($myHTML) {
 // Escape single quotes, specialchar double quotes, and fix line endings.
 function js_escape($text) {
 	$safe_text = wp_specialchars($text, 'double');
-	$safe_text = str_replace('&#039;', "'", $safe_text);
+	$safe_text = preg_replace('/&#(x)?0*(?(1)27|39);?/i', "'", stripslashes($safe_text));
 	$safe_text = preg_replace("/\r?\n/", "\\n", addslashes($safe_text));
 	return apply_filters('js_escape', $safe_text, $text);
 }
@@ -1105,6 +1125,97 @@ function attribute_escape($text) {
 
 function wp_make_link_relative( $link ) {
 	return preg_replace('|https?://[^/]+(/.*)|i', '$1', $link );
+}
+
+function sanitize_option($option, $value) { // Remember to call stripslashes!
+
+	switch ($option) {
+		case 'admin_email':
+			$value = sanitize_email($value);
+			break;
+
+		case 'default_post_edit_rows':
+		case 'mailserver_port':
+		case 'comment_max_links':
+		case 'page_on_front':
+		case 'rss_excerpt_length':
+		case 'default_category':
+		case 'default_email_category':
+		case 'default_link_category':
+			$value = abs((int) $value);
+			break;
+
+		case 'posts_per_page':
+		case 'posts_per_rss':
+			$value = (int) $value;
+			if ( empty($value) ) $value = 1;
+			if ( $value < -1 ) $value = abs($value);
+			break;
+
+		case 'default_ping_status':
+		case 'default_comment_status':
+			// Options that if not there have 0 value but need to be something like "closed"
+			if ( $value == '0' || $value == '')
+				$value = 'closed';
+			break;
+
+		case 'blogdescription':
+		case 'blogname':
+			$value = addslashes($value);
+			$value = wp_filter_post_kses( $value ); // calls stripslashes then addslashes
+			$value = stripslashes($value);
+			$value = wp_specialchars( $value );
+			break;
+
+		case 'blog_charset':
+			$value = preg_replace('/[^a-zA-Z0-9_-]/', '', $value); // strips slashes
+			break;
+
+		case 'date_format':
+		case 'time_format':
+		case 'mailserver_url':
+		case 'mailserver_login':
+		case 'mailserver_pass':
+		case 'ping_sites':
+		case 'upload_path':
+			$value = strip_tags($value);
+			$value = addslashes($value);
+			$value = wp_filter_kses($value); // calls stripslashes then addslashes
+			$value = stripslashes($value);
+			break;
+
+		case 'gmt_offset':
+			$value = preg_replace('/[^0-9:.-]/', '', $value); // strips slashes
+			break;
+
+		case 'siteurl':
+		case 'home':
+			$value = stripslashes($value);
+			$value = clean_url($value);
+			break;
+		default :
+			break;
+	}
+
+	return $value;
+}
+
+function wp_parse_str( $string, &$array ) {
+	parse_str( $string, $array );
+	if ( get_magic_quotes_gpc() )
+		$array = stripslashes_deep( $array ); // parse_str() adds slashes if magicquotes is on.  See: http://php.net/parse_str
+	$array = apply_filters( 'wp_parse_str', $array );
+}
+
+// Convert lone less than signs.  KSES already converts lone greater than signs.
+function wp_pre_kses_less_than( $text ) {
+	return preg_replace_callback('%<[^>]*?((?=<)|>|$)%', 'wp_pre_kses_less_than_callback', $text);
+}
+
+function wp_pre_kses_less_than_callback( $matches ) {
+	if ( false === strpos($matches[0], '>') )
+		return wp_specialchars($matches[0]);
+	return $matches[0];
 }
 
 ?>

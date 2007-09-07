@@ -8,6 +8,9 @@
  * @copyright Copyright © 2004-2006, Moxiecode Systems AB, All rights reserved.
  */
 
+	// Ignore the Notice errors for now.
+	error_reporting(E_ALL ^ E_NOTICE);
+
 	require_once("config.php");
 
 	$id = sanitize($_POST['id'], "loose");
@@ -30,14 +33,14 @@
 
 	// Get input parameters.
 
-	$check = $_POST['check'];
-	$cmd = sanitize($_POST['cmd']);
-	$lang = sanitize($_POST['lang'], "strict");
-	$mode = sanitize($_POST['mode'], "strict");
-	$spelling = sanitize($_POST['spelling'], "strict");
-	$jargon = sanitize($_POST['jargon'], "strict");
-	$encoding = sanitize($_POST['encoding'], "strict");
-	$sg = sanitize($_POST['sg'], "bool");
+	$check = urldecode(getRequestParam('check'));
+	$cmd = sanitize(getRequestParam('cmd'));
+	$lang = sanitize(getRequestParam('lang'), "strict");
+	$mode = sanitize(getRequestParam('mode'), "strict");
+	$spelling = sanitize(getRequestParam('spelling'), "strict");
+	$jargon = sanitize(getRequestParam('jargon'), "strict");
+	$encoding = sanitize(getRequestParam('encoding'), "strict");
+	$sg = sanitize(getRequestParam('sg'), "bool");
 	$words = array();
 
 	$validRequest = true;
@@ -80,6 +83,28 @@
 		return $str;
 	}
 
+	function getRequestParam($name, $default_value = false) {
+		if (!isset($_REQUEST[$name]))
+			return $default_value;
+
+		if (!isset($_GLOBALS['magic_quotes_gpc']))
+			$_GLOBALS['magic_quotes_gpc'] = ini_get("magic_quotes_gpc");
+
+		if (isset($_GLOBALS['magic_quotes_gpc'])) {
+			if (is_array($_REQUEST[$name])) {
+				$newarray = array();
+
+				foreach($_REQUEST[$name] as $name => $value)
+					$newarray[stripslashes($name)] = stripslashes($value);
+
+				return $newarray;
+			}
+			return stripslashes($_REQUEST[$name]);
+		}
+
+		return $_REQUEST[$name];
+	}
+
 	$result = array();
 	$tinyspell = new $spellCheckerConfig['class']($spellCheckerConfig, $lang, $mode, $spelling, $jargon, $encoding);
 
@@ -90,9 +115,11 @@
 				$words = preg_split("/ |\n/", $check, -1, PREG_SPLIT_NO_EMPTY);
 				$result = $tinyspell->checkWords($words);
 			break;
+
 			case "suggest":
 				$result = $tinyspell->getSuggestion($check);
 			break;
+
 			default:
 				// Just use this for now.
 				$tinyspell->errorMsg[] = "No command.";
@@ -109,19 +136,22 @@
 	switch($outputType) {
 		case "xml":
 			header('Content-type: text/xml; charset=utf-8');
-			echo '<?xml version="1.0" encoding="utf-8" ?>';
-			echo "\n";
-			if (count($result) == 0)
-				echo '<res id="' . $id . '" cmd="'. $cmd .'" />';
-			else
-				echo '<res id="' . $id . '" cmd="'. $cmd .'">'. utf8_encode(implode(" ", $result)) .'</res>';
+			$body  = '<?xml version="1.0" encoding="utf-8" ?>';
+			$body .= "\n";
 
+			if (count($result) == 0)
+				$body .= '<res id="' . $id . '" cmd="'. $cmd .'" />';
+			else
+				$body .= '<res id="' . $id . '" cmd="'. $cmd .'">'. urlencode(implode(" ", $result)) .'</res>';
+
+			echo $body;
 		break;
 		case "xmlerror";
 			header('Content-type: text/xml; charset=utf-8');
-			echo '<?xml version="1.0" encoding="utf-8" ?>';
-			echo "\n";
-			echo '<res id="' . $id . '" cmd="'. $cmd .'" error="true" msg="'. implode(" ", $tinyspell->errorMsg) .'" />';
+			$body  = '<?xml version="1.0" encoding="utf-8" ?>';
+			$body .= "\n";
+			$body .= '<res id="' . $id . '" cmd="'. $cmd .'" error="true" msg="'. implode(" ", $tinyspell->errorMsg) .'" />';
+			echo $body;
 		break;
 		case "html":
 			var_dump($result);
@@ -130,4 +160,5 @@
 			echo "Error";
 		break;
 	}
-?> 
+
+?>

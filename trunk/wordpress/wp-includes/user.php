@@ -9,7 +9,8 @@ function get_profile($field, $user = false) {
 
 function get_usernumposts($userid) {
 	global $wpdb;
-	return $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_author = '$userid' AND post_type = 'post' AND post_status = 'publish'");
+	$userid = (int) $userid;
+	return $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_author = '$userid' AND post_type = 'post' AND " . get_private_posts_cap_sql('post'));
 }
 
 // TODO: xmlrpc only.  Maybe move to xmlrpc.php.
@@ -50,6 +51,16 @@ function update_user_option( $user_id, $option_name, $newvalue, $global = false 
 	return update_usermeta( $user_id, $option_name, $newvalue );
 }
 
+// Get users with capabilities for the current blog.
+// For setups that use the multi-blog feature.
+function get_users_of_blog( $id = '' ) {
+	global $wpdb, $blog_id;
+	if ( empty($id) )
+		$id = (int) $blog_id;
+	$users = $wpdb->get_results( "SELECT user_id, user_login, display_name, user_email, meta_value FROM $wpdb->users, $wpdb->usermeta WHERE " . $wpdb->users . ".ID = " . $wpdb->usermeta . ".user_id AND meta_key = '" . $wpdb->prefix . "capabilities' ORDER BY {$wpdb->usermeta}.user_id" );
+	return $users;
+}
+
 //
 // User meta functions
 //
@@ -79,6 +90,9 @@ function delete_usermeta( $user_id, $meta_key, $meta_value = '' ) {
 function get_usermeta( $user_id, $meta_key = '') {
 	global $wpdb;
 	$user_id = (int) $user_id;
+
+	if ( !$user_id )
+		return false;
 
 	if ( !empty($meta_key) ) {
 		$meta_key = preg_replace('|[^a-z0-9_]|i', '', $meta_key);
@@ -160,12 +174,77 @@ function setup_userdata($user_id = '') {
 
 	$userdata = $user->data;
 	$user_login	= $user->user_login;
-	$user_level	= $user->user_level;
-	$user_ID	= $user->ID;
+	$user_level	= (int) $user->user_level;
+	$user_ID	= (int) $user->ID;
 	$user_email	= $user->user_email;
 	$user_url	= $user->user_url;
 	$user_pass_md5	= md5($user->user_pass);
 	$user_identity	= $user->display_name;
+}
+
+function wp_dropdown_users( $args = '' ) {
+	global $wpdb;
+	$defaults = array(
+		'show_option_all' => '', 'show_option_none' => '',
+		'orderby' => 'display_name', 'order' => 'ASC',
+		'include' => '', 'exclude' => '',
+		'show' => 'display_name', 'echo' => 1,
+		'selected' => 0, 'name' => 'user', 'class' => ''
+	);
+
+	$defaults['selected'] = is_author() ? get_query_var( 'author' ) : 0;
+
+	$r = wp_parse_args( $args, $defaults );
+	extract( $r, EXTR_SKIP );
+
+	$query = "SELECT * FROM $wpdb->users";
+
+	$query_where = array();
+
+	if ( is_array($include) )
+		$include = join(',', $include);
+	$include = preg_replace('/[^0-9,]/', '', $include); // (int)
+	if ( $include )
+		$query_where[] = "ID IN ($include)";
+
+	if ( is_array($exclude) )
+		$exclude = join(',', $exclude);
+	$exclude = preg_replace('/[^0-9,]/', '', $exclude); // (int)
+	if ( $exclude )
+		$query_where[] = "ID NOT IN ($exclude)";
+
+	if ( $query_where )
+		$query .= " WHERE " . join(' AND', $query_where);
+
+	$query .= " ORDER BY $orderby $order";
+
+	$users = $wpdb->get_results( $query );
+
+	$output = '';
+	if ( !empty($users) ) {
+		$output = "<select name='$name' id='$name' class='$class'>\n";
+
+		if ( $show_option_all )
+			$output .= "\t<option value='0'>$show_option_all</option>\n";
+
+		if ( $show_option_none )
+			$output .= "\t<option value='-1'>$show_option_none</option>\n";
+
+		foreach ( $users as $user ) {
+			$user->ID = (int) $user->ID;
+			$_selected = $user->ID == $selected ? " selected='selected'" : '';
+			$output .= "\t<option value='$user->ID'$_selected>" . wp_specialchars($user->$show) . "</option>\n";
+		}
+
+		$output .= "</select>";
+	}
+
+	$output = apply_filters('wp_dropdown_users', $output);
+
+	if ( $echo )
+		echo $output;
+
+	return $output;
 }
 
 ?>

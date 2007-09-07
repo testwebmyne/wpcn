@@ -6,8 +6,25 @@ function the_permalink() {
 }
 
 
-function permalink_link() { // For backwards compatibility
-	echo apply_filters('the_permalink', get_permalink());
+/**
+ * Conditionally adds a trailing slash if the permalink structure
+ * has a trailing slash, strips the trailing slash if not
+ * @global object Uses $wp_rewrite
+ * @param $string string a URL with or without a trailing slash
+ * @param $type_of_url string the type of URL being considered (e.g. single, category, etc) for use in the filter
+ * @return string
+ */
+function user_trailingslashit($string, $type_of_url = '') {
+	global $wp_rewrite;
+	if ( $wp_rewrite->use_trailing_slashes )
+		$string = trailingslashit($string);
+	else
+		$string = untrailingslashit($string);
+
+	// Note that $type_of_url can be one of following:
+	// single, single_trackback, single_feed, single_paged, feed, category, page, year, month, day, paged
+	$string = apply_filters('user_trailingslashit', $string, $type_of_url);
+	return $string;
 }
 
 
@@ -42,6 +59,9 @@ function get_permalink($id = 0) {
 	);
 
 	$post = &get_post($id);
+
+	if ( empty($post->ID) ) return FALSE;
+
 	if ( $post->post_type == 'page' )
 		return get_page_link($post->ID);
 	elseif ($post->post_type == 'attachment')
@@ -49,14 +69,16 @@ function get_permalink($id = 0) {
 
 	$permalink = get_option('permalink_structure');
 
-	if ( '' != $permalink && 'draft' != $post->post_status ) {
+	if ( '' != $permalink && !in_array($post->post_status, array('draft', 'pending')) ) {
 		$unixtime = strtotime($post->post_date);
 
 		$category = '';
-		if ( strstr($permalink, '%category%') ) {
+		if (strpos($permalink, '%category%') !== false) {
 			$cats = get_the_category($post->ID);
-			$category = $cats[0]->category_nicename;
-			if ( $parent=$cats[0]->category_parent )
+			if ( $cats )
+				usort($cats, '_usort_terms_by_ID'); // order by ID
+			$category = $cats[0]->slug;
+			if ( $parent=$cats[0]->parent )
 				$category = get_category_parents($parent, FALSE, '/', TRUE) . $category;
 		}
 
@@ -77,7 +99,9 @@ function get_permalink($id = 0) {
 			$author,
 			$post->post_name,
 		);
-		return apply_filters('post_link', get_option('home') . str_replace($rewritecode, $rewritereplace, $permalink), $post);
+		$permalink = get_option('home') . str_replace($rewritecode, $rewritereplace, $permalink);
+		$permalink = user_trailingslashit($permalink, 'single');
+		return apply_filters('post_link', $permalink, $post);
 	} else { // if they're not using the fancy permalink option
 		$permalink = get_option('home') . '/?p=' . $post->ID;
 		return apply_filters('post_link', $permalink, $post);
@@ -85,7 +109,7 @@ function get_permalink($id = 0) {
 }
 
 // get permalink from post ID
-function post_permalink($post_id = 0, $mode = '') { // $mode legacy
+function post_permalink($post_id = 0, $deprecated = '') {
 	return get_permalink($post_id);
 }
 
@@ -93,8 +117,9 @@ function post_permalink($post_id = 0, $mode = '') { // $mode legacy
 function get_page_link($id = false) {
 	global $post;
 
+	$id = (int) $id;
 	if ( !$id )
-		$id = $post->ID;
+		$id = (int) $post->ID;
 
 	if ( 'page' == get_option('show_on_front') && $id == get_option('page_on_front') )
 		$link = get_option('home');
@@ -109,14 +134,15 @@ function _get_page_link( $id = false ) {
 	global $post, $wp_rewrite;
 
 	if ( !$id )
-		$id = $post->ID;
+		$id = (int) $post->ID;
 
 	$pagestruct = $wp_rewrite->get_page_permastruct();
 
 	if ( '' != $pagestruct && 'draft' != $post->post_status ) {
 		$link = get_page_uri($id);
 		$link = str_replace('%pagename%', $link, $pagestruct);
-		$link = get_option('home') . "/$link/";
+		$link = get_option('home') . "/$link";
+		$link = user_trailingslashit($link, 'page');
 	} else {
 		$link = get_option('home') . "/?page_id=$id";
 	}
@@ -130,7 +156,7 @@ function get_attachment_link($id = false) {
 	$link = false;
 
 	if (! $id) {
-		$id = $post->ID;
+		$id = (int) $post->ID;
 	}
 
 	$object = get_post($id);
@@ -140,12 +166,12 @@ function get_attachment_link($id = false) {
 			$parentlink = _get_page_link( $object->post_parent ); // Ignores page_on_front
 		else
 			$parentlink = get_permalink( $object->post_parent );
-		if (! strstr($parentlink, '?') )
+		if (strpos($parentlink, '?') === false)
 			$link = trim($parentlink, '/') . '/' . $object->post_name . '/';
 	}
 
 	if (! $link ) {
-		$link = get_bloginfo('home') . "/?attachment_id=$id";
+		$link = get_bloginfo('url') . "/?attachment_id=$id";
 	}
 
 	return apply_filters('attachment_link', $link, $id);
@@ -158,7 +184,7 @@ function get_year_link($year) {
 	$yearlink = $wp_rewrite->get_year_permastruct();
 	if ( !empty($yearlink) ) {
 		$yearlink = str_replace('%year%', $year, $yearlink);
-		return apply_filters('year_link', get_option('home') . trailingslashit($yearlink), $year);
+		return apply_filters('year_link', get_option('home') . user_trailingslashit($yearlink, 'year'), $year);
 	} else {
 		return apply_filters('year_link', get_option('home') . '/?m=' . $year, $year);
 	}
@@ -174,7 +200,7 @@ function get_month_link($year, $month) {
 	if ( !empty($monthlink) ) {
 		$monthlink = str_replace('%year%', $year, $monthlink);
 		$monthlink = str_replace('%monthnum%', zeroise(intval($month), 2), $monthlink);
-		return apply_filters('month_link', get_option('home') . trailingslashit($monthlink), $year, $month);
+		return apply_filters('month_link', get_option('home') . user_trailingslashit($monthlink, 'month'), $year, $month);
 	} else {
 		return apply_filters('month_link', get_option('home') . '/?m=' . $year . zeroise($month, 2), $year, $month);
 	}
@@ -194,7 +220,7 @@ function get_day_link($year, $month, $day) {
 		$daylink = str_replace('%year%', $year, $daylink);
 		$daylink = str_replace('%monthnum%', zeroise(intval($month), 2), $daylink);
 		$daylink = str_replace('%day%', zeroise(intval($day), 2), $daylink);
-		return apply_filters('day_link', get_option('home') . trailingslashit($daylink), $year, $month, $day);
+		return apply_filters('day_link', get_option('home') . user_trailingslashit($daylink, 'day'), $year, $month, $day);
 	} else {
 		return apply_filters('day_link', get_option('home') . '/?m=' . $year . zeroise($month, 2) . zeroise($day, 2), $year, $month, $day);
 	}
@@ -217,8 +243,8 @@ function get_feed_link($feed='rss2') {
 			$feed = '';
 
 		$permalink = str_replace('%feed%', $feed, $permalink);
-		$permalink = preg_replace('#/+#', '/', "/$permalink/");
-		$output =  get_option('home') . $permalink;
+		$permalink = preg_replace('#/+#', '/', "/$permalink");
+		$output =  get_option('home') . user_trailingslashit($permalink, 'feed');
 	} else {
 		if ( false !== strpos($feed, 'comments_') )
 			$feed = str_replace('comments_', 'comments-', $feed);
@@ -229,39 +255,102 @@ function get_feed_link($feed='rss2') {
 	return apply_filters('feed_link', $output, $feed);
 }
 
-function edit_post_link($link = 'Edit This', $before = '', $after = '') {
-	global $post;
+function get_post_comments_feed_link($post_id = '', $feed = 'rss2') {
+	global $id;
 
-	if ( is_attachment() )
+	if ( empty($post_id) )
+		$post_id = (int) $id;
+
+	if ( '' != get_option('permalink_structure') ) {
+		$url = trailingslashit( get_permalink($post_id) ) . 'feed';
+		if ( 'rss2' != $feed )
+			$url .= "/$feed";
+		$url = user_trailingslashit($url, 'single_feed');
+	} else {
+		$type = get_post_field('post_type', $post_id);
+		if ( 'page' == $type )
+			$url = get_option('home') . "/?feed=$feed&amp;page_id=$post_id";
+		else
+			$url = get_option('home') . "/?feed=$feed&amp;p=$post_id";
+	}
+
+	return apply_filters('post_comments_feed_link', $url);
+}
+
+function get_edit_post_link( $id = 0 ) {
+	$post = &get_post( $id );
+
+	if ( $post->post_type == 'attachment' ) {
 		return;
-
-	if( $post->post_type == 'page' ) {
-		if ( ! current_user_can('edit_page', $post->ID) )
+	} elseif ( $post->post_type == 'page' ) {
+		if ( !current_user_can( 'edit_page', $post->ID ) )
 			return;
+
 		$file = 'page';
 	} else {
-		if ( ! current_user_can('edit_post', $post->ID) )
+		if ( !current_user_can( 'edit_post', $post->ID ) )
 			return;
+
 		$file = 'post';
 	}
 
-	$location = get_option('siteurl') . "/wp-admin/{$file}.php?action=edit&amp;post=$post->ID";
-	echo $before . "<a href=\"$location\">$link</a>" . $after;
+	return apply_filters( 'get_edit_post_link', get_bloginfo( 'wpurl' ) . '/wp-admin/' . $file . '.php?action=edit&amp;post=' . $post->ID, $post->ID );
 }
 
-function edit_comment_link($link = 'Edit This', $before = '', $after = '') {
-	global $post, $comment;
+function edit_post_link( $link = 'Edit This', $before = '', $after = '' ) {
+	global $post;
 
-	if( $post->post_type == 'page' ){
-		if ( ! current_user_can('edit_page', $post->ID) )
+	if ( $post->post_type == 'attachment' ) {
+		return;
+	} elseif ( $post->post_type == 'page' ) {
+		if ( !current_user_can( 'edit_page', $post->ID ) )
+			return;
+
+		$file = 'page';
+	} else {
+		if ( !current_user_can( 'edit_post', $post->ID ) )
+			return;
+
+		$file = 'post';
+	}
+
+	$link = '<a href="' . get_edit_post_link( $post->ID ) . '" title="' . __( 'Edit post' ) . '">' . $link . '</a>';
+	echo $before . apply_filters( 'edit_post_link', $link, $post->ID ) . $after;
+}
+
+function get_edit_comment_link( $comment_id = 0 ) {
+	$comment = &get_comment( $comment_id );
+	$post = &get_post( $comment->comment_post_ID );
+
+	if ( $post->post_type == 'attachment' ) {
+		return;
+	} elseif ( $post->post_type == 'page' ) {
+		if ( !current_user_can( 'edit_page', $post->ID ) )
 			return;
 	} else {
-		if ( ! current_user_can('edit_post', $post->ID) )
+		if ( !current_user_can( 'edit_post', $post->ID ) )
 			return;
 	}
 
-	$location = get_option('siteurl') . "/wp-admin/comment.php?action=editcomment&amp;c=$comment->comment_ID";
-	echo $before . "<a href='$location'>$link</a>" . $after;
+	$location = get_bloginfo( 'wpurl' ) . '/wp-admin/comment.php?action=editcomment&amp;c=' . $comment->comment_ID;
+	return apply_filters( 'get_edit_comment_link', $location );
+}
+
+function edit_comment_link( $link = 'Edit This', $before = '', $after = '' ) {
+	global $comment, $post;
+
+	if ( $post->post_type == 'attachment' ) {
+		return;
+	} elseif ( $post->post_type == 'page' ) {
+		if ( !current_user_can( 'edit_page', $post->ID ) )
+			return;
+	} else {
+		if ( !current_user_can( 'edit_post', $post->ID ) )
+			return;
+	}
+
+	$link = '<a href="' . get_edit_comment_link( $comment->comment_ID ) . '" title="' . __( 'Edit comment' ) . '">' . $link . '</a>';
+	echo $before . apply_filters( 'edit_comment_link', $link, $comment->comment_ID ) . $after;
 }
 
 // Navigation links
@@ -276,11 +365,11 @@ function get_previous_post($in_same_cat = false, $excluded_categories = '') {
 
 	$join = '';
 	if ( $in_same_cat ) {
-		$join = " INNER JOIN $wpdb->post2cat ON $wpdb->posts.ID= $wpdb->post2cat.post_id ";
-		$cat_array = get_the_category($post->ID);
-		$join .= ' AND (category_id = ' . intval($cat_array[0]->cat_ID);
+		$join = " INNER JOIN $wpdb->term_relationships AS tr ON p.ID = tr.object_id ";
+		$cat_array = wp_get_object_terms($post->ID, 'category', 'fields=tt_ids');
+		$join .= ' AND (tr.term_taxonomy_id = ' . intval($cat_array[0]);
 		for ( $i = 1; $i < (count($cat_array)); $i++ ) {
-			$join .= ' OR category_id = ' . intval($cat_array[$i]->cat_ID);
+			$join .= ' OR tr.term_taxonomy_id = ' . intval($cat_array[$i]);
 		}
 		$join .= ')';
 	}
@@ -288,19 +377,15 @@ function get_previous_post($in_same_cat = false, $excluded_categories = '') {
 	$sql_exclude_cats = '';
 	if ( !empty($excluded_categories) ) {
 		$blah = explode(' and ', $excluded_categories);
-		foreach ( $blah as $category ) {
-			$category = intval($category);
-			$sql_cat_ids = " OR pc.category_ID = '$category'";
-		}
-		$posts_in_ex_cats = $wpdb->get_col("SELECT p.ID FROM $wpdb->posts p LEFT JOIN $wpdb->post2cat pc ON pc.post_id=p.ID WHERE 1 = 0 $sql_cat_ids GROUP BY p.ID");
-		$posts_in_ex_cats_sql = 'AND ID NOT IN (' . implode($posts_in_ex_cats, ',') . ')';
+		$posts_in_ex_cats = get_objects_in_term($blah, 'category');
+		$posts_in_ex_cats_sql = 'AND p.ID NOT IN (' . implode($posts_in_ex_cats, ',') . ')';
 	}
 
 	$join  = apply_filters( 'get_previous_post_join', $join, $in_same_cat, $excluded_categories );
-	$where = apply_filters( 'get_previous_post_where', "WHERE post_date < '$current_post_date' AND post_type = 'post' AND post_status = 'publish' $posts_in_ex_cats_sql", $in_same_cat, $excluded_categories );
-	$sort  = apply_filters( 'get_previous_post_sort', 'ORDER BY post_date DESC LIMIT 1' );
+	$where = apply_filters( 'get_previous_post_where', "WHERE p.post_date < '$current_post_date' AND p.post_type = 'post' AND p.post_status = 'publish' $posts_in_ex_cats_sql", $in_same_cat, $excluded_categories );
+	$sort  = apply_filters( 'get_previous_post_sort', 'ORDER BY p.post_date DESC LIMIT 1' );
 
-	return @$wpdb->get_row("SELECT ID, post_title FROM $wpdb->posts $join $where $sort");
+	return @$wpdb->get_row("SELECT p.ID, p.post_title FROM $wpdb->posts AS p $join $where $sort");
 }
 
 function get_next_post($in_same_cat = false, $excluded_categories = '') {
@@ -313,11 +398,11 @@ function get_next_post($in_same_cat = false, $excluded_categories = '') {
 
 	$join = '';
 	if ( $in_same_cat ) {
-		$join = " INNER JOIN $wpdb->post2cat ON $wpdb->posts.ID= $wpdb->post2cat.post_id ";
-		$cat_array = get_the_category($post->ID);
-		$join .= ' AND (category_id = ' . intval($cat_array[0]->cat_ID);
+		$join = " INNER JOIN $wpdb->term_relationships AS tr ON p.ID = tr.object_id ";
+		$cat_array = wp_get_object_terms($post->ID, 'category', 'fields=tt_ids');
+		$join .= ' AND (tr.term_taxonomy_id = ' . intval($cat_array[0]);
 		for ( $i = 1; $i < (count($cat_array)); $i++ ) {
-			$join .= ' OR category_id = ' . intval($cat_array[$i]->cat_ID);
+			$join .= ' OR tr.term_taxonomy_id = ' . intval($cat_array[$i]);
 		}
 		$join .= ')';
 	}
@@ -325,19 +410,15 @@ function get_next_post($in_same_cat = false, $excluded_categories = '') {
 	$sql_exclude_cats = '';
 	if ( !empty($excluded_categories) ) {
 		$blah = explode(' and ', $excluded_categories);
-		foreach ( $blah as $category ) {
-			$category = intval($category);
-			$sql_cat_ids = " OR pc.category_ID = '$category'";
-		}
-		$posts_in_ex_cats = $wpdb->get_col("SELECT p.ID from $wpdb->posts p LEFT JOIN $wpdb->post2cat pc ON pc.post_id = p.ID WHERE 1 = 0 $sql_cat_ids GROUP BY p.ID");
-		$posts_in_ex_cats_sql = 'AND ID NOT IN (' . implode($posts_in_ex_cats, ',') . ')';
+		$posts_in_ex_cats = get_objects_in_term($blah, 'category');
+		$posts_in_ex_cats_sql = 'AND p.ID NOT IN (' . implode($posts_in_ex_cats, ',') . ')';
 	}
 
 	$join  = apply_filters( 'get_next_post_join', $join, $in_same_cat, $excluded_categories );
-	$where = apply_filters( 'get_next_post_where', "WHERE post_date > '$current_post_date' AND post_type = 'post' AND post_status = 'publish' $posts_in_ex_cats_sql AND ID != $post->ID", $in_same_cat, $excluded_categories );
-	$sort  = apply_filters( 'get_next_post_sort', 'ORDER BY post_date ASC LIMIT 1' );
+	$where = apply_filters( 'get_next_post_where', "WHERE p.post_date > '$current_post_date' AND p.post_type = 'post' AND p.post_status = 'publish' $posts_in_ex_cats_sql AND p.ID != $post->ID", $in_same_cat, $excluded_categories );
+	$sort  = apply_filters( 'get_next_post_sort', 'ORDER BY p.post_date ASC LIMIT 1' );
 
-	return @$wpdb->get_row("SELECT ID, post_title FROM $wpdb->posts $join $where $sort");
+	return @$wpdb->get_row("SELECT p.ID, p.post_title FROM $wpdb->posts AS p $join $where $sort");
 }
 
 
@@ -379,74 +460,55 @@ function next_post_link($format='%link &raquo;', $link='%title', $in_same_cat = 
 function get_pagenum_link($pagenum = 1) {
 	global $wp_rewrite;
 
-	$qstr = wp_specialchars($_SERVER['REQUEST_URI']);
+	$pagenum = (int) $pagenum;
 
-	$page_querystring = "paged";
-	$page_modstring = "page/";
-	$page_modregex = "page/?";
-	$permalink = 0;
+	$request = remove_query_arg( 'paged' );
 
 	$home_root = parse_url(get_option('home'));
 	$home_root = $home_root['path'];
-	$home_root = trailingslashit($home_root);
-	$qstr = preg_replace('|^'. $home_root . '|', '', $qstr);
-	$qstr = preg_replace('|^/+|', '', $qstr);
+	$home_root = preg_quote( trailingslashit( $home_root ), '|' );
 
-	$index = $_SERVER['PHP_SELF'];
-	$index = preg_replace('|^'. $home_root . '|', '', $index);
-	$index = preg_replace('|^/+|', '', $index);
+	$request = preg_replace('|^'. $home_root . '|', '', $request);
+	$request = preg_replace('|^/+|', '', $request);
 
-	// if we already have a QUERY style page string
-	if ( stristr( $qstr, $page_querystring ) ) {
-		$replacement = "$page_querystring=$pagenum";
-		$qstr = preg_replace("/".$page_querystring."[^\d]+\d+/", $replacement, $qstr);
-		// if we already have a mod_rewrite style page string
-	} elseif ( preg_match( '|'.$page_modregex.'\d+|', $qstr ) ) {
-		$permalink = 1;
-		$qstr = preg_replace('|'.$page_modregex.'\d+|',"$page_modstring$pagenum",$qstr);
+	if ( !$wp_rewrite->using_permalinks() || is_admin() ) {
+		$base = trailingslashit( get_bloginfo( 'home' ) );
 
-		// if we don't have a page string at all ...
-		// lets see what sort of URL we have...
-	} else {
-		// we need to know the way queries are being written
-		// if there's a querystring_start (a "?" usually), it's definitely not mod_rewritten
-		if ( stristr( $qstr, '?' ) ) {
-			// so append the query string (using &, since we already have ?)
-			$qstr .=	'&amp;' . $page_querystring . '=' . $pagenum;
-			// otherwise, it could be rewritten, OR just the default index ...
-		} elseif( '' != get_option('permalink_structure') && ! is_admin() ) {
-			$permalink = 1;
-			$index = $wp_rewrite->index;
-			// If it's not a path info permalink structure, trim the index.
-			if ( !$wp_rewrite->using_index_permalinks() ) {
-				$qstr = preg_replace("#/*" . $index . "/*#", '/', $qstr);
-			} else {
-				// If using path info style permalinks, make sure the index is in
-				// the URL.
-				if ( strpos($qstr, $index) === false )
-					$qstr = '/' . $index . $qstr;
-			}
-
-			$qstr =	trailingslashit($qstr) . $page_modstring . $pagenum;
+		if ( $pagenum > 1 ) {
+			$result = add_query_arg( 'paged', $pagenum, $base . $request );
 		} else {
-			$qstr = $index . '?' . $page_querystring . '=' . $pagenum;
+			$result = $base . $request;
 		}
+	} else {
+		$qs_regex = '|\?.*?$|';
+		preg_match( $qs_regex, $request, $qs_match );
+
+		if ( $qs_match[0] ) {
+			$query_string = $qs_match[0];
+			$request = preg_replace( $qs_regex, '', $request );
+		} else {
+			$query_string = '';
+		}
+
+		$request = preg_replace( '|page/(.+)/?$|', '', $request);
+
+		$base = trailingslashit( get_bloginfo( 'url' ) );
+
+		if ( $wp_rewrite->using_index_permalinks() && $pagenum > 1 ) {
+			$base .= 'index.php/';
+		}
+
+		if ( $pagenum > 1 ) {
+			$request = ( ( !empty( $request ) ) ? trailingslashit( $request ) : $request ) . user_trailingslashit( 'page/' . $pagenum, 'paged' );
+		}
+
+		$result = $base . $request . $query_string;
 	}
 
-	$qstr = preg_replace('|^/+|', '', $qstr);
-	if ( $permalink )
-		$qstr = trailingslashit($qstr);
-	$qstr = preg_replace('/&([^#])(?![a-z]{1,8};)/', '&#038;$1', trailingslashit( get_option('home') ) . $qstr );
-
-	// showing /page/1/ or ?paged=1 is redundant
-	if ( 1 === $pagenum ) {
-		$qstr = str_replace('page/1/', '', $qstr); // for mod_rewrite style
-		$qstr = remove_query_arg('paged', $qstr); // for query style
-	}
-	return $qstr;
+	return $result;
 }
 
-function next_posts($max_page = 0) { // original by cfactor at cooltux.org
+function get_next_posts_page_link($max_page = 0) {
 	global $paged, $pagenow;
 
 	if ( !is_single() ) {
@@ -454,8 +516,12 @@ function next_posts($max_page = 0) { // original by cfactor at cooltux.org
 			$paged = 1;
 		$nextpage = intval($paged) + 1;
 		if ( !$max_page || $max_page >= $nextpage )
-			echo get_pagenum_link($nextpage);
+			return get_pagenum_link($nextpage);
 	}
+}
+
+function next_posts($max_page = 0) {
+	echo clean_url(get_next_posts_page_link($max_page));
 }
 
 function next_posts_link($label='Next Page &raquo;', $max_page=0) {
@@ -473,18 +539,20 @@ function next_posts_link($label='Next Page &raquo;', $max_page=0) {
 	}
 }
 
-
-function previous_posts() { // original by cfactor at cooltux.org
+function get_previous_posts_page_link() {
 	global $paged, $pagenow;
 
 	if ( !is_single() ) {
 		$nextpage = intval($paged) - 1;
 		if ( $nextpage < 1 )
 			$nextpage = 1;
-		echo get_pagenum_link($nextpage);
+		return get_pagenum_link($nextpage);
 	}
 }
 
+function previous_posts() {
+	echo clean_url(get_previous_posts_page_link());
+}
 
 function previous_posts_link($label='&laquo; Previous Page') {
 	global $paged;

@@ -7,18 +7,6 @@
 /**
 	Add These Functions to make our lives easier
 **/
-if(!function_exists('get_catbynicename'))
-{
-	function get_catbynicename($category_nicename)
-	{
-	global $wpdb;
-
-	$cat_id -= 0; 	// force numeric
-	$name = $wpdb->get_var('SELECT cat_ID FROM '.$wpdb->categories.' WHERE category_nicename="'.$category_nicename.'"');
-
-	return $name;
-	}
-}
 
 if(!function_exists('get_comment_count'))
 {
@@ -26,15 +14,6 @@ if(!function_exists('get_comment_count'))
 	{
 		global $wpdb;
 		return $wpdb->get_var('SELECT count(*) FROM '.$wpdb->comments.' WHERE comment_post_ID = '.$post_ID);
-	}
-}
-
-if(!function_exists('link_cat_exists'))
-{
-	function link_cat_exists($catname)
-	{
-		global $wpdb;
-		return $wpdb->get_var('SELECT cat_id FROM '.$wpdb->linkcategories.' WHERE cat_name = "'.$wpdb->escape($catname).'"');
 	}
 }
 
@@ -130,25 +109,26 @@ function textconv ($s) {
 **/
 class Dotclear_Import {
 
-	function header() 
+	function header()
 	{
 		echo '<div class="wrap">';
 		echo '<h2>'.__('Import DotClear').'</h2>';
 		echo '<p>'.__('Steps may take a few minutes depending on the size of your database. Please be patient.').'</p>';
 	}
 
-	function footer() 
+	function footer()
 	{
 		echo '</div>';
 	}
 
-	function greet() 
+	function greet()
 	{
 		echo '<div class="narrow"><p>'.__('Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary.').'</p>';
 		echo '<p>'.__('Your DotClear Configuration settings are as follows:').'</p>';
 		echo '<form action="admin.php?import=dotclear&amp;step=1" method="post">';
+		wp_nonce_field('import-dotclear');
 		$this->db_form();
-		echo '<p class="submit"><input type="submit" name="submit" value="'.__('Import Categories').' &raquo;" /></p>';
+		echo '<p class="submit"><input type="submit" name="submit" value="'.attribute_escape(__('Import Categories &raquo;')).'" /></p>';
 		echo '</form></div>';
 	}
 
@@ -407,7 +387,10 @@ class Dotclear_Import {
 
 				// Make Post-to-Category associations
 				$cats = array();
-				if($cat1 = get_catbynicename($post_cat_name)) { $cats[1] = $cat1; }
+				$category1 = get_category_by_slug($post_cat_name);
+				$category1 = $category1->term_id;
+
+				if($cat1 = $category1) { $cats[1] = $cat1; }
 
 				if(!empty($cats)) { wp_set_post_categories($ret_id, $cats); }
 			}
@@ -437,8 +420,8 @@ class Dotclear_Import {
 				extract($comment);
 
 				// WordPressify Data
-				$comment_ID = ltrim($comment_id, '0');
-				$comment_post_ID = $postarr[$post_id];
+				$comment_ID = (int) ltrim($comment_id, '0');
+				$comment_post_ID = (int) $postarr[$post_id];
 				$comment_approved = "$comment_pub";
 				$name = $wpdb->escape(csc ($comment_auteur));
 				$email = $wpdb->escape($comment_email);
@@ -508,12 +491,11 @@ class Dotclear_Import {
 				extract($link);
 
 				if ($title != "") {
-					if ($cinfo = link_cat_exists (csc ($title))) {
-						$category = $cinfo;
+					if ($cinfo = is_term(csc ($title), 'link_category')) {
+						$category = $cinfo['term_id'];
 					} else {
-						$wpdb->query ("INSERT INTO $wpdb->linkcategories (cat_name) VALUES ('".
-							$wpdb->escape (csc ($title))."')");
-						$category = $wpdb->insert_id;
+						$category = wp_insert_term($wpdb->escape (csc ($title)), 'link_category');
+						$category = $category['term_id'];
 					}
 				} else {
 					$linkname = $wpdb->escape(csc ($label));
@@ -558,7 +540,8 @@ class Dotclear_Import {
 
 
 		echo '<form action="admin.php?import=dotclear&amp;step=2" method="post">';
-		printf('<input type="submit" name="submit" value="%s" />', __('Import Users'));
+		wp_nonce_field('import-dotclear');
+		printf('<input type="submit" name="submit" value="%s" />', attribute_escape(__('Import Users')));
 		echo '</form>';
 
 	}
@@ -570,7 +553,8 @@ class Dotclear_Import {
 		$this->users2wp($users);
 
 		echo '<form action="admin.php?import=dotclear&amp;step=3" method="post">';
-		printf('<input type="submit" name="submit" value="%s" />', __('Import Posts'));
+		wp_nonce_field('import-dotclear');
+		printf('<input type="submit" name="submit" value="%s" />', attribute_escape(__('Import Posts')));
 		echo '</form>';
 	}
 
@@ -581,7 +565,8 @@ class Dotclear_Import {
 		$this->posts2wp($posts);
 
 		echo '<form action="admin.php?import=dotclear&amp;step=4" method="post">';
-		printf('<input type="submit" name="submit" value="%s" />', __('Import Comments'));
+		wp_nonce_field('import-dotclear');
+		printf('<input type="submit" name="submit" value="%s" />', attribute_escape(__('Import Comments')));
 		echo '</form>';
 	}
 
@@ -592,7 +577,8 @@ class Dotclear_Import {
 		$this->comments2wp($comments);
 
 		echo '<form action="admin.php?import=dotclear&amp;step=5" method="post">';
-		printf('<input type="submit" name="submit" value="%s" />', __('Import Links'));
+		wp_nonce_field('import-dotclear');
+		printf('<input type="submit" name="submit" value="%s" />', attribute_escape(__('Import Links')));
 		echo '</form>';
 	}
 
@@ -604,7 +590,8 @@ class Dotclear_Import {
 		add_option('dc_links', $links);
 
 		echo '<form action="admin.php?import=dotclear&amp;step=6" method="post">';
-		printf('<input type="submit" name="submit" value="%s" />', __('Finish'));
+		wp_nonce_field('import-dotclear');
+		printf('<input type="submit" name="submit" value="%s" />', attribute_escape(__('Finish')));
 		echo '</form>';
 	}
 
@@ -667,42 +654,44 @@ class Dotclear_Import {
 
 		if ( $step > 0 )
 		{
+			check_admin_referer('import-dotclear');
+
 			if($_POST['dbuser'])
 			{
 				if(get_option('dcuser'))
 					delete_option('dcuser');
-				add_option('dcuser',$_POST['dbuser']);
+				add_option('dcuser', sanitize_user($_POST['dbuser'], true));
 			}
 			if($_POST['dbpass'])
 			{
 				if(get_option('dcpass'))
 					delete_option('dcpass');
-				add_option('dcpass',$_POST['dbpass']);
+				add_option('dcpass', sanitize_user($_POST['dbpass'], true));
 			}
 
 			if($_POST['dbname'])
 			{
 				if(get_option('dcname'))
 					delete_option('dcname');
-				add_option('dcname',$_POST['dbname']);
+				add_option('dcname', sanitize_user($_POST['dbname'], true));
 			}
 			if($_POST['dbhost'])
 			{
 				if(get_option('dchost'))
 					delete_option('dchost');
-				add_option('dchost',$_POST['dbhost']);
+				add_option('dchost', sanitize_user($_POST['dbhost'], true));
 			}
 			if($_POST['dccharset'])
 			{
 				if(get_option('dccharset'))
 					delete_option('dccharset');
-				add_option('dccharset',$_POST['dccharset']);
+				add_option('dccharset', sanitize_user($_POST['dccharset'], true));
 			}
 			if($_POST['dbprefix'])
 			{
 				if(get_option('dcdbprefix'))
 					delete_option('dcdbprefix');
-				add_option('dcdbprefix',$_POST['dbprefix']);
+				add_option('dcdbprefix', sanitize_user($_POST['dbprefix'], true));
 			}
 
 

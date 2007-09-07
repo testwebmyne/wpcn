@@ -34,6 +34,13 @@ class wpdb {
 	var $optiongroups;
 	var $optiongroup_options;
 	var $postmeta;
+	var $usermeta;
+	var $terms;
+	var $term_taxonomy;
+	var $term_relationships;
+
+	var $charset;
+	var $collate;
 
 	/**
 	 * Connects to the database server and selects a database
@@ -45,9 +52,15 @@ class wpdb {
 	function wpdb($dbuser, $dbpassword, $dbname, $dbhost) {
 		return $this->__construct($dbuser, $dbpassword, $dbname, $dbhost);
 	}
-	
+
 	function __construct($dbuser, $dbpassword, $dbname, $dbhost) {
 		register_shutdown_function(array(&$this, "__destruct"));
+
+		if ( defined('DB_CHARSET') )
+			$this->charset = DB_CHARSET;
+
+		if ( defined('DB_COLLATE') )
+			$this->collate = DB_COLLATE;
 
 		$this->dbh = @mysql_connect($dbhost, $dbuser, $dbpassword);
 		if (!$this->dbh) {
@@ -63,11 +76,14 @@ class wpdb {
 ");
 		}
 
+		if ( !empty($this->charset) && version_compare(mysql_get_server_info(), '4.1.0', '>=') )
+ 			$this->query("SET NAMES '$this->charset'");
+
 		$this->select($dbname);
 	}
 
 	function __destruct() {
-		return true;		
+		return true;
 	}
 
 	/**
@@ -99,6 +115,29 @@ class wpdb {
 			return mysql_escape_string( $string );
 		else
 			return mysql_real_escape_string( $string, $this->dbh );
+	}
+
+	/**
+	 * Escapes content by reference for insertion into the database, for security
+	 * @param string $s
+	 */
+	function escape_by_ref(&$s) {
+		$s = $this->escape($s);
+	}
+
+	/**
+	 * Prepares a SQL query for safe use, using sprintf() syntax
+	 */
+	function prepare($args=NULL) {
+		if ( NULL === $args )
+			return;
+		$args = func_get_args();
+		$query = array_shift($args);
+		$query = str_replace("'%s'", '%s', $query); // in case someone mistakenly already singlequoted it
+		$query = str_replace('"%s"', '%s', $query); // doublequote unquoting
+		$query = str_replace('%s', "'%s'", $query); // quote the strings
+		array_walk($args, array(&$this, 'escape_by_ref'));
+		return @vsprintf($query, $args);
 	}
 
 	// ==================================================================
@@ -169,7 +208,7 @@ class wpdb {
 
 		$this->result = @mysql_query($query, $this->dbh);
 		++$this->num_queries;
-	
+
 		if (SAVEQUERIES)
 			$this->queries[] = array( $query, $this->timer_stop() );
 
@@ -180,7 +219,7 @@ class wpdb {
 		}
 
 		if ( preg_match("/^\\s*(insert|delete|update|replace) /i",$query) ) {
-			$this->rows_affected = mysql_affected_rows();
+			$this->rows_affected = mysql_affected_rows($this->dbh);
 			// Take note of the insert_id
 			if ( preg_match("/^\\s*(insert|replace) /i",$query) ) {
 				$this->insert_id = mysql_insert_id($this->dbh);
@@ -243,7 +282,9 @@ class wpdb {
 		$this->func_call = "\$db->get_row(\"$query\",$output,$y)";
 		if ( $query )
 			$this->query($query);
-		
+		else
+			return null;
+
 		if ( !isset($this->last_result[$y]) )
 			return null;
 
@@ -268,6 +309,7 @@ class wpdb {
 		if ( $query )
 			$this->query($query);
 
+		$new_array = array();
 		// Extract the column values
 		for ( $i=0; $i < count($this->last_result); $i++ ) {
 			$new_array[$i] = $this->get_var(null, $x, $i);
@@ -286,6 +328,8 @@ class wpdb {
 
 		if ( $query )
 			$this->query($query);
+		else
+			return null;
 
 		// Send back array of objects. Each row is an object
 		if ( $output == OBJECT ) {
@@ -360,7 +404,7 @@ class wpdb {
 
 		header('Content-Type: text/html; charset=utf-8');
 
-		if ( strstr($_SERVER['PHP_SELF'], 'wp-admin') )
+		if (strpos($_SERVER['PHP_SELF'], 'wp-admin') !== false)
 			$admin_dir = '';
 		else
 			$admin_dir = 'wp-admin/';
