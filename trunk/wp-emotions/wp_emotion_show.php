@@ -8,7 +8,7 @@ Author: Denis Deng
 Author URI: http://fairyfish.net/
 */
 
-$convert_content_keywords = 1;
+$convert_content_keywords = 0;
 
 function compare($image_x,$image_y){
 	if($image_x["len"] == $image_y["len"])
