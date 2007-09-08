@@ -63,66 +63,66 @@ function oneBitOptionsPage() {
 	<?php } ?>
 	<div class=wrap>
 	<form method="post">
-		<h2>1 Bit音频播放器设置</h2>
+		<h2>1 Bit Audio Player Options</h2>
 		<div class="submit">
 		<input type="submit" name="info_update" value="<?php _e('Update Options', 'English'); ?> &raquo;" />
 		</div>
 		<p>
-		<?php _e('1 Bit音频播放器将在MP3链接后面自动插入。请到<a href="http://1bit.markwheeler.net">1 Bit website</a> 查看技术文档和更新。', 'English'); ?>
+		<?php _e('The 1 Bit Audio Player will be inserted automatically after any links to MP3 files. See the <a href="http://1bit.markwheeler.net">1 Bit website</a> for documentation and updates.', 'English'); ?>
 		</p>
 		<fieldset name="foreColor">
-		<h3><?php _e('图标颜色', 'English'); ?></h3>
+		<h3><?php _e('Icon color', 'English'); ?></h3>
 		<p>
-		<label for="oneBitForeColor"><?php _e('请输入颜色十六进制的值: #', 'English') ?></label>
+		<label for="oneBitForeColor"><?php _e('Hex value for icon color: #', 'English') ?></label>
 		<input type="text" name="oneBitForeColor" id="oneBitForeColor" maxlength="6" size="10" value="<?php echo get_option('oneBitForeColor'); ?>" />
 		</p>
 		</fieldset>
 		<fieldset name="backColor">
-		<h3><?php _e('背景颜色', 'English'); ?></h3>
+		<h3><?php _e('Background color', 'English'); ?></h3>
 		<p>
-		<label><input name="oneBitTransparent" type="radio" value="0" class="tog" <?php if(get_option('oneBitBackColor') != 'transparent') echo 'checked == "1" '; ?>/><?php _e("使用纯色背景（推荐）。 ", 'English') ?></label>
-		<label for="oneBitBackColor"><?php _e('请输入颜色十六进制的值:: #', 'English') ?></label>
+		<label><input name="oneBitTransparent" type="radio" value="0" class="tog" <?php if(get_option('oneBitBackColor') != 'transparent') echo 'checked == "1" '; ?>/><?php _e("Use a solid background color (recommended). ", 'English') ?></label>
+		<label for="oneBitBackColor"><?php _e('Hex value for background: #', 'English') ?></label>
 		<input type="text" name="oneBitBackColor" id="oneBitBackColor" maxlength="6" size="10" value="<?php if(get_option('oneBitBackColor') != 'transparent') echo get_option('oneBitBackColor'); ?>" />
 		</p>
 		<p>
-		<label><input name="oneBitTransparent" type="radio" value="1" class="tog" <?php if(get_option('oneBitBackColor') == 'transparent') echo 'checked == "1" '; ?>/><?php _e('使用透明背景（可能导致在Firefox中出现<a href="http://www.google.com/search?q=wmode+firefox">\'focus\' bugs</a>）', 'English') ?></label>
+		<label><input name="oneBitTransparent" type="radio" value="1" class="tog" <?php if(get_option('oneBitBackColor') == 'transparent') echo 'checked == "1" '; ?>/><?php _e('Make the background transparent (can cause <a href="http://www.google.com/search?q=wmode+firefox">\'focus\' bugs</a> in Firefox)', 'English') ?></label>
 		</p>
 		</fieldset>
 		<fieldset name="size">
-		<h3><?php _e('播放器尺寸', 'English'); ?></h3>
+		<h3><?php _e('Player size', 'English'); ?></h3>
 		<p>
-		<label><input name="oneBitAutoSize" type="radio" value="1" class="tog" <?php if(!get_option('oneBitSize')) echo 'checked == "1" '; ?>/><?php _e('设置为1 Bit的默认尺寸', 'English') ?></label>
+		<label><input name="oneBitAutoSize" type="radio" value="1" class="tog" <?php if(!get_option('oneBitSize')) echo 'checked == "1" '; ?>/><?php _e('Set 1 Bit\'s size automatically', 'English') ?></label>
 		</p>
 		<p>
-		<label><input name="oneBitAutoSize" type="radio" value="0" class="tog" <?php if(get_option('oneBitSize')) echo 'checked == "1" '; ?>/><?php _e("手动设置尺寸。 ", 'English') ?></label>
-		<label for="oneBitSize"><?php _e('请输入尺寸像素的值（播放器始终是方形的）: ', 'English') ?></label>
+		<label><input name="oneBitAutoSize" type="radio" value="0" class="tog" <?php if(get_option('oneBitSize')) echo 'checked == "1" '; ?>/><?php _e("Set a manual size. ", 'English') ?></label>
+		<label for="oneBitSize"><?php _e('Size in pixels (the player is always square): ', 'English') ?></label>
 		<input type="text" name="oneBitSize" id="oneBitSize" maxlength="3" size="3" value="<?php echo get_option('oneBitSize'); ?>" />
 		</p>
 		</fieldset>
-		<fieldset name="选择符">
+		<fieldset name="selector">
 		<h3><?php _e('Selector', 'English'); ?></h3>
 		<p>
-		<label for="oneBitSelector"><?php _e('应用到1 Bit的CSS选择符: ', 'English') ?></label>
+		<label for="oneBitSelector"><?php _e('CSS selector to apply 1 Bit to: ', 'English') ?></label>
 		<input type="text" name="oneBitSelector" id="oneBitSelector" maxlength="50" value="<?php echo get_option('oneBitSelector'); ?>" />
 		</p>
 		<p>
-		<?php _e('查看<a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selectors_.26_Pseudo_Classes">Wikipedia</a>得到一些基础的参考。默认的选择符是简单的 \'a\'.', 'English'); ?>
+		<?php _e('See <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selectors_.26_Pseudo_Classes">Wikipedia</a> for some basic reference. The default selector is simply \'a\'.', 'English'); ?>
 		</p>
 		</fieldset>
 		<fieldset name="javascript">
-		<h3><?php _e('包含SWFObject组件', 'English'); ?></h3>
+		<h3><?php _e('Include SWFObject', 'English'); ?></h3>
 		<p>
-		<?php _e("1 Bit音频播放器插件需要 <a href=\"http://blog.deconcept.com/swfobject/\">SWFObject</a> 以嵌入Flash。如果您已经在站点上使用了SWFObject组件您可以让1 Bit不要包含它 （避免页面上重复出现脚本）.", 'English'); ?>
+		<?php _e("The 1 Bit Audio Player plugin requires <a href=\"http://blog.deconcept.com/swfobject/\">SWFObject</a> in order to embed Flash. If you're already using SWFObject on your site then you can tell 1 Bit to skip it's inclusion (and avoid having the script on your pages twice).", 'English'); ?>
 		</p>
 		<p>
-		<label><input name="oneBitSWFObject" type="radio" value="1" class="tog" <?php if(get_option('oneBitSWFObject') == 1) echo 'checked == "1" '; ?>/><?php _e('请添加SWFObject组件到我的站点', 'English') ?></label>
+		<label><input name="oneBitSWFObject" type="radio" value="1" class="tog" <?php if(get_option('oneBitSWFObject') == 1) echo 'checked == "1" '; ?>/><?php _e('Please add SWFObject to my site', 'English') ?></label>
 		</p>
 		<p>
-		<label><input name="oneBitSWFObject" type="radio" value="0" class="tog" <?php if(get_option('oneBitSWFObject') == 0) echo 'checked == "0" '; ?>/><?php _e("我已经使用了SWFObject组件，不需重复添加", 'English') ?></label>
+		<label><input name="oneBitSWFObject" type="radio" value="0" class="tog" <?php if(get_option('oneBitSWFObject') == 0) echo 'checked == "0" '; ?>/><?php _e("I already use SWFObject, don't add it again", 'English') ?></label>
 		</p>
 		</fieldset>
 		<div class="submit">
-		<input type="submit" name="info_update" value="<?php _e('更新选项', 'English'); ?> &raquo;" />
+		<input type="submit" name="info_update" value="<?php _e('Update Options', 'English'); ?> &raquo;" />
 		</div>
 	</form>
 	</div>
