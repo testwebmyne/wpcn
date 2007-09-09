@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3\n"
-"PO-Revision-Date: 2007-09-09 02:42+0800\n"
-"Last-Translator: Crazy Loong <crazyloong@gmail.com>\n"
+"PO-Revision-Date: 2007-09-09 12:41+0800\n"
+"Last-Translator: Wady <gzyangzhou@163.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: wp-login.php:48
 msgid "Powered by WordPress"
-msgstr "使用 WordPress 架设"
+msgstr "Powered by WordPress"
 
 #: wp-login.php:93
 #: wp-login.php:336
