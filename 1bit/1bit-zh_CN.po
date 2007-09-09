@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1 Bit Audio Player\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-09-09 12:11+0800\n"
+"PO-Revision-Date: 2007-09-09 12:23+0800\n"
 "Last-Translator: Wady <gzyangzhou@163.com>\n"
 "Language-Team: WPCN <duoxie@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -13,94 +13,117 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: _e;__;__ngettext:1,2\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: D:\\WordPress\\wp-content\\plugins\\1bit\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:40
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:40
+#: 1bit.php:40
 msgid "Please set the player size to a valid whole number equal to or greater than 4."
 msgstr "请设置播放器尺寸为一个等于或大于4的有效整数值"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:43
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:43
+#: 1bit.php:43
 msgid "Please set a selector string (if in doubt just enter 'a')."
 msgstr "请输入一个选择符字符串（如果不知道要输入什么，只需输入“a”）"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:56
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:56
+#: 1bit.php:56
 msgid "Options saved."
 msgstr "设置已保存"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:68
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:125
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:68
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:125
+#: 1bit.php:68
+#: 1bit.php:125
 msgid "Update Options"
 msgstr "更新设置"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:71
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:71
+#: 1bit.php:71
 msgid "The 1 Bit Audio Player will be inserted automatically after any links to MP3 files. See the <a href=\"http://1bit.markwheeler.net\">1 Bit website</a> for documentation and updates."
-msgstr "1 Bit音频播放器将在MP3链接后面自动插入。请到<a href=\"http://1bit.markwheeler.net\">1 Bit website</a> 查看技术文档和更新。"
+msgstr "1Bit 音频播放器将在 MP3 链接后面自动插入。请到 <a href=\"http://1bit.markwheeler.net\">1 Bit website</a> 查看技术文档和更新。"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:74
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:74
+#: 1bit.php:74
 msgid "Icon color"
 msgstr "图标颜色"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:76
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:76
+#: 1bit.php:76
 msgid "Hex value for icon color: #"
 msgstr "请输入颜色十六进制的值："
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:81
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:81
+#: 1bit.php:81
 msgid "Background color"
 msgstr "背景颜色"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:83
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:83
+#: 1bit.php:83
 msgid "Use a solid background color (recommended). "
 msgstr "使用纯色背景（推荐）"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:84
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:84
+#: 1bit.php:84
 msgid "Hex value for background: #"
 msgstr "请输入颜色十六进制的值：#"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:88
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:88
+#: 1bit.php:88
 msgid "Make the background transparent (can cause <a href=\"http://www.google.com/search?q=wmode+firefox\">'focus' bugs</a> in Firefox)"
-msgstr "使用透明背景（可能导致在Firefox中出现<a href=\"http://www.google.com/search?q=wmode+firefox\">'focus' bugs</a>）"
+msgstr "使用透明背景（可能导致在 Firefox 中出现 <a href=\"http://www.google.com/search?q=wmode+firefox\">'focus'bugs</a>）"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:92
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:92
+#: 1bit.php:92
 msgid "Player size"
 msgstr "播放器尺寸"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:94
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:94
+#: 1bit.php:94
 msgid "Set 1 Bit's size automatically"
-msgstr "自动设置为1 Bit的默认尺寸"
+msgstr "自动设置为 1Bit 的默认尺寸"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:97
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:97
+#: 1bit.php:97
 msgid "Set a manual size. "
 msgstr "手动设置尺寸。"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:98
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:98
+#: 1bit.php:98
 msgid "Size in pixels (the player is always square): "
-msgstr "请输入尺寸像素的值（播放器始终是方形的）："
+msgstr "请输入像素单位值（播放器始终是方形的）："
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:103
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:103
+#: 1bit.php:103
 msgid "Selector"
 msgstr "选择符"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:105
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:105
+#: 1bit.php:105
 msgid "CSS selector to apply 1 Bit to: "
-msgstr "应用到1 Bit的CSS选择符："
+msgstr "应用到 1Bit 的 CSS 选择符："
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:109
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:109
+#: 1bit.php:109
 msgid "See <a href=\"http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selectors_.26_Pseudo_Classes\">Wikipedia</a> for some basic reference. The default selector is simply 'a'."
-msgstr "查看<a href=\"http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selectors_.26_Pseudo_Classes\">Wikipedia</a>得到一些基础的参考。默认的选择符是简单的 'a'。"
+msgstr "查看<a href=\"http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selectors_.26_Pseudo_Classes\">Wikipedia</a>得到一些基础的参考。默认的选择符是简单的“a”。"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:113
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:113
+#: 1bit.php:113
 msgid "Include SWFObject"
-msgstr "包含SWFObject组件"
+msgstr "包含 SWFObject 组件"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:115
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:115
+#: 1bit.php:115
 msgid "The 1 Bit Audio Player plugin requires <a href=\"http://blog.deconcept.com/swfobject/\">SWFObject</a> in order to embed Flash. If you're already using SWFObject on your site then you can tell 1 Bit to skip it's inclusion (and avoid having the script on your pages twice)."
-msgstr "1 Bit音频播放器插件需要 <a href=\"http://blog.deconcept.com/swfobject/\">SWFObject</a> 以嵌入Flash。如果您已经在站点上使用了SWFObject组件您可以让1 Bit不要包含它（避免页面上重复出现脚本）。"
+msgstr "1Bit 音频播放器插件需要 <a href=\"http://blog.deconcept.com/swfobject/\">SWFObject</a>  以嵌入 Flash。如果您已经在站点上使用了 SWFObject 组件您可以让 1Bit 不要包含它（避免页面上重复出现脚本）。"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:118
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:118
+#: 1bit.php:118
 msgid "Please add SWFObject to my site"
-msgstr "请添加SWFObject组件到我的站点"
+msgstr "请添加 SWFObject 组件到我的站点"
 
-#: D:\WordPress\wp-content\plugins\1bit/1bit.php:121
+# D:\WordPress\wp-content\plugins\1bit/1bit.php:121
+#: 1bit.php:121
 msgid "I already use SWFObject, don't add it again"
 msgstr "我已经使用了 SWFObject 组件，不需重复添加"
 
