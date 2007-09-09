@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1 Bit Audio Player\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-09-08 21:23+0800\n"
-"Last-Translator: duoxie <duoxie@gmail.com>\n"
+"PO-Revision-Date: 2007-09-09 12:11+0800\n"
+"Last-Translator: Wady <gzyangzhou@163.com>\n"
 "Language-Team: WPCN <duoxie@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -58,7 +58,7 @@ msgstr "请输入颜色十六进制的值：#"
 
 #: D:\WordPress\wp-content\plugins\1bit/1bit.php:88
 msgid "Make the background transparent (can cause <a href=\"http://www.google.com/search?q=wmode+firefox\">'focus' bugs</a> in Firefox)"
-msgstr "使用透明背景（可能导致在Firefox中出现<a href=\"http://www.google.com/search?q=wmode+firefox\">\'focus\' bugs</a>）"
+msgstr "使用透明背景（可能导致在Firefox中出现<a href=\"http://www.google.com/search?q=wmode+firefox\">'focus' bugs</a>）"
 
 #: D:\WordPress\wp-content\plugins\1bit/1bit.php:92
 msgid "Player size"
@@ -86,7 +86,7 @@ msgstr "应用到1 Bit的CSS选择符："
 
 #: D:\WordPress\wp-content\plugins\1bit/1bit.php:109
 msgid "See <a href=\"http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selectors_.26_Pseudo_Classes\">Wikipedia</a> for some basic reference. The default selector is simply 'a'."
-msgstr "查看<a href=\"http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selectors_.26_Pseudo_Classes\">Wikipedia</a>得到一些基础的参考。默认的选择符是简单的 \'a\'。"
+msgstr "查看<a href=\"http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selectors_.26_Pseudo_Classes\">Wikipedia</a>得到一些基础的参考。默认的选择符是简单的 'a'。"
 
 #: D:\WordPress\wp-content\plugins\1bit/1bit.php:113
 msgid "Include SWFObject"
@@ -102,5 +102,5 @@ msgstr "请添加SWFObject组件到我的站点"
 
 #: D:\WordPress\wp-content\plugins\1bit/1bit.php:121
 msgid "I already use SWFObject, don't add it again"
-msgstr "我已经使用了SWFObject组件，不需重复添加"
+msgstr "我已经使用了 SWFObject 组件，不需重复添加"
 
