@@ -24,6 +24,8 @@ function oneBitJsHead() {
 	echo "</script>\n";
 }
 
+load_plugin_textdomain('English', 'wp-content/plugins/1bit');
+
 function oneBitOptions() {
     if (function_exists('add_options_page')) {
 		add_options_page('1 Bit Audio Player Options', '1 Bit Audio Player', 8, basename(__FILE__), 'oneBitOptionsPage');
