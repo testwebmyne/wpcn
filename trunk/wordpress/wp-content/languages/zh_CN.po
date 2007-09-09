@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3\n"
-"PO-Revision-Date: 2007-09-09 12:41+0800\n"
-"Last-Translator: Wady <gzyangzhou@163.com>\n"
+"PO-Revision-Date: 2007-09-09 15:42+0800\n"
+"Last-Translator: Crazy Loong <crazyloong@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -964,7 +964,7 @@ msgstr "日历"
 #: wp-includes/general-template.php:571
 #, php-format
 msgid "View posts for %1$s %2$s"
-msgstr "查看%2$s年%1$05s月的文章"
+msgstr "查看%2$s年%1$05s的文章"
 
 #: wp-includes/general-template.php:871
 msgid "Visual"
