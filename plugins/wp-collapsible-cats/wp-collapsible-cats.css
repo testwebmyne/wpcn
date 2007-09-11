@@ -1,10 +1,15 @@
 #cateTree{
 }
 
-#cateTree img{
+#cateTree .empty_img{
 	width:14px;
 	height:14px;
 	margin-right:4px;
+}
+
+#cateTree .feed_img{
+	width:14px;
+	height:14px;
 }
 
 #cateTree .parent_first{
@@ -43,47 +48,20 @@
 	background:url(images/no_point_bottom.gif) 0 0px no-repeat;
 }
 
+#cateTree .last_cate{
+	background:url(images/no_point_bottom.gif) 0 0px no-repeat;
+}
+
 
 #cateTree .branch{
 	padding-left:20px;
 	background:url(images/line.gif) 0 0px repeat-y;
 }
 
-#cateTree .branch .branch_item{
+#cateTree .branch_last{
+	padding-left:20px;
+}
+
+#cateTree .branch_item{
 	background:url(images/no_point.gif) 0 0px repeat-y;
-}
-
-
-
-
-
-
-
-
-
-#parent_cate{
-}
-
-#parent_cate li{
-	list-style:none!important;
-	padding:0px!important;
-	margin:0px!important;
-	height:auto;
-}
-
-#parent_cate li img{
-	margin-bottom:-3px!important;
-}
-
-#parent_cate .child_cate {
-	/*display:none;*/
-}
-
-#parent_cate .child_cate li{
-	padding-left:20px!important;
-	background:url(images/line.gif) 0px 0px repeat-y;
-}
-
-#parent_cate .child_cate .last_cat{
-	background:none;
 }

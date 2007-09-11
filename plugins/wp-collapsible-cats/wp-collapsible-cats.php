@@ -14,6 +14,8 @@ function collapsible_list_cats($args = '') {
 	// Map to new names.
 	if ( isset($r['optionall']) && isset($r['all']))
 		$r['show_option_all'] = $r['all'];
+	if ( isset($r['hierarchical']) )
+		$r['hierarchical'] = true;
 	if ( isset($r['sort_column']) )
 		$r['orderby'] = $r['sort_column'];
 	if ( isset($r['sort_order']) )
@@ -22,9 +24,8 @@ function collapsible_list_cats($args = '') {
 		$r['show_last_update'] = $r['optiondates'];
 	if ( isset($r['optioncount']) )
 		$r['show_count'] = $r['optioncount'];
-	if ( isset($r['list']) )
-		$r['style'] = $r['list'] ? 'list' : 'break';
-	$r['title_li'] = '';
+	if ( isset($r['child_of']) )
+		$r['child_of'] = 0;
 
 	return collapsible_list_categories($r);
 }
@@ -33,8 +34,7 @@ function collapsible_list_categories($args = '') {
 	$defaults = array(
 		'show_option_all' => '', 'orderby' => 'name', 
 		'order' => 'ASC', 'show_last_update' => 0, 
-		'style' => 'list', 'show_count' => 0, 
-		'hide_empty' => 1, 'use_desc_for_title' => 1, 
+		'show_count' => 0, 'hide_empty' => 1, 'use_desc_for_title' => 1, 
 		'child_of' => 0, 'feed' => '', 
 		'feed_image' => '', 'exclude' => '', 
 		'hierarchical' => true, 'title_li' => __('Categories')
@@ -59,6 +59,7 @@ function collapsible_list_categories($args = '') {
 	$branch_num = 0;  //子分类循环次数
 	$current_branch = 0; //子分类循环序号
 	$cate_num = 0; //总分类数；
+	$cate_count =0; //分类计数；
 	$parent_num = 0; //父级分类数；
 	$parent = 0; //父级分类计数
 	$current_parent = 0; //循环中有子分类的父级分类的序号
@@ -67,8 +68,10 @@ function collapsible_list_categories($args = '') {
 	foreach ( $categories as $cate ){ //获取父级分类数、总分类数、子分类循环次数
 		if ($cate->parent == 0){
 			$parent_num++;
+			$branch = 0;
 		}else{
 			if ($branch == 0){
+				$branch = 1;
 				$branch_num++;
 			}
 		}
@@ -76,6 +79,10 @@ function collapsible_list_categories($args = '') {
 	}
 	
 	$catTree = "<div id=\"cateTree\">\n";
+	
+	if (!empty($r['title_li'])){
+		$catTree .= "\t<div class=\"tree_title\">".$r['title_li']."</div>\n";
+	}
 	
 	foreach ( $categories as $cate ){
 		
@@ -91,9 +98,10 @@ function collapsible_list_categories($args = '') {
 			$parent++; //父级分类位置加 1
 			
 			if (!empty($parent_cats)){
+				//如果是有子分类的父级分类
 				$current_parent++; //有子分类的父级分类序号加 1
 				$div_id = " id=\"parent_".$current_parent."\""; //给有子分类的父分类的 DIV 添加 ID
-				$button = "<a href=\"javascript:Show_Child(".$current_parent.")\" onfocus=\"blur()\"><img src=\"".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/images/empty.gif\" /></a> ";
+				$button = "<a href=\"javascript:Show_Child(".$current_parent.")\" onfocus=\"blur()\"><img src=\"".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/images/empty.gif\" class=\"empty_img\" /></a> ";
 				
 				if (empty($first_parent)){  //如果不是第一个父级分类
 					$div_class= " class=\"parent\"";
@@ -118,25 +126,42 @@ function collapsible_list_categories($args = '') {
 					$div_class = " class=\"no_parent_last\"";
 				}
 				
-				$button = "<img src=\"".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/images/empty.gif\" /> ";
+				$button = "<img src=\"".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/images/empty.gif\" class=\"empty_img\" /> ";
 			}
 		}else{
 			$div_id = "";
 			$div_class = " class=\"branch_item\"";
-			$button = "<img src=\"".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/images/empty.gif\" /> ";
+			$button = "<img src=\"".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/images/empty.gif\" class=\"empty_img\" /> ";
 			
 			if ($branch == 0){ //如果为子分类循环第一条
 				$current_branch++; //子分类循环次数加 1
-				$catTree .= "\t<div id=\"branch_".$current_branch."\" class=\"branch\" style=\"display:none;\">\n\t";
+				
+				if ( ($current_branch == $branch_num)&&($parent == $parent_num) ){
+					$catTree .= "\t<div id=\"branch_".$current_branch."\" class=\"branch_last\" style=\"display:none;\">\n\t";
+				}else{
+					$catTree .= "\t<div id=\"branch_".$current_branch."\" class=\"branch\" style=\"display:none;\">\n\t";
+				}
 				$branch = 1; //标记已开始子分类循环
 			}else{
-				$catTree .= "\t";
+				$catTree .= "\t"; //为了工整添加的制表符，此行词句均为废物可以无视
 			}
 		}
 		
-		$catTree .= "\t<div".$div_id.$div_class.">".$button."<a href=\"". get_category_link( $cate->term_id ) ."\" title=\"". sprintf(__( 'View all posts filed under %s' ), $cate->name) ."\">".$cate->name."</a>";
+		$cate_count++;
+		if ($cate_count == $cate_num){
+			$div_class = " class=\"last_cate\"";
+		}
 		
-		if ($r['show_count'] == 1){
+		$catTree .= "\t<div".$div_id.$div_class.">".$button."<a href=\"". get_category_link( $cate->term_id ) ."\" title=\"查看 ".$cate->name." 分类的所有日志\">".$cate->name."</a>";
+		
+		if ( (!empty($r['feed'])) && (empty($r['feed_image'])) ){  //输出 Feed 地址和日志数
+			$catTree .= " [<a href=\"". get_category_rss_link( false, $cate->term_id, $cate->name ) ."\" title=\"".$r['feed']."\">".$cate->count."</a>]";
+		}else if ( (!empty($r['feed'])) && (!empty($r['feed_image'])) ){
+			$catTree .= " <a href=\"". get_category_rss_link( false, $cate->term_id, $cate->slug ) ."\" title=\"".$r['feed']."\"><img src=\"".$r['feed_image']."\" alt=\"".$r['feed']."\" class=\"feed_img\" /></a>";
+			if ($r['show_count'] == 1){
+				$catTree .= " [".$cate->count."]";
+			}
+		}else if ($r['show_count'] == 1){
 			$catTree .= " [".$cate->count."]";
 		}
 		
@@ -149,8 +174,8 @@ function collapsible_list_categories($args = '') {
 }
 
 function collapsible_cats_script() {
-	echo "<link rel='stylesheet' href='".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/wp-collapsible-cats.css' type='text/css' media='screen' />\n";
-	echo "<script language='text/javascript' type='text/javascript' src='".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/wp-collapsible-cats.js.'></script>\n";
+	echo "<link rel=\"stylesheet\" href=\"".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/wp-collapsible-cats.css\" type=\"text/css\" media=\"screen\" />\n";
+	echo "<script language=\"text/javascript\" type=\"text/javascript\" src=\"".get_bloginfo('wpurl')."/wp-content/plugins/wp-collapsible-cats/wp-collapsible-cats.js\"></script>\n";
 }
 
 add_action('wp_head', 'collapsible_cats_script');
