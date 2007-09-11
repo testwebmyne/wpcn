@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Counterize II 中文包\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-09-11 23:29+0800\n"
+"Last-Translator: Crazy Loong <crazyloong@gmail.com>\n"
+"Language-Team: Crazy Loong <crazyloong@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid " is not a valid number!"
+msgstr " 不是有效的数字！"
+
+msgid " is not a valid string!"
+msgstr " 不是有效的字符串！"
+
+msgid " unique."
+msgstr " 独立的。"
+
+msgid " users online."
+msgstr " 用户在线。"
+
+msgid "(Enter IP's seperated with space)"
+msgstr "(用空格分隔 IP)"
+
+msgid "(This means deleting all records and all stats!)"
+msgstr "(这将删除所有记录和统计！)"
+
+msgid "(Use Ctrl-key for selecting multiple entries)"
+msgstr "(使用 Ctrl 键以选择多个条目)"
+
+msgid "<strong>Need help?</strong> Go to <a href=\"http://www.navision-blog.de/counterize\">the Counterize II Homepage</a> and search the Blog of the <a href=\"http://www.navision-blog.de\">.NET / Navision - Group Halle</a> - others may have had the same question or problem as you..."
+msgstr "<strong>需要帮助？</strong> 到 <a href=\"http://www.navision-blog.de/counterize\">Counterize II 主页</a> 或者搜索 <a href=\"http://www.navision-blog.de\">.NET / Navision - Group Halle</a> - 其他人可能和你有一样的问题……<br />这个中文包由 <a href=\"http://goto8848.net\">Crazy Loong</a> 提供。"
+
+msgid "Amount"
+msgstr "数量"
+
+msgid "Amount of rows to show in history"
+msgstr "历史记录显示行数"
+
+msgid "Are you sure that you want to delete this entry?"
+msgstr "您确定您要删除该条？"
+
+msgid "Counterize II"
+msgstr "Counterize II"
+
+msgid "Counterize II Status"
+msgstr "Counterize II 状态"
+
+msgid "Counterize configuration - Version "
+msgstr "Counterize 配置 - 版本 "
+
+msgid "Counterize excludelist"
+msgstr "Counterize 黑名单"
+
+msgid "Currently: "
+msgstr "当前："
+
+msgid "Database flushed!"
+msgstr "数据库已清理！"
+
+msgid "Day"
+msgstr "天"
+
+msgid "Deleting entry "
+msgstr "删除条目"
+
+msgid "Disable bot-logging"
+msgstr "禁止 Bot 记录"
+
+msgid "Empty database!"
+msgstr "清空数据库！"
+
+msgid "Enable bot-logging"
+msgstr "允许 Bot 记录"
+
+msgid "Enable/disable logging of <a href=\"http://en.wikipedia.org/wiki/Internet_bot\">bots</a>"
+msgstr "是否允许 <a href=\"http://en.wikipedia.org/wiki/Internet_bot\">Bot</a> 记录"
+
+msgid "Excluded users saved. Current number of excluded users: "
+msgstr "用户黑名单已保存。当前黑名单的用户数："
+
+msgid "Flush the Counterize Database"
+msgstr "清理 Counterize 数据库"
+
+msgid "Graph / %"
+msgstr "图表 / %"
+
+msgid "Hit Counter"
+msgstr "点击计数器"
+
+msgid "Hits from unique IPs, today: "
+msgstr "今日IP："
+
+msgid "Hits from unique IPs: "
+msgstr "IP数："
+
+msgid "Hits, the last 7 days: "
+msgstr "前7天点击："
+
+msgid "Hour"
+msgstr "小时"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "IP's to exclude"
+msgstr "IP黑名单"
+
+msgid "Keyword"
+msgstr "关键字"
+
+msgid "Keywords"
+msgstr "关键字"
+
+msgid "Kill"
+msgstr "杀掉"
+
+msgid "Latest entries"
+msgstr "最新条目"
+
+msgid "Maximum width for labels"
+msgstr "标签最大宽度"
+
+msgid "Month"
+msgstr "月"
+
+msgid "Most searched keywords "
+msgstr "搜索最多的关键字"
+
+msgid "Most seen referers "
+msgstr "最多的引用"
+
+msgid "Most used browsers "
+msgstr "使用最多的浏览器"
+
+msgid "Most used browsers versions "
+msgstr "使用最多的浏览器版本"
+
+msgid "Most used operating systems "
+msgstr "使用最多的操作系统"
+
+msgid "Most visited IPs "
+msgstr "浏览最多的IP"
+
+msgid "Most visited pages "
+msgstr "浏览最多的页面"
+
+msgid "Operating System"
+msgstr "操作系统"
+
+msgid "Page"
+msgstr "页面"
+
+msgid "Referer"
+msgstr "引用"
+
+msgid "Reset Filters"
+msgstr "重置过滤器"
+
+msgid "Rows to show in 'top xx' bars"
+msgstr "“top xx”栏显示行数"
+
+msgid "Samples"
+msgstr "例子"
+
+msgid "Save settings"
+msgstr "保存设置"
+
+msgid "Select users that may not be counted:"
+msgstr "选择不被统计的用户："
+
+msgid "Statistics recorded with <a href=\"http://www.navision-blog.de/counterize\" title=\"Counterize II - Statistics-plugin for Wordpress by Steffen Forkmann\">Counterize II</a>"
+msgstr "统计由 <a href=\"http://www.navision-blog.de/counterize\" title=\"Counterize II - Statistics-plugin for Wordpress by Steffen Forkmann\">Counterize II</a> 提供"
+
+msgid "There's no data in the database - You can't see stats until you have data."
+msgstr "现在数据库中没有数据 - 当您有数据的时候，你可以看见。"
+
+msgid "Timestamp"
+msgstr "时间戳"
+
+msgid "Today: "
+msgstr "今天："
+
+msgid "Total hits, today: "
+msgstr "今日点击："
+
+msgid "Total hits: "
+msgstr "全部点击："
+
+msgid "Total: "
+msgstr "总计："
+
+msgid "URl"
+msgstr "URl"
+
+msgid "Unique hits, the last 7 days: "
+msgstr "前7天有效点击："
+
+msgid "UserAgent"
+msgstr "用户设备"
+
+msgid "Visits based on day of month"
+msgstr "按天查看"
+
+msgid "Visits based on day of month (only this month)"
+msgstr "按天查看(这个月)"
+
+msgid "Visits based on day of week"
+msgstr "按天查看(这周)"
+
+msgid "Visits based on hour of day"
+msgstr "按小时查看"
+
+msgid "Visits based on month"
+msgstr "按月查看"
+
+msgid "Whois-Server"
+msgstr "Whois 服务器"
+
+msgid "hits and "
+msgstr "次点击和 "
+
+msgid "records deleted)"
+msgstr "记录已删除)"
+
+msgid "to view all"
+msgstr "查看全部"
+
+msgid "unknown"
+msgstr "未知"
+
