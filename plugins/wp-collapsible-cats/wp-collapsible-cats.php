@@ -3,7 +3,7 @@
 Plugin Name: Collapsible Categories Tree
 Plugin URI: http://www.voidpage.com/2007/09/wp-collapsible-cats-plugin.html
 Description: 一个可折叠式分类树
-Version: 0.1 Beta
+Version: 0.2 Beta
 Author: Wady
 Author URI: http://www.voidpage.com
 */
@@ -11,26 +11,12 @@ Author URI: http://www.voidpage.com
 function collapsible_list_cats($args = '') {
 	$r = wp_parse_args( $args );
 
-	// Map to new names.
-	if ( isset($r['optionall']) && isset($r['all']))
-		$r['show_option_all'] = $r['all'];
+	// 屏蔽一些值.
 	if ( isset($r['hierarchical']) )
 		$r['hierarchical'] = true;
-	if ( isset($r['sort_column']) )
-		$r['orderby'] = $r['sort_column'];
-	if ( isset($r['sort_order']) )
-		$r['order'] = $r['sort_order'];
-	if ( isset($r['optiondates']) )
-		$r['show_last_update'] = $r['optiondates'];
-	if ( isset($r['optioncount']) )
-		$r['show_count'] = $r['optioncount'];
 	if ( isset($r['child_of']) )
 		$r['child_of'] = 0;
-
-	return collapsible_list_categories($r);
-}
-
-function collapsible_list_categories($args = '') {
+		
 	$defaults = array(
 		'show_option_all' => '', 'orderby' => 'name', 
 		'order' => 'ASC', 'show_last_update' => 0, 
@@ -77,6 +63,8 @@ function collapsible_list_categories($args = '') {
 		}
 		$cate_num++;
 	}
+	
+	$branch = 0;  //清空计数
 	
 	$catTree = "<div id=\"cateTree\">\n";
 	
