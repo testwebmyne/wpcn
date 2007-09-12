@@ -28,14 +28,6 @@ function collapsible_list_cats($args = '') {
 
 	$r = wp_parse_args( $args, $defaults );
 
-	if ( !isset( $r['pad_counts'] ) && $r['show_count'] && $r['hierarchical'] ) {
-		$r['pad_counts'] = true;
-	}
-
-	if ( isset( $r['show_date'] ) ) {
-		$r['include_last_update_time'] = $r['show_date'];
-	}
-
 	extract( $r );
 
 	$categories = get_categories($r);
@@ -140,16 +132,17 @@ function collapsible_list_cats($args = '') {
 			$div_class = " class=\"last_cate\"";
 		}
 		
-		$catTree .= "\t<div".$div_id.$div_class.">".$button."<a href=\"". get_category_link( $cate->term_id ) ."\" title=\"查看 ".$cate->name." 分类的所有日志\">".$cate->name."</a>";
+		$catTree .= "\t<div".$div_id.$div_class.">".$button."<a href=\"". get_category_link( $cate->term_id ) ."\" title=\"".sprintf(__( 'View all posts filed under %s' ), $cat_name)."\">".$cate->name."</a>";
 		
-		if ( (!empty($r['feed'])) && (empty($r['feed_image'])) ){  //输出 Feed 地址和日志数
-			$catTree .= " [<a href=\"". get_category_rss_link( false, $cate->term_id, $cate->name ) ."\" title=\"".$r['feed']."\">".$cate->count."</a>]";
-		}else if ( (!empty($r['feed'])) && (!empty($r['feed_image'])) ){
+		if ( (!empty($r['feed'])) && (!empty($r['feed_image'])) ){
 			$catTree .= " <a href=\"". get_category_rss_link( false, $cate->term_id, $cate->slug ) ."\" title=\"".$r['feed']."\"><img src=\"".$r['feed_image']."\" alt=\"".$r['feed']."\" class=\"feed_img\" /></a>";
-			if ($r['show_count'] == 1){
-				$catTree .= " [".$cate->count."]";
-			}
-		}else if ($r['show_count'] == 1){
+		}else if (!empty($r['feed_image'])){
+			$catTree .= " <a href=\"". get_category_rss_link( false, $cate->term_id, $cate->slug ) ."\" title=\"".sprintf(__( 'Feed for all posts filed under %s' ), $cat_name )."\"><img src=\"".$r['feed_image']."\" alt=\"".sprintf(__( 'Feed for all posts filed under %s' ), $cate->name )."\" class=\"feed_img\" /></a>";
+		}else if (!empty($r['feed'])){
+			$catTree .= " [<a href=\"". get_category_rss_link( false, $cate->term_id, $cate->name ) ."\" title=\"".$r['feed']."\">".$r['feed']."</a>]";
+		}
+		
+		if ($r['show_count'] == 1){
 			$catTree .= " [".$cate->count."]";
 		}
 		
