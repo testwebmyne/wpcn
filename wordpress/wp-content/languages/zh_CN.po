@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3\n"
-"PO-Revision-Date: 2007-09-09 15:42+0800\n"
+"PO-Revision-Date: 2007-09-22 23:27+0800\n"
 "Last-Translator: Crazy Loong <crazyloong@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -2904,10 +2904,10 @@ msgstr ""
 "\n"
 "--The WordPress Team\n"
 "http://wordpress.org/\n"
+"--WordPress 中文团队\n"
+"http://wp-cn.com/\n"
 "--WordPress 中文论坛\n"
 "http://wordpress.org.cn/\n"
-"--Crazy Loong's Blog\n"
-"http://goto8848.net/\n"
 
 # 安装成功 email 的标题
 #: wp-admin/upgrade-functions.php:124
@@ -4827,7 +4827,7 @@ msgstr "更换主题"
 
 #: wp-admin/index.php:132
 msgid "Need help with WordPress? Please see our <a href='http://codex.wordpress.org/'>documentation</a> or visit the <a href='http://wordpress.org/support/'>support forums</a>."
-msgstr "需要帮助吗？您可以查阅 <a href='http://codex.wordpress.org/'>文档</a> 或者登录 <a href='http://wordpress.org/support/'>支持论坛</a>。<br />中文用户可以到 <a href='http://www.wordpress.org.cn/forums/'>WordPress 中文论坛</a> 求助。<br />本中文包由 <a href='http://goto8848.net/'>Crazy Loong</a> 制作。"
+msgstr "需要帮助吗？您可以查阅 <a href='http://codex.wordpress.org/'>文档</a> 或者登录 <a href='http://wordpress.org/support/'>支持论坛</a>。<br />中文用户可以到 <a href='http://www.wordpress.org.cn/forums/'>WordPress 中文论坛</a> 求助。<br />本中文包由 <a href='http://wp-cn.com/'>WordPress 中文团队</a> 制作。"
 
 #: wp-admin/link-category.php:34
 #: wp-admin/categories.php:37
@@ -7822,8 +7822,8 @@ msgstr ""
 "\n"
 "--The WordPress Team\n"
 "http://wordpress.org/\n"
+"--WordPress 中文团队\n"
+"http://wp-cn.com/\n"
 "--WordPress 中文论坛\n"
 "http://wordpress.org.cn/\n"
-"--Crazy Loong's Blog\n"
-"http://goto8848.net/\n"
 
