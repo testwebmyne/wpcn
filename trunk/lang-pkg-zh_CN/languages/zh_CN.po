@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3\n"
-"PO-Revision-Date: 2007-09-23 00:28+0800\n"
+"PO-Revision-Date: 2007-09-23 01:21+0800\n"
 "Last-Translator: Crazy Loong <crazyloong@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -5445,7 +5445,7 @@ msgstr "WordPress 有新版本了。请通知管理员。"
 #: wp-admin/includes/update.php:117
 #, php-format
 msgid "There is a new version of %s available. <a href=\"%s\">Download version %s here</a>."
-msgstr "有新版本的 %s 。<a href=\"%s\">下载 %s</a>。"
+msgstr "有新版本的 %s 。<a href=\"%s\">点击下载 %s</a>。"
 
 #: wp-admin/includes/upgrade.php:41
 msgid "User already exists.  Password inherited."
@@ -7555,13 +7555,13 @@ msgstr "关于本产品的更多资料请访问 <a href=\"http://tinymce.moxieco
 
 #: wp-includes/js/tinymce/wp-mce-help.php:172
 msgid "Got Moxie?"
-msgstr "Got Moxie?"
+msgstr "获取 Moxie?"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:173
 msgid "Hosted By Sourceforge"
-msgstr "Hosted By Sourceforge"
+msgstr "由 Sourceforge 托管"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:174
 msgid "Also on freshmeat"
-msgstr "Also on freshmeat"
+msgstr "同样位于 freshmeat"
 
