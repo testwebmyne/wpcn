@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3\n"
-"PO-Revision-Date: 2007-09-22 23:27+0800\n"
+"PO-Revision-Date: 2007-09-23 00:07+0800\n"
 "Last-Translator: Crazy Loong <crazyloong@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -284,7 +284,7 @@ msgstr "错误：您需要填写评论内容。"
 
 #: wp-app.php:244
 msgid "Sorry, you do not have the right to edit/publish new posts."
-msgstr "抱歉，您无权发布编辑新的文章。"
+msgstr "抱歉，您无权编辑或者发布新的文章。"
 
 #: wp-app.php:267
 #: wp-app.php:433
@@ -767,7 +767,7 @@ msgstr "编辑文章"
 
 #: wp-includes/link-template.php:352
 msgid "Edit comment"
-msgstr "Edit comment"
+msgstr "编辑评论"
 
 #: wp-includes/formatting.php:765
 #, php-format
@@ -874,7 +874,7 @@ msgstr "错误"
 
 #: wp-includes/class-pop3.php:115
 msgid "no login ID submitted"
-msgstr "没收到登录 ID"
+msgstr "未提交登录 ID"
 
 #: wp-includes/class-pop3.php:118
 #: wp-includes/class-pop3.php:138
@@ -905,7 +905,7 @@ msgstr "无法连接到服务器"
 
 #: wp-includes/class-pop3.php:168
 msgid "No login ID submitted"
-msgstr "没收到登录名"
+msgstr "未提交登录 ID"
 
 #: wp-includes/class-pop3.php:176
 msgid "No server banner"
@@ -1139,7 +1139,7 @@ msgstr "标记为垃圾评论：%s"
 #: wp-includes/pluggable.php:569
 #, php-format
 msgid "A new comment on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "#%1$s \"%2$s\"有一条新评论等待您的批准"
+msgstr "#%1$s \"%2$s\"有一条新评论等待您的审核"
 
 #: wp-includes/pluggable.php:576
 #, php-format
@@ -1342,7 +1342,7 @@ msgstr "选择分类"
 
 #: wp-includes/widgets.php:674
 msgid "Show as dropdown"
-msgstr "Show as dropdown"
+msgstr "显示为下拉菜单"
 
 #: wp-includes/widgets.php:682
 msgid "Show hierarchy"
@@ -1398,7 +1398,7 @@ msgstr "未知 Feed"
 
 #: wp-includes/widgets.php:960
 msgid "Syndicate this content"
-msgstr "Syndicate this content"
+msgstr "同步"
 
 #: wp-includes/widgets.php:974
 msgid "Untitled"
@@ -1406,7 +1406,7 @@ msgstr "未命名的"
 
 #: wp-includes/widgets.php:987
 msgid "An error has occurred; the feed is probably down. Try again later."
-msgstr "出错了。Feed 可能未工作。请稍后重试。"
+msgstr "出错了。Feed 可能没有正常工作。请稍后重试。"
 
 #: wp-includes/widgets.php:1007
 msgid "Error: could not find an RSS or ATOM feed at that URL."
@@ -1511,7 +1511,7 @@ msgstr "您确定要删除这条评论：&quot;%s&quot;？"
 #: wp-includes/functions.php:1081
 #, php-format
 msgid "Are you sure you want to unapprove this comment: &quot;%s&quot;?"
-msgstr "您确定要不允许这条评论通过：&quot;%s&quot;？"
+msgstr "您确定不允许这条评论通过：&quot;%s&quot;？"
 
 #: wp-includes/functions.php:1082
 #, php-format
