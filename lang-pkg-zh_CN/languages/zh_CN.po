@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3 中文包\n"
-"PO-Revision-Date: 2007-09-23 17:59+0800\n"
+"PO-Revision-Date: 2007-09-24 11:40+0800\n"
 "Last-Translator: Crazy Loong <crazyloong@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -736,17 +736,10 @@ msgstr "操作"
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
 msgstr "<strong>提示：</strong><br />删除一个分类并不会删除该分类中的文章，文章会被移动到分类 <strong>%s</strong> 中。"
 
-#: wp-admin/categories.php:119
-msgid "Importers &amp; Converters"
-msgstr "导入工具 &amp; 转换工具"
-
-#: wp-admin/categories.php:122
-msgid "Selectively convert categories to tags"
-msgstr "有选择地将分类转换成标签"
-
-#: wp-admin/categories.php:123
-msgid "Import Ultimate Tag Warrior tags"
-msgstr "导入 Ultimate Tag Warrior 标签"
+#: wp-admin/categories.php:114
+#, php-format
+msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
+msgstr "<a href=\"%s\">分类标签转化器</a> 可以有选择地把分类转换成标签。"
 
 #: wp-admin/comment.php:14
 msgid "Edit Comment"
@@ -4225,7 +4218,7 @@ msgstr "导入 Bunny&#8217;s Technorati Tags"
 #: wp-admin/import/btt.php:8
 #: wp-admin/import/dotclear.php:116
 #: wp-admin/import/jkw.php:8
-#: wp-admin/import/stp.php:8
+#: wp-admin/import/stp.php:6
 #: wp-admin/import/textpattern.php:33
 #: wp-admin/import/utw.php:8
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
@@ -4245,7 +4238,7 @@ msgstr "现有的 Bunny&#8217;s Technorati Tags 在导入后会被删除。"
 
 #: wp-admin/import/btt.php:20
 #: wp-admin/import/jkw.php:20
-#: wp-admin/import/stp.php:20
+#: wp-admin/import/stp.php:18
 #: wp-admin/import/utw.php:20
 msgid "Don&#8217;t be stupid - backup your database before proceeding!"
 msgstr "不要犯傻 - 先备份您的数据库！"
@@ -4280,7 +4273,7 @@ msgstr "下一页 &raquo;"
 
 #: wp-admin/import/btt.php:100
 #: wp-admin/import/jkw.php:163
-#: wp-admin/import/stp.php:172
+#: wp-admin/import/stp.php:139
 #: wp-admin/import/utw.php:250
 msgid "Import Complete!"
 msgstr "导入完成！"
@@ -4797,73 +4790,73 @@ msgstr "RSS"
 msgid "Import posts from an RSS feed"
 msgstr "从 RSS feed 中导入文章"
 
-#: wp-admin/import/stp.php:7
+#: wp-admin/import/stp.php:5
 msgid "Import Simple Tagging"
 msgstr "导入 Simple Tagging"
 
-#: wp-admin/import/stp.php:17
+#: wp-admin/import/stp.php:15
 msgid "Howdy! This imports tags from an existing Simple Tagging 1.6.2 installation into this blog using the new WordPress native tagging structure."
 msgstr "已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
 
-#: wp-admin/import/stp.php:18
+#: wp-admin/import/stp.php:16
 msgid "This has not been tested on any other versions of Simple Tagging. Mileage may vary."
 msgstr "这没有在其它版本的 Ultimate Tag Warrior 上测试过。后果无法预计。"
 
-#: wp-admin/import/stp.php:19
+#: wp-admin/import/stp.php:17
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "为了适应标签狂人的大数据库，我们准备了一个简单的五步程序帮助您从 Simple Tagging 转换。您只需要一路点击，我们会让您清楚地知道下一步应该干什么。"
 
-#: wp-admin/import/stp.php:23
+#: wp-admin/import/stp.php:21
 #: wp-admin/import/utw.php:22
 msgid "Step 1 &raquo;"
 msgstr "第 1 步 &raquo;"
 
-#: wp-admin/import/stp.php:64
+#: wp-admin/import/stp.php:58
 msgid "Reading STP Post Tags&#8230;"
 msgstr "读取 STP 文章标签&#8230;"
 
-#: wp-admin/import/stp.php:71
+#: wp-admin/import/stp.php:65
 #: wp-admin/import/utw.php:124
 msgid "No posts were found to have tags!"
 msgstr "没有包含这个标签的文章！"
 
-#: wp-admin/import/stp.php:86
+#: wp-admin/import/stp.php:76
 #: wp-admin/import/utw.php:139
 #, php-format
 msgid "Done! <strong>%s</strong> tag to post relationships were read."
 msgstr "完成！已经读取了 <strong>%s</strong> 条标签和文章的关联。"
 
-#: wp-admin/import/stp.php:92
+#: wp-admin/import/stp.php:81
 #: wp-admin/import/utw.php:109
 msgid "Step 2 &raquo;"
 msgstr "第 2 步 &raquo;"
 
-#: wp-admin/import/stp.php:102
+#: wp-admin/import/stp.php:89
 #: wp-admin/import/utw.php:155
 msgid "Adding Tags to Posts&#8230;"
 msgstr "添加标签到文章&#8230;"
 
-#: wp-admin/import/stp.php:107
+#: wp-admin/import/stp.php:94
 #: wp-admin/import/utw.php:160
 #, php-format
 msgid "Done! <strong>%s</strong> tags where added!"
 msgstr "完成！<strong>%s</strong>条标签已添加！"
 
-#: wp-admin/import/stp.php:111
+#: wp-admin/import/stp.php:97
 #: wp-admin/import/utw.php:145
 msgid "Step 3 &raquo;"
 msgstr "第 3 步 &raquo;"
 
-#: wp-admin/import/stp.php:174
+#: wp-admin/import/stp.php:140
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
 msgstr "OK，您已经完成了这个四步程序！"
 
-#: wp-admin/import/stp.php:176
+#: wp-admin/import/stp.php:141
 #: wp-admin/import/utw.php:254
 msgid "Now wasn&#8217;t that easy?"
 msgstr "现在是不是很简单了？"
 
-#: wp-admin/import/stp.php:196
+#: wp-admin/import/stp.php:154
 msgid "Import Simple Tagging tags into the new native tagging structure."
 msgstr "导入 Simple Tagging 标签到新的本地标签结构。"
 
