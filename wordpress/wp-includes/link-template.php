@@ -167,7 +167,7 @@ function get_attachment_link($id = false) {
 		else
 			$parentlink = get_permalink( $object->post_parent );
 		if (strpos($parentlink, '?') === false)
-			$link = trim($parentlink, '/') . '/' . $object->post_name . '/';
+			$link = trailingslashit($parentlink) . $object->post_name . '/';
 	}
 
 	if (! $link ) {
@@ -358,7 +358,7 @@ function edit_comment_link( $link = 'Edit This', $before = '', $after = '' ) {
 function get_previous_post($in_same_cat = false, $excluded_categories = '') {
 	global $post, $wpdb;
 
-	if( !is_single() || is_attachment() )
+	if( empty($post) || !is_single() || is_attachment() )
 		return null;
 
 	$current_post_date = $post->post_date;
@@ -391,7 +391,7 @@ function get_previous_post($in_same_cat = false, $excluded_categories = '') {
 function get_next_post($in_same_cat = false, $excluded_categories = '') {
 	global $post, $wpdb;
 
-	if( !is_single() || is_attachment() )
+	if( empty($post) || !is_single() || is_attachment() )
 		return null;
 
 	$current_post_date = $post->post_date;
@@ -432,7 +432,12 @@ function previous_post_link($format='&laquo; %link', $link='%title', $in_same_ca
 	if ( !$post )
 		return;
 
-	$title = apply_filters('the_title', $post->post_title, $post);
+	$title = $post->post_title;
+
+	if ( empty($post->post_title) )
+		$title = __('Previous Post');
+
+	$title = apply_filters('the_title', $title, $post);
 	$string = '<a href="'.get_permalink($post->ID).'">';
 	$link = str_replace('%title', $title, $link);
 	$link = $pre . $string . $link . '</a>';
@@ -448,7 +453,12 @@ function next_post_link($format='%link &raquo;', $link='%title', $in_same_cat = 
 	if ( !$post )
 		return;
 
-	$title = apply_filters('the_title', $post->post_title, $post);
+	$title = $post->post_title;
+
+	if ( empty($post->post_title) )
+		$title = __('Next Post');
+
+	$title = apply_filters('the_title', $title, $post);
 	$string = '<a href="'.get_permalink($post->ID).'">';
 	$link = str_replace('%title', $title, $link);
 	$link = $string . $link . '</a>';
@@ -491,12 +501,13 @@ function get_pagenum_link($pagenum = 1) {
 		}
 
 		$request = preg_replace( '|page/(.+)/?$|', '', $request);
+		$request = preg_replace( '|^index\.php|', '', $request);
+		$request = ltrim($request, '/');
 
 		$base = trailingslashit( get_bloginfo( 'url' ) );
 
-		if ( $wp_rewrite->using_index_permalinks() && $pagenum > 1 ) {
+		if ( $wp_rewrite->using_index_permalinks() && ( $pagenum > 1 || '' != $request ) )
 			$base .= 'index.php/';
-		}
 
 		if ( $pagenum > 1 ) {
 			$request = ( ( !empty( $request ) ) ? trailingslashit( $request ) : $request ) . user_trailingslashit( 'page/' . $pagenum, 'paged' );
