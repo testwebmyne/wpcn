@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3 中文包\n"
-"PO-Revision-Date: 2007-09-25 21:19+0800\n"
+"PO-Revision-Date: 2007-09-25 21:30+0800\n"
 "Last-Translator: Edward Gao <edwardright@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -5666,7 +5666,7 @@ msgstr "请输入一个 API key。（<a href=\"%s\" style=\"color:#fff\">点我�
 
 #: wp-content/plugins/akismet/akismet.php:103
 msgid "This key is valid."
-msgstr "此 key 无效。"
+msgstr "此 key 已通过验证。"
 
 #: wp-content/plugins/akismet/akismet.php:104
 msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
