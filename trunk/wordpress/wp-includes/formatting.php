@@ -44,10 +44,18 @@ function wptexturize($text) {
   	return $output;
 }
 
-function clean_pre($text) {
+// Accepts matches array from preg_replace_callback in wpautop()
+// or a string
+function clean_pre($matches) {
+	if ( is_array($matches) )
+		$text = $matches[1] . $matches[2] . "</pre>";
+	else
+		$text = $matches;
+
 	$text = str_replace('<br />', '', $text);
 	$text = str_replace('<p>', "\n", $text);
 	$text = str_replace('</p>', '', $text);
+
 	return $text;
 }
 
@@ -78,7 +86,7 @@ function wpautop($pee, $br = 1) {
 	$pee = preg_replace('!(</?' . $allblocks . '[^>]*>)\s*<br />!', "$1", $pee);
 	$pee = preg_replace('!<br />(\s*</?(?:p|li|div|dl|dd|dt|th|pre|td|ul|ol)[^>]*>)!', '$1', $pee);
 	if (strpos($pee, '<pre') !== false)
-		$pee = preg_replace('!(<pre.*?>)(.*?)</pre>!ise', " stripslashes('$1') .  stripslashes(clean_pre('$2'))  . '</pre>' ", $pee);
+		$pee = preg_replace_callback('!(<pre.*?>)(.*?)</pre>!is', 'clean_pre', $pee );
 	$pee = preg_replace( "|\n</p>$|", '</p>', $pee );
 
 	return $pee;
@@ -166,33 +174,30 @@ function remove_accents($string) {
 		chr(195).chr(128) => 'A', chr(195).chr(129) => 'A',
 		chr(195).chr(130) => 'A', chr(195).chr(131) => 'A',
 		chr(195).chr(132) => 'A', chr(195).chr(133) => 'A',
-		chr(195).chr(134) => 'AE',chr(195).chr(135) => 'C',
-		chr(195).chr(136) => 'E', chr(195).chr(137) => 'E',
-		chr(195).chr(138) => 'E', chr(195).chr(139) => 'E',
-		chr(195).chr(140) => 'I', chr(195).chr(141) => 'I',
-		chr(195).chr(142) => 'I', chr(195).chr(143) => 'I',
-		chr(195).chr(144) => 'D', chr(195).chr(145) => 'N',
+		chr(195).chr(135) => 'C', chr(195).chr(136) => 'E',
+		chr(195).chr(137) => 'E', chr(195).chr(138) => 'E',
+		chr(195).chr(139) => 'E', chr(195).chr(140) => 'I',
+		chr(195).chr(141) => 'I', chr(195).chr(142) => 'I',
+		chr(195).chr(143) => 'I', chr(195).chr(145) => 'N',
 		chr(195).chr(146) => 'O', chr(195).chr(147) => 'O',
 		chr(195).chr(148) => 'O', chr(195).chr(149) => 'O',
 		chr(195).chr(150) => 'O', chr(195).chr(153) => 'U',
 		chr(195).chr(154) => 'U', chr(195).chr(155) => 'U',
 		chr(195).chr(156) => 'U', chr(195).chr(157) => 'Y',
-		chr(195).chr(158) => 'TH',chr(195).chr(159) => 's',
-		chr(195).chr(160) => 'a', chr(195).chr(161) => 'a',
-		chr(195).chr(162) => 'a', chr(195).chr(163) => 'a',
-		chr(195).chr(164) => 'a', chr(195).chr(165) => 'a',
-		chr(195).chr(166) => 'ae',chr(195).chr(167) => 'c',
+		chr(195).chr(159) => 's', chr(195).chr(160) => 'a',
+		chr(195).chr(161) => 'a', chr(195).chr(162) => 'a',
+		chr(195).chr(163) => 'a', chr(195).chr(164) => 'a',
+		chr(195).chr(165) => 'a', chr(195).chr(167) => 'c',
 		chr(195).chr(168) => 'e', chr(195).chr(169) => 'e',
 		chr(195).chr(170) => 'e', chr(195).chr(171) => 'e',
 		chr(195).chr(172) => 'i', chr(195).chr(173) => 'i',
 		chr(195).chr(174) => 'i', chr(195).chr(175) => 'i',
-		chr(195).chr(176) => 'd', chr(195).chr(177) => 'n',
-		chr(195).chr(178) => 'o', chr(195).chr(179) => 'o',
-		chr(195).chr(180) => 'o', chr(195).chr(181) => 'o',
-		chr(195).chr(182) => 'o', chr(195).chr(182) => 'o',
-		chr(195).chr(185) => 'u', chr(195).chr(186) => 'u',
-		chr(195).chr(187) => 'u', chr(195).chr(188) => 'u',
-		chr(195).chr(189) => 'y', chr(195).chr(190) => 'th',
+		chr(195).chr(177) => 'n', chr(195).chr(178) => 'o',
+		chr(195).chr(179) => 'o', chr(195).chr(180) => 'o',
+		chr(195).chr(181) => 'o', chr(195).chr(182) => 'o',
+		chr(195).chr(182) => 'o', chr(195).chr(185) => 'u',
+		chr(195).chr(186) => 'u', chr(195).chr(187) => 'u',
+		chr(195).chr(188) => 'u', chr(195).chr(189) => 'y',
 		chr(195).chr(191) => 'y',
 		// Decompositions for Latin Extended-A
 		chr(196).chr(128) => 'A', chr(196).chr(129) => 'a',
@@ -639,9 +644,15 @@ function wp_rel_nofollow( $text ) {
 	global $wpdb;
 	// This is a pre save filter, so text is already escaped.
 	$text = stripslashes($text);
-	$text = preg_replace('|<a (.+?)>|ie', "'<a ' . str_replace(' rel=\"nofollow\"','',stripslashes('$1')) . ' rel=\"nofollow\">'", $text);
+	$text = preg_replace_callback('|<a (.+?)>|i', 'wp_rel_nofollow_callback', $text);
 	$text = $wpdb->escape($text);
 	return $text;
+}
+
+function wp_rel_nofollow_callback( $matches ) {
+	$text = $matches[1];
+	$text = str_replace(array(' rel="nofollow"', " rel='nofollow'"), '', $text);
+	return "<a $text rel=\"nofollow\">";
 }
 
 function convert_smilies($text) {
@@ -1194,6 +1205,7 @@ function sanitize_option($option, $value) { // Remember to call stripslashes!
 			$value = clean_url($value);
 			break;
 		default :
+			$value = apply_filters("sanitize_option_{$option}", $value, $option);
 			break;
 	}
 

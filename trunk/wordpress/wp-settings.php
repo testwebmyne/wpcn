@@ -88,7 +88,7 @@ function timer_stop($display = 0, $precision = 3) { //if called like timer_stop(
 	$mtime = $mtime[1] + $mtime[0];
 	$timeend = $mtime;
 	$timetotal = $timeend-$timestart;
-	$r = number_format_i18n($timetotal, $precision);
+	$r = ( function_exists('number_format_i18n') ) ? number_format_i18n($timetotal, $precision) : number_format($timetotal, $precision);
 	if ( $display )
 		echo $r;
 	return $r;
@@ -113,6 +113,10 @@ if ( !defined('LANGDIR') ) {
 
 if ( !defined('PLUGINDIR') )
 	define('PLUGINDIR', 'wp-content/plugins'); // no leading slash, no trailing slash
+
+require (ABSPATH . WPINC . '/compat.php');
+require (ABSPATH . WPINC . '/functions.php');
+
 if ( file_exists(ABSPATH . 'wp-content/db.php') )
 	require_once (ABSPATH . 'wp-content/db.php');
 else
@@ -122,7 +126,7 @@ else
 $wpdb->prefix = $table_prefix;
 
 if ( preg_match('|[^a-z0-9_]|i', $wpdb->prefix) && !file_exists(ABSPATH . 'wp-content/db.php') )
-	die("<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> can only contain numbers, letters, and underscores.");
+	wp_die("<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> can only contain numbers, letters, and underscores.");
 
 // Table names
 $wpdb->posts          = $wpdb->prefix . 'posts';
@@ -151,7 +155,6 @@ else
 
 wp_cache_init();
 
-require (ABSPATH . WPINC . '/functions.php');
 require (ABSPATH . WPINC . '/classes.php');
 require (ABSPATH . WPINC . '/plugin.php');
 require (ABSPATH . WPINC . '/default-filters.php');
