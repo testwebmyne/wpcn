@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3 中文包\n"
-"PO-Revision-Date: 2007-09-27 12:47+0800\n"
-"Last-Translator: paopao <wuxipaopao@gmail.com>\n"
+"PO-Revision-Date: 2007-09-28 10:52+0800\n"
+"Last-Translator: Wady <gzyangzhou@163.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6576,47 +6576,47 @@ msgstr "Sat"
 #: wp-includes/locale.php:52
 #: wp-includes/locale.php:67
 msgid "January"
-msgstr "1月"
+msgstr "01月"
 
 #: wp-includes/locale.php:53
 #: wp-includes/locale.php:68
 msgid "February"
-msgstr "2月"
+msgstr "02月"
 
 #: wp-includes/locale.php:54
 #: wp-includes/locale.php:69
 msgid "March"
-msgstr "3月"
+msgstr "03月"
 
 #: wp-includes/locale.php:55
 #: wp-includes/locale.php:70
 msgid "April"
-msgstr "4月"
+msgstr "04月"
 
 #: wp-includes/locale.php:56
 #: wp-includes/locale.php:71
 msgid "May"
-msgstr "5月"
+msgstr "05月"
 
 #: wp-includes/locale.php:57
 #: wp-includes/locale.php:72
 msgid "June"
-msgstr "6月"
+msgstr "06月"
 
 #: wp-includes/locale.php:58
 #: wp-includes/locale.php:73
 msgid "July"
-msgstr "7月"
+msgstr "07月"
 
 #: wp-includes/locale.php:59
 #: wp-includes/locale.php:74
 msgid "August"
-msgstr "8月"
+msgstr "08月"
 
 #: wp-includes/locale.php:60
 #: wp-includes/locale.php:75
 msgid "September"
-msgstr "9月"
+msgstr "09月"
 
 #: wp-includes/locale.php:61
 #: wp-includes/locale.php:76
@@ -6683,11 +6683,11 @@ msgstr "Dec"
 
 #: wp-includes/locale.php:85
 msgid "am"
-msgstr "上午"
+msgstr "am"
 
 #: wp-includes/locale.php:86
 msgid "pm"
-msgstr "下午"
+msgstr "pm"
 
 #: wp-includes/locale.php:87
 msgid "AM"
