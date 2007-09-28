@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gravatars\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-09-28 14:20+0800\n"
+"Last-Translator: Wady <gzyangzhou@163.com>\n"
+"Language-Team: skippy <skippy@skippy.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: C:\\Documents and Settings\\hehe\\桌面\\111\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-content/plugins/gravatars2.php:66
+#: wp-content/plugins/gravatars2.php:563
+msgid "Gravatar Options"
+msgstr "Gravatar 设置"
+
+#: wp-content/plugins/gravatars2.php:66
+msgid "Gravatars"
+msgstr "Gravatars"
+
+#: wp-content/plugins/gravatars2.php:67
+#: wp-content/plugins/gravatars2.php:914
+msgid "Gravatar Cache"
+msgstr "Gravatar 头像缓存"
+
+#: wp-content/plugins/gravatars2.php:69
+msgid "Gravatar Selection"
+msgstr "Gravatar Selection"
+
+#: wp-content/plugins/gravatars2.php:69
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: wp-content/plugins/gravatars2.php:173
+msgid "There was an error copying the gravatar.  The system default has been used instead."
+msgstr "备份 Gravatar 头像时出错。系统将使用默认头像替代。"
+
+#: wp-content/plugins/gravatars2.php:175
+msgid "Remote Gravatar Copied."
+msgstr "移除 Gravatar 复制件。"
+
+#: wp-content/plugins/gravatars2.php:181
+msgid "Local Image File Selected."
+msgstr "已选择本地头像文件。"
+
+#: wp-content/plugins/gravatars2.php:185
+msgid "Local Image File NOT FOUND.  The system default has been used instead."
+msgstr "本地头像文件没有找到。系统将自动用默认头像代替。"
+
+#: wp-content/plugins/gravatars2.php:224
+msgid " is using your <strong>default global</strong> gravatar"
+msgstr " 正在使用 <strong>默认通用</strong> Gravatar 头像"
+
+#: wp-content/plugins/gravatars2.php:227
+msgid " is using your <strong>local</strong> gravatar"
+msgstr "正在使用<strong>本地</strong> Gravatar 头像"
+
+#: wp-content/plugins/gravatars2.php:242
+msgid "You can assign a specific gravatar for use on "
+msgstr "你可以指定一个特殊的 Gravatar 头像使用在"
+
+#: wp-content/plugins/gravatars2.php:244
+msgid "enter the path (local or remote) below"
+msgstr "在下面输入框中填写即可（本地地址或者远程地址）"
+
+#: wp-content/plugins/gravatars2.php:247
+#: wp-content/plugins/gravatars2.php:790
+msgid "Submit"
+msgstr "提交"
+
+#: wp-content/plugins/gravatars2.php:249
+msgid "A blank submission will remove your locally defined gravatar"
+msgstr "如果提交一个空白内容将会移除你已指定的本地 Gravatar 头像"
+
+#: wp-content/plugins/gravatars2.php:503
+msgid "WARNING! WARNING! WARNING!"
+msgstr "警告！警告！！警告！！！"
+
+#: wp-content/plugins/gravatars2.php:505
+msgid "is not writable"
+msgstr "无法写入"
+
+#: wp-content/plugins/gravatars2.php:508
+msgid "Gravatar caching will be disabled until this directory is made writable"
+msgstr "Gravatar 缓存功能将关闭直到该目录为可写状态"
+
+#: wp-content/plugins/gravatars2.php:576
+msgid "Default gravatar rating"
+msgstr "Gravatar 头像默认评级"
+
+#: wp-content/plugins/gravatars2.php:587
+msgid "Default gravatar size"
+msgstr "Gravatar 头像默认尺寸"
+
+#: wp-content/plugins/gravatars2.php:603
+msgid "Default gravatar image"
+msgstr "默认  Gravatar 头像"
+
+#: wp-content/plugins/gravatars2.php:607
+msgid "You may enter: "
+msgstr "你可以输入以下类型:"
+
+#: wp-content/plugins/gravatars2.php:609
+msgid "a local filename: "
+msgstr "一个本地文件名: "
+
+#: wp-content/plugins/gravatars2.php:612
+msgid "a directory containing a collection of gravatars from which to randomly select: "
+msgstr "一个包含大量  Gravatar 头像的目录，那将会随机选取: "
+
+#: wp-content/plugins/gravatars2.php:614
+msgid "or a remote URI "
+msgstr "一个远程网络地址"
+
+#: wp-content/plugins/gravatars2.php:616
+msgid "<strong>Please read the documentation for more information about valid options.</strong>"
+msgstr "<strong>请阅读相关资料以便填写格式正确。</strong>"
+
+#: wp-content/plugins/gravatars2.php:621
+msgid "Cache gravatars"
+msgstr "开启头像缓存"
+
+#: wp-content/plugins/gravatars2.php:624
+msgid "<strong>DISABLED</strong>"
+msgstr "<strong>无效</strong>"
+
+#: wp-content/plugins/gravatars2.php:631
+#: wp-content/plugins/gravatars2.php:648
+#: wp-content/plugins/gravatars2.php:746
+#: wp-content/plugins/gravatars2.php:780
+msgid "Yes"
+msgstr "是"
+
+#: wp-content/plugins/gravatars2.php:637
+#: wp-content/plugins/gravatars2.php:654
+#: wp-content/plugins/gravatars2.php:752
+#: wp-content/plugins/gravatars2.php:786
+msgid "No"
+msgstr "否"
+
+#: wp-content/plugins/gravatars2.php:641
+msgid "Use REST API"
+msgstr "使用复位 API"
+
+#: wp-content/plugins/gravatars2.php:662
+msgid "Automatic Cache Checking"
+msgstr "自动检查更新缓存"
+
+#: wp-content/plugins/gravatars2.php:668
+msgid "Enabled"
+msgstr "启用"
+
+#: wp-content/plugins/gravatars2.php:674
+msgid "Disabled"
+msgstr "禁用"
+
+#: wp-content/plugins/gravatars2.php:685
+msgid "Cron Refresh Rate (Once Every:)"
+msgstr "定时刷新评论"
+
+#: wp-content/plugins/gravatars2.php:700
+msgid "Remote Caching Method"
+msgstr "远程缓存调用"
+
+#: wp-content/plugins/gravatars2.php:711
+msgid "Remote Info Timeout"
+msgstr "远程信息读取超时"
+
+#: wp-content/plugins/gravatars2.php:713
+#: wp-content/plugins/gravatars2.php:718
+msgid "seconds"
+msgstr "秒"
+
+#: wp-content/plugins/gravatars2.php:716
+msgid "Remote Copy Timeout"
+msgstr "保存远程文件超时"
+
+#: wp-content/plugins/gravatars2.php:723
+msgid "Enter Cache Time (in seconds) for Successful Image cache (positive), No Image Cached (negative), and Failed Cache Attempt (error)"
+msgstr "分别为成功保存图片的缓存、没有头像可保存的缓存以及头像保存失败的缓存信息设置有效期(单位: 秒)"
+
+#: wp-content/plugins/gravatars2.php:728
+msgid "Cached Image (positive)"
+msgstr "已保存头像的缓存"
+
+#: wp-content/plugins/gravatars2.php:731
+msgid "No Image (negative)"
+msgstr "没头像可保存的缓存"
+
+#: wp-content/plugins/gravatars2.php:734
+msgid "Failure (error)"
+msgstr "头像保存失败的缓存"
+
+#: wp-content/plugins/gravatars2.php:740
+msgid "Allow local gravatars"
+msgstr "允许本地 Gravatar 头像"
+
+#: wp-content/plugins/gravatars2.php:758
+msgid "Local Grav "
+msgstr "可使用本地头像的"
+
+#: wp-content/plugins/gravatars2.php:760
+msgid "User Level"
+msgstr "用户级别"
+
+#: wp-content/plugins/gravatars2.php:773
+msgid "Replace <code>&lt;gravatar foo@bar.com&gt;</code> in posts"
+msgstr "在日志中用 Gravatar 头像替换 Email 地址"
+
+#: wp-content/plugins/gravatars2.php:984
+msgid "Local Gravatars"
+msgstr "本地 Gravatar 头像"
+
+#: wp-content/plugins/gravatars2.php:988
+msgid "Deleting a local gravatar causes your blog to use that user's global gravatar (if they have one) or your site's default gravatar"
+msgstr "删除一个本地 Gravatars 头像会导致你改用用户通用头像或者默认头像。"
+
+#: wp-content/plugins/gravatars2.php:997
+msgid "No local gravatars"
+msgstr "没有 Gravatar 头像"
+
+#: wp-content/plugins/gravatars2.php:1003
+msgid "Cached Gravatars"
+msgstr "Gravatars 头像已缓存"
+
+#: wp-content/plugins/gravatars2.php:1005
+msgid "Deleting a cached gravatar will force your blog to request the latest version (if any) from <code>gravatar.com</code>"
+msgstr "删除一个已缓存的 Gravatars 头像将会导致从  <code>gravatar.com</code> 上获取更新的 Gravatars 头像。"
+
+#: wp-content/plugins/gravatars2.php:1018
+msgid "No cached gravatars"
+msgstr "没有已缓存的 Gravatars 头像"
+
