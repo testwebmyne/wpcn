@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3 中文包\n"
-"PO-Revision-Date: 2007-10-01 14:18+0800\n"
+"PO-Revision-Date: 2007-10-02 04:26+0800\n"
 "Last-Translator: Edward Gao <edwardright@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -7453,7 +7453,7 @@ msgstr "好像没有新的邮件。"
 
 #: xmlrpc.php:149
 msgid "Bad login/pass combination."
-msgstr "无效的用户民和密码。"
+msgstr "无效的用户名和密码。"
 
 #: xmlrpc.php:252
 #: xmlrpc.php:346
