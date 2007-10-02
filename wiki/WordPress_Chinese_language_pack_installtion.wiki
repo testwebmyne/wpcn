@@ -1,4 +1,5 @@
-# 简要介绍 WordPress 简体中文语言包的安装
+#summary One-sentence summary of this page.
+简要介绍 WordPress 简体中文语言包的安装
 
 = 安装步骤 =
 
