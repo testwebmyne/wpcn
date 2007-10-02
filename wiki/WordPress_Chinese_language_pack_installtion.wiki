@@ -1,4 +1,6 @@
-#简要介绍 WordPress 简体中文语言包的安装
+#labels Featured,Phase-Deploy
+#WordPress Chinese language pack installtion
+_简要介绍 WordPress 简体中文语言包的安装_
 
 
 = 安装步骤 =
