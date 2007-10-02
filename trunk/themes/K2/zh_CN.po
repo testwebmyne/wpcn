@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: K2 简体中文语言包 RC2\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-10-02 20:13+0800\n"
+"PO-Revision-Date: 2007-10-02 20:26+0800\n"
 "Last-Translator: Edward Gao <edwardright@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
@@ -801,7 +801,7 @@ msgstr "设置 K2 显示的侧栏数量。<strong>%s</strong> 代表在主单元
 #: app/display/options.php:198
 #: app/modules/asides.php:41
 msgid "Asides"
-msgstr "旁白"
+msgstr "Asides"
 
 #: app/display/options.php:200
 msgid "'Asides' is a category of entries, meant to be 'smaller' and perhaps of 'less importance', like for instance links with minor commentary. They are styled differently than other entries to separate them content-wise. Below you can select a category to be shown as Asides."
