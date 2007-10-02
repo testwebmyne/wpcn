@@ -1,6 +1,5 @@
-#summary One-sentence summary of this page.
-#labels Featured,Phase-Deploy
-简要介绍 WordPress 简体中文语言包的安装
+#简要介绍 WordPress 简体中文语言包的安装
+
 
 = 安装步骤 =
 
