@@ -1,0 +1,13 @@
+#summary One-sentence summary of this page.
+简要介绍 WordPress 简体中文语言包的安装
+
+= 安装步骤 =
+
+ # 下载简体中文语言包并解压得到zh_CN.mo文件；
+ # 上传zh_CN.mo至你的 WordPress 的 wp-content/languages 文件夹下，如果没有则创建该文件夹；
+ # 用任一文本编辑器打开你的 WordPress 主目录下的wp-config.php文件，找到 `define ('WPLANG', '');` 修改为 `define ('WPLANG', 'zh_CN');` 并保存。
+
+
+= 注意事项 =
+
+ # 若按照以上步骤无法正常中文化，请检查你的php.ini配置文件是否禁用了fread()及fopen()函数。
