@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: K2 简体中文语言包 RC2\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-10-02 20:26+0800\n"
-"Last-Translator: Edward Gao <edwardright@gmail.com>\n"
+"PO-Revision-Date: 2007-10-02 20:37+0800\n"
+"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -280,7 +280,7 @@ msgstr "提交"
 #: footer.php:9
 #, php-format
 msgid "Styled with %s"
-msgstr "%s 的样式"
+msgstr "Styled with %s"
 
 #: footer.php:11
 #, php-format
