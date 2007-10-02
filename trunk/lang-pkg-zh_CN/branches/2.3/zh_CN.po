@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3 中文包\n"
-"PO-Revision-Date: 2007-10-02 04:26+0800\n"
+"PO-Revision-Date: 2007-10-02 17:08+0800\n"
 "Last-Translator: Edward Gao <edwardright@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -357,12 +357,12 @@ msgstr "作者："
 #: wp-login.php:143
 #: wp-login.php:265
 msgid "E-mail:"
-msgstr "电子邮件："
+msgstr "电子信箱："
 
 #: wp-admin/comment.php:93
 #: wp-admin/edit-form-comment.php:34
 msgid "URL:"
-msgstr "网址："
+msgstr "URL："
 
 #: wp-admin/comment.php:98
 msgid "Comment:"
@@ -540,7 +540,7 @@ msgstr "搜索"
 
 #: wp-admin/edit-comments.php:48
 msgid "(Searches within comment text, e-mail, URL, and IP address.)"
-msgstr "（搜索评论正文、email、URL 与 IP 地址）"
+msgstr "（搜索评论正文、电子信箱、URL 与 IP 地址）"
 
 # 评论页面的浏览模式和批量编辑模式
 #: wp-admin/edit-comments.php:51
@@ -572,7 +572,7 @@ msgstr "找不到符合搜索条件的评论。"
 #: wp-admin/users.php:391
 #: wp-content/themes/classic/comments-popup.php:71
 msgid "E-mail"
-msgstr "E-mail"
+msgstr "电子信箱"
 
 #: wp-admin/edit-comments.php:148
 msgid "IP"
@@ -936,7 +936,7 @@ msgstr "关于日志框的帮助"
 #: wp-admin/edit-form.php:53
 #, php-format
 msgid "<a href=\"%s\" title=\"Help on trackbacks\"><strong>TrackBack</strong> a <abbr title=\"Universal Resource Locator\">URL</abbr></a>:</label> (Separate multiple <abbr title=\"Universal Resource Locator\">URL</abbr>s with spaces.)"
-msgstr "<a href=\"%s\" title=\"关于 Trackback 的帮助\"><strong>Trackback</strong>一个<abbr title=\"Universal Resource Identifier\">地址</abbr></a>：</label>（多个<abbr title=\"Universal Resource Identifier\">地址</abbr>请用空格隔开。）"
+msgstr "<a href=\"%s\" title=\"关于 Trackback 的帮助\"><strong>Trackback</strong>一个<abbr title=\"Universal Resource Identifier\">URL</abbr></a>：</label>（多个<abbr title=\"Universal Resource Identifier\">URL</abbr>请用空格隔开。）"
 
 #: wp-admin/edit-form.php:56
 msgid "Save as Draft"
@@ -1529,7 +1529,7 @@ msgstr "导出的文件称为 WordPress 扩展 RSS 格式，简称\"WXR\"。该�
 
 #: wp-admin/export.php:17
 msgid "Once you&#8217;ve saved the download file, you can use the Import function on another WordPress blog to import this blog."
-msgstr "当您成功地将该导出文件保存在您的电脑上后，您就可以在其他 WordPress 架设的 blog 上使用“导入 WordPress”功能导入该文件。"
+msgstr "当您成功地将该导出文件保存在您的电脑上后，您就可以在其他 WordPress 架设的 Blog 上使用“导入 WordPress”功能导入该文件。"
 
 #: wp-admin/export.php:19
 msgid "Optional options"
@@ -1555,7 +1555,7 @@ msgstr "您好！该导入工具可以帮助您从 Blogger 中导入日志和评
 
 #: wp-admin/import/blogger.php:15
 msgid "To use this importer, you must have a Google account, an upgraded (New, was Beta) blog, and it must be on blogspot or a custom domain (not FTP)."
-msgstr "使用该导入工具，您必须拥有一个 Google 帐号和一个已升级的 (新的，beta中) blog，同时 blog 应在 blogspot 上或者是一个自定义的域名 (而不是 FTP)."
+msgstr "使用该导入工具，您必须拥有一个 Google 帐号和一个已升级的 (新的，beta中) Blog，同时 Blog 应在 Blogspot 上或者是一个自定义的域名 (而不是 FTP)."
 
 #: wp-admin/import/blogger.php:16
 msgid "The first thing you need to do is tell Blogger to let WordPress access your account. You will be sent back here after providing authorization."
@@ -1681,7 +1681,7 @@ msgstr "辛苦了！休息下吧。"
 
 #: wp-admin/import/blogger.php:754
 msgid "In case you haven't done it already, you can import the posts from your other blogs:"
-msgstr "如果您没有成功完成导入，您可以选择再从别的 blog 导入日志："
+msgstr "如果您没有成功完成导入，您可以选择再从别的 Blog 导入日志："
 
 #: wp-admin/import/blogger.php:756
 #, php-format
@@ -1845,7 +1845,7 @@ msgstr "导入 Dotclear"
 
 #: wp-admin/import/dotclear.php:126
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
-msgstr "您好！这个导入工具可以帮您从 Dotclear 数据库中导入日志到您的 blog。注意，本程序可能在您的机器上不能正常工作。(Mileage may vary.)"
+msgstr "您好！这个导入工具可以帮您从 Dotclear 数据库中导入日志到您的 Blog。注意，本程序可能在您的机器上不能正常工作。(Mileage may vary.)"
 
 #: wp-admin/import/dotclear.php:127
 msgid "Your DotClear Configuration settings are as follows:"
@@ -1980,7 +1980,7 @@ msgstr "保留作者"
 #: wp-admin/import/dotclear.php:627
 #: wp-admin/import/textpattern.php:562
 msgid "Secondly, we have attempted to preserve post authors.  If you are the only author or contributor to your blog, then you are safe.  In most cases, we are successful in this preservation endeavor.  However, if we cannot ascertain the name of the writer due to discrepancies between database tables, we assign it to you, the administrative user."
-msgstr "其次，我们尝试保留日志的作者。如果您是您原 blog 的唯一作者，那么您是安全的。多数情况下我们可以很好的处理这种情况。但是，如果我们无法保证导入前后作者信息的统一性，我们会把那些日志放到您，这个网站的管理员，的名下。"
+msgstr "其次，我们尝试保留日志的作者。如果您是您原 Blog 的唯一作者，那么您是安全的。多数情况下我们可以很好的处理这种情况。但是，如果我们无法保证导入前后作者信息的统一性，我们会把那些日志放到您，这个网站的管理员，的名下。"
 
 #: wp-admin/import/dotclear.php:628
 #: wp-admin/import/textpattern.php:563
@@ -2245,7 +2245,7 @@ msgstr "导入 LiveJournal"
 
 #: wp-admin/import/livejournal.php:24
 msgid "Howdy! Upload your LiveJournal XML export file and we&#8217;ll import the posts into this blog."
-msgstr "您好！请选择您从 LiveJournal 中导出的 XML 文件，我们将把其中的日志导入到您的 blog 中。"
+msgstr "您好！请选择您从 LiveJournal 中导出的 XML 文件，我们将把其中的日志导入到您的 Blog 中。"
 
 #: wp-admin/import/livejournal.php:25
 msgid "Choose a LiveJournal XML file to upload, then click Upload file and import."
@@ -2340,7 +2340,7 @@ msgstr "从 Movable Type 或 Typepad 中导入日志和评论"
 
 #: wp-admin/import.php:10
 msgid "If you have posts or comments in another system, WordPress can import those into this blog. To get started, choose a system to import from below:"
-msgstr "如果您以前曾使用其他 blog 系统架设过 blog，并拥有一些日志和评论，WordPress 可以将它们导入到本 blog 中。请根据您以前使用的 blog 系统的名称点击下面对应的链接："
+msgstr "如果您以前曾使用其他 Blog 系统架设过 Blog，并拥有一些日志和评论，WordPress 可以将它们导入到本 Blog 中。请根据您以前使用的 Blog 系统的名称点击下面对应的链接："
 
 #: wp-admin/import.php:32
 msgid "No importers are available."
@@ -2353,7 +2353,7 @@ msgstr "导入 RSS"
 
 #: wp-admin/import/rss.php:25
 msgid "Howdy! This importer allows you to extract posts from an RSS 2.0 file into your blog. This is useful if you want to import your posts from a system that is not handled by a custom import tool. Pick an RSS file to upload and click Import."
-msgstr "您好！这个导入工具可以帮您从任何 RSS 2.0文件中解析出日志并导入您的 blog。这个工具适用于您想从一个没有专门的导入 WordPress 工具的 blog 系统里导入日志时。选择您要导入的 RSS 文件，点击导入按钮。"
+msgstr "您好！这个导入工具可以帮您从任何 RSS 2.0文件中解析出日志并导入您的 Blog。这个工具适用于您想从一个没有专门的导入 WordPress 工具的 Blog 系统里导入日志时。选择您要导入的 RSS 文件，点击导入按钮。"
 
 #: wp-admin/import/rss.php:105
 msgid "Importing post..."
@@ -2567,7 +2567,7 @@ msgstr "导入 WordPress"
 
 #: wp-admin/import/wordpress.php:31
 msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, comments, custom fields, and categories into this blog."
-msgstr "您好！请选择您要导入的 <abbr title=\"WordPress eXtended RSS\">WXR</abbr> 文件，我们将把其中的日志、评论、自定义字段、页面和分类导入到您的 blog 中。"
+msgstr "您好！请选择您要导入的 <abbr title=\"WordPress eXtended RSS\">WXR</abbr> 文件，我们将把其中的日志、评论、自定义字段、页面和分类导入到您的 Blog 中。"
 
 #: wp-admin/import/wordpress.php:32
 msgid "Choose a WordPress WXR file to upload, then click Upload file and import."
@@ -2831,11 +2831,11 @@ msgstr "您无权以该用户身份编辑日志。"
 
 #: wp-admin/includes/post.php:193
 msgid "You are not allowed to create pages on this blog."
-msgstr "您无权在此 blog 创建页面。"
+msgstr "您无权在此 Blog 创建页面。"
 
 #: wp-admin/includes/post.php:196
 msgid "You are not allowed to create posts or drafts on this blog."
-msgstr "您无权在此 blog 创建日志或草稿。"
+msgstr "您无权在此 Blog 创建日志或草稿。"
 
 #: wp-admin/includes/post.php:238
 msgid "You are not allowed to create pages as this user."
@@ -2911,7 +2911,7 @@ msgstr ""
 #: wp-admin/includes/template.php:218
 #, php-format
 msgid "e-mail: %s"
-msgstr "电子邮件：%s"
+msgstr "电子信箱：%s"
 
 #: wp-admin/includes/template.php:222
 msgid "View posts by this author"
@@ -2967,7 +2967,7 @@ msgstr "WordPress 推荐您使用一个更好的浏览器"
 #: wp-admin/link-manager.php:100
 #: wp-includes/script-loader.php:140
 msgid "URL"
-msgstr "网址"
+msgstr "URL"
 
 # 下面四项是设置上传文件在日志中显示的方式
 #: wp-admin/includes/template.php:535
@@ -3115,7 +3115,7 @@ msgid ""
 "--The WordPress Team\n"
 "http://wordpress.org/\n"
 msgstr ""
-"基于 WordPress 的 blog 已经成功安装到：\n"
+"基于 WordPress 的 Blog 已经成功安装到：\n"
 "\n"
 "%1$s\n"
 "\n"
@@ -3247,7 +3247,7 @@ msgstr "<strong>错误</strong>：该用户名已被注册，请重新选择一�
 
 #: wp-admin/includes/user.php:112
 msgid "<strong>ERROR</strong>: please type an e-mail address"
-msgstr "<strong>错误</strong>：请输入您的电子邮件地址。"
+msgstr "<strong>错误</strong>：请输入您的电子信箱地址。"
 
 #: wp-admin/includes/user.php:115
 msgid "<strong>ERROR</strong>: the email address isn't correct"
@@ -3433,11 +3433,11 @@ msgstr "Blog 标题："
 
 #: wp-admin/install.php:49
 msgid "Your e-mail:"
-msgstr "您的电子邮件："
+msgstr "您的电子信箱："
 
 #: wp-admin/install.php:54
 msgid "Allow my blog to appear in search engines like Google and Technorati."
-msgstr "我希望我的 blog 被 Google 和 Technorati 等搜索引擎收录。"
+msgstr "我希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录。"
 
 #: wp-admin/install.php:57
 msgid "Double-check your email address before continuing."
@@ -3449,11 +3449,11 @@ msgstr "安装 WordPress &raquo;"
 
 #: wp-admin/install.php:71
 msgid "<strong>ERROR</strong>: you must provide an e-mail address"
-msgstr "<strong>错误</strong>：请输入您的电子邮件地址。"
+msgstr "<strong>错误</strong>：请输入您的电子信箱地址。"
 
 #: wp-admin/install.php:74
 msgid "<strong>ERROR</strong>: that isn't a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
-msgstr "<strong>错误</strong>：无效的 E-mail 地址。E-mail 形式为：<code>username@example.com</code>"
+msgstr "<strong>错误</strong>：无效的电子信箱地址。正确形式为：<code>username@example.com</code>"
 
 #: wp-admin/install.php:81
 msgid "Success!"
@@ -3554,7 +3554,7 @@ msgstr "%1$d个链接被加入了分类 %2$s。导入完成！现在您可以开
 
 #: wp-admin/link-import.php:122
 msgid "You need to supply your OPML url. Press back on your browser and try again"
-msgstr "您需要提交您的 OPML 文件的正确地址。请返回重试。"
+msgstr "您需要提交您的 OPML 文件的正确 URL。请返回重试。"
 
 #: wp-admin/link-manager.php:19
 #: wp-admin/menu.php:46
@@ -3578,7 +3578,7 @@ msgstr "链接管理"
 
 #: wp-admin/link-manager.php:76
 msgid "Here you <a href=\"link-add.php\">add links</a> to sites that you visit often and share them on your blog. When you have a list of links in your sidebar to other blogs, it&#8217;s called a &#8220;blogroll.&#8221;"
-msgstr "您可以使用 <a href=\"link-add.php\">添加链接</a> 功能将您经常访问的 blog 地址添加进来，这些链接将被显示在您的 blog 上以便和他人分享。位于 blog 侧边栏上的一串指向其他 blog 的链接列表，被称作&#8220;blogroll&#8221;。"
+msgstr "您可以使用 <a href=\"link-add.php\">添加链接</a> 功能将您经常访问的 Blog 地址添加进来，这些链接将被显示在您的 Blog 上以便和他人分享。位于 Blog 侧边栏上的一串指向其他 Blog 的链接列表，被称作&#8220;blogroll&#8221;。"
 
 #: wp-admin/link-manager.php:87
 msgid "Link ID"
@@ -3885,7 +3885,7 @@ msgstr "必须经管理员审核"
 
 #: wp-admin/options-discussion.php:58
 msgid "Comment author must fill out name and e-mail"
-msgstr "评论者必须输入姓名及电子邮件"
+msgstr "评论者必须输入姓名及电子信箱"
 
 #: wp-admin/options-discussion.php:59
 msgid "Comment author must have a previously approved comment"
@@ -3902,7 +3902,7 @@ msgstr "如果一条评论中包含 %s 个以上链接，则将该评论放入�
 
 #: wp-admin/options-discussion.php:66
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be held in the <a href=\"moderation.php\">moderation queue</a>. One word or IP per line. It will match inside words, so \"press\" will match \"WordPress\"."
-msgstr "若评论的内容、网址、IP 地址中包含以下任何一个关键词，则将其加入<a href=\"moderation.php\">待审查队列</a>。（一行一个关键词）"
+msgstr "若评论的内容、姓名、URL、电子信箱、IP 地址中包含以下任何一个关键词，则将其加入<a href=\"moderation.php\">待审查队列</a>。（一行一个关键词）"
 
 #: wp-admin/options-discussion.php:72
 msgid "Comment Blacklist"
@@ -3910,7 +3910,7 @@ msgstr "评论黑名单"
 
 #: wp-admin/options-discussion.php:73
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be marked as spam. One word or IP per line. It will match inside words, so \"press\" will match \"WordPress\"."
-msgstr "当评论的内容、网址、IP 地址中包含以下任何一个关键词，则将其标记为垃圾评论。（一行一个关键词）"
+msgstr "当评论的内容、姓名、URL、电子信箱、IP 地址中包含以下任何一个关键词，则将其标记为垃圾评论。（一行一个关键词）"
 
 #: wp-admin/options-general.php:4
 #: wp-admin/options-general.php:11
@@ -3923,7 +3923,7 @@ msgstr "Blog 副标题："
 
 #: wp-admin/options-general.php:24
 msgid "In a few words, explain what this blog is about."
-msgstr "简要描述该 blog。"
+msgstr "简要描述该 Blog。"
 
 #: wp-admin/options-general.php:27
 msgid "WordPress address (URL):"
@@ -3935,11 +3935,11 @@ msgstr "Blog 地址（URL）："
 
 #: wp-admin/options-general.php:32
 msgid "Enter the address here if you want your blog homepage <a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">to be different from the directory</a> you installed WordPress."
-msgstr "如果您希望您 Blog 主页<a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">不同于 Wordpress 的安装目录的 web 地址</a>，请在这里输入实际地址。"
+msgstr "如果您希望您 Blog 主页<a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">不同于 Wordpress 的安装目录的 Web 地址</a>，请在这里输入实际地址。"
 
 #: wp-admin/options-general.php:35
 msgid "E-mail address:"
-msgstr "电子邮件地址："
+msgstr "电子信箱地址："
 
 #: wp-admin/options-general.php:38
 msgid "This address is used only for admin purposes."
@@ -4065,7 +4065,7 @@ msgstr "更新永久链接结构 &raquo;"
 
 #: wp-admin/options-permalink.php:116
 msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
-msgstr "WordPress 默认使用的 <abbr title=\"Universal Resource Locator\">URL</abbr> 格式包含问号和一些数字。然而，WordPress 还为您提供了自定义日志的永久链接结构的功能。使用该功能可以使您的链接更美观，易用，并且向前兼容您以前使用的 blog 系统。下面是一些常见的永久链接结构，在我们的网站上还提供了很多您可以使用的<a href=\"http://codex.wordpress.org/Using_Permalinks\">结构标签</a>以便您自由设置任意格式的永久链接结构。"
+msgstr "WordPress 默认使用的 <abbr title=\"Universal Resource Locator\">URL</abbr> 格式包含问号和一些数字。然而，WordPress 还为您提供了自定义日志的永久链接结构的功能。使用该功能可以使您的链接更美观，易用，并且向前兼容您以前使用的 Blog 系统。下面是一些常见的永久链接结构，在我们的网站上还提供了很多您可以使用的<a href=\"http://codex.wordpress.org/Using_Permalinks\">结构标签</a>以便您自由设置任意格式的永久链接结构。"
 
 #: wp-admin/options-permalink.php:130
 msgid "Common options:"
@@ -4219,7 +4219,7 @@ msgstr "Blog 页面及 feed 的编码方式："
 
 #: wp-admin/options-reading.php:82
 msgid "The character encoding you write your blog in (UTF-8 is <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recommended</a>)"
-msgstr "您的 blog 的输出所采用的字符编码方式（<a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">推荐使用</a> UTF-8）"
+msgstr "您的 Blog 的输出所采用的字符编码方式（<a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">推荐使用</a> UTF-8）"
 
 #: wp-admin/options-reading.php:87
 msgid "WordPress should compress articles (gzip) if browsers ask for them"
@@ -4265,7 +4265,7 @@ msgstr "通过电子邮件发布日志"
 #: wp-admin/options-writing.php:62
 #, php-format
 msgid "To post to WordPress by e-mail you must set up a secret e-mail account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <code>%s</code>, <code>%s</code>, <code>%s</code>."
-msgstr "想通过电子邮件发表日志到 WordPress，您必须设置一个支持 POP3 的机密电子邮件账号。这个邮件帐号收到的所有邮件都会被发布为日志，所以这个邮件地址应该严格保密。这里有几个随机生成的字符串可供您选择：<code>%s</code>, <code>%s</code>, <code>%s</code>。"
+msgstr "想通过电子邮件发表日志到 WordPress，您必须设置一个支持 POP3 的机密电子信箱账号。这个信箱帐号收到的所有邮件都会被发布为日志，所以这个信箱地址应该严格保密。这里有几个随机生成的字符串可供您选择：<code>%s</code>, <code>%s</code>, <code>%s</code>。"
 
 #: wp-admin/options-writing.php:66
 msgid "Mail server:"
@@ -4652,7 +4652,7 @@ msgstr "联系信息"
 #: wp-admin/profile.php:78
 #: wp-admin/user-edit.php:148
 msgid "E-mail: (required)"
-msgstr "电子邮件：（必填）"
+msgstr "电子信箱：（必填）"
 
 #: wp-admin/profile.php:81
 #: wp-admin/user-edit.php:151
@@ -5120,7 +5120,7 @@ msgstr "共找到 %3$s 个用户，下面是第 %1$s 条 &#8211; 第 %2$s 条。
 
 #: wp-admin/users.php:384
 msgid "No role for this blog"
-msgstr "在本 blog 上没有任何权限"
+msgstr "在本 Blog 上没有任何权限"
 
 #: wp-admin/users.php:392
 #: wp-admin/users.php:479
@@ -5172,7 +5172,7 @@ msgstr "姓氏"
 
 #: wp-admin/users.php:475
 msgid "E-mail (required)"
-msgstr "电子邮件（必填）"
+msgstr "电子信箱（必填）"
 
 #: wp-admin/users.php:485
 msgid "Password (twice)"
@@ -5334,7 +5334,7 @@ msgstr "下面的 key 以前曾经验证成功过，但是现在插件连不上 
 #: wp-content/plugins/akismet/akismet.php:114
 #, php-format
 msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
-msgstr "对于很多人来说，<a href=\"%1$s\">Akismet</a> 将大量减少甚至可以彻底消灭您的 blog 上的垃圾评论和 Trackback。即使有漏网之鱼，您只需将其标记为 \"spam\"，然后 Akismet 会自动学习。如果您还没有 WordPress.com 账号，您可以去 <a href=\"%2$s\">WordPress.com</a> 注册一个。"
+msgstr "对于很多人来说，<a href=\"%1$s\">Akismet</a> 将大量减少甚至可以彻底消灭您的 Blog 上的垃圾评论和 Trackback。即使有漏网之鱼，您只需将其标记为 \"spam\"，然后 Akismet 会自动学习。如果您还没有 WordPress.com 账号，您可以去 <a href=\"%2$s\">WordPress.com</a> 注册一个。"
 
 #: wp-content/plugins/akismet/akismet.php:117
 msgid "WordPress.com API Key"
@@ -5458,7 +5458,7 @@ msgstr "如果 Akismet 将正常评论识别为垃圾评论，请您选择被错
 #: wp-content/plugins/akismet/akismet.php:529
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
-msgstr "<a href=\"%1$s\">Akismet</a> 已经帮助您的 blog 清除了<a href=\"%2$s\">%3$s条垃圾评论</a>。"
+msgstr "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了<a href=\"%2$s\">%3$s条垃圾评论</a>。"
 
 #: wp-content/plugins/akismet/akismet.php:542
 msgid "Recheck Queue for Spam"
@@ -5551,7 +5551,7 @@ msgstr "评论 <abbr title=\"Really Simple Syndication\">RSS</abbr> feed。"
 
 #: wp-content/themes/classic/comments.php:30
 msgid "TrackBack <abbr title=\"Universal Resource Locator\">URL</abbr>"
-msgstr "Trackback <abbr title=\"Uniform Resource Identifier\">地址</abbr>"
+msgstr "Trackback <abbr title=\"Uniform Resource Identifier\">URL</abbr>"
 
 #: wp-content/themes/classic/comments.php:38
 #, php-format
@@ -5576,7 +5576,7 @@ msgstr "（必填）"
 
 #: wp-content/themes/classic/comments.php:53
 msgid "Mail (will not be published)"
-msgstr "邮件 (不公开)"
+msgstr "电子信箱 (不公开)"
 
 #: wp-content/themes/classic/comments.php:60
 #, php-format
@@ -5594,11 +5594,11 @@ msgstr "对不起，评论已被关闭。"
 
 #: wp-content/themes/classic/comments-popup.php:27
 msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
-msgstr "本文的 Trackback <acronym title=\"Uniform Resource Identifier（统一资源识别符）\">地址</acronym>是："
+msgstr "本文的 Trackback <acronym title=\"Uniform Resource Identifier（统一资源识别符）\">URL</acronym>是："
 
 #: wp-content/themes/classic/comments-popup.php:56
 msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
-msgstr "自动换行分段，电子邮件地址不会被公开。允许使用 <acronym title=\"Hypertext Markup Language（超文本标记语言）\">HTML</acronym> 标签："
+msgstr "自动换行分段，电子信箱地址不会被公开。允许使用 <acronym title=\"Hypertext Markup Language（超文本标记语言）\">HTML</acronym> 标签："
 
 #: wp-content/themes/classic/comments-popup.php:76
 msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
@@ -6309,7 +6309,7 @@ msgstr "可视化编辑器基础教程"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:134
 msgid "<em>Rich editing</em>, also called WYSIWYG for What You See Is What You Get, means your text is formatted as you type. The rich editor creates HTML code behind the scenes while you concentrate on writing. Font styles, links and images all appear approximately as they will on the internet."
-msgstr "<em>可视化编辑</em>，又叫做WYSIWYG (What You See Is What You Get，所见即所得)，意味着您在打字的同时即可看到最终显示效果，就像在 Word 里一样。可视化编辑器在后台为您生成 html 代码，以便您能专心于写作。字体效果，链接，图片都将直接显示在编辑器中，和最终展示在 blog 上的效果一样。"
+msgstr "<em>可视化编辑</em>，又叫做WYSIWYG (What You See Is What You Get，所见即所得)，意味着您在打字的同时即可看到最终显示效果，就像在 Word 里一样。可视化编辑器在后台为您生成 html 代码，以便您能专心于写作。字体效果，链接，图片都将直接显示在编辑器中，和最终展示在 Blog 上的效果一样。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:135
 msgid "WordPress includes a rich HTML editor that works well in most web browsers used today. It is powerful but it has limitations. Pasting text from other word processors may not give the results you expect. If you do not like the way the rich editor works, you may turn it off in the Your Profile and Personal Options form, under Users in the admin menu."
@@ -6325,7 +6325,7 @@ msgstr "图像和其他文件"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:141
 msgid "There is a button in the editor toolbar for inserting images that are already hosted somewhere on the internet. If you have a URL for an image, click this button and enter the URL in the box which appears."
-msgstr "编辑器工具栏上有一个“插入图片”按钮，用于插入互联网上的图片。只要你有这个图片的地址，点击这个按钮然后在弹出的对话框中输入图片地址即可。"
+msgstr "编辑器工具栏上有一个“插入图片”按钮，用于插入互联网上的图片。只要你有这个图片的 URL ，点击这个按钮然后在弹出的对话框中输入图片 URL 即可。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:142
 msgid "If you need to upload an image or sound file from your computer, you can use the uploading tool below the editor. The tool will attempt to create a thumbnail-sized image when you upload an image. To insert your uploaded image into the post, first click on the thumbnail to reveal a menu of options. Clicking on a \"Using..\" or \"Linked...\" option will change that option. For instance, you might want to use the thumbnail in the post and link it to a page showing the original with a caption. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing."
@@ -6737,7 +6737,7 @@ msgstr "作者：%1$s（IP: %2$s，%3$s）"
 #: wp-includes/pluggable.php:591
 #, php-format
 msgid "E-mail : %s"
-msgstr "电子邮件：%s"
+msgstr "电子信箱：%s"
 
 #: wp-includes/pluggable.php:518
 #: wp-includes/pluggable.php:526
@@ -6745,7 +6745,7 @@ msgstr "电子邮件：%s"
 #: wp-includes/pluggable.php:592
 #, php-format
 msgid "URL    : %s"
-msgstr "网址：%s"
+msgstr "URL：%s"
 
 #: wp-includes/pluggable.php:519
 #: wp-includes/pluggable.php:593
@@ -6854,7 +6854,7 @@ msgstr "用户名：%s"
 #: wp-includes/pluggable.php:622
 #, php-format
 msgid "E-mail: %s"
-msgstr "电子邮件：%s"
+msgstr "电子信箱：%s"
 
 #: wp-includes/pluggable.php:624
 #, php-format
@@ -7279,11 +7279,11 @@ msgstr "<strong>错误</strong>：没有填写用户名。"
 
 #: wp-login.php:95
 msgid "<strong>ERROR</strong>: The e-mail field is empty."
-msgstr "<strong>错误</strong>：没有填写电子邮件。"
+msgstr "<strong>错误</strong>：没有填写电子信箱。"
 
 #: wp-login.php:106
 msgid "<strong>ERROR</strong>: Invalid username / e-mail combination."
-msgstr "<strong>错误</strong>：错误的用户名和电子邮件组合。"
+msgstr "<strong>错误</strong>：错误的用户名和电子信箱组合。"
 
 #: wp-login.php:115
 msgid "Someone has asked to reset the password for the following site and username."
@@ -7321,7 +7321,7 @@ msgstr "忘记密码"
 # 找回密码
 #: wp-login.php:134
 msgid "Please enter your username and e-mail address. You will receive a new password via e-mail."
-msgstr "请输入您的用户名和电子邮箱地址，我们会把新的密码发到您的电子邮箱里。"
+msgstr "请输入您的用户名和电子信箱地址，我们会把新的密码发到您的电子信箱里。"
 
 # 找回密码
 #: wp-login.php:139
@@ -7372,7 +7372,7 @@ msgstr "[%s] 密码找回/重设通知"
 
 #: wp-login.php:230
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
-msgstr "<strong>错误</strong>：请填写您的电子邮件地址。"
+msgstr "<strong>错误</strong>：请填写您的电子信箱地址。"
 
 #: wp-login.php:232
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
@@ -7433,15 +7433,15 @@ msgstr "目前不允许新用户注册。"
 
 #: wp-login.php:343
 msgid "Check your e-mail for the confirmation link."
-msgstr "请登录您的邮箱查看电子邮件，并点击其中的确认链接。"
+msgstr "请登录您的电子邮箱查看邮件，并点击其中的确认链接。"
 
 #: wp-login.php:344
 msgid "Check your e-mail for your new password."
-msgstr "请登录您的邮箱查看电子邮件，您的新密码就在电子邮件中。"
+msgstr "请登录您的电子邮箱查看邮件，您的新密码就在邮件中。"
 
 #: wp-login.php:345
 msgid "Registration complete. Please check your e-mail."
-msgstr "注册成功。请检查您的邮箱。"
+msgstr "注册成功。请检查您的电子信箱。"
 
 #: wp-login.php:361
 msgid "Remember me"
