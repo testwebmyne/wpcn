@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: K2 Release Candidate 2 简体中文语言包\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-10-07 01:22+0800\n"
+"PO-Revision-Date: 2007-10-10 09:06+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
@@ -578,7 +578,7 @@ msgstr "在 %s"
 #: D:\Source.Code\K2.Release.Candidate.2/theloop.php:116
 #, php-format
 msgid "in %s."
-msgstr "归类于 %s"
+msgstr "发布于 %s"
 
 #: D:\Source.Code\K2.Release.Candidate.2/theloop.php:116
 msgid " and "
