@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-db-backup 2.1.2\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-09-26 01:33+0800\n"
+"PO-Revision-Date: 2007-10-12 21:05+0800\n"
 "Last-Translator: paopao <wuxipaopao@gmail.com>\n"
 "Language-Team: WordPress 中文团队 - paopao (site: www.paopao.name, mail:wuxipaopao@gmail.com) <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
@@ -327,7 +327,7 @@ msgstr "%s 秒"
 
 #: wp-db-backup.php:1017
 msgid "Once Weekly"
-msgstr "每星期一次"
+msgstr "每周"
 
 #: wp-db-backup.php:1030
 #, php-format
