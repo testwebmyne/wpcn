@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: WP-Sticky 1.10 简体中文语言包\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-10-13 11:04+0800\n"
+"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: D:\\Source.Code\\WP-Sticky.1.10\\sticky\n"
+"X-Poedit-SearchPath-0: D:\\Source.Code\\WP-Sticky.1.10\\sticky\n"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:38
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:136
+msgid "Update Options"
+msgstr "更新选项"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:45
+msgid "Sticky Options Updated"
+msgstr "Sticky 的设置已经被更新"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:48
+msgid "No Sticky Option Updated"
+msgstr "无 Sticky 选项被更新"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:52
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:185
+msgid "UNINSTALL WP-Sticky"
+msgstr "卸载 WP-Sticky"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:59
+#, php-format
+msgid "Table '%s' has been deleted."
+msgstr "数据库表 “%s” 已删除。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:68
+#, php-format
+msgid "Setting Key '%s' has been deleted."
+msgstr "设置键值 “%s” 已删除。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:72
+#, php-format
+msgid "Error deleting Setting Key '%s'."
+msgstr "删除设置键值 “%s” 时发生错误。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:94
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:145
+msgid "Uninstall WP-Sticky"
+msgstr "卸载 WP-Sticky"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:95
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-Sticky Will Be Deactivated Automatically."
+msgstr "<a href=\"%s\">点击这里</a> 完成卸载操作，并且 WP-Sticky 插件将自动被禁用。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:106
+msgid "Sticky Options"
+msgstr "Sticky 选项"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:109
+msgid "Categories Only:"
+msgstr "仅使用在分类页："
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:112
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:122
+msgid "No"
+msgstr "否"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:113
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:123
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:184
+msgid "Yes"
+msgstr "是"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:115
+msgid "Display announcement and sticky posts only when viewing categories."
+msgstr "仅当浏览分类页时显示博客公告和当日置顶文章。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:119
+msgid "Display Date:"
+msgstr "显示日期："
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:125
+msgid "Displays the date instead of the <strong>Announcement Banner</strong> on announcement posts."
+msgstr "在公告文章标题处，以日期替换<strong>公告标题</strong>。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:129
+msgid "Announcement Banner:"
+msgstr "公告标题："
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:132
+msgid "This banner is displayed instead of the date if you choose 'No' for <strong>Display Date</strong>."
+msgstr "此标题将在<strong>显示日期</strong>选择为“否”时替换日期显示在公告标题处。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:136
+msgid "Cancel"
+msgstr "取消"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:147
+msgid "Deactivating WP-Sticky plugin does not remove any data that may have been created, such as the sticky options. To completely remove this plugin, you can uninstall it here."
+msgstr "禁用 WP-Sticky 插件不会删除任何已创建的数据，例如 sticky 选项信息。想完整删除插件，您可以在这里卸载。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:150
+msgid "WARNING:"
+msgstr "警告："
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:151
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "如果删除，将无法返回。您最好先使用数据库备份工具对 WordPress 数据库进行备份。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:154
+msgid "The following WordPress Options/Tables will be DELETED:"
+msgstr "以下 WordPress 选项/数据库表 将被删除："
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:158
+msgid "WordPress Options"
+msgstr "WordPress 选项"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:159
+msgid "WordPress Tables"
+msgstr "WordPress 数据表"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky-options.php:185
+msgid ""
+"You Are About To Uninstall WP-Sticky From WordPress.\\n"
+"This Action Is Not Reversible.\\n"
+"\\n"
+" Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr ""
+"您将要从 WordPress 中卸载 WP-Sticky。\\n"
+"此操作无法恢复。\\n"
+"\\n"
+" 选择 [取消] 停止卸载， [确定] 完成卸载。"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky.php:46
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky.php:110
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky.php:254
+msgid "Sticky"
+msgstr "Sticky"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky.php:113
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky.php:253
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky.php:283
+msgid "Announcement"
+msgstr "博客公告"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky.php:251
+msgid "Post Sticky Status"
+msgstr "文章 Sticky 状态"
+
+#: D:\Source.Code\WP-Sticky.1.10\sticky/sticky.php:255
+msgid "Normal"
+msgstr "标准文章"
+
