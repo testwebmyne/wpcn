@@ -1,0 +1,640 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wordTube 1.53 简体中文语言包\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-10-23 14:19+0800\n"
+"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: D:\\Source.Code\\wordTube.1.53\\wordtube\n"
+"X-Poedit-Country: CHINA\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: D:\\Source.Code\\wordTube.1.53\\wordtube\n"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:17
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:19
+msgid "The Flash player is not detected. Please recheck if you uploaded it to the wordTube folder."
+msgstr "Flash 播放器未找到。请再次检查是否把它正确的上传到了 wordTube 目录。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:58
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:64
+msgid "Unable to change permissions for file "
+msgstr "无法改变文件权限"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:68
+msgid "ERROR : File cannot be saved. Check the permission of the wordpress upload folder"
+msgstr "错误：无法保存文件。请检查 Wordpress 的 upload 目录的权限。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:69
+msgid "ERROR : Upload failed. Check the file size"
+msgstr "错误：上传失败。请检查文件尺寸"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:76
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:304
+msgid "Media file"
+msgstr "媒体文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:76
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:149
+msgid " added successfully"
+msgstr "添加成功"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:132
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:162
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:56
+msgid "Update Successfully"
+msgstr "更新成功"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:149
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:373
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-tinymce.php:79
+msgid "Playlist"
+msgstr "播放列表"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:191
+msgid "Edit media file"
+msgstr "编辑媒体文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:198
+msgid "Select Playlist"
+msgstr "选择播放列表"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:205
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:223
+msgid "Autostart"
+msgstr "自动开始"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:207
+msgid "Start file automatic "
+msgstr "自动开始播放"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:211
+msgid "Edit view counter"
+msgstr "编辑查看计数器"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:219
+msgid "Here you can edit the selected file. See global settings for the Flash Player under"
+msgstr "在这里您可以编辑所选的文件。下面您可以查看 Flash 播放器的全局设置"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:219
+msgid "Options->wordTube"
+msgstr "选项 -> wordTube"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:220
+msgid "If you want to show this media file in your page, enter the tag :"
+msgstr "如果您想在您的页面中显示这个媒体文件，请输入标签："
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:224
+msgid "Media title"
+msgstr "媒体标题"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:228
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:325
+msgid "Creator / Author"
+msgstr "创建者 / 作家"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:232
+msgid "Media URL"
+msgstr "媒体链接"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:234
+msgid "Here you need to enter the absolute URL to the file (MP3,FLV,SWF,JPG,PNG or GIF)"
+msgstr "这里需要您输入文件的绝对链接地址（ MP3 、 FLV 、 SWF 、 JPG 、 PNG 或 GIF ）"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:237
+msgid "Thumbnail URL"
+msgstr "缩略图链接"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:239
+msgid "Enter the URL to show a preview of the media file"
+msgstr "输入媒体预览图文件的链接"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:242
+msgid "Link URL"
+msgstr "链接地址"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:244
+msgid "Enter the URL to the page/file, if you click on the player"
+msgstr "输入一个当点击播放器时进行访问的页面/文件的链接地址"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:247
+msgid "Default player size (Width x Heigth)"
+msgstr "默认播放器尺寸（宽 x 高）"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:250
+msgid "Note on heigth : 20 pixel are used for the player itself"
+msgstr "备注：高度的尺寸需要留出20像素供播放器自己使用"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:253
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:420
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-tinymce.php:131
+msgid "Cancel"
+msgstr "取消"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:254
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:259
+msgid "Update"
+msgstr "更新"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:258
+msgid "Preview"
+msgstr "预览"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:284
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:291
+msgid "Error in deleting file"
+msgstr "删除文件错误"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:301
+msgid "Error in deleting media file"
+msgstr "删除媒体文件错误"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:304
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:373
+msgid "deleted successfully"
+msgstr "删除成功"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:316
+msgid "Add a new media file"
+msgstr "添加新媒体文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:321
+msgid "Title / Name"
+msgstr "标题 / 名称"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:329
+msgid "Media file size (Width x Heigth)"
+msgstr "媒体文件尺寸（宽 x 高）"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:334
+msgid "Upload file"
+msgstr "上传文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:337
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-tinymce.php:89
+msgid "Select media file"
+msgstr "选择媒体文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:339
+msgid "Note : The upload limit on your server is "
+msgstr "注意：上传文件尺寸限制目前为"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:340
+msgid "The Flash Media Player handle : MP3,FLV,SWF,JPG,PNG or GIF"
+msgstr "Flash 媒体播放器支持：MP3、FLV、SWF、JPG、PNG 或 GIF"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:343
+msgid "Select thumbnail"
+msgstr "选择缩略图"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:345
+msgid "Upload a image to show a preview of the media file (optional)"
+msgstr "上传一张图片用来显示媒体文件预览图（可选）"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:348
+msgid "Enter URL to file"
+msgstr "输入文件链接"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:351
+msgid "URL to media file"
+msgstr "媒体文件链接"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:353
+msgid "Here you need to enter the absolute URL to the media file"
+msgstr "您需要输入媒体文件的绝对链接地址"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:356
+msgid "URL to thumbnail file"
+msgstr "缩略图文件链接"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:358
+msgid "Enter the URL to show a preview of the media file (optional)"
+msgstr "输入一张图片的链接用来显示媒体文件预览图（可选）"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:361
+msgid "Add media file"
+msgstr "添加媒体文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:387
+msgid "Manage Playlist"
+msgstr "管理播放列表"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:392
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:496
+msgid "ID"
+msgstr "ID"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:393
+msgid "Name"
+msgstr "名称"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:394
+msgid "Description"
+msgstr "描述"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:395
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:501
+msgid "Action"
+msgstr "动作"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:410
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:518
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:546
+msgid "Edit"
+msgstr "编辑"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:411
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:519
+msgid "Delete this file ?"
+msgstr "删除此文件？"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:411
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:519
+msgid "Delete"
+msgstr "删除"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:416
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:524
+msgid "No entries found"
+msgstr "无内容"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:425
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:435
+msgid "Add Playlist"
+msgstr "添加播放列表"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:426
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:436
+msgid "Update Playlist"
+msgstr "更新播放列表"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:430
+msgid "Name:"
+msgstr "名称："
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:431
+msgid "Description: (optional)"
+msgstr "描述：（可选）"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:432
+msgid "Media ID sorting order:"
+msgstr "媒体 ID 排序规则："
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:432
+msgid "ascending"
+msgstr "升序排列"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:433
+msgid "descending"
+msgstr "降序排列"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:459
+msgid "Manage Media files"
+msgstr "管理媒体文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:466
+msgid "Previous Page"
+msgstr "前一页"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:487
+msgid "Next Page"
+msgstr "后一页"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:497
+msgid "Title"
+msgstr "标题"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:498
+msgid "Creator"
+msgstr "创建者"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:499
+msgid "Path"
+msgstr "路径"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:500
+msgid "Views"
+msgstr "查看"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:528
+msgid "Insert new media file"
+msgstr "插入新媒体文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:546
+msgid "Playlist Preview"
+msgstr "播放列表预览"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:547
+msgid "You can show all videos/media files in a playlist. Show this playlist with the tag"
+msgstr "您可以将所有视频/媒体文件显示于播放列表中。显示播放列表请使用标签"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:549
+msgid "Select Playlist :"
+msgstr "选择播放列表："
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:551
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-tinymce.php:113
+msgid "All files"
+msgstr "所有文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:563
+msgid "OK"
+msgstr "确定"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-install.php:75
+msgid "See post to watch Flash video"
+msgstr "查看 Flash 视频文章"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:93
+msgid "wordTube Option"
+msgstr "wordTube 选项"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:97
+msgid "General Options"
+msgstr "常规设置"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:100
+msgid "Upload folder"
+msgstr "上传目录"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:102
+msgid "Standard upload folder : "
+msgstr "默认文件存储目录："
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:108
+msgid "Store uploads in this folder : "
+msgstr "自定义文件存储目录："
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:112
+msgid "Delete file with post"
+msgstr "允许删除文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:114
+msgid "Should the media file deleted, when pressing delete ? "
+msgstr "当点击删除记录时，同时删除媒体文件？"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:117
+msgid "Center Flash"
+msgstr "居中 Flash"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:119
+msgid "Center the player with the tag [CENTER]"
+msgstr "使用 [CENTER] 标签使播放器居中"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:122
+msgid "XHTML valid"
+msgstr "允许 XHTML"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:124
+msgid "Insert CDATA and a comment code. Important : Recheck your webpage with all browser types."
+msgstr "插入 CDATA 和评论代码。重要提示：请检查您的网页在所有类型浏览器中的情况。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:127
+msgid "Activate RSS Feed message"
+msgstr "动态 RSS Feed 信息"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:134
+msgid "Media Player Option"
+msgstr "媒体播放器设置"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:135
+msgid "These settings are valid for all your flash video. The settings are used in the JW Media Player Version 3.99"
+msgstr "以下设置对所有 Flash 播放器都有效。这些设置用于 JW Media Player Version 3.99"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:136
+msgid "See more information on the web page"
+msgstr "查看更多信息请访问网站"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:139
+msgid "Repeat"
+msgstr "重复"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:141
+msgid "Automatically repeat playing when a file is completed."
+msgstr "当某个文件播放完毕后自动重复。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:144
+msgid "Over stretch"
+msgstr "窗口覆盖"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:147
+msgid "true"
+msgstr "是"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:148
+msgid "false"
+msgstr "否"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:149
+msgid "fit"
+msgstr "自适应"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:150
+msgid "none"
+msgstr "无"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:153
+msgid "Over stretch the image/video to fill the entire display."
+msgstr "延伸图片/视频来适应播放窗口。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:156
+msgid "Show digits"
+msgstr "显示数字"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:158
+msgid "Show the digits for loaded, elapsed and remaining time in the Flash player."
+msgstr "显示读取进度、播放时间、剩余时间等数字于播放器。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:161
+msgid "Large Controls"
+msgstr "大控制条"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:163
+msgid "Make the controlbar twice as large."
+msgstr "控制条两倍于原始大小。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:166
+msgid "Enable Fullscreen"
+msgstr "允许全屏"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:168
+msgid "Show the fullscreen button. Note : Javascript objects (i.e Lightbox) are not always on the top."
+msgstr "显示全屏按钮。注意： Javascript 对象（例如： Lightbox）不一定会出现在顶端。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:171
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:173
+msgid "Backgroundcolor of the Flash player (default FFFFFF)."
+msgstr "播放器背景颜色（默认 FFFFFF）。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:176
+msgid "Button Color"
+msgstr "按钮颜色"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:178
+msgid "Texts / buttons color of the Flash player (default 000000)."
+msgstr "播放器文字/按钮颜色（默认 000000）。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:181
+msgid "Active Color"
+msgstr "活动颜色"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:183
+msgid "Rollover/ active color of the Flash player (default 000000)."
+msgstr "播放器滚动条/动态元素颜色（默认 000000）。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:186
+msgid "Volume"
+msgstr "音量"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:188
+msgid "Startup volume of the Flash player (default 80)."
+msgstr "播放器起始音量（默认 80）。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:191
+msgid "Buffer length"
+msgstr "缓冲长度"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:193
+msgid "Number of seconds a media file should be buffered ahead before the player starts it. Set this smaller for fast connections or short videos. Set this bigger for slow connections (default 5)."
+msgstr "在播放器开始播放媒体文件前，进行多少秒缓冲。当文件小而带宽大时设置数值小一些。当文件大而带宽小时设置大一些（默认 5）。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:196
+msgid "Activate statistic"
+msgstr "动态统计"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:198
+msgid "Activate the internal view counter for each media file."
+msgstr "为每个文件激活内部访问计数器。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:201
+msgid "Count complete"
+msgstr "计算结束"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:203
+msgid "Count only media files which are played til the end."
+msgstr "仅当媒体文件被播放完毕后才进行计数。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:206
+msgid "Equalizer"
+msgstr "均衡器"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:208
+msgid "Shows a (purely cosmetic) equalizer in the display (only with the MP3 files)."
+msgstr "在播放时显示均衡器（仅对 MP3 文件有效）。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:211
+msgid "Show logo"
+msgstr "显示 Logo"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:213
+msgid "URL to your watermark (PNG, JPG): "
+msgstr "水印图片链接地址（ PNG， JPG）："
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:219
+msgid "Playlist Settings"
+msgstr "播放列表设置"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:220
+msgid "You can show all videos/media files in a playlist. Show the media player with the tag"
+msgstr "您可以将所有视频/媒体文件显示于播放列表中。显示播放列表请使用标签"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:225
+msgid "Automatically start playing the media files."
+msgstr "自动开始播放媒体文件。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:228
+msgid "Activate autoscroll"
+msgstr "激活自动重放"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:230
+msgid "Let the playlist automatically scroll, based upon the mouse cursor."
+msgstr "在鼠标箭头的基础上，实现播放列表循环播放。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:233
+msgid "Show thumbnail"
+msgstr "显示缩略图"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:235
+msgid "Show a thumbnail in the playlist."
+msgstr "在播放列表中显示缩略图。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:238
+msgid "Shuffle mode"
+msgstr "随机模式"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:240
+msgid "Activate the shuffle mode in the playlist"
+msgstr "激活播放列表随机播放模式"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:243
+msgid "Flash size (W x H)"
+msgstr "Flash 尺寸（宽 x 高）"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:246
+msgid "Define width and height of the media player screen."
+msgstr "定义媒体播放器屏幕宽和高。"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:249
+msgid "Playlist size"
+msgstr "播放列表尺寸"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:251
+msgid "Define height of the playlist, should be larger the 20. (0 = Disable control bar)"
+msgstr "定义播放列表高度，需要大于20。（输入“0”代表禁用控制条）"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:254
+msgid "Display width"
+msgstr "显示宽度"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:256
+msgid "You can set this to a size smaller than the Flash size width, to make the playlist appear at the right"
+msgstr "您可以把此处设置的比 Flash 宽度小一些，以此让播放列表出现在右边"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-tinymce.php:78
+msgid "Media"
+msgstr "媒体"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-tinymce.php:91
+msgid "No file"
+msgstr "无文件"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-tinymce.php:111
+msgid "Select playlist"
+msgstr "选择播放列表"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube-tinymce.php:135
+msgid "Insert"
+msgstr "插入"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube.php:42
+msgid "wordTube Update"
+msgstr "wordTube 更新"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube.php:43
+msgid "A new version is available. Download"
+msgstr "新版本已发布。可以下载"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube.php:68
+msgid "Media Center"
+msgstr "媒体中心"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube.php:69
+msgid "wordTube"
+msgstr "wordTube"
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube.php:481
+msgid "Title:"
+msgstr "标题："
+
+#: D:\Source.Code\wordTube.1.53\wordtube/wordtube.php:482
+msgid "Select Media:"
+msgstr "选择媒体："
+
