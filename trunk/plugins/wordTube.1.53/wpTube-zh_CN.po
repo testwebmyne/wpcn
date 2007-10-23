@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wordTube 1.53 简体中文语言包\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-10-23 14:19+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2007-10-23 14:38+0800\n"
+"Last-Translator: Leo <skyros@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -19,12 +19,12 @@ msgstr ""
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:17
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-options.php:19
 msgid "The Flash player is not detected. Please recheck if you uploaded it to the wordTube folder."
-msgstr "Flash 播放器未找到。请再次检查是否把它正确的上传到了 wordTube 目录。"
+msgstr "Flash 播放器未找到。请再次检查是否把它正确地上传到了 wordTube 目录。"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:58
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:64
 msgid "Unable to change permissions for file "
-msgstr "无法改变文件权限"
+msgstr "无法更改文件权限"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:68
 msgid "ERROR : File cannot be saved. Check the permission of the wordpress upload folder"
