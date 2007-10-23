@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wordTube 1.53 简体中文语言包\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-10-23 14:38+0800\n"
+"PO-Revision-Date: 2007-10-23 14:51+0800\n"
 "Last-Translator: Leo <skyros@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "无法更改文件权限"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:68
 msgid "ERROR : File cannot be saved. Check the permission of the wordpress upload folder"
-msgstr "错误：无法保存文件。请检查 Wordpress 的 upload 目录的权限。"
+msgstr "错误：无法保存文件。请检查 Wordpress 的上传目录的权限。"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:69
 msgid "ERROR : Upload failed. Check the file size"
@@ -104,15 +104,15 @@ msgstr "媒体链接"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:234
 msgid "Here you need to enter the absolute URL to the file (MP3,FLV,SWF,JPG,PNG or GIF)"
-msgstr "这里需要您输入文件的绝对链接地址（ MP3 、 FLV 、 SWF 、 JPG 、 PNG 或 GIF ）"
+msgstr "这里需要您输入文件的绝对 URL（ MP3、FLV、SWF、JPG、PNG 或 GIF ）"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:237
 msgid "Thumbnail URL"
-msgstr "缩略图链接"
+msgstr "缩略图 URL"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:239
 msgid "Enter the URL to show a preview of the media file"
-msgstr "输入媒体预览图文件的链接"
+msgstr "输入媒体预览文件的 URL"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:242
 msgid "Link URL"
@@ -128,7 +128,7 @@ msgstr "默认播放器尺寸（宽 x 高）"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:250
 msgid "Note on heigth : 20 pixel are used for the player itself"
-msgstr "备注：高度的尺寸需要留出20像素供播放器自己使用"
+msgstr "备注：高度的尺寸需要留出20像素供播放器本身使用"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:253
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:420
@@ -206,11 +206,11 @@ msgstr "媒体文件链接"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:353
 msgid "Here you need to enter the absolute URL to the media file"
-msgstr "您需要输入媒体文件的绝对链接地址"
+msgstr "您需要输入媒体文件的绝对 URL"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:356
 msgid "URL to thumbnail file"
-msgstr "缩略图文件链接"
+msgstr "缩略图文件 URL"
 
 #: D:\Source.Code\wordTube.1.53\wordtube/wordtube-admin.php:358
 msgid "Enter the URL to show a preview of the media file (optional)"
