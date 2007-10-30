@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: K2 SVN 简体中文语言包\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-10-20 20:41+0800\n"
+"PO-Revision-Date: 2007-10-30 09:19+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
@@ -246,6 +246,7 @@ msgid "Close"
 msgstr "隐藏"
 
 #: D:\Source.Code.SVN\K2/comments.php:172
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:63
 msgid "Name"
 msgstr "姓名"
 
@@ -355,9 +356,10 @@ msgstr "较新文章"
 msgid "This is the frontpage of the %1$s archives. Currently the archives are spanning %2$s posts and %3$s comments, contained within the meager confines of %4$s categories. Through here, you will be able to move down into the archives by way of time or category. If you are looking for something specific, perhaps you should try the search on the sidebar."
 msgstr "这里是 %1$s 的存档页。目前本 Blog 有 %2$s 篇文章、 %3$s 条评论和 %4$s 个分类。在这里您可以按时间和分类查找文章。如果您需要查找某篇特定的文章，您可以使用右边的搜索功能。"
 
+# 为了Archives Page的slug，只能不翻译
 #: D:\Source.Code.SVN\K2/page-archives.php:39
 msgid "Live Archives"
-msgstr "Live Archives"
+msgstr ""
 
 #: D:\Source.Code.SVN\K2/page-archives.php:40
 #, php-format
@@ -392,11 +394,11 @@ msgstr "增加"
 
 #: D:\Source.Code.SVN\K2/rollingarchive.php:35
 msgid "Trim"
-msgstr "整理"
+msgstr "列表"
 
 #: D:\Source.Code.SVN\K2/rollingarchive.php:36
 msgid "Untrim"
-msgstr "不整理"
+msgstr "平铺"
 
 #: D:\Source.Code.SVN\K2/rollingarchive.php:44
 #: D:\Source.Code.SVN\K2/rollingarchive.php:45
@@ -510,6 +512,17 @@ msgstr "评论"
 msgid "RSS Feed for all Comments"
 msgstr "评论 feed"
 
+#: D:\Source.Code.SVN\K2/sidebar.php:83
+#: D:\Source.Code.SVN\K2/sidebar.php:93
+#: D:\Source.Code.SVN\K2/sidebar.php:115
+#: D:\Source.Code.SVN\K2/app/modules/asides.php:11
+#: D:\Source.Code.SVN\K2/app/modules/flickr.php:8
+#: D:\Source.Code.SVN\K2/app/modules/latest_comments.php:10
+#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:15
+#: D:\Source.Code.SVN\K2/app/modules/rss.php:37
+msgid "RSS"
+msgstr "订阅"
+
 #: D:\Source.Code.SVN\K2/sidebar.php:92
 msgid "Latest"
 msgstr "最近更新"
@@ -592,22 +605,22 @@ msgstr " <span class=\"archivepages\">第 %1$s 页 - 共 %2$s 页</span>"
 #: D:\Source.Code.SVN\K2/theloop.php:104
 #, php-format
 msgid "<span class=\"meta-start\">Published</span> %1$s %2$s %3$s<span class=\"meta-end\">.</span>"
-msgstr "<span class=\"meta-start\">发布</span>%1$s %2$s %3$s<span class=\"meta-end\">。</span>"
+msgstr "<span class=\"meta-start\">文章</span>%1$s %2$s %3$s<span class=\"meta-end\">。</span>"
 
 #: D:\Source.Code.SVN\K2/theloop.php:107
 #, php-format
 msgid "<span class=\"meta-prep\">by</span> %s"
-msgstr "<span class=\"meta-prep\">作者：</span> %s"
+msgstr "<span class=\"meta-prep\">作者</span> %s"
 
 #: D:\Source.Code.SVN\K2/theloop.php:115
 #, php-format
 msgid "<span class=\"meta-prep\">on</span> %s"
-msgstr "<span class=\"meta-prep\">日期：</span> %s"
+msgstr "<span class=\"meta-prep\">日期</span> %s"
 
 #: D:\Source.Code.SVN\K2/theloop.php:120
 #, php-format
 msgid "<span class=\"meta-prep\">in</span> %s"
-msgstr "<span class=\"meta-prep\">分类：</span> %s"
+msgstr "<span class=\"meta-prep\">分类</span> %s"
 
 #: D:\Source.Code.SVN\K2/theloop.php:121
 msgid " and "
@@ -695,6 +708,7 @@ msgstr "错误调用"
 msgid "K2 Sidebar Manager"
 msgstr "K2 侧栏管理器"
 
+# 不能翻译，否则将导致SBM出错。
 #: D:\Source.Code.SVN\K2/app/classes/sbm.php:283
 #: D:\Source.Code.SVN\K2/app/classes/sbm.php:323
 #: D:\Source.Code.SVN\K2/app/classes/sbm.php:346
@@ -729,15 +743,15 @@ msgstr "三栏"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:32
 msgid "560 &#215; 200px"
-msgstr "560 x 200 像素"
+msgstr "560 &#215; 200 像素"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:33
 msgid "780 &#215; 200px"
-msgstr "780 x 200 像素"
+msgstr "780 &#215; 200 像素"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:34
 msgid "950 &#215; 200px"
-msgstr "950 x 200 像素"
+msgstr "950 &#215; 200 像素"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:52
 msgid "K2 Options have been updated"
@@ -767,7 +781,7 @@ msgstr "开启 K2 侧栏管理器"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:88
 msgid "K2 has a neat sidebar system. If disabled, K2 reverts to WordPress widgets."
-msgstr "K2 内建了一个强大的侧栏系统。如果禁用，将使用 WordPress 默认的侧栏管理器。"
+msgstr "K2 拥有一个强大的侧栏系统。如果禁用， K2 将使用 WordPress widgets。"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:103
 msgid "Advanced Navigation"
@@ -779,7 +793,7 @@ msgstr "启用高级导航条"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:108
 msgid "Seamlessly search and navigate old posts."
-msgstr "无刷新搜索与旧文章导航。"
+msgstr "无刷新搜索，并对过去的日志进行导航。"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:113
 msgid "Archives Page"
@@ -791,20 +805,20 @@ msgstr "启用 K2 存档页面"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:118
 msgid "Installs a pre-made archives page."
-msgstr "安装归档页面。"
+msgstr "安装现成的归档页面。"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:121
 #, php-format
 msgid "We recommend you install %s for maximum archival pleasure."
-msgstr "我们建议您安装 %s 来体验最好的归档功能。"
+msgstr "我们建议您安装 %s 来体验更强劲的归档功能。"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:121
 msgid "Arnaud Froment's Extended Live Archives"
-msgstr "Arnaud Froment's Extended Live Archives"
+msgstr "Arnaud Froment 开发的 Extended Live Archives"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:123
 msgid "Configure Extended Live Archives for K2"
-msgstr "Extended Live Archives 设置"
+msgstr "为 K2 配置 Extended Live Archives"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:129
 msgid "Live Commenting"
@@ -830,7 +844,7 @@ msgstr "关闭"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:149
 msgid "Aside posts are styled differently and can be placed on the sidebar."
-msgstr "Aside 文章将以不同的样式显示出来并可放置在侧栏中。"
+msgstr "Aside 日志将使用不同于普通日志的样式，并可以放置在侧栏。"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:156
 msgid "Style"
@@ -839,11 +853,11 @@ msgstr "样式"
 #: D:\Source.Code.SVN\K2/app/display/options.php:166
 #, php-format
 msgid "Stop editing core files, K2 is highly customizable using only CSS. %s"
-msgstr "不要修改核心文件了， K2 是可以通过修改 CSS 来自定义的。 %s"
+msgstr "不要修改核心文件了， K2 可以通过 CSS 实现高可定制性。 %s"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:166
 msgid "Read&nbsp;more"
-msgstr "阅读更多 &raquo;"
+msgstr "阅读 &nbsp; 更多"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:172
 msgid "Header"
@@ -852,7 +866,7 @@ msgstr "标题"
 #: D:\Source.Code.SVN\K2/app/display/options.php:174
 #, php-format
 msgid "The header size for a default %s setup is <strong>%s</strong>."
-msgstr "页眉尺寸默认设置 %s 为 <strong>%s</strong>。"
+msgstr "默认 %s 的页眉尺寸为 <strong>%s</strong>。"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:178
 #, php-format
@@ -894,7 +908,7 @@ msgstr "删除 K2 相关设置？"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:244
 msgid "Remove all K2 settings and revert WordPress to its default theme. No files are deleted."
-msgstr "删除 K2 的所有设置并恢复到 WordPress 的默认主题。此操作不会删除任何文件。"
+msgstr "移除 K2 的全部设置并恢复到 WordPress 的默认主题。此操作不会删除任何文件。"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:245
 msgid "Reset and Uninstall K2"
@@ -1236,4 +1250,56 @@ msgstr "RSS feed 的图标："
 #: D:\Source.Code.SVN\K2/app/modules/rss.php:80
 msgid "Number of items:"
 msgstr "显示项目的个数："
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:34
+msgid "Smallest font size:"
+msgstr "最小字体尺寸："
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:39
+msgid "Largest font size:"
+msgstr "最大字体尺寸："
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:44
+msgid "Number of tags:"
+msgstr "标签数量："
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:46
+msgid "Set to 0 to display all tags."
+msgstr "设置为 0 将显示全部标签。"
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:51
+msgid "Format of cloud display:"
+msgstr "云显示格式："
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:53
+msgid "Flat"
+msgstr "平铺"
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:54
+msgid "List"
+msgstr "列表"
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:55
+msgid "Array"
+msgstr "阵列"
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:61
+msgid "Order by:"
+msgstr "排序："
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:64
+msgid "Count"
+msgstr "计数"
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:69
+msgid "Sort Order:"
+msgstr "排序次序："
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:71
+msgid "Ascending"
+msgstr "升序排列"
+
+#: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:72
+msgid "Descending"
+msgstr "降序排列"
 
