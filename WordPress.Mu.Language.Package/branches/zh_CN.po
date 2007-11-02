@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Mu 1.3 简体中文语言包\n"
-"PO-Revision-Date: 2007-11-01 10:32+0800\n"
+"PO-Revision-Date: 2007-11-02 16:33+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -399,7 +399,6 @@ msgid "Here are the blogs you already have:"
 msgstr "您已经拥有的 Blog："
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-signup.php:186
-#, fuzzy
 msgid "If you&#8217;re not going to use a great blog domain, leave it for a new user. Now have at it!"
 msgstr "如果您没打算使用很多 Blog 域名，那么把它留给其他用户好了。现在开始使用吧！"
 
@@ -415,7 +414,7 @@ msgstr "Blog %s 是您的。"
 #: D:\Source.Code\WordPress.MU.1.3/wp-signup.php:228
 #, php-format
 msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new blog.  <a href=\"%3$s\">Login</a> as \"%4$s\" using your existing password."
-msgstr "<a href=\"http://%1$s\">http://%2$s</a> 是您的新 Blog。<a href=\"%3$s\">登录</a> as \"%4$s\" 使用您原有的密码<a href=\"%3$s\">登录</a>  \"%4$s\"。"
+msgstr "<a href=\"http://%1$s\">http://%2$s</a> 是您的新 Blog。您可以使用原有的密码<a href=\"%3$s\">登录</a>  \"%4$s\"。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-signup.php:250
 #, php-format
@@ -2620,7 +2619,7 @@ msgstr "永久链接"
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/menu.php:74
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/menu.php:83
 msgid "Themes"
-msgstr "主题"
+msgstr "外观"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/menu.php:79
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/general-template.php:50
@@ -2640,7 +2639,7 @@ msgstr "Blogs"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/menu.php:85
 msgid "Upgrade"
-msgstr "升级"
+msgstr "更新"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/menu.php:179
 msgid "You do not have sufficient permissions to access this page."
@@ -2856,7 +2855,7 @@ msgstr "该地址只用于 Blog 管理。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/options-general.php:38
 msgid "If you change this we will send you an email at your new address to confirm it. <strong>The new address will not become active until confirmed.</strong>"
-msgstr "如果您选择了这个，我们将发送一封确认信邮件到您给出的新地址中。<strong>新地址确认之前将不会被激活。</strong>"
+msgstr "如果您更改了此地址，我们将发送一封确认信件到您给出的新地址中。<strong>新地址确认之前将不会被激活。</strong>"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/options-general.php:49
 msgid "Blog language:"
@@ -4239,7 +4238,6 @@ msgid "Click to remove user"
 msgstr "点击删除用户"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:233
-#, fuzzy
 msgid "N/A"
 msgstr "无"
 
@@ -4312,7 +4310,6 @@ msgid "Blog Name"
 msgstr "Blog 名称"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:522
-#, fuzzy
 msgid "Backend"
 msgstr "后台"
 
@@ -4670,7 +4667,6 @@ msgid "These users may login to the main blog and administer the site. Space sep
 msgstr "这些用户允许登录到主 Blog 并允许管理站点。用空格分隔开各个用户名。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-options.php:150
-#, fuzzy
 msgid "Site Wide Settings <em>(These settings may be overridden by blog owners)</em>"
 msgstr "站点全局设置<em>（这些设置将允许 Blog 拥有者进行修改）</em>"
 
@@ -4679,9 +4675,8 @@ msgid "Default Language:"
 msgstr "默认语言："
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-options.php:178
-#, fuzzy
 msgid "Menus <em>(Enable or disable WP Backend Menus)</em>"
-msgstr "菜单 <em>（开启或禁用 WP 后台菜单）</em>"
+msgstr "菜单<em>（开启或关闭 WP 后台菜单）</em>"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-options.php:181
 msgid "Menu"
@@ -4710,9 +4705,8 @@ msgid "Site Themes"
 msgstr "站点主题"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-themes.php:24
-#, fuzzy
 msgid "Disable themes site-wide. You can enable themes on a blog by blog basis."
-msgstr "全局禁用主题。您可以在 Blog 中自行开启主题。"
+msgstr "全局禁用主题。您可以在 Blog 的主题配置中单独为用户开启。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-themes.php:28
 msgid "Active"
@@ -6135,17 +6129,14 @@ msgid "MB (Leave blank for site default)"
 msgstr "MB （留空将使用站点默认设置）"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/mu.php:291
-#, fuzzy
 msgid "XMLRPC Posting is enabled sitewide."
 msgstr "全站开启 XMLRPC 发表日志功能。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/mu.php:293
-#, fuzzy
 msgid "XMLRPC Posting is disabled sitewide."
 msgstr "全站禁用 XMLRPC 发表日志功能。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/mu.php:296
-#, fuzzy
 msgid "Do nothing, accept sitewide default"
 msgstr "无任何修改，使用全局默认"
 
