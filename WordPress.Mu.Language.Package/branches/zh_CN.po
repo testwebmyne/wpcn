@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Mu 1.3 简体中文语言包\n"
-"PO-Revision-Date: 2007-11-02 23:25+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2007-11-04 00:06-0500\n"
+"Last-Translator: WebGuru <webmaster@lichao.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,7 +10,7 @@ msgstr ""
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: China\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: _e;__;__ngettext:1,2\n"
+"X-Poedit-KeywordsList: _e;__;__ngettext:1,2;_c\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "POT-Creation-Date: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -77,7 +77,7 @@ msgstr "抱歉，您无权编辑或者发布新的日志。"
 #: D:\Source.Code\WordPress.MU.1.3/xmlrpc.php:820
 #: D:\Source.Code\WordPress.MU.1.3/xmlrpc.php:1110
 msgid "Sorry, your entry could not be posted. Something wrong happened."
-msgstr "发生错误，无法发表您的日志。"
+msgstr "发生错误，无法发布您的日志。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-app.php:316
 #: D:\Source.Code\WordPress.MU.1.3/wp-app.php:463
@@ -1920,6 +1920,11 @@ msgstr "搜索 &#8220;%s&#8221;"
 msgid "by %s"
 msgstr "作者 %s"
 
+#: D:\Source.Code\WordPress.MU.1.3/wp-admin/edit-pages.php:34
+#, php-format
+msgid "%1$s%2$s%3$s|You can reorder these: 1: Pages, 2: by {s}, 3: matching {s}"
+msgstr "%1$s%2$s%3$s|你可以做以下重新排序: 1: 页面, 2: 由 {s}, 3: 匹配 {s}"
+
 # page管理页面关于page的介绍
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/edit-pages.php:37
 msgid "Pages are like posts except they live outside of the normal blog chronology and can be hierarchical. You can use pages to organize and manage any amount of content."
@@ -2042,6 +2047,10 @@ msgstr "待发日志"
 msgid "Pending posts"
 msgstr "待定日志"
 
+#: D:\Source.Code\WordPress.MU.1.3/wp-admin/edit.php:15
+msgid "Drafts|manage posts header"
+msgstr "草稿|管理日志篇头"
+
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/edit.php:16
 msgid "Private posts"
 msgstr "私人日志"
@@ -2093,6 +2102,11 @@ msgstr "在 &#8220;%s&#8221; 里"
 #, php-format
 msgid "during %s"
 msgstr "在 %s 之间"
+
+#: D:\Source.Code\WordPress.MU.1.3/wp-admin/edit.php:92
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s|You can reorder these: 1: Posts, 2: by {s}, 3: matching {s}, 4: in {s}, 5: during {s}"
+msgstr "%1$s%2$s%3$s%4$s%5$s|你可以做以下重新排序: 1: 日志, 2: 由 {s}, 3: 匹配 {s}, 4: 在 {s} 里, 5: 在 {s} 内"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/edit.php:97
 msgid "Search terms&hellip;"
@@ -3585,6 +3599,11 @@ msgstr "当前主题"
 msgid "Current theme preview"
 msgstr "当前主题预览"
 
+#: D:\Source.Code\WordPress.MU.1.3/wp-admin/themes.php:76
+#, php-format
+msgid "%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author"
+msgstr "%1$s %2$s by %3$s|1: 主题标题, 2: 主题版本, 3: 主题作者"
+
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/themes.php:81
 msgid "Available Themes"
 msgstr "可用主题"
@@ -4434,7 +4453,7 @@ msgstr "更新所选 Blog："
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:606
 msgid "Mark as Spam"
-msgstr "标记为垃圾信息"
+msgstr "标记为垃圾Blog"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:612
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-users.php:264
@@ -5583,7 +5602,7 @@ msgstr "日志已经被导入过"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/rss.php:122
 msgid "Done !"
-msgstr "完成！"
+msgstr "搞掂！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/rss.php:180
 msgid "RSS"
@@ -5651,9 +5670,10 @@ msgstr "完成！<strong>%s</strong>条标签已添加！"
 msgid "Step 3 &raquo;"
 msgstr "第 3 步 &raquo;"
 
+# 原来的翻译很好，不过还是缺乏原文的诙谐
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/stp.php:140
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
-msgstr "OK，您已经完成了这个四步程序！"
+msgstr "哈哈，刚才我们说有四步程序时是逗您的，现在你已全部完成了！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/stp.php:141
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/utw.php:254
@@ -5779,7 +5799,7 @@ msgstr "第 4 步 &raquo;"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/utw.php:252
 msgid "OK, so we lied about this being a 5-step program! You&#8217;re done!"
-msgstr "OK，您已经完成了这个五步程序！"
+msgstr "哈哈，刚才我们说有五步程序时是逗您的，现在你已全部完成了！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/utw.php:274
 msgid "Import Ultimate Tag Warrior tags into the new native tagging structure."
@@ -5827,7 +5847,7 @@ msgstr "您好！这个转化器允许您有选择地把现有的分类转换成
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/wp-cat2tag.php:33
 msgid "Keep in mind that if you convert a category with child categories, those child categories get their parent setting removed, so they're in the root."
-msgstr "注意，当你转换一个带有子分类的分类时，子分类的父级分类设置将会被移除从而成为顶级分类。"
+msgstr "注意，当你转换一个带有子分类的分类时，这些子分类的父级分类设置将会被移除，从而自己成为顶级分类。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/wp-cat2tag.php:37
 msgid "You have no categories to convert!"
@@ -6296,6 +6316,11 @@ msgstr "添加自定义字段 &raquo;"
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/template.php:434
 msgid "Edit timestamp"
 msgstr "修改日志发布时间"
+
+#: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/template.php:461
+#, php-format
+msgid "Existing timestamp: %1$s %2$s, %3$s @ %4$s:%5$s|1: month, 2: month string, 3: full year, 4: hours, 5: minutes"
+msgstr "现在的发布时间： %1$s %2$s, %3$s @ %4$s:%5$s|1: 月, 2: 月份, 3: 全年, 4: 小时, 5: 分钟"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/template.php:508
 msgid "WordPress recommends a better browser"
@@ -7514,6 +7539,18 @@ msgstr "上午"
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/locale.php:88
 msgid "PM"
 msgstr "下午"
+
+#: D:\Source.Code\WordPress.MU.1.3/wp-includes/locale.php:93
+msgid "number_format_decimals|$decimals argument for http://php.net/number_format, default is 0"
+msgstr "number_format_decimals|http://php.net/number_format 的 $decimals 函数参数，默认值是 0"
+
+#: D:\Source.Code\WordPress.MU.1.3/wp-includes/locale.php:96
+msgid "number_format_decimal_point|$dec_point argument for http://php.net/number_format, default is ."
+msgstr "number_format_decimal_point|http://php.net/number_format 的 $dec_point 函数参数，默认值是 ."
+
+#: D:\Source.Code\WordPress.MU.1.3/wp-includes/locale.php:99
+msgid "number_format_thousands_sep|$thousands_sep argument for http://php.net/number_format, default is ,"
+msgstr "number_format_thousands_sep|http://php.net/number_format 的$thousands_sep 函数参数，默认值是 ,"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/pluggable.php:339
 msgid "<strong>ERROR</strong>: Invalid username."
