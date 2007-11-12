@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Mu 1.3 简体中文语言包\n"
-"PO-Revision-Date: 2007-11-07 09:01+0800\n"
+"PO-Revision-Date: 2007-11-12 08:52+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -77,7 +77,7 @@ msgstr "抱歉，您无权编辑或者发布新的日志。"
 #: D:\Source.Code\WordPress.MU.1.3/xmlrpc.php:820
 #: D:\Source.Code\WordPress.MU.1.3/xmlrpc.php:1110
 msgid "Sorry, your entry could not be posted. Something wrong happened."
-msgstr "发生错误，无法发布您的日志。"
+msgstr "抱歉，发生了一些错误，导致您无法发布您的日志。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-app.php:316
 #: D:\Source.Code\WordPress.MU.1.3/wp-app.php:463
@@ -4453,7 +4453,7 @@ msgstr "更新所选 Blog："
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:606
 msgid "Mark as Spam"
-msgstr "标记为垃圾Blog"
+msgstr "标记为垃圾数据"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:612
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-users.php:264
@@ -5602,7 +5602,7 @@ msgstr "日志已经被导入过"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/rss.php:122
 msgid "Done !"
-msgstr "搞掂！"
+msgstr "完成！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/rss.php:180
 msgid "RSS"
@@ -5847,7 +5847,7 @@ msgstr "您好！这个转化器允许您有选择地把现有的分类转换成
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/wp-cat2tag.php:33
 msgid "Keep in mind that if you convert a category with child categories, those child categories get their parent setting removed, so they're in the root."
-msgstr "注意，当你转换一个带有子分类的分类时，这些子分类的父级分类设置将会被移除，从而自己成为顶级分类。"
+msgstr "注意，当你转换一个带有子分类的分类时，这些子分类的父级分类设置将会被移除，从而子分类将成为顶级分类。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/wp-cat2tag.php:37
 msgid "You have no categories to convert!"
@@ -6102,7 +6102,11 @@ msgstr ""
 "\n"
 "祝您好运，\n"
 "\n"
-"网站管理员"
+"网站管理员\n"
+"--WordPress 中文团队\n"
+"http://wp-cn.com/\n"
+"--WordPress 中文论坛\n"
+"http://wordpress.org.cn/"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/mu.php:199
 #, php-format
@@ -8422,6 +8426,10 @@ msgstr ""
 "感谢您使用本站，\n"
 "站点管理员\n"
 "SITE_NAME\n"
+"--WordPress 中文团队\n"
+"http://wp-cn.com/\n"
+"--WordPress 中文论坛\n"
+"http://wordpress.org.cn/\n"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:1681
 msgid "Delete My Blog"
