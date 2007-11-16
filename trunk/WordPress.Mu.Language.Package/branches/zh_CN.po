@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Mu 1.3 简体中文语言包\n"
-"PO-Revision-Date: 2007-11-12 08:52+0800\n"
+"PO-Revision-Date: 2007-11-16 16:05+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -116,14 +116,13 @@ msgstr "您无权上传文件。"
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "读取日志的文件位置元数据时出错。"
 
-# 第一条要翻译的字符串。
 #: D:\Source.Code\WordPress.MU.1.3/wp-comments-post.php:21
 msgid "Sorry, comments are closed for this item."
-msgstr "抱歉，这篇日志评论已关闭。"
+msgstr "抱歉，本篇文章禁止评论。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-comments-post.php:46
 msgid "Sorry, you must be logged in to post a comment."
-msgstr "对不起，您必须登录后才可以发表评论。"
+msgstr "抱歉，您必须登录后才可以发表评论。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-comments-post.php:53
 msgid "Error: please fill the required fields (name, email)."
@@ -185,29 +184,24 @@ msgstr "电子邮件发送出错。"
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "可能是因为您的服务器禁用了 mail() 函数。"
 
-# 找回密码时发送到邮箱里的验证码
 #: D:\Source.Code\WordPress.MU.1.3/wp-login.php:134
 msgid "Sorry, that key does not appear to be valid."
-msgstr "对不起，验证码无效。"
+msgstr "抱歉，验证码无效。"
 
-# 忘记密码
 #: D:\Source.Code\WordPress.MU.1.3/wp-login.php:137
 msgid "Lost Password"
 msgstr "忘记密码"
 
-# 找回密码
 #: D:\Source.Code\WordPress.MU.1.3/wp-login.php:137
 msgid "Please enter your username and e-mail address. You will receive a new password via e-mail."
 msgstr "请输入您的用户名和电子邮箱地址，我们会把新的密码发到您的电子邮箱里。"
 
-# 找回密码
 #: D:\Source.Code\WordPress.MU.1.3/wp-login.php:142
 #: D:\Source.Code\WordPress.MU.1.3/wp-login.php:276
 #: D:\Source.Code\WordPress.MU.1.3/wp-signup.php:121
 msgid "Username:"
 msgstr "用户名："
 
-# 找回密码
 #: D:\Source.Code\WordPress.MU.1.3/wp-login.php:146
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/comment.php:87
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/edit-form-comment.php:28
@@ -409,7 +403,7 @@ msgstr "创建 Blog &raquo;"
 #: D:\Source.Code\WordPress.MU.1.3/wp-signup.php:227
 #, php-format
 msgid "The blog %s is yours."
-msgstr "Blog %s 是您的。"
+msgstr "Blog %s 属于您了。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-signup.php:228
 #, php-format
@@ -466,7 +460,7 @@ msgstr "注册 &raquo;"
 #: D:\Source.Code\WordPress.MU.1.3/wp-signup.php:373
 #, php-format
 msgid "The blog %s is yours"
-msgstr "Blog %s 是您的"
+msgstr "Blog %s 属于您了"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-signup.php:374
 msgid "But, before you can start using your blog, <strong>you must activate it</strong>."
@@ -2986,7 +2980,7 @@ msgstr "更新永久链接结构 &raquo;"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/options-permalink.php:125
 msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
-msgstr "WordPress 默认使用的 <abbr title=\"Universal Resource Locator\">URL</abbr> 格式包含问号和一些数字。然而，WordPress 还为您提供了自定义日志的永久链接结构的功能。使用该功能可以使您的链接更美观，易用，并且向前兼容您以前使用的 Blog 系统。下面是一些常见的永久链接结构，在我们的网站上还提供了很多您可以使用的<a href=\"http://codex.wordpress.org/Using_Permalinks\">结构标签</a>以便您自由设置任意格式的永久链接结构。"
+msgstr "WordPress 默认使用的 <abbr title=\"Universal Resource Locator\">URL</abbr> 格式包含问号和一些数字。然而，WordPress 还为您提供了自定义日志的永久链接和存档的功能。使用该功能可以使您的链接更美观，易用，并且向前兼容您以前使用的 Blog 系统。下面是一些常见的永久链接结构，在我们的网站上还提供了很多您可以使用的<a href=\"http://codex.wordpress.org/Using_Permalinks\">结构标签</a>以便您自由设置任意格式的永久链接结构。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/options-permalink.php:139
 msgid "Common options:"
@@ -4153,11 +4147,11 @@ msgstr "Blog 已添加！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:32
 msgid "Blog archived !"
-msgstr "Blog 已归档！"
+msgstr "Blog 已存档！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:35
 msgid "Blog unarchived !"
-msgstr "Blog 未归档！"
+msgstr "Blog 未存档！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/wpmu-blogs.php:38
 msgid "Blog activated !"
@@ -5568,7 +5562,7 @@ msgstr "提交"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/mt.php:156
 msgid "Sorry, there has been an error"
-msgstr "对不起，有错误发生"
+msgstr "抱歉，有错误发生"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/mt.php:226
 #, php-format
@@ -5823,7 +5817,7 @@ msgstr "为了更好地编辑、储存导入的日志和草稿，你可以修改
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/wordpress.php:198
 msgid "Sorry, there has been an error."
-msgstr "对不起，有错误发生。"
+msgstr "抱歉，有错误发生。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/import/wordpress.php:273
 msgid "All done."
@@ -5958,15 +5952,15 @@ msgstr "弹出式评论模板"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/file.php:68
 msgid "Sorry, can&#8217;t edit files with \"..\" in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in."
-msgstr "对不起，无法编辑文件路径中包含\"..\"的文件。如果您想编辑 WordPress 根目录里的文件，请直接输入要编辑的文件名，前面不用加目录名。"
+msgstr "抱歉，无法编辑文件路径中包含\"..\"的文件。如果您想编辑 WordPress 根目录里的文件，请直接输入要编辑的文件名，前面不用加目录名。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/file.php:71
 msgid "Sorry, can&#8217;t call files with their real path."
-msgstr "对不起，不能用文件的真实路径调用文件。"
+msgstr "抱歉，不能用文件的真实路径调用文件。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/file.php:74
 msgid "Sorry, that file cannot be edited."
-msgstr "对不起，不能编辑该文件。"
+msgstr "抱歉，不能编辑该文件。"
 
 # 下面均为上传文件的错误信息
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/file.php:101
@@ -6174,7 +6168,7 @@ msgstr "永远关闭本 Blog 的 XMLRPC"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/mu.php:359
 msgid "Sorry, you must delete files before you can upload any more."
-msgstr "对不起，在上传之前先要删除掉一些文件。"
+msgstr "抱歉，在上传之前先要删除掉一些文件。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/plugin.php:22
 msgid "Visit plugin homepage"
@@ -6477,7 +6471,7 @@ msgstr "<strong>错误</strong>：WordPress %s 需要 MySQL 4.0.0 以上版本�
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/upload.php:114
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/upload.php:213
 msgid "Sorry, uploads are temporarily disabled."
-msgstr "对不起，上传暂时被禁用。"
+msgstr "抱歉，上传暂时被禁用。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-admin/includes/upload.php:189
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/script-loader.php:143
@@ -6585,7 +6579,7 @@ msgstr "就说这些！"
 #: D:\Source.Code\WordPress.MU.1.3/wp-content/themes/classic/comments-popup.php:92
 #: D:\Source.Code\WordPress.MU.1.3/wp-content/themes/classic/comments.php:74
 msgid "Sorry, the comment form is closed at this time."
-msgstr "对不起，评论已被关闭。"
+msgstr "抱歉，评论已被关闭。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-content/themes/classic/comments-popup.php:97
 msgid "Close this window."
@@ -6685,7 +6679,7 @@ msgstr "评论（%）"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-content/themes/classic/index.php:27
 msgid "Sorry, no posts matched your criteria."
-msgstr "对不起，没有符合条件的日志。"
+msgstr "抱歉，没有符合条件的日志。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-content/themes/classic/index.php:30
 msgid "&laquo; Older Posts"
@@ -6699,7 +6693,7 @@ msgstr "下一页 &raquo;"
 #: D:\Source.Code\WordPress.MU.1.3/wp-content/themes/classic/sidebar.php:8
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/post-template.php:161
 msgid "Pages:"
-msgstr "页："
+msgstr "页面："
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-content/themes/classic/sidebar.php:10
 msgid "Categories:"
@@ -8146,11 +8140,11 @@ msgstr "用户名最少需要有 4 个字符"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:878
 msgid "Sorry, usernames may not contain the character '_'!"
-msgstr "对不起， 用户名不允许包含“ _ ”！"
+msgstr "抱歉，用户名不允许包含“ _ ”！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:883
 msgid "Sorry, usernames must have letters too!"
-msgstr "对不起，用户名中必须有字母！"
+msgstr "抱歉，用户名中必须有字母！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:886
 msgid "Please enter a correct email address"
@@ -8163,15 +8157,15 @@ msgstr "请确认您的电子邮件地址。"
 # 找回密码时发送到邮箱里的验证码
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:895
 msgid "Sorry, that email address is not allowed!"
-msgstr "对不起，此电子邮箱地址不允许使用！"
+msgstr "抱歉，此电子邮箱地址不允许使用！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:901
 msgid "Sorry, that username already exists!"
-msgstr "对不起，此用户名已经被建立！"
+msgstr "抱歉，此用户名已经被建立！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:905
 msgid "Sorry, that email address is already used!"
-msgstr "对不起，此电子邮箱地址已经被使用！"
+msgstr "抱歉，此电子邮箱地址已经被使用！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:917
 msgid "That username is currently reserved but may be available in a couple of days."
@@ -8199,11 +8193,11 @@ msgstr "Blog 名称最少需要有 4 个字符"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:970
 msgid "Sorry, blog names may not contain the character '_'!"
-msgstr "对不起， Blog 名称不允许包含“ _ ”！"
+msgstr "抱歉， Blog 名称不允许包含“ _ ”！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:975
 msgid "Sorry, blog names must have letters too!"
-msgstr "对不起， Blog 名称中必须有字母！"
+msgstr "抱歉， Blog 名称中必须有字母！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:982
 msgid "Please enter a blog title"
@@ -8211,11 +8205,11 @@ msgstr "请输入一个 Blog 标题"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:993
 msgid "Sorry, that blog already exists!"
-msgstr "对不起，此 Blog 已被创建！"
+msgstr "抱歉，此 Blog 已被创建！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:997
 msgid "Sorry, that blog is reserved!"
-msgstr "对不起，此 Blog 是被保留的！"
+msgstr "抱歉，此 Blog 是被保留的！"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:1011
 msgid "That blog is currently reserved but may be available in a couple days."
@@ -8388,7 +8382,7 @@ msgstr "新 %1$s 用户： %2$s"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:1548
 msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
-msgstr "对不起，您已经用光了分配给您的空间。请上传更多文件之前，先删除一些文件。"
+msgstr "抱歉，您已经用光了分配给您的空间。请上传更多文件之前，先删除一些文件。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:1653
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:1659
@@ -8446,7 +8440,7 @@ msgstr "感谢您使用 %s，您的 Blog 已经被删除。非常期待您的归
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:1691
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
-msgstr "真抱歉，您点击的链接已经过期。请选择其他的选项。"
+msgstr "非常抱歉，您点击的链接已经过期。请选择其他的选项。"
 
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/wpmu-functions.php:1695
 #, php-format
@@ -8470,7 +8464,6 @@ msgstr "永久删除我的 Blog &raquo;"
 msgid "Primary Blog:"
 msgstr "主 Blog："
 
-# TinyMCE
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/js/tinymce/wp-mce-help.php:8
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/js/tinymce/wp-mce-help.php:122
 msgid "Rich Editor Help"
@@ -8540,7 +8533,6 @@ msgstr "提高编辑速度"
 msgid "Rather than reaching for your mouse to click on the toolbar, use these access keys. Windows and Linux use Alt+&lt;letter>. Macintosh uses Ctrl+&lt;letter>."
 msgstr "相比之下，使用快捷键更加方便。Windows 和 Linux 平台下请使用Alt+&lt;键>，Macintosh 平台下请使用Ctrl+&lt;键>。"
 
-# "Ctrl+a"的"a"
 #: D:\Source.Code\WordPress.MU.1.3/wp-includes/js/tinymce/wp-mce-help.php:151
 msgid "Letter"
 msgstr "快捷键"
