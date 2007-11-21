@@ -5,11 +5,16 @@
 	width:14px;
 	height:14px;
 	margin-right:4px;
+	border:none!important;
 }
 
 #cateTree .feed_img{
 	width:14px;
 	height:14px;
+}
+
+#cateTree .top_text{
+	background:url(images/top.gif) 0 0px no-repeat;
 }
 
 #cateTree .parent_first{
@@ -56,6 +61,11 @@
 #cateTree .branch{
 	padding-left:20px;
 	background:url(images/line.gif) 0 0px repeat-y;
+}
+
+#cateTree .branch_link{
+	text-decoration:none!important;
+	border:none !important;
 }
 
 #cateTree .branch_last{
