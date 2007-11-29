@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bbPress 0.8.3 简体中文语言包\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2007-05-29 16:55-0400\n"
-"PO-Revision-Date: 2007-11-19 09:57+0800\n"
+"PO-Revision-Date: 2007-11-29 23:37+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
@@ -14,12 +14,12 @@ msgstr ""
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c\n"
-"X-Poedit-Basepath: ../..\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Basepath: D:\\Source.Code\\bbPress.0.8.3\n"
+"X-Poedit-SearchPath-0: D:\\Source.Code\\bbPress.0.8.3\n"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-edit.php:16
 msgid "Sorry, post is too old."
-msgstr "抱歉，帖子太旧了。"
+msgstr "抱歉，帖子太老了。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-post.php:9
 msgid "Slow down; you move too fast."
@@ -27,7 +27,7 @@ msgstr "请慢慢来；您的操作太快了。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-post.php:12
 msgid "You need to actually submit some content!"
-msgstr "您需要输入一些内容!"
+msgstr "您需要输入一些内容！"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-post.php:16
 #: D:\Source.Code\bbPress.0.8.3/bb-post.php:37
@@ -40,20 +40,20 @@ msgstr "您没有权限发表新主题。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-post.php:27
 msgid "Please enter a topic title"
-msgstr "请输入一个主题标题"
+msgstr "请输入一个主题的标题"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-post.php:40
 msgid "This topic has been closed"
-msgstr "这个主题已关闭"
+msgstr "该主题已关闭"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-settings.php:139
 #, php-format
 msgid "Doesn&#8217;t look like you&#8217;ve installed bbPress yet, <a href=\"%s\">go here</a>."
-msgstr "Es sieht nicht aus, als wenn bbPress bereits installiert w&auml;re, also <a href=\"%s\">klicke hier</a>. "
+msgstr "您似乎还没有安装 bbPress，<a href=\"%s\">点击这里</a>进行安装。"
 
 #: D:\Source.Code\bbPress.0.8.3/favorites.php:7
 msgid "You cannot edit those favorites.  How did you get here?"
-msgstr "您不能编辑这些收藏。您怎么到这里来的?"
+msgstr "您不能编辑那些收藏。您怎么到这里来的？"
 
 #: D:\Source.Code\bbPress.0.8.3/forum.php:10
 msgid "Forum not found."
@@ -152,7 +152,7 @@ msgstr "外观"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:52
 msgid "Site Management"
-msgstr "网站管理"
+msgstr "站点管理"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:55
 msgid "Find"
@@ -217,12 +217,12 @@ msgstr "编辑"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:396
 #: D:\Source.Code\bbPress.0.8.3/bb-includes/bozo.php:272
 msgid "No matching users were found!"
-msgstr "没有找到符合的用户!"
+msgstr "没有找到符合的用户！"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:315
 #, php-format
 msgid "Users Matching \"%s\" by Role"
-msgstr "符合“%s”身份的用户"
+msgstr "符合\"%s\"的用户"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:317
 msgid "User List by Role"
@@ -243,7 +243,7 @@ msgstr "结果 %1$s &#8211; 第 %2$s 条显示在下方，共计 %3$s 条"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:344
 msgid "Users with no role in these forums"
-msgstr "这个论坛没有身份设置"
+msgstr "用户无权访问此版面"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:347
 msgid "ID"
@@ -257,7 +257,7 @@ msgstr "用户名"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:350
 #: D:\Source.Code\bbPress.0.8.3/bb-includes/functions.php:1768
 msgid "Email"
-msgstr "Email"
+msgstr "电子邮箱"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:351
 msgid "Registered Since"
@@ -283,7 +283,7 @@ msgstr "版面描述："
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:556
 msgid "Forum Parent:"
-msgstr "父版面："
+msgstr "上级版面："
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:559
 msgid "Position:"
@@ -300,7 +300,7 @@ msgstr "添加版面 &#187;"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:716
 #, php-format
 msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
-msgstr "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "发表时间: %1$s 在 <a href=\"%2$s\">%3$s</a>"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:726
 msgid "Count posts of every topic"
@@ -312,7 +312,7 @@ msgstr "计算每个主题的删帖数"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:728
 msgid "Count topics and posts in every forum (relies on the above)"
-msgstr "计算每个版面的主题数与帖数"
+msgstr "计算每个版面的主题数与帖数（根据以上设置）"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:729
 msgid "Count topics to which each user has replied"
@@ -328,7 +328,7 @@ msgstr "计算每个标签的主题数"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:732
 msgid "DELETE tags with no topics.  Only functions if the above checked"
-msgstr "删除没有主题的标签"
+msgstr "删除没有主题的标签。仅当上面的选项被选取时才会执行"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin-functions.php:795
 msgid "Visit plugin homepage"
@@ -346,67 +346,67 @@ msgstr "访问维护者主页"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/admin.php:7
 #, php-format
 msgid "Your database is out-of-date.  Please <a href='%s'>upgrade</a>."
-msgstr "你的数据库已经过时，请<a href='%s'>更新</a>。"
+msgstr "你的数据库已经过期，请<a href='%s'>升级</a>。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:12
 msgid "Recounting"
-msgstr "重新计算"
+msgstr "正在重新计算"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:19
 msgid "Counting posts..."
-msgstr "正在计算帖子..."
+msgstr "正在计算帖子……"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:24
 msgid "Done counting posts."
-msgstr "计算帖子完成。"
+msgstr "帖子计算完成。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:33
 msgid "Counting deleted posts..."
-msgstr "正在计算删除的帖子..."
+msgstr "正在计算删除的帖子……"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:43
 msgid "Done counting deleted posts."
-msgstr "计算删除的帖子完成。"
+msgstr "删除的帖子计算完成。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:45
 msgid "No deleted posts to count."
-msgstr "没有删除的帖子。"
+msgstr "没有删除的帖子可供计算。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:53
 msgid "Counting forum topics and posts..."
-msgstr "正在计算版面主题和帖子..."
+msgstr "正在计算版面主题和帖子……"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:67
 msgid "Done counting forum topics and posts."
-msgstr "计算版面主题和帖子完成。"
+msgstr "版面主题和帖子计算完成。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:74
 msgid "Counting topics to which each user has replied..."
-msgstr "正在计算每个用户回复的主题..."
+msgstr "正在计算每个用户回复的主题……"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:79
 msgid "Done counting topics."
-msgstr "计算主题完成。"
+msgstr "主题计算完成。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:86
 msgid "Counting topic tags..."
-msgstr "正在计算主题标签..."
+msgstr "正在计算主题标签……"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:96
 msgid "Done counting topic tags."
-msgstr "计算主题标签完成。"
+msgstr "主题标签计算完成。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:103
 msgid "Counting tagged topics..."
-msgstr "正在计算含标签的主题..."
+msgstr "正在计算含标签的主题……"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:115
 msgid "Done counting tagged topics."
-msgstr "计算含标签的主题完成。"
+msgstr "含标签的主题计算完成。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:121
 msgid "Deleted tags with no topics."
-msgstr "已删除没有应用到主题的标签。"
+msgstr "已删除不包含主题的标签。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-do-counts.php:133
 msgid "Done recounting.  The process took"
@@ -416,7 +416,7 @@ msgstr "重新计算完成。整个过程花费"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/upgrade.php:30
 #, php-format
 msgid "%1$d queries and %2$s seconds."
-msgstr "%1$d 此数据库查询和 %2$s 秒。"
+msgstr "%1$d 次查询耗时 %2$s 秒。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-forum.php:5
 msgid "You don't have the authority to mess with the forums."
@@ -432,11 +432,11 @@ msgstr "版面没有添加"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-forum.php:30
 msgid "No forums to update!"
-msgstr "没有版面更新!"
+msgstr "没有版面更新！"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-forum.php:45
 msgid "You don't have the authority to kill off the forums."
-msgstr "你没有删除论坛的权限"
+msgstr "你没有删除版面的权限。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/bb-forum.php:51
 msgid "Error occured while trying to delete forum"
@@ -478,11 +478,11 @@ msgstr[0] "%d 篇回复"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/content-forums.php:47
 msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
-msgstr "删除此版面所有主题与帖子。<en>此操作不可恢复</em>"
+msgstr "删除此版面所有主题与帖子。<en>此操作不可恢复。</em>"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/content-forums.php:48
 msgid "Move topics from this forum into"
-msgstr "从此版面移动主题到"
+msgstr "将该主题从此版面移动到"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/content-forums.php:52
 msgid "Delete forum &raquo;"
@@ -490,7 +490,7 @@ msgstr "删除版面 &raquo; "
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/content-forums.php:60
 msgid "&laquo; Go back"
-msgstr "&laquo; 上一页"
+msgstr "&laquo; 返回"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/content-forums.php:69
 msgid "Name &#8212; Description"
@@ -604,9 +604,10 @@ msgstr "那个帖子有些问题，朋友。"
 msgid "There is a problem with that topic, pardner."
 msgstr "那个主题有些问题，朋友。"
 
+# 不知道翻译的准确与否。
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/export.php:8
 msgid "No thieving allowed."
-msgstr "Stehlen verboten."
+msgstr "禁止访问。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/index.php:7
 msgid "Latest Activity"
@@ -623,7 +624,7 @@ msgstr "个人资料"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/index.php:11
 #, php-format
 msgid "registered %s ago"
-msgstr "%s前注册"
+msgstr "%s 前注册"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/index.php:16
 msgid "Recently Moderated"
@@ -665,7 +666,7 @@ msgstr "每日新用户数"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/index.php:34
 #, php-format
 msgid "Forums started %s ago."
-msgstr "版面创建在 %s 之前"
+msgstr "版面创建在 %s 之前。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:12
 msgid "bbPress &rsaquo; Installation"
@@ -674,11 +675,11 @@ msgstr "bbPress &rsaquo; 安装"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:19
 #, php-format
 msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to <a href=\"%s\">upgrade</a> instead?</p><p>To reinstall please clear your old database tables first.</p>"
-msgstr "<h1>已经安装</h1><p>您已经安装了 bbPress。您可能需要运行<a href=\"%s\">升级程序</a>而不是安装程序?</p><p>要重新安装 bbPress，请清空原有数据库中的数据。</p>"
+msgstr "<h1>已经安装</h1><p>您已经安装了 bbPress。您可能需要运行<a href=\"%s\">升级程序</a>而不是安装程序？</p><p>要重新安装 bbPress，请清空原有数据库中的数据。</p>"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:26
 msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to run the upgrade scripts instead? To reinstall please clear your old database tables first.</p>"
-msgstr "<h1>已经安装</h1><p>您已经安装了 bbPress。您可能需要运行升级程序而不是安装程序? 要重新安装 bbPress，请清空原有数据库中的数据。</p>"
+msgstr "<h1>已经安装</h1><p>您已经安装了 bbPress。您可能需要运行升级程序而不是安装程序？要重新安装 bbPress，请清空原有数据库中的数据。</p>"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:34
 #, php-format
@@ -701,61 +702,62 @@ msgstr "欢迎安装 bbPress。接下来，我们要进行几步必要的操作�
 msgid "First Step &raquo;"
 msgstr "第一步 &raquo;"
 
+# --校对分割线
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:78
 msgid "First Step"
 msgstr "第一步"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:79
 msgid "Make sure you have <strong>everything</strong> (database information, email address, etc.) entered correctly in <code>config.php</code> before running this script."
-msgstr "请确认 <code>config.php</code> 中的<strong>每个参数</strong> (数据库信息、Email 地址等) 都正确输入，之后再运行本程序。"
+msgstr "请确认 <code>config.php</code> 中的<strong>每个参数</strong> (数据库信息、电子邮箱地址等) 都正确输入后，再运行本程序。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:87
 msgid "Your <code>$bb->domain</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
-msgstr "你的 <code>$bb->Domain</code> 设置 <strong>必须</strong> 以一个反斜杠 \"<code>/</code>\" 结束."
+msgstr "您的 <code>$bb->domain</code> 设置 <strong>不能</strong> 以一个反斜杠 \"<code>/</code>\" 结束。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:90
 msgid "Your <code>$bb->domain</code> setting cannot be parsed."
-msgstr "你的 <code>$bb->Domain</code> 设置无法分析."
+msgstr "您的 <code>$bb->domain</code> 设置无法解析。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:92
 msgid "Your <code>$bb->domain</code> setting <strong>must</strong> start with <code>http://</code>."
-msgstr "你的 <code>$bb->Domain</code> 设置 <strong>必须</strong> 以 <code>http://</code> 开始。"
+msgstr "您的 <code>$bb->domain</code> 设置 <strong>必须</strong> 以 <code>http://</code> 开始。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:94
 msgid "Your <code>$bb->domain</code> setting must only include the <code>http://</code> and the domain name; it may not include any directories or path information."
-msgstr "你的 <code>$bb->Domain</code> 设置只能包含 <code>http://</code> 以及域名，而无需目录或地址信息。"
+msgstr "您的 <code>$bb->domain</code> 设置只能包含 <code>http://</code> 以及域名，而不可以包含目录或地址信息。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:96
 msgid "Your <code>$bb->path</code> setting <strong>must</strong> start with a backslash \"<code>/</code>\"."
-msgstr "你的 <code>$bb->Pfad</code> 设置 <strong>必须</strong> 以反斜杠 \"<code>/</code>\" 开始。"
+msgstr "您的 <code>$bb->path</code> 设置 <strong>必须</strong> 以反斜杠 \"<code>/</code>\" 开始。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:98
 msgid "Your <code>$bb->path</code> setting <strong>must</strong> end with a backslash \"<code>/</code>\"."
-msgstr "你的 <code>$bb->Pfad</code> 设置 <strong>必须</strong> 以反斜杠 \"<code>/</code>\" 结束。"
+msgstr "您的 <code>$bb->path</code> 设置 <strong>必须</strong> 以反斜杠 \"<code>/</code>\" 结束。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:104
 msgid "Your <code>$bb->wp_home</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
-msgstr "你的 <code>$bb->wp_home</code> 设置 <strong>不能</strong> 以反斜杠 \"<code>/</code>\" 结束。"
+msgstr "您的 <code>$bb->wp_home</code> 设置 <strong>不能</strong> 以反斜杠 \"<code>/</code>\" 结束。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:107
 msgid "Your <code>$bb->wp_home</code> setting cannot be parsed."
-msgstr "你的 <code>$bb->wp_home</code> 设置无法分析。"
+msgstr "您的 <code>$bb->wp_home</code> 设置无法解析。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:109
 msgid "Your <code>$bb->wp_home</code> setting <strong>must</strong> start with <code>http://</code>."
-msgstr "你的 <code>$bb->wp_home</code> 设置 <strong>必须</strong> 以 <code>http://</code> 开始。"
+msgstr "您的 <code>$bb->wp_home</code> 设置 <strong>必须</strong> 以 <code>http://</code> 开始。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:112
 msgid "Your <code>$bb->domain</code> and <code>$bb->wp_home</code> settings do not have the same domain.<br />You cannot share login cookies between the two.<br />Remove the <code>$bb->wp_home</code> setting from your config.php file."
-msgstr "你的 <code>$bb->Domain</code> 和 <code>$bb->wp_home</code> 设置不在同一域名下。<br />你不能在两个域名下共享cookies。<br />请将 <code>$bb->wp_home</code> 设置从 config.php 文件中移除。"
+msgstr "您的 <code>$bb->domain</code> 和 <code>$bb->wp_home</code> 设置不在同一域名下。<br />你不能在两个域名下共享cookies。<br />请将 <code>$bb->wp_home</code> 设置从 config.php 文件中移除。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:121
 msgid "Your <code>$bb->cookiedomain</code> is not in the same domain as your <code>$bb->domain</code>.  You will not be able to log in."
-msgstr "你的 <code>$bb->cookiedomain</code> 与 <code>$bb->domain</code> 不在同一域名下，所以你不能登录。"
+msgstr "您的 <code>$bb->cookiedomain</code> 与 <code>$bb->domain</code> 不在同一域名下。您将无法登陆。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:126
 msgid "Your bbPress URL <code>$bb->path</code> is outside of your <code>$bb->cookiepath</code>.  You may not be able to log in."
-msgstr "D你的 bbPress URL <code>$bb->Pfad</code> 在 <code>$bb->Cookiepfades</code> 之外，所以你不能登录。"
+msgstr "您的 bbPress 链接 <code>$bb->path</code> 在 <code>$bb->cookiepath</code> 之外。您将无法登陆。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:164
 msgid "Before we begin we need a little bit of information about your site's first <strong>administrator account</strong>, and your site's first <strong>forum</strong>."
@@ -769,11 +771,11 @@ msgstr "管理员"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:169
 #, php-format
 msgid "We found <strong>%s</strong> who is already a \"Key Master\" on these forums.  You may make others later"
-msgstr "我们发现<strong>%s</strong>已经是这些版面的“坛主”了。您可以以后再将他人设为坛主。"
+msgstr "我们发现 <strong>%s</strong> 已经是论坛的\"坛主\"了。您可以稍后设置其他人"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:172
 msgid "Enter your username below.  You will be made the first Key Master on these forums.  Leave this blank if you want to create a new account"
-msgstr "在下面输入您的用户名。您将成为这些版面的第一位坛主。如果您想创建新帐号，请将这里留空。"
+msgstr "在下面输入您的用户名。您将成为论坛的第一位坛主。如果您想创建新帐号，请将这里留空"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:177
 #: D:\Source.Code\bbPress.0.8.3/bb-templates/kakumei/login-form.php:4
@@ -786,11 +788,11 @@ msgstr "用户名："
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:181
 msgid "Email address:"
-msgstr "Email地址："
+msgstr "电子邮箱地址："
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:182
 msgid "(You already set this in your <code>config.php</code> file.)"
-msgstr "(你已经在 <code>config.php</code> 文件中设置了此项。)"
+msgstr "（你已经在 <code>config.php</code> 文件中设置了此项。）"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:185
 msgid "Website:"
@@ -870,27 +872,27 @@ msgid ""
 "--The bbPress Team\n"
 "http://bbpress.org/\n"
 msgstr ""
-"您的 bbPress 论坛已经成功安装在:\n"
+"您的 bbPress 论坛已经成功安装在：\n"
 "\n"
 "%1$s\n"
 "\n"
-"您可以用下面的管理员帐号登录:\n"
+"您可以用下面的管理员帐号登录：\n"
 "\n"
-"用户名: %2$s\n"
-"密码: %3$s\n"
+"用户名： %2$s\n"
+"密码： %3$s\n"
 "\n"
-"我们希望您使用愉快。谢谢!\n"
+"我们希望您使用愉快。谢谢！\n"
 "\n"
-"--bbPress 团队\n"
+"--The bbPress Team\n"
 "http://bbpress.org/\n"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:296
 msgid "New bbPress installation"
-msgstr "安装新的bbPress"
+msgstr "安装新的 bbPress"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:298
 msgid "Finished!"
-msgstr "完成!"
+msgstr "完成！"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:300
 #, php-format
@@ -899,7 +901,7 @@ msgstr "现在您可以使用<strong>用户名</strong>\"<code>%2$s</code>\"，<
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:302
 msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress. So to review:"
-msgstr "<strong>请仔细记住密码</strong>! 它是专门为您<strong>随机生成</strong>的密码。如果您忘记了它，您必须自己从数据库中删除数据表，重新安装 bbPress。信息如下:"
+msgstr "<strong>请牢记密码</strong>！它是专门为您<strong>随机生成</strong>的密码。如果您忘记了它，您必须自己从数据库中删除数据表，重新安装 bbPress。所以，请再次检查以下信息："
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:307
 #: D:\Source.Code\bbPress.0.8.3/bb-includes/registration-functions.php:116
@@ -909,15 +911,15 @@ msgstr "密码"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:309
 msgid "Login address"
-msgstr "登录网址"
+msgstr "登录地址"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:312
 msgid "Were you expecting more steps? Sorry to disappoint. All done! :)"
-msgstr "想进入下一步吗? 不好意思，没下一步了! :)"
+msgstr "想进入下一步吗？不好意思，没下一步了！ :)"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/install.php:317
 msgid "<a href=\"http://bbpress.org/\">bbPress</a>: Simple, Fast, Elegant."
-msgstr "<a href=\"http://bbpress.org/\">bbPress</a>: 简单，快速，优雅。"
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a>：简单、快速、优雅。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/plugins.php:53
 msgid "Plugin could not be activated; it produced a <strong>Fatal Error</strong>."
@@ -933,7 +935,7 @@ msgstr "插件<strong>已激活</strong>"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/plugins.php:62
 msgid "Plugin <strong>deactivated</strong>"
-msgstr "插件<strong>已关闭</strong>"
+msgstr "插件<strong>已禁用</strong>"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/plugins.php:76
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/plugins.php:110
@@ -954,15 +956,16 @@ msgstr "描述"
 msgid "Action"
 msgstr "操作"
 
+# 有待商榷
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/plugins.php:89
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/plugins.php:123
 #, php-format
 msgid "By %s."
-msgstr "By %s"
+msgstr "作者 %s."
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/plugins.php:105
 msgid "Automatically loaded plugins"
-msgstr "自定加载插件"
+msgstr "自动加载插件"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/plugins.php:135
 msgid "No Plugins Installed"
@@ -978,9 +981,9 @@ msgid ""
 msgstr ""
 "下面的复选框允许您重新计算储存在数据库中的数字。\n"
 "这些数字用在计算页数或是某个主题的跟帖数等。\n"
-"一般情况下您无需仔细这个操作，\n"
+"一般情况下您无需进行这个操作，\n"
 "除非您从一个版本升级到另一个版本，\n"
-"或是一些计数显示异常。\""
+"或是一些计数显示异常。"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/site.php:13
 msgid "Choose items to recalculate"
@@ -1004,12 +1007,12 @@ msgstr "标签没有找到。"
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/tag-destroy.php:17
 #, php-format
 msgid "Rows deleted from tags table: %d <br />\n"
-msgstr "从标签（tags）数据表删除的记录数: %d <br />\n"
+msgstr "从 tags 数据表删除的记录数：%d <br />\n"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/tag-destroy.php:18
 #, php-format
 msgid "Rows deleted from tagged table: %d <br />\n"
-msgstr "从标记（tagged）数据表删除的记录数: %d <br />\n"
+msgstr "从 tagged 数据表删除的记录数：%d <br />\n"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/tag-destroy.php:19
 #, php-format
@@ -1021,12 +1024,15 @@ msgstr "<a href=\"%s\">首页</a>"
 msgid ""
 "Something odd happened when attempting to destroy that tag.<br />\n"
 "<a href=\"%s\">Try Again?</a>"
-msgstr "在尝试删除标签时发生错误。<br /><a href=\"%s\">重试?</a>"
+msgstr ""
+"在尝试删除标签时发生错误。<br />\n"
+"<a href=\"%s\">重试？</a>"
 
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/tag-merge.php:14
 msgid "Tag specified not found."
 msgstr "指定的标签没有找到。"
 
+# 校对分割线--
 #: D:\Source.Code\bbPress.0.8.3/bb-admin/tag-merge.php:17
 msgid "Tag to be merged not found."
 msgstr "需要合并的标签没有找到。"
