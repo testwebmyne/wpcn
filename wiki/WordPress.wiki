@@ -1,5 +1,5 @@
 #labels Featured,Phase-Support
-#这里笼统地介绍 WordPress，让您可以对其有一个大体的了解！
+这里笼统地介绍 WordPress，让您可以对其有一个大体的了解！
 
 = 简介 =
 
