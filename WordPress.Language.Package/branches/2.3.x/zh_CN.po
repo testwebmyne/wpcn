@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.3.x SVN 简体中文语言包\n"
-"PO-Revision-Date: 2007-11-18 22:35+0800\n"
+"Project-Id-Version: WordPress 2.3.x 简体中文语言包\n"
+"PO-Revision-Date: 2007-12-24 16:00+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -22,7 +22,7 @@ msgstr "抱歉，您无权编辑或者发布新的日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:269
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:435
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:583
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:587
 #: D:\Source.Code.SVN\WordPress.2.3.x/xmlrpc.php:807
 #: D:\Source.Code.SVN\WordPress.2.3.x/xmlrpc.php:1097
 msgid "Sorry, your entry could not be posted. Something wrong happened."
@@ -30,8 +30,8 @@ msgstr "发生错误，无法发表您的日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:316
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:463
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:520
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:557
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:524
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:561
 #: D:\Source.Code.SVN\WordPress.2.3.x/xmlrpc.php:844
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "抱歉，您无权编辑这篇日志。"
@@ -49,19 +49,20 @@ msgid "Sorry, you do not have the right to delete this post."
 msgstr "抱歉，您无权删除这篇日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:365
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:505
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:509
 #: D:\Source.Code.SVN\WordPress.2.3.x/xmlrpc.php:897
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "这日志不能删除，原因未知。"
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:393
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:549
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:553
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/upload.php:7
 msgid "You do not have permission to upload files."
 msgstr "您无权上传文件。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:527
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:564
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:500
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:531
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-app.php:568
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "读取日志的文件位置元数据时出错。"
 
@@ -574,28 +575,28 @@ msgstr "注销"
 msgid "My Profile"
 msgstr "我的档案"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:52
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:54
 msgid "Invalid plugin page"
 msgstr "无效的插件页面"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:56
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:58
 #, php-format
 msgid "Cannot load %s."
 msgstr "无法载入 %s。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:74
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:76
 msgid "You are not allowed to import."
 msgstr "您无权导入。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:77
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:79
 msgid "Invalid importer."
 msgstr "无效的导入工具。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:85
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:87
 msgid "Cannot load importer."
 msgstr "无法载入该导入工具。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:92
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/admin.php:94
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/import.php:3
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/import.php:9
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/menu.php:43
@@ -619,7 +620,7 @@ msgstr "导入"
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/widgets.php:6
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/import/wp-cat2tag.php:183
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/includes/bookmark.php:9
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:45
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:46
 msgid "Cheatin&#8217; uh?"
 msgstr "您的攻击行为已被记录。"
 
@@ -987,8 +988,7 @@ msgid "Show Comments That Contain..."
 msgstr "评论中包含："
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/edit-comments.php:46
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:355
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:424
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:397
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/themes/classic/sidebar.php:16
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/widgets.php:414
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/widgets.php:1147
@@ -1118,7 +1118,7 @@ msgstr ""
 
 # 和上面的"No comments found."其实是一样的，只是一个用于浏览模式，一个用于批量编辑模式。
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/edit-comments.php:190
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:500
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:565
 msgid "No results found."
 msgstr "找不到符合搜索条件的评论。"
 
@@ -1352,7 +1352,7 @@ msgstr "待审查"
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/moderation.php:183
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/moderation.php:221
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/includes/template.php:290
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:523
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:588
 msgid "Spam"
 msgstr "垃圾评论"
 
@@ -1472,7 +1472,7 @@ msgstr "网址："
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/edit-link-form.php:90
 msgid "Description:"
-msgstr "说明："
+msgstr "描述："
 
 # 以下为XFN
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/edit-link-form.php:102
@@ -1914,6 +1914,7 @@ msgstr "分类&hellip;"
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/edit.php:154
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/export.php:26
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/link-manager.php:81
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:438
 msgid "All"
 msgstr "全部"
 
@@ -1928,7 +1929,7 @@ msgstr "下一页 &raquo;"
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/edit.php:196
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/moderation.php:166
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/includes/template.php:277
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:442
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:507
 msgid "IP:"
 msgstr "IP 地址："
 
@@ -2148,99 +2149,99 @@ msgid "Need help with WordPress? Please see our <a href='http://codex.wordpress.
 msgstr "需要帮助吗？您可以查阅 <a href='http://codex.wordpress.org/'>文档</a> 或者登录 <a href='http://wordpress.org/support/'>支持论坛</a>。<br />中文用户可以到 <a href='http://www.wordpress.org.cn/forums/'>WordPress 中文论坛</a> 求助。<br />本中文包由 <a href='http://wp-cn.com/'>WordPress 中文团队</a> 制作。"
 
 # 下面是 WordPress 安装程序
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:22
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:23
 msgid "WordPress &rsaquo; Installation"
 msgstr "WordPress &rsaquo; 安装"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:29
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:33
 msgid "Already Installed"
 msgstr "WordPress 已经安装"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:29
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:33
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:35
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:40
 msgid "Welcome"
 msgstr "欢迎"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:36
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:41
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you'll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "欢迎进入 WordPress 快速安装程序！有时间的话，您可以先浏览 <a href=\"%s\">说明文档</a> 。安装时，您只需要填写下列信息，就可以使用全世界最强大的个人信息发布平台。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:37
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:42
 msgid "First Step &raquo;"
 msgstr "第一步 &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:39
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:44
 msgid "Information needed"
 msgstr "需要的信息"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:40
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:45
 msgid "Please provide the following information.  Don't worry, you can always change these settings later."
 msgstr "请提供以下信息。不必担心，这些信息以后都可以随时修改。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:45
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:50
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/options-general.php:17
 msgid "Blog title:"
 msgstr "Blog 标题："
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:49
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:54
 msgid "Your e-mail:"
 msgstr "您的电子邮箱："
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:54
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:59
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "我希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:57
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:62
 msgid "Double-check your email address before continuing."
 msgstr "请确认您的电子邮件地址无误后再进入下一步。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:58
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:63
 msgid "Install WordPress &raquo;"
 msgstr "安装 WordPress &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:71
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:80
 msgid "<strong>ERROR</strong>: you must provide an e-mail address"
 msgstr "<strong>错误</strong>：请输入您的电子邮箱地址。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:74
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:83
 msgid "<strong>ERROR</strong>: that isn't a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "<strong>错误</strong>：无效的电子邮箱地址。正确形式为：<code>username@example.com</code>"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:81
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:91
 msgid "Success!"
 msgstr "成功！"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:83
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:93
 #, php-format
 msgid "WordPress has been installed.  Now you can <a href=\"%1$s\">log in</a> with the <strong>username</strong> \"<code>admin</code>\" and <strong>password</strong> \"<code>%2$s</code>\"."
 msgstr "WordPress 已安装。现在，您现在可以用<strong>用户名</strong> \"<code>admin</code>\" and <strong>密码</strong> \"<code>%2$s</code>\" 来 <a href=\"%1$s\">登录</a>。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:84
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:94
 msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you."
 msgstr "<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:87
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:97
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/users.php:389
 msgid "Username"
 msgstr "用户名"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:89
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:99
 msgid "Password"
 msgstr "密码"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:91
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:101
 msgid "Login address"
 msgstr "登录地址"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:94
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:104
 msgid "Were you expecting more steps? Sorry to disappoint. :)"
 msgstr "下一步？没有了，WordPress 已经安装完了！:)"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:101
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/install.php:111
 msgid "<a href=\"http://wordpress.org/\">WordPress</a>, personal publishing platform."
 msgstr "<a href=\"http://wordpress.org/\">WordPress</a>，个人信息发布平台。"
 
@@ -2796,7 +2797,7 @@ msgid "Weeks in the calendar should start on:"
 msgstr "每星期开始于："
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/options-head.php:4
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:107
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:108
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/themes/default/functions.php:357
 msgid "Options saved."
 msgstr "设置已被保存。"
@@ -3778,10 +3779,14 @@ msgid "No matching users were found!"
 msgstr "没有找到符合条件的用户！"
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/users.php:88
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:464
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:531
 msgid "&laquo; Previous Page"
 msgstr "&laquo; 上一页"
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-admin/users.php:89
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:485
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:552
 msgid "Next Page &raquo;"
 msgstr "下一页 &raquo;"
 
@@ -5656,187 +5661,177 @@ msgstr "<strong>错误</strong>：电子邮件地址不正确。"
 
 # Akismet 插件
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:37
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:110
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:111
 msgid "Akismet Configuration"
 msgstr "Akismet 配置"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:97
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:98
 msgid "Your key has been cleared."
 msgstr "您的 Key 已被清除。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:98
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:99
 msgid "Your key has been verified. Happy blogging!"
 msgstr "恭喜您，您的 key 已经被验证成功！"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:99
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:100
 msgid "The key you entered is invalid. Please double-check it."
 msgstr "您输入的 Key 不正确，请再检查一下。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:100
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:101
 msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
 msgstr "您输入的 Key 无法被验证，因为插件无法连接 akismet.com。请检查您的服务器的设置。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:101
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:102
 msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
 msgstr "无法连接 Akismet 服务器，请检查您的服务器的设置。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:102
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:103
 #, php-format
 msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
 msgstr "请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">点我获取 key。</a>）"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:103
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:104
 msgid "This key is valid."
 msgstr "此 Key 已通过验证。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:104
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:105
 msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
 msgstr "下面的 Key 以前曾经验证成功过，但是现在插件连不上 akismet.com 网站。请检查您的服务器的设置。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:114
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:115
 #, php-format
 msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
 msgstr "对于很多人来说，<a href=\"%1$s\">Akismet</a> 将大量减少甚至可以彻底消灭您的 Blog 上的垃圾评论和引用通告。即使有漏网之鱼，您只需将其标记为 \"spam\"，然后 Akismet 会自动学习。如果您还没有 WordPress.com 账号，您可以去 <a href=\"%2$s\">WordPress.com</a> 注册一个。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:117
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:118
 msgid "WordPress.com API Key"
 msgstr "WordPress.com API Key"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:121
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:122
 msgid "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
 msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:123
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:124
 msgid "Why might my key be invalid?"
 msgstr "为什么会提示 Key 无效？"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:124
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:125
 msgid "This can mean one of two things, either you copied the key wrong or that the plugin is unable to reach the Akismet servers, which is most often caused by an issue with your web host around firewalls or similar."
 msgstr "这有两种可能原因：您弄错了 Key；插件无法连接到 Akismet 服务器。这经常是您的 Web 服务器防火墙引起的"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:127
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:128
 msgid "Automatically discard spam comments on posts older than a month."
 msgstr "自动丢弃超过一个月的垃圾评论。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:128
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:129
 msgid "Update options &raquo;"
 msgstr "更新设置 &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:149
-msgid "Akismet is not active."
-msgstr "Akismet 没有启用。"
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:150
+msgid "Akismet is almost ready."
+msgstr "Akismet 已就绪。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:149
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:150
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
 msgstr "您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，此功能才能使用。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:273
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:272
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet反垃圾(%s)"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:275
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:277
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:274
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:276
 msgid "Akismet Spam"
 msgstr "Akismet反垃圾"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:286
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:305
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:285
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:304
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "您没有足够的权限审核评论。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:317
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:316
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s条评论被恢复。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:321
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:320
 msgid "All spam deleted."
 msgstr "垃圾评论已全部删除。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:329
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:368
 msgid "Caught Spam"
 msgstr "截获的垃圾评论"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:334
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:373
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "从您初次安装 Akismet 起，Akismet 已经为您截获了<strong>%1$s</strong>条垃圾评论。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:339
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:381
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "目前没有被截获的垃圾评论，今天一定是您的幸运日！:)"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:342
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:384
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "您只需按一下鼠标就可以删除全部垃圾评论。该操作无法撤销，因此您可能需要先检查一下有没有正常评论被误判成了垃圾评论。不必担心，垃圾评论会在15天后自动删除。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:348
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:507
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:390
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:572
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "目前有%1$s条评论被标记为垃圾评论。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:348
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:507
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:390
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:572
 msgid "Delete all"
 msgstr "全部删除"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:357
-msgid "Latest Spam"
-msgstr "最近的垃圾评论"
-
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:358
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:399
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "这些是 Akismet 最近判定的垃圾评论。如果您发现任何误判，您只需将它标成“不是垃圾评论”，Akismet 会自动学习并纠正错误。如果您希望恢复一条被误判的正常评论，选中它，然后选择“不是垃圾评论”。15天后，垃圾评论将被自动清空。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:395
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:466
-msgid "Previous Page"
-msgstr "上一页"
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:457
+msgid "Search Spam &raquo;"
+msgstr "搜索垃圾评论 &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:416
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:487
-msgid "Next Page"
-msgstr "下一页"
-
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:448
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:513
 msgid "Not Spam"
 msgstr "不是垃圾评论"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:454
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:519
 msgid "View Post"
 msgstr "查看日志"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:493
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:558
 msgid "De-spam marked comments &raquo;"
 msgstr "不是垃圾评论 &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:495
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:560
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "如果 Akismet 将正常评论识别为垃圾评论，请您选择被错误识别的评论并点击“不是垃圾评论”按钮，Akismet 将自动进行学习以便更好的为您服务。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:529
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:594
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了<a href=\"%2$s\">%3$s条垃圾评论</a>。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:542
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:607
 msgid "Recheck Queue for Spam"
 msgstr "重新检测垃圾评论队列"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:611
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:676
 #, php-format
 msgid "%d spam comments have been blocked by <a href=\"http://akismet.com\">Akismet</a>."
 msgstr "%d 条垃圾评论被 <a href=\"http://akismet.com\">Akismet</a> 拦截。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:615
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:680
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$s垃圾评论%3$s %4$s截获于%5$s<br />%6$sAkismet%7$s"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:647
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:712
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/widgets.php:385
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/widgets.php:461
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/widgets.php:497
@@ -5848,11 +5843,11 @@ msgstr "%1$s %2$s垃圾评论%3$s %4$s截获于%5$s<br />%6$sAkismet%7$s"
 msgid "Title:"
 msgstr "标题："
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:677
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:742
 msgid "spam comments"
 msgstr "垃圾评论"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:677
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-content/plugins/akismet/akismet.php:742
 msgid "blocked by"
 msgstr "阻止自"
 
@@ -6312,7 +6307,7 @@ msgstr "匿名"
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/comment-template.php:342
 msgid "Enter your password to view comments"
-msgstr "输入入密码以查看评论"
+msgstr "输入密码以查看评论"
 
 #: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/comment-template.php:367
 #, php-format
@@ -6377,19 +6372,19 @@ msgstr "%s"
 msgid "Protected Comments: Please enter your password to view comments."
 msgstr "保密评论：要查看请输入密码。"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/formatting.php:776
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/formatting.php:793
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s分钟"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/formatting.php:782
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/formatting.php:799
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s小时"
 
-#: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/formatting.php:788
+#: D:\Source.Code.SVN\WordPress.2.3.x/wp-includes/formatting.php:805
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
