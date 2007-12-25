@@ -1,5 +1,5 @@
 #labels Featured,Phase-Design
-WordPress MU(Multi-User)
+WordPress MU, or multi-user, is designed to do exactly that. It is most famously used for WordPress.com where it serves tens of millions of hits on hundreds of thousands of blogs each day.
 
 = Introduction =
 
