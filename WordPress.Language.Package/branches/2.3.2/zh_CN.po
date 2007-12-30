@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.3.2 简体中文语言包\n"
-"PO-Revision-Date: 2007-12-30 10:08+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2007-12-30 11:26+0800\n"
+"Last-Translator: Leo <skyros#gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -180,7 +180,7 @@ msgstr "电子邮箱 ："
 
 #: D:\Source.Code\WordPress.2.3.2/wp-login.php:149
 msgid "Get New Password &raquo;"
-msgstr "获得新密码 &raquo;"
+msgstr "获取新密码 &raquo;"
 
 #: D:\Source.Code\WordPress.2.3.2/wp-login.php:155
 #: D:\Source.Code\WordPress.2.3.2/wp-login.php:160
@@ -231,7 +231,7 @@ msgstr "[%s] 您的新密码"
 #: D:\Source.Code\WordPress.2.3.2/wp-login.php:200
 #, php-format
 msgid "Password Lost and Changed for user: %s"
-msgstr "用户：%s 的密码已被重设"
+msgstr "用户 %s 的密码已被重设"
 
 # 发给管理员的密码重设通知邮件标题
 #: D:\Source.Code\WordPress.2.3.2/wp-login.php:201
@@ -330,7 +330,7 @@ msgstr "请登录您的电子邮箱查看邮件，您的新密码就在邮件中
 
 #: D:\Source.Code\WordPress.2.3.2/wp-login.php:347
 msgid "Registration complete. Please check your e-mail."
-msgstr "注册成功。请检查您的电子邮箱。"
+msgstr "注册成功。请查看您的电子邮件。"
 
 #: D:\Source.Code\WordPress.2.3.2/wp-login.php:359
 #: D:\Source.Code\WordPress.2.3.2/wp-admin/options-writing.php:77
@@ -6362,7 +6362,7 @@ msgstr "检测到重复评论；您似乎已经提交过这条评论了！"
 
 #: D:\Source.Code\WordPress.2.3.2/wp-includes/comment.php:226
 msgid "You are posting comments too quickly.  Slow down."
-msgstr "您提交评论的速度太快了，请稍后再发表评论。"
+msgstr "您提交评论的频率太高了，请稍后再发表评论。"
 
 #: D:\Source.Code\WordPress.2.3.2/wp-includes/cron.php:135
 msgid "Once Hourly"
@@ -6397,6 +6397,7 @@ msgid "Comments for %s"
 msgstr "%s 的评论"
 
 # Blog 评论 feed 每篇日志的标题
+#    
 #: D:\Source.Code\WordPress.2.3.2/wp-includes/feed-atom-comments.php:37
 #: D:\Source.Code\WordPress.2.3.2/wp-includes/feed-rss2-comments.php:35
 #, php-format
