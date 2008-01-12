@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Mu SVN 简体中文语言包\n"
-"PO-Revision-Date: 2007-12-24 09:31+0800\n"
+"PO-Revision-Date: 2008-01-12 10:59+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -35,12 +35,12 @@ msgstr "<h2>您的帐户现在已经激活！</h2>"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-activate.php:53
 #, php-format
 msgid "<p class=\"lead-in\">Your account has been activated. You may now <a href=\"%1$s\">login</a> to the site using your chosen username of \"%2$s\".  Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>.</p>"
-msgstr "<p class=\"lead-in\">您的帐户已经激活。您现在可以使用您的用户名<a href=\"%1$s\">登录</a>到 \"%2$s\"。密码和登录信息可以在您 %3$s 的收件箱中获取。如果您没有收到邮件，请检查您的回收站或垃圾邮件目录。如果一个小时还没有收到邮件，您可以<a href=\"%4$s\">重设密码</a>。</p>"
+msgstr "<p class=\"lead-in\">您的帐户已经激活。您现在可以使用您的用户名<a href=\"%1$s\">登录</a>到 \"%2$s\"。密码和登录信息可以在您 %3$s 的收件箱中获取。如果您没有收到邮件，请检查您的回收站或垃圾邮件目录。如果您一个小时还没有收到邮件，您可以<a href=\"%4$s\">重设密码</a>。</p>"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-activate.php:55
 #, php-format
 msgid "<p class=\"lead-in\">Your blog at <a href=\"%1$s\">%2$s</a> is active. You may now login to your blog using your chosen username of \"%3$s\".  Please check your email inbox at %4$s for your password and login instructions.  If you do not receive an email, please check your junk or spam folder.  If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>.</p>"
-msgstr "<p class=\"lead-in\">您在 <a href=\"%1$s\">%2$s</a> 的 Blog 已经激活。您可以使用您的用户名 \"%3$s\" 登录到您的 Blog。请检查您 %4$s 的收件箱获取登录密码和相关登录信息。如果您没有收到邮件，请检查回收站或垃圾邮件目录。如果您已个小时还是没有收到邮件，您可以<a href=\"%5$s\">重设密码</a>。</p>"
+msgstr "<p class=\"lead-in\">您在 <a href=\"%1$s\">%2$s</a> 的 Blog 已经激活。您可以使用您的用户名 \"%3$s\" 登录到您的 Blog。请检查您 %4$s 的收件箱获取登录密码和相关登录信息。如果您没有收到邮件，请检查回收站或垃圾邮件目录。如果您一个小时还是没有收到邮件，您可以<a href=\"%5$s\">重设密码</a>。</p>"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-activate.php:65
 msgid "Your account is now active!"
@@ -48,7 +48,7 @@ msgstr "您的帐户现在已经激活！"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-activate.php:69
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/users.php:519
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:278
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:281
 msgid "Username"
 msgstr "用户名"
 
@@ -67,52 +67,66 @@ msgstr "您的帐户现在已经激活。 <a href=\"%1$s\">查看您的站点</a
 msgid "Your account is now activate. <a href=\"%1$s\">Login</a> or go back to the <a href=\"%2$s\">homepage</a>."
 msgstr "您的帐户现在已经激活。 <a href=\"%1$s\">登录</a> 或退回到 <a href=\"%2$s\">首页</a>。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:244
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:164
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:198
+msgid "Sorry, you do not have the right to access this blog."
+msgstr "抱歉，您无权访问本 Blog。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:251
 msgid "Sorry, you do not have the right to edit/publish new posts."
 msgstr "抱歉，您无权编辑或者发布新的日志。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:269
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:435
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:583
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:820
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1110
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:276
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:446
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:598
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:873
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1163
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "抱歉，发生了一些错误，导致您无法发布您的日志。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:316
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:463
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:520
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:557
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:857
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:295
+msgid "Sorry, you do not have the right to access this post."
+msgstr "抱歉，您无权访问此篇日志。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:326
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:474
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:535
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:572
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:910
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "抱歉，您无权编辑这篇日志。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:342
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:478
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:873
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:352
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:489
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:926
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "这日志不能编辑，原因未知。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:356
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:493
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:905
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:366
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:504
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:958
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "抱歉，您无权删除这篇日志。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:365
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:505
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:910
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:375
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:520
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:963
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "这日志不能删除，原因未知。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:393
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:549
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:386
+msgid "Sorry, you do not have the right to file uploads on this blog."
+msgstr "抱歉，您无权在本 Blog 上传文件。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:404
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:564
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload.php:7
 msgid "You do not have permission to upload files."
 msgstr "您无权上传文件。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:527
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:564
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:511
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:542
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-app.php:579
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "读取日志的文件位置元数据时出错。"
 
@@ -210,7 +224,7 @@ msgstr "电子邮箱："
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-login.php:150
 msgid "Get New Password &raquo;"
-msgstr "获得新密码 &raquo;"
+msgstr "获取新密码 &raquo;"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-login.php:156
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-login.php:161
@@ -287,7 +301,7 @@ msgstr "请登录您的电子邮箱查看邮件，您的新密码就在邮件中
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-login.php:266
 msgid "Registration complete. Please check your e-mail."
-msgstr "注册成功。请检查您的电子邮箱。"
+msgstr "注册成功。请查看您的电子邮件。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-login.php:280
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/post-template.php:488
@@ -314,7 +328,7 @@ msgstr "好像没有新的邮件。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-settings.php:269
 msgid "This user has elected to delete their account and the content is no longer available."
-msgstr "此用户决定删除他们不在使用的账户和内容。"
+msgstr "此用户决定删除他们不再使用的账户和内容。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-settings.php:272
 #, php-format
@@ -510,7 +524,7 @@ msgstr "如果在两天内没有激活您的 Blog，您需要重新注册。"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-signup.php:390
 #, php-format
 msgid "Greetings Site Administrator! You are currently allowing '%s' registrations. To change or disable registration go to your <a href='wp-admin/wpmu-options.php'>Options page</a>."
-msgstr "您好，站点管理员！您当前允许 '%s' 进行注册。更改或者禁用注册功能，您可以到 <a href='wp-admin/wpmu-options.php'>选项页面</a> 进行设置。"
+msgstr "询问站点管理员！您目前允许 '%s' 进行注册。更改或禁用注册，您可以到<a href='wp-admin/wpmu-options.php'>选项页面</a>进行更改。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-signup.php:397
 msgid "Registration has been disabled."
@@ -541,153 +555,182 @@ msgstr "<p><em>您寻找的 Blog， <strong>%s</strong> 并没有被创建，但
 msgid "Bad login/pass combination."
 msgstr "无效的用户名和密码。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:252
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:346
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:387
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:192
+msgid "Sorry, you can not edit this page."
+msgstr "抱歉，您无法编辑此页面。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:258
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:358
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:399
 msgid "Sorry, no such page."
 msgstr "抱歉，没有这个页面。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:313
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:279
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:443
+msgid "Sorry, you can not edit pages."
+msgstr "抱歉，您无法编辑页面。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:325
 msgid "Sorry, you can not add new pages."
 msgstr "抱歉，您不能建立新页面。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:352
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:364
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "抱歉，您无权删除这个页面。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:358
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:370
 msgid "Failed to delete the page."
 msgstr "页面删除失败。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:393
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:405
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "抱歉，您无权编辑这个页面。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:497
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:493
+msgid "Sorry, you can not edit posts on this blog."
+msgstr "抱歉，您在本 Blog 无法编辑日志。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:530
 msgid "Sorry, you do not have the right to add a category."
 msgstr "抱歉，您没有权限添加分类。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:525
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:558
 msgid "Sorry, the new category failed."
 msgstr "抱歉，添加新分类失败。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:680
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1436
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1635
-msgid "Either there are no posts, or something went wrong."
-msgstr "没有日志，或者出错了。"
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:585
+msgid "Sorry, you must be able to publish to this blog in order to view categories."
+msgstr "抱歉，无权发表日志的用户将无法浏览分类。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:727
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:762
-msgid "Sorry, this user can not edit the template."
-msgstr "抱歉，该用户不能编辑这个模板。"
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:654
+msgid "Sorry, you do not have access to user data on this blog."
+msgstr "抱歉，您在本 Blog 无法访问用户数据。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:773
-msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
-msgstr "因为文件不可写，或者是发生了其它错误。文件没有更新。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:800
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:942
-msgid "Sorry, you are not allowed to post on this blog."
-msgstr "抱歉，您无权发布日志。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:850
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:900
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1414
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1781
-msgid "Sorry, no such post."
-msgstr "抱歉，没有这篇日志。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:862
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1304
-msgid "Sorry, you do not have the right to publish this post."
-msgstr "抱歉，您无权发布这篇日志。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:985
-msgid "You are not allowed to post as this user"
-msgstr "您无权以该用户身份发布日志"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:990
-msgid "You are not allowed to create pages as this user"
-msgstr "您无权以该用户身份创建页面"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:994
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1218
-msgid "Invalid post type."
-msgstr "无效的日志类型。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1164
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1740
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1822
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:687
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1217
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1411
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1786
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1823
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1905
 msgid "Sorry, you can not edit this post."
 msgstr "抱歉，您不能编辑这篇日志。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1172
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:731
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1494
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1703
+msgid "Either there are no posts, or something went wrong."
+msgstr "没有日志，或者出错了。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:780
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:815
+msgid "Sorry, this user can not edit the template."
+msgstr "抱歉，该用户不能编辑这个模板。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:826
+msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
+msgstr "因为文件不可写，或者是发生了其它错误。文件没有更新。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:853
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:995
+msgid "Sorry, you are not allowed to post on this blog."
+msgstr "抱歉，您无权发布日志。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:903
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:953
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1472
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1864
+msgid "Sorry, no such post."
+msgstr "抱歉，没有这篇日志。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:915
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1357
+msgid "Sorry, you do not have the right to publish this post."
+msgstr "抱歉，您无权发布这篇日志。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1038
+msgid "You are not allowed to post as this user"
+msgstr "您无权以该用户身份发布日志"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1043
+msgid "You are not allowed to create pages as this user"
+msgstr "您无权以该用户身份创建页面"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1047
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1271
+msgid "Invalid post type."
+msgstr "无效的日志类型。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1225
 msgid "Invalid post id."
 msgstr "无效的日志 ID"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1209
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1262
 msgid "You are not allowed to change the post author as this user."
 msgstr "您无权以该用户身份编辑该日志作者"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1214
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1267
 msgid "You are not allowed to change the page author as this user."
 msgstr "您无权以该用户身份编辑该页面作者"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1302
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1355
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "抱歉，您无权编辑发布这个页面。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1331
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1384
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "抱歉，出错了，不能编辑。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1563
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1584
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1752
+msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
+msgstr "抱歉，无权编辑日志的用户将无法浏览分类。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1631
 msgid "You are not allowed to upload files to this site."
 msgstr "您无权上传文件。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1590
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1658
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "无法写入 %1$s (%2$s)"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1864
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1947
 msgid "Is there no link to us?"
 msgstr "没有到我们的链接？"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1904
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1914
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1921
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2021
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1987
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1997
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2004
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2104
 msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
 msgstr "目标 URL 无法使用。它不存在，或者不是一个可以通告的资源。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1917
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2000
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "源 URL 和目标 URL 不能是同一个。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1927
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2010
 msgid "The pingback has already been registered."
 msgstr "该通告已经注册。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1935
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2018
 msgid "The source URL does not exist."
 msgstr "源 URL 不存在。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1945
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2028
 msgid "We cannot find a title on that page."
 msgstr "我们没有找到页面标题。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:1981
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2064
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "源 URL 不包含目标 URL 的链接，无法使用。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2003
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2086
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "来自 %1$s 发往 %2$s 的通告已注册。保持网上对话！ :-)"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2028
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/xmlrpc.php:2111
 msgid "The specified target URL does not exist."
 msgstr "指定的目标 URL 不存在。"
 
@@ -757,7 +800,7 @@ msgstr "<a href=\"http://mu.wordpress.org/docs/\">文档</a>"
 
 # 后台管理页面最上方 Blog 标题右边的(查看网站)按钮
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin-header.php:44
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1789
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1803
 msgid "View site &raquo;"
 msgstr "查看网站 &raquo;"
 
@@ -780,28 +823,28 @@ msgstr "注销"
 msgid "My Profile"
 msgstr "我的档案"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:58
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:60
 msgid "Invalid plugin page"
 msgstr "无效的插件页面"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:62
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:64
 #, php-format
 msgid "Cannot load %s."
 msgstr "无法载入 %s。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:83
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:85
 msgid "You are not allowed to import."
 msgstr "您无权导入。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:86
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:88
 msgid "Invalid importer."
 msgstr "无效的导入工具。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:94
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:96
 msgid "Cannot load importer."
 msgstr "无法载入该导入工具。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:101
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin.php:103
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/import.php:3
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/import.php:9
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/menu.php:43
@@ -916,7 +959,6 @@ msgstr "名称"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/edit-link-categories.php:59
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/plugins.php:129
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/themes.php:130
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:158
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-themes.php:30
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:170
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:141
@@ -970,7 +1012,6 @@ msgstr "没有该 ID 的评论。"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/comment.php:119
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/comment.php:148
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/comment.php:174
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:263
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:284
 msgid "Go back"
 msgstr "后退"
@@ -1063,8 +1104,8 @@ msgstr "使用默认颜色"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/custom-header.php:172
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/edit-link-form.php:4
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:276
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:337
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:275
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:336
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/import/blogger.php:616
 msgid "Save Changes &raquo;"
 msgstr "保存修改 &raquo;"
@@ -1407,7 +1448,6 @@ msgstr "日志作者"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/edit-form.php:23
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/edit-pages.php:78
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/edit.php:55
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:154
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-blogs.php:627
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:166
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:132
@@ -1436,7 +1476,6 @@ msgstr "标签 (多个标签请用英文逗号隔开，如 cats, pet food, dogs)
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/edit-form-advanced.php:168
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/edit-page-form.php:155
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:175
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-content/themes/default/functions.php:374
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-content/themes/default/functions.php:381
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-content/themes/home/functions.php:374
@@ -2483,7 +2522,6 @@ msgid "Update &raquo;"
 msgstr "更新 &raquo;"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/link-manager.php:100
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:144
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/template.php:533
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:156
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:140
@@ -2545,8 +2583,8 @@ msgstr "管理"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/menu.php:19
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:70
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:71
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1305
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1306
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1313
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1314
 msgid "Blogroll"
 msgstr "链接"
 
@@ -3675,101 +3713,14 @@ msgstr "%s 次查询"
 msgid "%s seconds"
 msgstr "%s 秒"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:77
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:94
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:118
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:135
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:82
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:99
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:130
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:147
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:127
-msgid "Direct link to file"
-msgstr "直接链接到文件"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:84
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:125
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:89
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:137
-msgid "view"
-msgstr "查看"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:86
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:91
-msgid "Edit this file"
-msgstr "编辑该文件"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:86
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:91
-msgid "edit"
-msgstr "编辑"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:88
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:129
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:93
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:141
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:125
-msgid "Browse your files"
-msgstr "浏览您的文件"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:88
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:129
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:93
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:141
-msgid "cancel"
-msgstr "取消"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:127
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:139
-msgid "links"
-msgstr "链接"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:149
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:161
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:135
-msgid "File"
-msgstr "文件"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:164
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:176
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:142
-msgid "Delete File"
-msgstr "删除文件"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:175
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload.php:36
-msgid "Upload"
-msgstr "上传"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:204
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:225
-msgid "You are not allowed to upload files."
-msgstr "您无权上传文件。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:206
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:227
-msgid "Browse Files"
-msgstr "浏览文件"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:215
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:236
-msgid "Back to Image Uploading"
-msgstr "返回图片上传页面"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:261
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:282
-msgid "You are not allowed to delete this attachment."
-msgstr "您无权删除这个附件。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload-functions.php:324
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:341
-msgid "There are no attachments to show."
-msgstr "目前没有附件。"
-
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload.php:17
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload.php:56
 msgid "You are not allowed to be here"
 msgstr "您无权进入本页。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload.php:36
+msgid "Upload"
+msgstr "上传"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/upload.php:38
 msgid "Browse"
@@ -4066,45 +4017,45 @@ msgstr "用户的电子邮箱："
 msgid "Add User &raquo;"
 msgstr "添加用户 &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:159
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:158
 msgid "Configure"
 msgstr "配置"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:169
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:168
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/functions.php:1418
 msgid "Widgets"
 msgstr "Widgets"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:177
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:176
 msgid "No Sidebars Defined"
 msgstr "未定义侧边栏"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:179
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:178
 msgid "You are seeing this message because the theme you are currently using isn&#8217;t widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href=\"http://automattic.com/code/widgets/themes/\">follow these instructions</a>."
 msgstr "您当前使用的主题不支持 Widgets，因此不能在此改变您的侧边栏。要使您的主题支持 Widgets，请了解<a href=\"http://automattic.com/code/widgets/themes/\">相关信息</a>。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:264
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:263
 #, php-format
 msgid "Sidebar updated. <a href=\"%s\">View site &raquo;</a>"
 msgstr "侧边栏已更新。<a href=\"%s\">查看网站 &raquo;</a>"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:270
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:269
 msgid "Sidebar Arrangement"
 msgstr "侧边栏管理"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:272
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:271
 msgid "You can drag and drop widgets onto your sidebar below."
 msgstr "您可以拖拽 Widgets 到下面的侧边栏中。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:289
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:288
 msgid "Default Sidebar"
 msgstr "默认侧边栏"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:290
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:289
 msgid "Your theme will display its usual sidebar when this box is empty. Dragging widgets into this box will replace the usual sidebar with your customized sidebar."
 msgstr "如果这里是空的，您的主题会显示常用的侧边栏。您可以将您想使用的 Widgets 拖动到这里来代替默认的侧边栏。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:311
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:310
 msgid "Available Widgets"
 msgstr "可用的组件"
 
@@ -4203,7 +4154,7 @@ msgstr "路径"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-blogs.php:88
 msgid "siteurl and home will be modified too"
-msgstr "站点链接和主页将一同被修改"
+msgstr "站点链接和主页也将被修改"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-blogs.php:91
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-blogs.php:413
@@ -4480,7 +4431,7 @@ msgstr "管理员电子邮箱"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-blogs.php:628
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:114
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:282
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:285
 msgid "Email"
 msgstr "电子邮箱"
 
@@ -4506,7 +4457,7 @@ msgstr "<p>无效的电子邮箱地址</p>"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-edit.php:112
 msgid "<p>There was an error creating the user</p>"
-msgstr "<p>创建用户是发生错误</p>"
+msgstr "<p>创建用户时发生错误</p>"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-edit.php:124
 #, php-format
@@ -4808,15 +4759,15 @@ msgstr "选定的用户："
 msgid "Mark as Spammers"
 msgstr "标记为垃圾信息发送者"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:274
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:277
 msgid "Add User"
 msgstr "添加新用户"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:285
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:288
 msgid "Username and password will be mailed to the above email address."
 msgstr "用户名和密码将发送到上面的电子邮箱地址。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:289
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:292
 msgid "Add user"
 msgstr "添加新用户"
 
@@ -5936,60 +5887,60 @@ msgstr "评论模板"
 msgid "Popup Comments Template"
 msgstr "弹出式评论模板"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:68
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:71
 msgid "Sorry, can&#8217;t edit files with \"..\" in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in."
 msgstr "抱歉，无法编辑文件路径中包含\"..\"的文件。如果您想编辑 WordPress 根目录里的文件，请直接输入要编辑的文件名，前面不用加目录名。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:71
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:74
 msgid "Sorry, can&#8217;t call files with their real path."
 msgstr "抱歉，不能用文件的真实路径调用文件。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:74
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:77
 msgid "Sorry, that file cannot be edited."
 msgstr "抱歉，不能编辑该文件。"
 
 # 下面均为上传文件的错误信息
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:101
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:104
 msgid "The uploaded file exceeds the <code>upload_max_filesize</code> directive in <code>php.ini</code>."
 msgstr "上传的文件尺寸超过 <code>php.ini</code> 中定义的 <code>upload_max_filesize</code> 值。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:102
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:105
 msgid "The uploaded file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified in the HTML form."
 msgstr "上传的文件尺寸超过 html 表单所定义的<em>最大上传文件大小</em>值。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:103
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:106
 msgid "The uploaded file was only partially uploaded."
 msgstr "文件没有被完整上传。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:104
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:107
 msgid "No file was uploaded."
 msgstr "没有文件被上传。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:105
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:108
 msgid "Missing a temporary folder."
 msgstr "缺少临时文件夹。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:106
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:109
 msgid "Failed to write file to disk."
 msgstr "磁盘写操作失败。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:121
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:124
 msgid "Invalid form submission."
 msgstr "提交表单错误。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:129
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:132
 msgid "File is empty. Please upload something more substantial."
 msgstr "文件为空。请上传一些含有内容的文件。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:133
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:136
 msgid "Specified file failed upload test."
 msgstr "指定的文件没有通过上传测试。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:142
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:145
 msgid "File type does not meet security guidelines. Try another."
 msgstr "由于安全方面的原因，不允许上传此类型文件。请尝试上传其他文件。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:176
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/file.php:179
 msgid "There was a problem uploading your file. Please try again."
 msgstr "上传文件时出现问题。请重试。"
 
@@ -6169,11 +6120,6 @@ msgstr "站点管理"
 msgid "Upgrade"
 msgstr "更新"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:430
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:432
-msgid "Invites"
-msgstr "邀请"
-
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/plugin.php:22
 msgid "Visit plugin homepage"
 msgstr "访问插件主页"
@@ -6214,7 +6160,7 @@ msgstr "我的 Blog"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/schema.php:231
 #, php-format
 msgid "Just another %s weblog"
-msgstr "又一个 %s Blog"
+msgstr "另一个 %s Blog"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/schema.php:254
 msgid "F j, Y"
@@ -6371,8 +6317,8 @@ msgstr "用户已存在，密码维持不变。"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:64
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:65
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/category-template.php:116
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1298
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1299
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1306
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1307
 msgid "Uncategorized"
 msgstr "未分类"
 
@@ -6383,19 +6329,19 @@ msgstr "欢迎使用 WordPress。这是您的第一篇日志。您可以编辑�
 
 # 第一篇日志的标题
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:101
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1346
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1354
 msgid "Hello world!"
 msgstr "Hello world!"
 
 # 第一篇日志的缩略名
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:101
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1346
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1354
 msgid "hello-world"
 msgstr "hello-world"
 
 # 第一篇评论的名称
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:105
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1357
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1365
 msgid "Mr WordPress"
 msgstr "WordPress"
 
@@ -6406,20 +6352,20 @@ msgstr "你好，这是一条评论。<br />要删除这条评论，请先登录
 
 # 第一个页面的内容
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:108
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1351
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1359
 msgid "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress."
 msgstr "这里是<strong>关于</strong>页面，是一个 WordPress 页面范例。您可以编辑本页面，写上您和网站的基本信息以便读者能了解您。您可以创建任意多的页面和子页面，WordPress 会帮你管理这些内容。"
 
 # 第一个页面的标题
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:108
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1351
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1359
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/js/tinymce/wp-mce-help.php:127
 msgid "About"
 msgstr "关于"
 
 # 第一个页面的缩略名
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upgrade.php:108
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1351
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1359
 msgid "about"
 msgstr "about"
 
@@ -6469,15 +6415,81 @@ msgstr "一个崭新的 WordPress Blog 已经诞生"
 msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.0.0 or higher"
 msgstr "<strong>错误</strong>：WordPress %s 需要 MySQL 4.0.0 以上版本的支持。"
 
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:82
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:99
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:130
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:147
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:127
+msgid "Direct link to file"
+msgstr "直接链接到文件"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:89
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:137
+msgid "view"
+msgstr "查看"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:91
+msgid "Edit this file"
+msgstr "编辑该文件"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:91
+msgid "edit"
+msgstr "编辑"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:93
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:141
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:125
+msgid "Browse your files"
+msgstr "浏览您的文件"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:93
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:141
+msgid "cancel"
+msgstr "取消"
+
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:114
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:213
 msgid "Sorry, uploads are temporarily disabled."
 msgstr "抱歉，上传暂时被禁用。"
 
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:139
+msgid "links"
+msgstr "链接"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:161
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:135
+msgid "File"
+msgstr "文件"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:176
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:142
+msgid "Delete File"
+msgstr "删除文件"
+
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:189
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/script-loader.php:143
 msgid "Save &raquo;"
 msgstr "保存 &raquo;"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:225
+msgid "You are not allowed to upload files."
+msgstr "您无权上传文件。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:227
+msgid "Browse Files"
+msgstr "浏览文件"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:236
+msgid "Back to Image Uploading"
+msgstr "返回图片上传页面"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:282
+msgid "You are not allowed to delete this attachment."
+msgstr "您无权删除这个附件。"
+
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/upload.php:341
+msgid "There are no attachments to show."
+msgstr "目前没有附件。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/user.php:80
 msgid "<strong>ERROR</strong>: Please enter a username."
@@ -6993,7 +7005,7 @@ msgstr "匿名"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/comment-template.php:342
 msgid "Enter your password to view comments"
-msgstr "输入密码以查看评论"
+msgstr "输入入密码以查看评论"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/comment-template.php:367
 #, php-format
@@ -7006,7 +7018,7 @@ msgstr "检测到重复评论；您似乎已经提交过这条评论了！"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/comment.php:226
 msgid "You are posting comments too quickly.  Slow down."
-msgstr "您提交评论的速度太快了，请稍后再发表评论。"
+msgstr "您提交评论的频率太高了，请稍后再发表评论。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/cron.php:135
 msgid "Once Hourly"
@@ -7058,19 +7070,19 @@ msgstr "%s"
 msgid "Protected Comments: Please enter your password to view comments."
 msgstr "保密评论：要查看请输入密码。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/formatting.php:776
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/formatting.php:793
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s分钟"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/formatting.php:782
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/formatting.php:799
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s小时"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/formatting.php:788
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/formatting.php:805
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -7883,21 +7895,21 @@ msgstr ""
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:235
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:356
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:458
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:853
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:998
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:857
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:1002
 msgid "Invalid Taxonomy"
 msgstr "无效分类"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:913
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:1071
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:917
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:1075
 msgid "Invalid taxonomy"
 msgstr "无效的分类"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:916
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:920
 msgid "Invalid term ID"
 msgstr "无效 term ID"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:1116
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/taxonomy.php:1120
 #, php-format
 msgid "The slug \"%s\" is already in use by another term"
 msgstr "缩略名 \"%s\" 已被占用"
@@ -8216,7 +8228,7 @@ msgstr "抱歉，此 Blog 是被保留的！"
 msgid "That blog is currently reserved but may be available in a couple days."
 msgstr "该 Blog 当前是保留的，或许过几天就允许使用了。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1067
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1071
 #, php-format
 msgid ""
 "To activate your blog, please click the following link:\n"
@@ -8239,13 +8251,13 @@ msgstr ""
 "\n"
 "%s"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1069
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1083
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1073
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1091
 #, php-format
 msgid "Activate %s"
 msgstr "激活 %s"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1081
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1089
 #, php-format
 msgid ""
 "To activate your user, please click the following link:\n"
@@ -8262,46 +8274,46 @@ msgstr ""
 "当您激活以后，您会收到 *另一封电子邮件* 供您登录。\n"
 "\n"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1094
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1102
 msgid "Invalid activation key."
 msgstr "无效的激活密钥。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1097
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1105
 msgid "The blog is already active."
 msgstr "Blog 已经已经被激活。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1113
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1121
 msgid "Could not create user"
 msgstr "无法创建用户"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1120
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1128
 msgid "That username is already activated."
 msgstr "用户名已经被激活过了。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1187
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1195
 msgid "Blog already exists."
 msgstr "Blog 已被创建。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1193
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1201
 msgid "Could not create blog."
 msgstr "无法创建 Blog。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1276
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1284
 msgid "<h1>Already Installed</h1><p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>"
 msgstr "<h1>已经安装</h1><p>您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。</p>"
 
 # 第一篇日志的内容
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1340
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1348
 msgid "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. Edit or delete it, then start blogging!"
 msgstr "欢迎来到 <a href=\"SITE_URL\">SITE_NAME</a>。这是您的第一篇日志。您可以编辑它或是删除它，然后开始写您自己的 blog。"
 
 # 第一篇评论的内容
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1357
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1365
 msgid "Hi, this is a comment.<br />To delete a comment, just log in, and view the posts' comments, there you will have the option to edit or delete them."
 msgstr "你好，这是一条评论。<br />要删除这条评论，请先登录系统，查看这篇日志的评论列表，然后您就可以看到编辑或者删除评论的选项了。"
 
 # 安装成功 email 的内容
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1377
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1388
 msgid ""
 "Dear User,\n"
 "\n"
@@ -8339,12 +8351,12 @@ msgstr ""
 "--WordPress 中文论坛\n"
 "http://wordpress.org.cn/"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1410
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1421
 #, php-format
 msgid "New %1$s Blog: %2$s"
 msgstr "新 %1$s Blog： %2$s"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1417
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1431
 msgid ""
 "Dear User,\n"
 "\n"
@@ -8376,21 +8388,21 @@ msgstr ""
 "--WordPress 中文论坛\n"
 "http://wordpress.org.cn"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1445
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1459
 #, php-format
 msgid "New %1$s User: %2$s"
 msgstr "新 %1$s 用户： %2$s"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1550
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1564
 msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
 msgstr "抱歉，您已经用光了分配给您的空间。请上传更多文件之前，先删除一些文件。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1655
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1661
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1669
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1675
 msgid "Delete Blog"
 msgstr "删除 Blog"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1666
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1680
 #, php-format
 msgid ""
 "Dear User,\n"
@@ -8426,42 +8438,42 @@ msgstr ""
 "--WordPress 中文论坛\n"
 "http://wordpress.org.cn/\n"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1683
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1697
 msgid "Delete My Blog"
 msgstr "删除我的 Blog"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1685
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1699
 msgid "Thank you. Please check your email for a link to confirm your action. Your blog will not be deleted until this link is clicked."
 msgstr "谢谢。请检查您的电子邮箱以确认您的操作。在您点击邮件中的链接之前，您的 Blog 不会被删除。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1690
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1704
 #, php-format
 msgid "Thank you for using %s, your blog has been deleted. Happy trails to you until we meet again."
 msgstr "感谢您使用 %s，您的 Blog 已经被删除。非常期待您的归来。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1693
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1707
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
 msgstr "非常抱歉，您点击的链接已经过期。请选择其他的选项。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1697
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1711
 #, php-format
 msgid "If you do not want to use your %s blog any more, you can delete it using the form below. When you click <strong>Delete My Blog</strong> you will be sent an email with a link in it. Click on this link to delete your blog."
 msgstr "如果您不再想使用 %s Blog，您可以使用以下功能进行删除。当您点击<strong>删除我的 Blog</strong> 时，我们会发送给您一封含有链接的电子邮件。点击那个链接完成删除操作。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1698
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1712
 msgid "Remember, once deleted your blog cannot be restored."
 msgstr "请记住，一旦删除您的 Blog 将无法恢复。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1702
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1716
 #, php-format
 msgid "I'm sure I want to permanently disable my blog, and I am aware I can never get it back or use %s again."
 msgstr "我确认我想永久禁用我的 Blog，并且我知道我无法再使用 %s。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1703
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1717
 msgid "Delete My Blog Permanently &raquo;"
 msgstr "永久删除我的 Blog &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1837
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/wpmu-functions.php:1851
 msgid "Primary Blog:"
 msgstr "主 Blog："
 
