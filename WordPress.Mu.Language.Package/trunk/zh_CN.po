@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Mu SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-01-12 10:59+0800\n"
+"PO-Revision-Date: 2008-01-23 13:48+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -332,8 +332,8 @@ msgstr "此用户决定删除他们不再使用的账户和内容。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-settings.php:272
 #, php-format
-msgid "This blog has not been activated yet. If you are having problems activating your blog, please contact <a href=\"mailto:support@{%1$s}\">support@{%1$s}</a>."
-msgstr "该 Blog 还没有被激活。如果在激活的时候遇到问题，请联系 <a href=\"mailto:support@{%1$s}\">support@{%1$s}</a>。"
+msgid "This blog has not been activated yet. If you are having problems activating your blog, please contact <a href=\"mailto:%1$s\">%1$s</a>."
+msgstr "该 Blog 还没有被激活。如果在激活的时候遇到问题，请联系 <a href=\"mailto:%1$s\">%1$s</a>。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-settings.php:275
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-settings.php:278
@@ -862,7 +862,7 @@ msgstr "导入"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/link-category.php:60
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/link-import.php:18
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/link-import.php:70
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:11
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:24
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/sidebar.php:7
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/users.php:6
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/widgets.php:6
@@ -2594,7 +2594,7 @@ msgstr "外观"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/menu.php:21
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/menu.php:67
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:428
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:410
 msgid "Plugins"
 msgstr "插件"
 
@@ -2604,7 +2604,7 @@ msgstr "插件"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:89
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/import/dotclear.php:624
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/import/textpattern.php:559
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:411
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:393
 msgid "Users"
 msgstr "用户"
 
@@ -2616,7 +2616,7 @@ msgstr "档案"
 # option 还是翻译成“设置”，而非选项好。“更新设置”，听起来多好听啊。
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/menu.php:26
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:4
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:413
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:395
 msgid "Options"
 msgstr "设置"
 
@@ -2684,7 +2684,7 @@ msgid "Plugin Editor"
 msgstr "插件编辑器"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/menu.php:70
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:412
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:394
 msgid "Themes"
 msgstr "外观"
 
@@ -2783,91 +2783,91 @@ msgstr "以后再审核"
 msgid "Discussion Options"
 msgstr "评论设置"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:14
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:15
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:81
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:14
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:106
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:16
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:15
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:107
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:17
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:48
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-privacy.php:31
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:14
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-privacy.php:32
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:15
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:88
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:14
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:62
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:67
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:105
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:15
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:67
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:87
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:127
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-blogs.php:170
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-blogs.php:272
 msgid "Update Options &raquo;"
 msgstr "更新设置 &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:16
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:17
 msgid "Usual settings for an article:"
 msgstr "日志默认设置："
 
 # 此为默认设置，只是在新建日志时有用。
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:16
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:17
 msgid "These settings may be overridden for individual articles."
 msgstr "下列设置为撰写新日志时的默认设置。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:21
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:22
 msgid "Attempt to notify any blogs linked to from the article (slows down posting.)"
 msgstr "尝试对在日志中出现的网址发送通告 （会延长发布日志所需的时间）"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:26
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:27
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks.)"
 msgstr "允许接受来自其它 Blog 的链接通告（包括引用和通告）"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:31
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:32
 msgid "Allow people to post comments on the article"
 msgstr "允许访客对该日志发表评论"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:36
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:37
 msgid "E-mail me whenever:"
 msgstr "发生下列事件时，发送电子邮件通知我："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:41
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:42
 msgid "Anyone posts a comment"
 msgstr "有人发表了新评论"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:46
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:47
 msgid "A comment is held for moderation"
 msgstr "有一条新的评论等待审查"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:51
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:52
 msgid "Before a comment appears:"
 msgstr "正式显示评论之前："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:56
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:57
 msgid "An administrator must always approve the comment"
 msgstr "必须经管理员审核"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:58
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:59
 msgid "Comment author must fill out name and e-mail"
 msgstr "评论者必须输入姓名及电子邮箱"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:59
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:60
 msgid "Comment author must have a previously approved comment"
 msgstr "评论者必须曾有一条评论被批准"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:63
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:64
 msgid "Comment Moderation"
 msgstr "评论审核"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:64
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:65
 #, php-format
 msgid "Hold a comment in the queue if it contains %s or more links. (A common characteristic of comment spam is a large number of hyperlinks.)"
 msgstr "如果一条评论中包含 %s 个以上链接，则将该评论放入审核队列。（垃圾评论的一个常见特点就是包含大量的链接）"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:66
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:67
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be held in the <a href=\"moderation.php\">moderation queue</a>. One word or IP per line. It will match inside words, so \"press\" will match \"WordPress\"."
 msgstr "若评论的内容、姓名、URL、电子邮箱、IP 地址中包含以下任何一个关键词，则将其加入<a href=\"moderation.php\">待审查队列</a>。（一行一个关键词）"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:72
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:73
 msgid "Comment Blacklist"
 msgstr "评论黑名单"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:73
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-discussion.php:74
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be marked as spam. One word or IP per line. It will match inside words, so \"press\" will match \"WordPress\"."
 msgstr "当评论的内容、姓名、URL、电子邮箱、IP 地址中包含以下任何一个关键词，则将其标记为垃圾评论。（一行一个关键词）"
 
@@ -2876,90 +2876,90 @@ msgstr "当评论的内容、姓名、URL、电子邮箱、IP 地址中包含以
 msgid "General Options"
 msgstr "常规设置"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:17
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:18
 msgid "Blog title:"
 msgstr "Blog 标题："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:21
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:22
 msgid "Tagline:"
 msgstr "Blog 副标题："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:24
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:25
 msgid "In a few words, explain what this blog is about."
 msgstr "简要描述该 Blog。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:27
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:28
 msgid "Membership:"
 msgstr "用户："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:30
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:31
 msgid "Users must be registered and logged in to comment"
 msgstr "用户必须注册并登录后才能发表评论"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:35
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:36
 msgid "E-mail address:"
 msgstr "电子邮箱地址："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:38
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:39
 msgid "This address is used only for admin purposes."
 msgstr "该地址只用于 Blog 管理。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:38
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:39
 msgid "If you change this we will send you an email at your new address to confirm it. <strong>The new address will not become active until confirmed.</strong>"
 msgstr "如果您更改了此地址，我们将发送一封确认信件到您给出的新地址中。<strong>新地址确认之前将不会被激活。</strong>"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:49
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:50
 msgid "Blog language:"
 msgstr "Blog 语言："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:53
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:54
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-options.php:162
 msgid "English"
 msgstr "English"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:67
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:68
 msgid "Date and Time"
 msgstr "日期和时间"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:70
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:71
 msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is:"
 msgstr "当前 <abbr title=\"Coordinated Universal Time\">UTC</abbr> 时间："
 
 # 常规设置页的 UTC 时间格式
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:71
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:72
 msgid "Y-m-d g:i:s a"
 msgstr "Y年n月j日 g点i分s秒 a"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:74
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:75
 msgid "Times in the blog should differ by:"
 msgstr "本 Blog 的时区："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:76
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:77
 msgid "hours"
 msgstr "小时"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:76
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:77
 msgid "Your timezone offset, for example <code>-6</code> for Central Time."
 msgstr "您所在的时区。如北京时间，填 <code>8</code>。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:79
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:80
 msgid "Default date format:"
 msgstr "默认日期格式："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:81
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:86
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:82
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:87
 msgid "Output:"
 msgstr "预览："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:84
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:85
 msgid "Default time format:"
 msgstr "默认时间格式："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:90
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:91
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click \"Update options\" to update sample output."
 msgstr "具体代码的含义请参考相关文档 <a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">时期时间格式</a>。修改日期和时间的格式后，点击“更新设置”即可看到新格式的输出预览。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:93
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-general.php:94
 msgid "Weeks in the calendar should start on:"
 msgstr "每星期开始于："
 
@@ -2976,27 +2976,27 @@ msgstr "设置已被保存。"
 msgid "Miscellaneous Options"
 msgstr "其它设置"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:18
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:19
 msgid "Uploading"
 msgstr "上传"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:21
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:22
 msgid "Store uploads in this folder"
 msgstr "将上传的文件保存在目录"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:24
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:25
 msgid "Default is <code>wp-content/uploads</code>"
 msgstr "默认目录为 <code>wp-content/uploads</code>"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:32
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:33
 msgid "Organize my uploads into month- and year-based folders"
 msgstr "将上传的文件存放在“年份/月份”格式的目录中"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:40
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:41
 msgid "Track Links&#8217; Update Times"
 msgstr "追踪链接的更新时间"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:42
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-misc.php:43
 msgid "Use legacy <code>my-hacks.php</code> file support"
 msgstr "兼容旧版 WordPress 中的 <code>my-hacks.php</code> 文件"
 
@@ -3074,15 +3074,15 @@ msgstr "如果您的 <code>.htaccess</code> 文件 <a href=\"http://codex.wordpr
 msgid "Privacy Options"
 msgstr "隐私设置"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-privacy.php:19
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-privacy.php:20
 msgid "Blog visibility:"
 msgstr "Blog 隐私设置："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-privacy.php:22
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-privacy.php:23
 msgid "I would like my blog to be visible to anyone who visits, including search engines, archivers and in public listings around this site."
 msgstr "任何人都可以访问我的 Blog ，包括搜索引擎（Google，百度，Technorati 等等）。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-privacy.php:25
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-privacy.php:26
 msgid "I would like to block search engines, but allow normal visitors"
 msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问。"
 
@@ -3091,88 +3091,88 @@ msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录�
 msgid "Reading Options"
 msgstr "输出设置"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:17
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:18
 msgid "Front Page"
 msgstr "首页"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:20
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:21
 msgid "Front page displays:"
 msgstr "首页显示："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:24
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:25
 msgid "Your latest posts"
 msgstr "最新日志"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:29
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:30
 #, php-format
 msgid "A <a href=\"%s\">static page</a> (select below)"
 msgstr "<a href=\"%s\">静态页面</a>（在下面选择）"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:33
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:34
 #, php-format
 msgid "Front page: %s"
 msgstr "首页显示%s页面的内容。"
 
 # 提示用户在下拉列表中选择。
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:33
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:34
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:35
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/import/mt.php:37
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/template.php:403
 msgid "- Select -"
 msgstr "- 选择 -"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:34
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:35
 #, php-format
 msgid "Posts page: %s"
 msgstr "原本显示在首页的最新 10 篇日志显示在%s页面"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:39
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:40
 msgid "<strong>Warning:</strong> these pages should not be the same!"
 msgstr "<strong>警告：</strong>这两个选项不能选择同一个页面。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:50
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:51
 msgid "Blog Pages"
 msgstr "Blog 首页及存档页"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:53
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:54
 msgid "Show at most:"
 msgstr "最多显示："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:55
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:66
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:56
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:67
 msgid "posts"
 msgstr "条日志"
 
 # feed 这个词真难翻译
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:62
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:63
 msgid "Syndication Feeds"
 msgstr "Feed（联合供稿）"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:65
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:66
 msgid "Show the most recent:"
 msgstr "显示最新："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:69
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:70
 msgid "For each article, show:"
 msgstr "日志内容显示："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:71
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:72
 msgid "Full text"
 msgstr "全文"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:72
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:73
 msgid "Summary"
 msgstr "摘要"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:73
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:74
 msgid "Note: If you use the <code>&lt;!--more--&gt;</code> feature, it will cut off posts in RSS feeds."
 msgstr "提示：当选择显示全文时，如果您使用了 <code>&lt;!--more--></code> 标签来截断您的日志，那么 Feed 中的日志内容也会被截断。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:80
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:81
 msgid "Encoding for pages and feeds:"
 msgstr "Blog 页面及 Feed 的编码方式："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:82
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-reading.php:83
 msgid "The character encoding you write your blog in (UTF-8 is <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recommended</a>)"
 msgstr "您的 Blog 的输出所采用的字符编码方式（<a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">推荐使用</a> UTF-8）"
 
@@ -3181,36 +3181,40 @@ msgstr "您的 Blog 的输出所采用的字符编码方式（<a href=\"http://d
 msgid "Writing Options"
 msgstr "撰写"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:17
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:18
 msgid "Size of the post box:"
 msgstr "编辑框尺寸："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:19
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:20
 msgid "lines"
 msgstr "行"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:22
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:23
 msgid "Formatting:"
 msgstr "格式："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:26
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:27
 msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
 msgstr "自动将 <code>:-)</code> 和 <code>:-P</code> 等表情符号转换成图片显示"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:27
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:28
 msgid "WordPress should correct invalidly nested XHTML automatically"
 msgstr "允许 WordPress 自动修正错误嵌套的 XHTML 标签"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:31
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:32
 msgid "Default post category:"
 msgstr "默认日志分类："
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:45
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options-writing.php:46
 msgid "Default link category:"
 msgstr "默认链接分类："
 
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:49
+msgid "Error! Options page not found."
+msgstr "错误！设置页面未找到。"
+
 # 这就是传说中隐藏着的“所有设置”页面
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:63
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/options.php:82
 msgid "All Options"
 msgstr "所有设置"
 
@@ -4254,7 +4258,7 @@ msgstr "全部选中"
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-blogs.php:376
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:117
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/wpmu-users.php:159
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:410
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:392
 msgid "Blogs"
 msgstr "Blogs"
 
@@ -6083,40 +6087,20 @@ msgstr "Blog 上传空间配额"
 msgid "MB (Leave blank for site default)"
 msgstr "MB （留空将使用站点默认设置）"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:288
-msgid "XMLRPC Posting is enabled sitewide."
-msgstr "全站开启 XMLRPC 发表日志功能。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:290
-msgid "XMLRPC Posting is disabled sitewide."
-msgstr "全站禁用 XMLRPC 发表日志功能。"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:293
-msgid "Do nothing, accept sitewide default"
-msgstr "无任何修改，使用全局默认"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:294
-msgid "XMLRPC always on for this blog"
-msgstr "永远开启本 Blog 的 XMLRPC"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:295
-msgid "XMLRPC always off for this blog"
-msgstr "永远关闭本 Blog 的 XMLRPC"
-
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:356
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:338
 msgid "Sorry, you must delete files before you can upload any more."
 msgstr "抱歉，在上传之前先要删除掉一些文件。"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:408
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:390
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-includes/general-template.php:50
 msgid "Site Admin"
 msgstr "网站管理"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:409
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:391
 msgid "Admin"
 msgstr "站点管理"
 
-#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:414
+#: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/includes/mu.php:396
 msgid "Upgrade"
 msgstr "更新"
 
