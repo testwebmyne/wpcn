@@ -2,7 +2,7 @@ WPMU 是 WordPress MultiUser 或 WordPress_MU 的简写形式
 
 当您从[http://mu.wordpress.org/forums 支持论坛]来到这里时，本页将是您的引导页
 
-* 最开始，您可以首先查看 [http://trac.mu.wordpress.org/browser/trunk/README.txt Readme] 文件。在遇到问题并想在论坛发贴求助之前，请确保已经完全通读了 Readme 文件。
-* Codex 是关于 WordPress 和 WordPress MU 的信息集合。[http://codex.wordpress.org/index.php?title=Category:WPMU WPMU 索引页面]列出了所有相关的分类，并且非常易懂。[http://codex.wordpress.org/index.php?title=Special:Recentchangeslinked&target=Category:WPMU&hideminor=0&days=180&limit=50 WPMU 最近更新]可以更方便的让您知道您感兴趣的项目俄动向。
-* [http://trac.mu.wordpress.org/ Trac] 是我们的一个 问题跟踪系统。如果您觉得您发现了一个 Bug，您可以在 Trac 上发表一个描述详细的帖子。Trac 也是一个寻找问题是否被解决的好去处。并且在那里，您可以查看程序的全部代码。
-* WPMU 聊天室在 IRC 上 Freenode 中的 #wpmu 频道。这里是链接[http://wpmudev.org/irc.php 聊天室的相关介绍]，如果您对 IRC 不熟悉，可以进行查询。
+ * 最开始，您可以首先查看 [http://trac.mu.wordpress.org/browser/trunk/README.txt Readme] 文件。在遇到问题并想在论坛发贴求助之前，请确保已经完全通读了 Readme 文件。
+ * Codex 是关于 WordPress 和 WordPress MU 的信息集合。[http://codex.wordpress.org/index.php?title=Category:WPMU WPMU 索引页面]列出了所有相关的分类，并且非常易懂。[http://codex.wordpress.org/index.php?title=Special:Recentchangeslinked&target=Category:WPMU&hideminor=0&days=180&limit=50 WPMU 最近更新]可以更方便的让您知道您感兴趣的项目俄动向。
+ * [http://trac.mu.wordpress.org/ Trac] 是我们的一个 问题跟踪系统。如果您觉得您发现了一个 Bug，您可以在 Trac 上发表一个描述详细的帖子。Trac 也是一个寻找问题是否被解决的好去处。并且在那里，您可以查看程序的全部代码。
+ * WPMU 聊天室在 IRC 上 Freenode 中的 #wpmu 频道。这里是链接[http://wpmudev.org/irc.php 聊天室的相关介绍]，如果您对 IRC 不熟悉，可以进行查询。
