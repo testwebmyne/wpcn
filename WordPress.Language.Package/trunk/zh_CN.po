@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-10 18:35+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-02-10 21:23+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1916,12 +1916,12 @@ msgstr "%s 前"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:53
 msgid "Y/m/d"
-msgstr ""
+msgstr "Y/m/d"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:61
 #, fuzzy
 msgid " &#8212; <strong>Private</strong>"
-msgstr "保存为私人日志"
+msgstr " &#8212; <strong>私人</strong>"
 
 # 默认分类名称，在安装时会使用
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:75
@@ -1932,9 +1932,8 @@ msgid "Uncategorized"
 msgstr "未分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:91
-#, fuzzy
 msgid "No Tags"
-msgstr "没有找到标签"
+msgstr "无标签"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:102
 #, php-format
@@ -2200,40 +2199,40 @@ msgid "Write a New Page"
 msgstr "创建新页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:57
-#, fuzzy, php-format
+#, php-format
 msgid "%s post"
 msgid_plural "%s posts"
-msgstr[0] "%s 篇回复"
+msgstr[0] "%s 篇日志"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:60
-#, fuzzy, php-format
+#, php-format
 msgid "%s page"
 msgid_plural "%s pages"
-msgstr[0] "页面"
+msgstr[0] "%s 个页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:63
-#, fuzzy, php-format
+#, php-format
 msgid "%s draft"
 msgid_plural "%s drafts"
-msgstr[0] "草稿"
+msgstr[0] "%s 条草稿"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:66
-#, fuzzy, php-format
+#, php-format
 msgid "%s scheduled post"
 msgid_plural "%s scheduled posts"
-msgstr[0] "%d 篇预约日志"
+msgstr[0] "%s 篇预约日志"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:69
-#, fuzzy, php-format
+#, php-format
 msgid "%s category"
 msgid_plural "%s categories"
-msgstr[0] "分类："
+msgstr[0] "%s 个分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:70
-#, fuzzy, php-format
+#, php-format
 msgid "%s tag"
 msgid_plural "%s tags"
-msgstr[0] "%1$s 个标签"
+msgstr[0] "%s 个标签"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:75
 #, php-format
@@ -3578,7 +3577,7 @@ msgstr "<strong>'%s'</strong> 主题文件"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/theme-editor.php:138
 msgid "You need to make this file writable before you can save your changes. See <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more information."
-msgstr ""
+msgstr "必须将该文件设置为可读才能保存更改。查看 <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">技术文档/a> 以获取更多信息。"
 
 # 以下为模板管理页面
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/themes.php:14
@@ -5751,14 +5750,12 @@ msgid "Submitted"
 msgstr "已提交"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:311
-#, fuzzy
 msgid "Date"
-msgstr "约会"
+msgstr "日期"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:318
-#, fuzzy
 msgid "Status"
-msgstr "评论状态"
+msgstr "状态"
 
 # 页面管理页的页面最后更新日期
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:348
@@ -8174,43 +8171,39 @@ msgid "Do you want to use the WYSIWYG mode for this textarea?"
 msgstr "您想在此文字区域使用所见即所得编辑器吗？"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:14
-#, fuzzy
 msgid "Apply"
-msgstr "保存修改"
+msgstr "应用"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:20
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:300
-#, fuzzy
 msgid "Class"
-msgstr "<span class=\"required\">*</span>"
+msgstr "类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:21
-#, fuzzy
 msgid "-- Not set --"
-msgstr "设置作者"
+msgstr "--尚未设置--"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:22
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:227
 msgid "Copy/Cut/Paste is not available in Mozilla and Firefox."
-msgstr ""
+msgstr "复制/剪切/粘贴 在 Mozilla 和 Firefox 中不可用。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:23
 msgid "Currently not supported by your browser, use keyboard shortcuts instead."
-msgstr ""
+msgstr "目前不受您的浏览器支持，请使用链接快捷键代替。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:24
 msgid "Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool."
-msgstr ""
+msgstr "抱歉，您的弹出窗口拦截器阻止了一个提供了程序功能的窗口。您需要在本站点上禁用弹出窗口拦截器以使该工具运行正常。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:25
 msgid "Error: Invalid values entered, these are marked in red."
-msgstr ""
+msgstr "错误：输入的值无效，已经用红色标出。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:26
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:231
-#, fuzzy
 msgid "More colors"
-msgstr "页眉颜色"
+msgstr "更多颜色"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:33
 #, fuzzy
@@ -8219,25 +8212,24 @@ msgstr "完整尺寸"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:36
 msgid "%Y-%m-%d"
-msgstr ""
+msgstr "%Y-%m-%d"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:37
 msgid "%H:%M:%S"
-msgstr ""
+msgstr "%H:%M:%S"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:38
-#, fuzzy
 msgid "Insert date"
-msgstr "插入图片"
+msgstr "插入日期"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:39
-#, fuzzy
 msgid "Insert time"
-msgstr "修改时间"
+msgstr "插入时间"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:40
+#, fuzzy
 msgid "January,February,March,April,May,June,July,August,September,October,November,December|Comma separated list of the months. No spaces between them."
-msgstr ""
+msgstr "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月|用逗号分隔月份，中间不允许有空格。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:41
 msgid "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec|Comma separated list of the abbreviated names of the months. No spaces between them."
@@ -8252,15 +8244,13 @@ msgid "Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun|Comma separated list of the abbreviated n
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:46
-#, fuzzy
 msgid "Print"
-msgstr "私人"
+msgstr "打印"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:49
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:295
-#, fuzzy
 msgid "Preview"
-msgstr "预览 &raquo;"
+msgstr "预览"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:52
 #, fuzzy
@@ -8273,89 +8263,76 @@ msgid "Direction right to left"
 msgstr "直接链接到文件"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:56
-#, fuzzy
 msgid "Insert new layer"
-msgstr "添加新用户"
+msgstr "插入新层"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:57
-#, fuzzy
 msgid "Move forward"
-msgstr "向下移动"
+msgstr "向前移动"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:58
-#, fuzzy
 msgid "Move backward"
-msgstr "向下移动"
+msgstr "向后移动"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:59
-#, fuzzy
 msgid "Toggle absolute positioning"
-msgstr "文本显示开关"
+msgstr "切换绝对定位"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:60
-#, fuzzy
 msgid "New layer..."
-msgstr "创建新页面"
+msgstr "新层..."
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:64
-#, fuzzy
 msgid "Cancel all changes"
-msgstr "保存修改 &raquo;"
+msgstr "取消所有更改"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:67
 msgid "Insert non-breaking space character"
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:70
-#, fuzzy
 msgid "Run spell checking"
-msgstr "检查更新……失败"
+msgstr "运行拼写检查"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:71
 msgid "ieSpell not detected. Do you want to install it now?"
-msgstr ""
+msgstr "没有检测到 ieSpell。是否立刻安装？"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:74
 msgid "Horizontale rule"
-msgstr ""
+msgstr "水平标尺"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:77
-#, fuzzy
 msgid "Emotions"
-msgstr "操作"
+msgstr "表情"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:80
-#, fuzzy
 msgid "Find"
 msgstr "查找"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:81
 msgid "Find/Replace"
-msgstr ""
+msgstr "查找/替换"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:84
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:206
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:260
-#, fuzzy
 msgid "Insert/edit image"
-msgstr "自定义标题图片"
+msgstr "插入/编辑图片"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:87
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:202
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:277
-#, fuzzy
 msgid "Insert/edit link"
-msgstr "添加链接 &raquo;"
+msgstr "插入/编辑链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:90
-#, fuzzy
 msgid "Citation"
-msgstr "警告："
+msgstr "引用"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:91
-#, fuzzy
 msgid "Abbreviation"
-msgstr "May"
+msgstr "缩写"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:92
 #, fuzzy
@@ -8363,54 +8340,46 @@ msgid "Acronym"
 msgstr "匿名"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:93
-#, fuzzy
 msgid "Deletion"
-msgstr "确认删除"
+msgstr "删除"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:94
-#, fuzzy
 msgid "Insertion"
 msgstr "插入"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:95
-#, fuzzy
 msgid "Insert/Edit Attributes"
-msgstr "编辑分类 &raquo;"
+msgstr "插入/编辑属性"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:98
-#, fuzzy
 msgid "Edit CSS Style"
-msgstr "字体颜色（CSS）："
+msgstr "编辑 CSS 样式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:101
 msgid "Paste as Plain Text"
-msgstr ""
+msgstr "粘贴为纯文件"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:102
-#, fuzzy
 msgid "Paste from Word"
-msgstr "从 Blogware 中导入日志"
+msgstr "从 Word 中粘贴"
 
 # 提示用户在下拉列表中选择。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:103
-#, fuzzy
 msgid "Select All"
-msgstr "所有设置"
+msgstr "全选"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:106
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:108
 msgid "Use CTRL+V on your keyboard to paste the text into the window."
-msgstr ""
+msgstr "使用 Ctrl+V 以将文本粘贴到窗口中。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:107
-#, fuzzy
 msgid "Keep linebreaks"
-msgstr "保持该日志为私人日志"
+msgstr "保留断行标记"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:111
-#, fuzzy
 msgid "Inserts a new table"
-msgstr "Dotclear 数据表前缀："
+msgstr "插入新表格"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:112
 #, fuzzy
@@ -8423,9 +8392,8 @@ msgid "Insert row after"
 msgstr "插入\"More\"标签"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:114
-#, fuzzy
 msgid "Delete row"
-msgstr "删除文件"
+msgstr "删除行"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:115
 #, fuzzy
@@ -8444,27 +8412,23 @@ msgstr "单栏"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:118
 msgid "Split merged table cells"
-msgstr ""
+msgstr "分割单元格"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:119
-#, fuzzy
 msgid "Merge table cells"
-msgstr "Dotclear 数据表前缀："
+msgstr "合并单元格"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:120
-#, fuzzy
 msgid "Table row properties"
-msgstr "Dotclear 数据表前缀："
+msgstr "行属性"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:121
-#, fuzzy
 msgid "Table cell properties"
-msgstr "Dotclear 数据表前缀："
+msgstr "格属性"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:122
-#, fuzzy
 msgid "Table properties"
-msgstr "Dotclear 数据表前缀："
+msgstr "表格属性"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:123
 msgid "Paste table row before"
@@ -8475,47 +8439,41 @@ msgid "Paste table row after"
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:125
-#, fuzzy
 msgid "Cut table row"
-msgstr "Dotclear 数据表前缀："
+msgstr "剪切该行"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:126
-#, fuzzy
 msgid "Copy table row"
-msgstr "Dotclear 数据表前缀："
+msgstr "复制该行"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:127
-#, fuzzy
 msgid "Delete table"
-msgstr "删除文件"
+msgstr "删除表格"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:128
 msgid "Row"
-msgstr ""
+msgstr "行"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:129
-#, fuzzy
 msgid "Column"
-msgstr "单栏"
+msgstr "列"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:130
-#, fuzzy
 msgid "Cell"
-msgstr "全部选中"
+msgstr "单元格"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:133
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:136
-#, fuzzy
 msgid "Toggle fullscreen mode"
-msgstr "批量编辑模式"
+msgstr "切换全屏模式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:139
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:289
 msgid "Insert / edit embedded media"
-msgstr ""
+msgstr "插入/编辑内嵌多媒体"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:140
 msgid "0| Extra width for the media popup in pixels"
@@ -8526,13 +8484,12 @@ msgid "0| Extra height for the media popup in pixels"
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:142
-#, fuzzy
 msgid "Edit embedded media"
-msgstr "编辑分类 &raquo;"
+msgstr "编辑内嵌多媒体"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:145
 msgid "Document properties"
-msgstr ""
+msgstr "文档属性"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:148
 msgid "Insert predefined template content"
@@ -8543,190 +8500,161 @@ msgid "Visual control characters on/off."
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:154
-#, fuzzy
 msgid "Toggle spellchecker"
-msgstr "文本开关"
+msgstr "建议"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:155
-#, fuzzy
 msgid "Spellchecker settings"
-msgstr "管理员设置"
+msgstr "拼写检查器设置"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:156
 msgid "Ignore word"
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:157
-#, fuzzy
 msgid "Ignore all"
-msgstr "所有设置"
+msgstr "全部忽略"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:158
-#, fuzzy
 msgid "Languages"
-msgstr "管理"
+msgstr "语言"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:159
-#, fuzzy
 msgid "Please wait..."
-msgstr "[%1$s] 请审查\"%2$s\""
+msgstr "请稍等..."
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:160
-#, fuzzy
 msgid "Suggestions"
-msgstr "设置"
+msgstr "建议"
 
 # 操作，比如编辑或删除等等。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:161
-#, fuzzy
 msgid "No suggestions"
-msgstr "没有评论"
+msgstr "无建议"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:162
-#, fuzzy
 msgid "No misspellings found."
-msgstr "没有找到标签"
+msgstr "未发现拼写错误"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:165
-#, fuzzy
 msgid "Insert page break."
-msgstr "&laquo; 上一页"
+msgstr "插入分页标记"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:169
-#, fuzzy
 msgid "Styles"
-msgstr "CSS 样式表"
+msgstr "样式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:170
-#, fuzzy
 msgid "Font size"
-msgstr "最大字体尺寸："
+msgstr "字号"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:171
-#, fuzzy
 msgid "Font family"
-msgstr "基本字体"
+msgstr "字体"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:172
-#, fuzzy
 msgid "Format"
-msgstr "默认日期格式："
+msgstr "格式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:173
 msgid "Paragraph"
-msgstr ""
+msgstr "段落"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:174
 msgid "Div"
-msgstr ""
+msgstr "部分"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:176
-#, fuzzy
 msgid "Preformatted"
-msgstr "创建于"
+msgstr "预格式化"
 
 # 输出，包括 Blog 页面和 feed 的输出。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:177
-#, fuzzy
 msgid "Heading 1"
-msgstr "导航条标题："
+msgstr "1号标题"
 
 # 输出，包括 Blog 页面和 feed 的输出。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:178
-#, fuzzy
 msgid "Heading 2"
-msgstr "导航条标题："
+msgstr "2号标题"
 
 # 输出，包括 Blog 页面和 feed 的输出。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:179
-#, fuzzy
 msgid "Heading 3"
-msgstr "导航条标题："
+msgstr "3号标题"
 
 # 输出，包括 Blog 页面和 feed 的输出。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:180
-#, fuzzy
 msgid "Heading 4"
-msgstr "导航条标题："
+msgstr "4号标题"
 
 # 输出，包括 Blog 页面和 feed 的输出。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:181
-#, fuzzy
 msgid "Heading 5"
-msgstr "导航条标题："
+msgstr "5号标题"
 
 # 输出，包括 Blog 页面和 feed 的输出。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:182
-#, fuzzy
 msgid "Heading 6"
-msgstr "导航条标题："
+msgstr "6号标题"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:183
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:226
 msgid "Blockquote"
-msgstr ""
+msgstr "块引用"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:184
-#, fuzzy
 msgid "Code"
-msgstr "源代码"
+msgstr "代码"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:185
 #, fuzzy
 msgid "Code sample"
-msgstr "正在浏览 <code>%s</code>"
+msgstr "代码范例"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:186
-#, fuzzy
 msgid "Definition term "
-msgstr "无效 term ID。"
+msgstr "术语"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:187
-#, fuzzy
 msgid "Definition description"
-msgstr "描述（可选）："
+msgstr "术语描述"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:188
 msgid "Bold (Ctrl+B)"
-msgstr ""
+msgstr "粗体 (Ctrl+B)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:189
 msgid "Italic (Ctrl+I)"
-msgstr ""
+msgstr "斜体 (Ctrl+I)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:190
 msgid "Underline (Ctrl+U)"
-msgstr ""
+msgstr "下划线 (Ctrl+U)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:192
-#, fuzzy
 msgid "Align left"
 msgstr "左对齐"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:193
-#, fuzzy
 msgid "Align center"
-msgstr "居中"
+msgstr "居中对齐"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:194
-#, fuzzy
 msgid "Align right"
 msgstr "右对齐"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:195
-#, fuzzy
 msgid "Align full"
-msgstr "完整尺寸"
+msgstr "完全对齐"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:196
-#, fuzzy
 msgid "Unordered list"
-msgstr "遇到列表尾"
+msgstr "无序列表"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:197
-#, fuzzy
 msgid "Ordered list"
-msgstr "遇到列表尾"
+msgstr "有序列表"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:198
 #, fuzzy
@@ -8734,17 +8662,16 @@ msgid "Outdent"
 msgstr "解除引用/不缩进"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:199
-#, fuzzy
 msgid "Indent"
-msgstr "引用/缩进"
+msgstr "缩进"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:200
 msgid "Undo (Ctrl+Z)"
-msgstr ""
+msgstr "撤消 (Ctrl+Z)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:201
 msgid "Redo (Ctrl+Y)"
-msgstr ""
+msgstr "重做 (Ctrl+Y)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:203
 msgid "0| Extra width for the link popup in pixels"
@@ -8757,7 +8684,7 @@ msgstr ""
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:205
 #, fuzzy
 msgid "Unlink"
-msgstr "删除链接"
+msgstr "取消链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:207
 msgid "0| Extra width for the image popup in pixels"
@@ -8768,49 +8695,40 @@ msgid "0| Extra height for the image popup in pixels"
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:209
-#, fuzzy
 msgid "Cleanup messy code"
-msgstr "将代码放在<code></code>之间"
+msgstr "清理紊乱代码"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:210
-#, fuzzy
 msgid "Edit HTML Source"
-msgstr "编辑分类 &raquo;"
+msgstr "编辑 HTML 源代码"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:211
-#, fuzzy
 msgid "Subscript"
-msgstr "提交"
+msgstr "下标"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:212
-#, fuzzy
 msgid "Superscript"
-msgstr "描述"
+msgstr "上标"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:213
-#, fuzzy
 msgid "Insert horizontal ruler"
-msgstr "插入\"More\"标签"
+msgstr "插入水平标尺"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:214
-#, fuzzy
 msgid "Remove formatting"
-msgstr "删除文件"
+msgstr "清除格式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:215
-#, fuzzy
 msgid "Select text color"
 msgstr "选择文字颜色"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:216
-#, fuzzy
 msgid "Select background color"
-msgstr "选择文字颜色"
+msgstr "选择背景颜色"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:217
-#, fuzzy
 msgid "Insert custom character"
-msgstr "原始字符集："
+msgstr "插入自定义字符"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:218
 msgid "Toggle guidelines/invisible elements"
@@ -8818,50 +8736,42 @@ msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:219
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:246
-#, fuzzy
 msgid "Insert/edit anchor"
-msgstr "插入<span class=\"anchor\">链接</span>"
+msgstr "插入/编辑锚"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:220
 msgid "Cut"
-msgstr ""
+msgstr "剪切"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:221
-#, fuzzy
 msgid "Copy"
-msgstr "版权"
+msgstr "复制"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:222
-#, fuzzy
 msgid "Paste"
-msgstr "内容"
+msgstr "粘贴内容"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:223
-#, fuzzy
 msgid "Image properties"
-msgstr "图片地址："
+msgstr "图片属性"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:224
-#, fuzzy
 msgid "New document"
-msgstr "创建新页面"
+msgstr "新建文档"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:225
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:239
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:396
-#, fuzzy
 msgid "Help"
-msgstr "打开帮助"
+msgstr "帮助"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:228
-#, fuzzy
 msgid "Path"
 msgstr "路径"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:229
-#, fuzzy
 msgid "Are you sure you want to clear all contents?"
-msgstr "您确定要审核这条评论？"
+msgstr "确实要清除所有内容？"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:230
 msgid "Jump to tool buttons - Alt+Q, Jump to editor - Alt-Z, Jump to element path - Alt-X"
@@ -8876,33 +8786,28 @@ msgid "0| Extra height for the colorpicker popup in pixels"
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:240
-#, fuzzy
 msgid "License"
 msgstr "许可协议"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:245
-#, fuzzy
 msgid "Loaded plugins"
-msgstr "自定加载插件"
+msgstr "已加载的插件"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:247
-#, fuzzy
 msgid "Anchor name"
-msgstr "Blog 名称"
+msgstr "锚名字"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:248
-#, fuzzy
 msgid "HTML Source Editor"
-msgstr "可视化编辑器中的 HTML"
+msgstr "HTML 源代码编辑器"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:249
 msgid "Word wrap"
-msgstr ""
+msgstr "自动换行"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:250
-#, fuzzy
 msgid "Select a color"
-msgstr "选择文字颜色"
+msgstr "选择颜色"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:251
 #, fuzzy
@@ -8910,19 +8815,16 @@ msgid "Picker"
 msgstr "关闭"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:252
-#, fuzzy
 msgid "Color picker"
-msgstr "关闭"
+msgstr "拾色器"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:253
-#, fuzzy
 msgid "Palette"
-msgstr "页面标题"
+msgstr "调色板"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:254
-#, fuzzy
 msgid "Palette colors"
-msgstr "页眉颜色"
+msgstr "调色板颜色"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:255
 #, fuzzy
@@ -8935,55 +8837,45 @@ msgid "Named colors"
 msgstr "页眉颜色"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:257
-#, fuzzy
 msgid "Color:"
-msgstr "字体颜色"
+msgstr "颜色："
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:259
-#, fuzzy
 msgid "Select custom character"
-msgstr "原始字符集："
+msgstr "选择自定义字符"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:261
-#, fuzzy
 msgid "Image URL"
-msgstr "输入图片 URL"
+msgstr "图片 URL"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:262
-#, fuzzy
 msgid "Image description"
-msgstr "输入图片描述"
+msgstr "图片描述"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:263
-#, fuzzy
 msgid "Image list"
-msgstr "图片地址："
+msgstr "图片列表"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:264
-#, fuzzy
 msgid "Border"
-msgstr "页面序号"
+msgstr "边框"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:265
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:294
-#, fuzzy
 msgid "Dimensions"
-msgstr "外观"
+msgstr "尺寸"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:266
-#, fuzzy
 msgid "Vertical space"
-msgstr "可用总空间："
+msgstr "垂直间隔"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:267
-#, fuzzy
 msgid "Horizontal space"
-msgstr "可用总空间："
+msgstr "水平间隔"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:269
-#, fuzzy
 msgid "Baseline"
-msgstr "Blog 副标题："
+msgstr "基线"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:270
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:369
@@ -8991,9 +8883,8 @@ msgid "Top"
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:271
-#, fuzzy
 msgid "Middle"
-msgstr "文件"
+msgstr "中间"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:272
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:371
@@ -9011,17 +8902,16 @@ msgid "Text bottom"
 msgstr "全文"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:278
-#, fuzzy
 msgid "Link URL"
-msgstr "Blog URL"
+msgstr "链接 URL"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:280
 msgid "Open link in the same window"
-msgstr ""
+msgstr "在原窗口中打开链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:281
 msgid "Open link in a new window"
-msgstr ""
+msgstr "在新窗口中打开链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:283
 msgid "The URL you entered seems to be an email address, do you want to add the required mailto: prefix?"
@@ -9032,9 +8922,8 @@ msgid "The URL you entered seems to external link, do you want to add the requir
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:285
-#, fuzzy
 msgid "Link list"
-msgstr "%s 个链接被删除。"
+msgstr "链接列表"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:292
 #, fuzzy
@@ -9047,54 +8936,45 @@ msgid "Constrain proportions"
 msgstr "常规设置："
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:297
-#, fuzzy
 msgid "Type"
-msgstr "格式"
+msgstr "类型"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:298
-#, fuzzy
 msgid "Id"
 msgstr "ID"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:301
-#, fuzzy
 msgid "V-Space"
-msgstr "可用总空间："
+msgstr "垂直间隔"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:302
-#, fuzzy
 msgid "H-Space"
-msgstr "可用总空间："
+msgstr "水平间隔"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:303
-#, fuzzy
 msgid "Auto play"
-msgstr "现在播放"
+msgstr "自动开始播放"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:304
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:386
-#, fuzzy
 msgid "Loop"
-msgstr "一个崭新的 WordPress Blog 已经诞生"
+msgstr "循环"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:305
-#, fuzzy
 msgid "Show menu"
-msgstr "显示文字"
+msgstr "显示菜单"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:306
 msgid "Quality"
-msgstr ""
+msgstr "质量"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:307
-#, fuzzy
 msgid "Scale"
-msgstr "保存"
+msgstr "缩放"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:308
-#, fuzzy
 msgid "Align"
-msgstr "居中"
+msgstr "对齐"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:309
 #, fuzzy
@@ -9108,7 +8988,7 @@ msgstr "已更新"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:311
 msgid "Background"
-msgstr ""
+msgstr "背景"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:312
 #, fuzzy
@@ -9128,12 +9008,10 @@ msgid "AutoHREF"
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:316
-#, fuzzy
 msgid "Cache"
-msgstr "取消"
+msgstr "缓存"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:317
-#, fuzzy
 msgid "Hidden"
 msgstr "隐藏"
 
@@ -9154,36 +9032,30 @@ msgid "Play every frame"
 msgstr "在弹出窗口中播放"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:321
-#, fuzzy
 msgid "Target cache"
-msgstr "打开方式"
+msgstr "目标缓存"
 
 # 操作，比如编辑或删除等等。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:322
-#, fuzzy
 msgid "No correction"
-msgstr "没有评论"
+msgstr "无校正"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:323
-#, fuzzy
 msgid "Enable JavaScript"
-msgstr "启用高级导航条"
+msgstr "启用 JavaScript"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:324
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:382
-#, fuzzy
 msgid "Start time"
-msgstr "修改时间"
+msgstr "起初时间"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:325
-#, fuzzy
 msgid "End time"
-msgstr "修改时间"
+msgstr "结束时间"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:326
-#, fuzzy
 msgid "Href"
-msgstr "%1$s %2$s <a href=\"%3$s#comment-%4$s\">%5$s</a>"
+msgstr "Href"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:327
 #, fuzzy
@@ -9191,25 +9063,21 @@ msgid "Choke speed"
 msgstr "曝光速度"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:329
-#, fuzzy
 msgid "Volume"
-msgstr "值"
+msgstr "音量"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:330
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:385
-#, fuzzy
 msgid "Auto start"
-msgstr "作者"
+msgstr "自动开始播放"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:331
-#, fuzzy
 msgid "Enabled"
-msgstr "开启"
+msgstr "启用"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:332
-#, fuzzy
 msgid "Fullscreen"
-msgstr "完整尺寸"
+msgstr "全屏"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:333
 msgid "Invoke URLs"
@@ -9217,21 +9085,20 @@ msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:334
 msgid "Mute"
-msgstr ""
+msgstr "静音"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:335
-#, fuzzy
 msgid "Stretch to fit"
-msgstr "链接到文件"
+msgstr "拉伸以适应"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:336
+#, fuzzy
 msgid "Windowless video"
-msgstr ""
+msgstr "无窗口视频"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:337
-#, fuzzy
 msgid "Balance"
-msgstr "取消"
+msgstr "平衡"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:338
 #, fuzzy
@@ -9239,135 +9106,113 @@ msgid "Base URL"
 msgstr "Blog URL"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:339
-#, fuzzy
 msgid "Captioning id"
-msgstr "ID号"
+msgstr "标题 ID"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:340
-#, fuzzy
 msgid "Current marker"
-msgstr "当前主题"
+msgstr "当前标记"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:341
-#, fuzzy
 msgid "Current position"
-msgstr "当前主题"
+msgstr "当前位置"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:342
-#, fuzzy
 msgid "Default frame"
-msgstr "默认侧边栏"
+msgstr "默认帧"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:343
-#, fuzzy
 msgid "Play count"
-msgstr "现在播放"
+msgstr "播放次数"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:344
-#, fuzzy
 msgid "Rate"
-msgstr "约会"
+msgstr "评级"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:345
-#, fuzzy
 msgid "UI Mode"
-msgstr "浏览模式"
+msgstr "用户界面模式"
 
 # 这就是传说中隐藏着的“所有设置”页面
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:346
-#, fuzzy
 msgid "Flash options"
-msgstr "所有设置"
+msgstr "Flash 选项"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:347
-#, fuzzy
 msgid "Quicktime options"
-msgstr "所有设置"
+msgstr "Quicktime 选项"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:348
 msgid "Windows media player options"
-msgstr ""
+msgstr "Windows media player 选项"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:349
-#, fuzzy
 msgid "Real media player options"
-msgstr "输出设置"
+msgstr "Real media 播放器选项"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:350
-#, fuzzy
 msgid "Shockwave options"
-msgstr "所有设置"
+msgstr "Shockwave 选项"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:351
-#, fuzzy
 msgid "Auto goto URL"
-msgstr "Blog 地址（URL）："
+msgstr "自动跳转到 URL"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:353
-#, fuzzy
 msgid "Image status"
-msgstr "评论状态"
+msgstr "图片状态"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:354
 msgid "Maintain aspect"
-msgstr ""
+msgstr "保持高宽比"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:355
-#, fuzzy
 msgid "No java"
-msgstr "没有评论"
+msgstr "没有Java"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:356
 msgid "Prefetch"
-msgstr ""
+msgstr "预读"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:357
-#, fuzzy
 msgid "Shuffle"
-msgstr "预定"
+msgstr "乱序"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:358
-#, fuzzy
 msgid "Console"
-msgstr "关闭"
+msgstr "控制台"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:359
 msgid "Num loops"
-msgstr ""
+msgstr "循环次数"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:360
-#, fuzzy
 msgid "Controls"
-msgstr "评论"
+msgstr "控件"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:361
 msgid "Script callbacks"
-msgstr ""
+msgstr "脚本回调"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:362
-#, fuzzy
 msgid "Stretch style"
-msgstr "无样式"
+msgstr "拉伸方式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:363
-#, fuzzy
 msgid "Stretch H-Align"
-msgstr "居中"
+msgstr "水平拉伸"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:364
-#, fuzzy
 msgid "Stretch V-Align"
-msgstr "居中"
+msgstr "垂直拉伸"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:365
-#, fuzzy
 msgid "Sound"
-msgstr "Sun"
+msgstr "声音"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:366
-#, fuzzy
 msgid "Progress"
-msgstr "日志"
+msgstr "进度"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:367
 msgid "QT Src"
@@ -9394,37 +9239,32 @@ msgid "Bottom right"
 msgstr "底部右对齐"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:378
-#, fuzzy
 msgid "Flash video options"
-msgstr "更新设置 &raquo;"
+msgstr "Flash 视频选项"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:379
-#, fuzzy
 msgid "Scale mode"
-msgstr "浏览模式"
+msgstr "缩放模式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:380
 msgid "Buffer"
-msgstr ""
+msgstr "缓冲"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:381
-#, fuzzy
 msgid "Start image"
-msgstr "图片地址："
+msgstr "开始图片："
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:383
-#, fuzzy
 msgid "Default volumne"
-msgstr "默认侧边栏"
+msgstr "默认音量"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:384
 msgid "Hidden GUI"
-msgstr ""
+msgstr "隐藏 GUI"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:387
-#, fuzzy
 msgid "Show scale modes"
-msgstr "显示为下拉菜单"
+msgstr "显示缩放模式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:388
 msgid "Smooth video"
@@ -9432,7 +9272,7 @@ msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:389
 msgid "JS Callback"
-msgstr ""
+msgstr "JS 回调"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:393
 msgid "Show/Hide Advanced Toolbar"
