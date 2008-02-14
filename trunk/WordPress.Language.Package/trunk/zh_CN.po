@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-15 03:37+0800\n"
+"PO-Revision-Date: 2008-02-15 04:39+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -262,14 +262,14 @@ msgstr "注册帐号"
 #: C:\xampp\htdocs\wp/wp-login.php:300
 #: C:\xampp\htdocs\wp/wp-login.php:366
 #: C:\xampp\htdocs\wp/wp-admin/install.php:97
-#: C:\xampp\htdocs\wp/wp-admin/users.php:296
+#: C:\xampp\htdocs\wp/wp-admin/users.php:295
 msgid "Username"
 msgstr "用户名"
 
 #: C:\xampp\htdocs\wp/wp-login.php:304
 #: C:\xampp\htdocs\wp/wp-admin/comment.php:101
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:123
-#: C:\xampp\htdocs\wp/wp-admin/users.php:298
+#: C:\xampp\htdocs\wp/wp-admin/users.php:297
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:71
 msgid "E-mail"
 msgstr "电子邮箱"
@@ -542,7 +542,9 @@ msgid "The specified target URL does not exist."
 msgstr "指定的目标 URL 不存在。"
 
 #: C:\xampp\htdocs\wp/wp-admin/admin-ajax.php:86
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:37
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:40
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:60
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:16
 #: C:\xampp\htdocs\wp/wp-admin/link-category.php:34
 #, php-format
 msgid "Can&#8217;t delete the <strong>%s</strong> category: this is the default one"
@@ -650,13 +652,14 @@ msgstr "导入"
 
 # 这是检测到非正常的页面访问，也就是有攻击企图的时候给出的警告提示。
 #: C:\xampp\htdocs\wp/wp-admin/bookmarklet.php:6
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:16
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:31
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:60
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:16
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:32
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:45
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:72
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:19
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:34
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:86
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:9
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:19
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:35
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:48
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:75
 #: C:\xampp\htdocs\wp/wp-admin/link-category.php:13
 #: C:\xampp\htdocs\wp/wp-admin/link-category.php:28
 #: C:\xampp\htdocs\wp/wp-admin/link-category.php:60
@@ -686,78 +689,82 @@ msgstr "您的攻击行为已被记录。"
 msgid "Categories"
 msgstr "分类"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:75
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:10
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:53
+msgid "You are not allowed to delete categories."
+msgstr "您无权删除分类。"
+
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:103
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:33
 msgid "Category added."
 msgstr "分类已添加。"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:76
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:11
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:104
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:34
 msgid "Category deleted."
 msgstr "分类已删除。"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:77
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:12
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:105
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:35
 msgid "Category updated."
 msgstr "分类已更新。"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:78
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:13
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:106
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:36
 msgid "Category not added."
 msgstr "分类未添加。"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:79
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:14
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:107
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:37
 msgid "Category not updated."
 msgstr "分类未更新。"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:89
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:117
 #, php-format
 msgid "Manage Categories (<a href=\"%s\">add new</a>)"
 msgstr "管理分类（<a href=\"%s\">添加分类</a>）"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:91
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:119
 msgid "Manage Categories"
 msgstr "管理分类"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:96
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:32
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:124
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:56
 msgid "Search Categories"
 msgstr "搜索分类"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:104
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:132
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:154
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:58
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:82
 #: C:\xampp\htdocs\wp/wp-admin/edit-pages.php:107
 #: C:\xampp\htdocs\wp/wp-admin/edit-post-rows.php:162
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:139
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:142
 #: C:\xampp\htdocs\wp/wp-admin/edit.php:135
 #: C:\xampp\htdocs\wp/wp-admin/link-manager.php:89
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:184
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:198
 #: C:\xampp\htdocs\wp/wp-admin/includes/media.php:503
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:594
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:688
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:596
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:690
 msgid "Delete"
 msgstr "删除"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:117
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:145
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:122
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:71
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:95
 #: C:\xampp\htdocs\wp/wp-admin/edit-link-form.php:42
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:155
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:156
 #: C:\xampp\htdocs\wp/wp-admin/link-manager.php:121
 #: C:\xampp\htdocs\wp/wp-admin/themes.php:100
 #: C:\xampp\htdocs\wp/wp-admin/user-edit.php:162
-#: C:\xampp\htdocs\wp/wp-admin/users.php:297
+#: C:\xampp\htdocs\wp/wp-admin/users.php:296
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:64
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments.php:50
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/langs/wp-langs.php:299
 msgid "Name"
 msgstr "名称"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:118
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:72
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:146
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:96
 #: C:\xampp\htdocs\wp/wp-admin/edit-link-form.php:56
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:89
 #: C:\xampp\htdocs\wp/wp-admin/themes.php:101
@@ -767,20 +774,21 @@ msgstr "名称"
 msgid "Description"
 msgstr "描述"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:119
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:156
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:147
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:157
 #: C:\xampp\htdocs\wp/wp-admin/edit.php:31
 #: C:\xampp\htdocs\wp/wp-admin/menu.php:39
+#: C:\xampp\htdocs\wp/wp-admin/users.php:299
 #: C:\xampp\htdocs\wp/wp-admin/import/blogger.php:162
 msgid "Posts"
 msgstr "日志"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:139
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:168
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
 msgstr "<strong>提示：</strong><br />删除一个分类并不会删除该分类中的日志，这些日志会移动到分类 <strong>%s</strong> 中。"
 
-#: C:\xampp\htdocs\wp/wp-admin/categories.php:140
+#: C:\xampp\htdocs\wp/wp-admin/categories.php:169
 #, php-format
 msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
 msgstr "分类可以用<a href=\"%s\">分类标签转化器</a>有选择地转换成标签。"
@@ -870,7 +878,7 @@ msgstr "作者"
 #: C:\xampp\htdocs\wp/wp-admin/comment.php:107
 #: C:\xampp\htdocs\wp/wp-admin/link-manager.php:122
 #: C:\xampp\htdocs\wp/wp-admin/includes/media.php:117
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:849
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:851
 #: C:\xampp\htdocs\wp/wp-admin/includes/upload.php:155
 #: C:\xampp\htdocs\wp/wp-includes/script-loader.php:168
 msgid "URL"
@@ -1086,7 +1094,6 @@ msgid "Comment Excerpt"
 msgstr "评论摘要"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:126
-#: C:\xampp\htdocs\wp/wp-admin/users.php:301
 msgid "Actions"
 msgstr "操作"
 
@@ -1107,8 +1114,7 @@ msgstr "查看"
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:118
 #: C:\xampp\htdocs\wp/wp-admin/post.php:47
 #: C:\xampp\htdocs\wp/wp-admin/includes/dashboard.php:182
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:538
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:592
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:594
 #: C:\xampp\htdocs\wp/wp-admin/includes/widgets.php:89
 #: C:\xampp\htdocs\wp/wp-admin/includes/widgets.php:173
 #: C:\xampp\htdocs\wp/wp-includes/script-loader.php:156
@@ -1493,7 +1499,7 @@ msgstr "待审查"
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:188
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:197
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:235
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:602
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:604
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:639
 msgid "Spam"
 msgstr "垃圾评论"
@@ -1548,27 +1554,31 @@ msgstr "保存为私人日志"
 msgid "Advanced Editing &raquo;"
 msgstr "高级编辑 &raquo;"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:4
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:25
 #: C:\xampp\htdocs\wp/wp-admin/menu.php:44
 msgid "Link Categories"
 msgstr "链接分类"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:25
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:38
+msgid "Categories deleted."
+msgstr "分类已删除。"
+
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:49
 #, php-format
 msgid "Manage Link Categories (<a href=\"%s\">add new</a>)"
 msgstr "管理链接分类（<a href=\"%s\">添加链接分类</a>）"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:27
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:51
 msgid "Manage Link Categories"
 msgstr "管理链接分类"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:73
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:97
 #: C:\xampp\htdocs\wp/wp-admin/menu.php:41
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:1365
 msgid "Links"
 msgstr "链接"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:114
+#: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:139
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the links in that category. Instead, links that were only assigned to the deleted category are set to the category <strong>%s</strong>."
 msgstr "<strong>提示：</strong><br />删除一个分类并不会删除该分类中的链接，链接会被移动到分类 <strong>%s</strong> 中。"
@@ -2037,54 +2047,42 @@ msgstr "标签名称："
 msgid "Tag slug:"
 msgstr "标签缩略名："
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:90
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:93
 msgid "Tag added."
 msgstr "标签已添加。"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:91
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:94
 msgid "Tag deleted."
 msgstr "标签已删除。"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:92
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:95
 msgid "Tag updated."
 msgstr "标签已更新。"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:93
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:96
 msgid "Tag not added."
 msgstr "标签未添加。"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:94
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:97
 msgid "Tag not updated."
 msgstr "标签未更新。"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:95
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:98
 msgid "Tags deleted."
 msgstr "标签已删除。"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:106
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:109
 #, php-format
 msgid "Manage Tags (<a href=\"%s\">add new</a>)"
 msgstr "管理标签（<a href=\"%s\">添加标签</a>）"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:108
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:111
 msgid "Manage Tags"
 msgstr "管理标签"
 
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:113
+#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:116
 msgid "Search Tags"
 msgstr "搜索标签"
-
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:168
-msgid "Delete Checked Tags &raquo;"
-msgstr "删除选中的标签 &raquo;"
-
-#: C:\xampp\htdocs\wp/wp-admin/edit-tags.php:168
-msgid ""
-"You are about to delete these tags permanently.\n"
-"'Cancel' to stop, 'OK' to delete."
-msgstr ""
-"您将要永久删除这些标签。\n"
-"点“确认”删除，点“取消”取消操作。"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit.php:11
 #: C:\xampp\htdocs\wp/wp-admin/post.php:162
@@ -2247,7 +2245,7 @@ msgstr "管理首页"
 
 #: C:\xampp\htdocs\wp/wp-admin/index.php:42
 msgid "Right Now"
-msgstr "现在"
+msgstr "当前情况"
 
 #: C:\xampp\htdocs\wp/wp-admin/index.php:42
 msgid "Write a New Post"
@@ -2307,12 +2305,12 @@ msgstr[0] "%d 个 Widgets"
 #: C:\xampp\htdocs\wp/wp-admin/index.php:83
 #, php-format
 msgid "You are using %1$s theme with %2$s."
-msgstr "您正在使用 %1$s 主题，启用了 %2$s。"
+msgstr "您正在使用主题 %1$s ，启用了 %2$s。"
 
 # 以下为模板管理页面
 #: C:\xampp\htdocs\wp/wp-admin/index.php:83
 msgid "Change Theme"
-msgstr "更改主题"
+msgstr "更换主题"
 
 # 下面是 WordPress 安装程序
 #: C:\xampp\htdocs\wp/wp-admin/install.php:23
@@ -2687,14 +2685,14 @@ msgid "Moderation Queue"
 msgstr "待审核评论"
 
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:171
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:585
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:587
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:556
 msgid "IP:"
 msgstr "IP 地址："
 
 # 日志管理页的评论发布日期
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:179
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:589
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:591
 msgid "M j, g:i A"
 msgstr "Fj日 ag点i分"
 
@@ -2708,7 +2706,7 @@ msgstr "审批该评论"
 
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:186
 #: C:\xampp\htdocs\wp/wp-admin/moderation.php:196
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:599
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:601
 msgid "Approve"
 msgstr "已审批"
 
@@ -3092,7 +3090,7 @@ msgstr "首页显示%s页面的内容。"
 #: C:\xampp\htdocs\wp/wp-admin/options-reading.php:30
 #: C:\xampp\htdocs\wp/wp-admin/options-reading.php:31
 #: C:\xampp\htdocs\wp/wp-admin/import/mt.php:46
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:716
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:718
 msgid "- Select -"
 msgstr "- 选择 -"
 
@@ -3365,19 +3363,19 @@ msgstr "某些插件无法重新激活，因为它出现了<strong>致命错误<
 # Update 提示信息
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:59
 msgid "Plugin <strong>activated</strong>."
-msgstr "插件 <strong>已启用</strong>。"
+msgstr "插件<strong>已启用</strong>。"
 
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:61
 msgid "Plugin <strong>deactivated</strong>."
-msgstr "插件 <strong>已禁用</strong>。"
+msgstr "插件<strong>已禁用</strong>。"
 
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:63
 msgid "All plugins <strong>deactivated</strong>."
-msgstr "所有插件 <strong>已禁用</strong>。"
+msgstr "所有插件<strong>已禁用</strong>。"
 
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:65
 msgid "All plugins <strong>reactivated</strong>."
-msgstr "所有插件 <strong>重新激活</strong>。"
+msgstr "所有插件已<strong>重新启用</strong>。"
 
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:69
 msgid "Plugin Management"
@@ -3403,7 +3401,7 @@ msgstr "版本"
 
 # 操作，比如编辑或删除等等。
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:90
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:649
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:651
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/wp-mce-help.php:181
 msgid "Action"
 msgstr "操作"
@@ -3439,7 +3437,7 @@ msgstr "禁用所有插件"
 
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:151
 msgid "Reactivate All Plugins"
-msgstr "重新激活所有插件"
+msgstr "重新启用所有插件"
 
 # 插件页的提示
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:162
@@ -3460,7 +3458,7 @@ msgstr "您可以在 <a href=\"http://wordpress.org/extend/plugins/\">WordPress 
 #: C:\xampp\htdocs\wp/wp-admin/plugins.php:166
 #, php-format
 msgid "To install a plugin you generally just need to upload the plugin file into your <code>%s</code> directory. Once a plugin is uploaded, you may activate it here."
-msgstr "要安装一个插件，您只需将插件文件上传到 <code>%s</code> 目录下即可。插件上传完毕后，您可以在这里启用它了。"
+msgstr "要安装一个插件，您只需将插件文件上传到 <code>%s</code> 目录下。插件上传完毕，您就可以在这里启用它了。"
 
 #: C:\xampp\htdocs\wp/wp-admin/post-new.php:3
 msgid "Create New Post"
@@ -4020,75 +4018,67 @@ msgstr "共找到 %3$s 个用户，下面是第 %1$s 条 &#8211; 第 %2$s 条。
 msgid "No role for this blog"
 msgstr "在本 Blog 上没有任何权限"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:295
-msgid "ID"
-msgstr "ID"
-
-#: C:\xampp\htdocs\wp/wp-admin/users.php:299
-#: C:\xampp\htdocs\wp/wp-admin/users.php:387
+#: C:\xampp\htdocs\wp/wp-admin/users.php:298
+#: C:\xampp\htdocs\wp/wp-admin/users.php:383
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments.php:56
 msgid "Website"
 msgstr "网址"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:300
-msgid "Posts created"
-msgstr "日志已创建"
-
-#: C:\xampp\htdocs\wp/wp-admin/users.php:320
+#: C:\xampp\htdocs\wp/wp-admin/users.php:318
 msgid "Update Selected"
 msgstr "批量操作选中的用户"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:322
+#: C:\xampp\htdocs\wp/wp-admin/users.php:320
 msgid "Delete checked users."
 msgstr "删除选中的用户。"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:324
+#: C:\xampp\htdocs\wp/wp-admin/users.php:322
 msgid "Set the Role of checked users to:"
 msgstr "将选中用户的权限设置为："
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:330
+#: C:\xampp\htdocs\wp/wp-admin/users.php:328
 msgid "Bulk Update &raquo;"
 msgstr "批量操作 &raquo;"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:347
+#: C:\xampp\htdocs\wp/wp-admin/users.php:345
 msgid "Add New User"
 msgstr "添加新用户"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:363
+#: C:\xampp\htdocs\wp/wp-admin/users.php:359
 #, php-format
 msgid "Users can <a href=\"%1$s\">register themselves</a> or you can manually create users here."
 msgstr "用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:365
+#: C:\xampp\htdocs\wp/wp-admin/users.php:361
 #, php-format
 msgid "Users cannot currently <a href=\"%1$s\">register themselves</a>, but you can manually create users here."
 msgstr "用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:371
+#: C:\xampp\htdocs\wp/wp-admin/users.php:367
 msgid "Username (required)"
 msgstr "用户名（必填）"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:375
+#: C:\xampp\htdocs\wp/wp-admin/users.php:371
 msgid "First Name"
 msgstr "名字"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:379
+#: C:\xampp\htdocs\wp/wp-admin/users.php:375
 msgid "Last Name"
 msgstr "姓氏"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:383
+#: C:\xampp\htdocs\wp/wp-admin/users.php:379
 msgid "E-mail (required)"
 msgstr "电子邮箱（必填）"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:393
+#: C:\xampp\htdocs\wp/wp-admin/users.php:389
 msgid "Password (twice)"
 msgstr "重复输入密码"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:401
+#: C:\xampp\htdocs\wp/wp-admin/users.php:397
 msgid "Role"
 msgstr "权限"
 
-#: C:\xampp\htdocs\wp/wp-admin/users.php:414
+#: C:\xampp\htdocs\wp/wp-admin/users.php:410
 msgid "Add User &raquo;"
 msgstr "添加用户 &raquo;"
 
@@ -5764,43 +5754,43 @@ msgstr "私人日志"
 msgid "Click to edit this part of the permalink"
 msgstr ""
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:156
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:157
 msgid "My Blog"
 msgstr "我的 Blog"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:157
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:158
 msgid "Just another WordPress weblog"
 msgstr "又一个 WordPress Blog"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:179
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:180
 msgid "F j, Y"
 msgstr "Y-m-d"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:180
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:181
 msgid "g:i a"
 msgstr "g:i a"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:181
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:182
 msgid "F j, Y g:i a"
 msgstr "Y-m-d g:i a"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:266
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:267
 msgid "Administrator|User role"
 msgstr "管理员|用户身份"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:267
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:268
 msgid "Editor|User role"
 msgstr "编辑|用户身份"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:268
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:269
 msgid "Author|User role"
 msgstr "作者|用户身份"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:269
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:270
 msgid "Contributor|User role"
 msgstr "投稿人|用户身份"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:270
+#: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:271
 msgid "Subscriber|User role"
 msgstr "订阅者|用户身份"
 
@@ -5824,104 +5814,97 @@ msgstr "日期"
 msgid "Status"
 msgstr "状态"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:527
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:532
 #, php-format
 msgid "e-mail: %s"
 msgstr "电子邮箱：%s"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:531
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:536
 msgid "View posts by this author"
 msgstr "查看该作者的日志"
 
-# 点击查看新建的日志。
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:532
-#, php-format
-msgid "View %s post"
-msgid_plural "View %s posts"
-msgstr[0] "查看 %s 篇日志"
-
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:597
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:599
 msgid "Unapprove"
 msgstr "未审批"
 
 # meta 的 key，或者 Akismet 的 Key。
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:647
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:709
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:649
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:711
 msgid "Key"
 msgstr "Key"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:648
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:710
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:650
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:712
 msgid "Value"
 msgstr "值"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:686
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:688
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/langs/wp-langs.php:16
 msgid "Update"
 msgstr "更新"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:706
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:708
 msgid "Add a new custom field:"
 msgstr "添加一个自定义字段："
 
 # 或者自行输入一个值
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:724
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:726
 msgid "or"
 msgstr "或者"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:733
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:735
 msgid "Add Custom Field &raquo;"
 msgstr "添加自定义字段 &raquo;"
 
 # 选中这一项，日志的发布时间将被修改为新的日期和时间。
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:750
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:752
 msgid "Edit timestamp"
 msgstr "修改日志发布时间"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:777
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:779
 #, php-format
 msgid "Existing timestamp: %1$s %2$s, %3$s @ %4$s:%5$s|1: month, 2: month string, 3: full year, 4: hours, 5: minutes"
 msgstr "已经存在的时间戳： %1$s %2$s, %3$s @ %4$s:%5$s|1：月份， 2：月份字符串， 3：年份， 4：小时， 5：分钟"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:824
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:826
 msgid "WordPress recommends a better browser"
 msgstr "WordPress 推荐您使用一个更好的浏览器"
 
 # 下面四项是设置上传文件在日志中显示的方式
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:854
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:856
 msgid "Thumbnail linked to file"
 msgstr "缩略图，链接到文件"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:854
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:856
 msgid "Image linked to file"
 msgstr "原始图片，链接到文件"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:858
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:860
 msgid "Thumbnail linked to page"
 msgstr "缩略图，链接到文件页面"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:858
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:860
 msgid "Image linked to page"
 msgstr "原始图片，链接到文件页面"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:863
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:865
 msgid "Link to file"
 msgstr "链接到文件"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:867
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:869
 msgid "Link to page"
 msgstr "链接到文件页面"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:921
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:923
 msgid "Choose a file from your computer:"
 msgstr "选择要导入的文件："
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:921
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:923
 #, php-format
 msgid "Maximum size: %s"
 msgstr "最大%s"
 
-#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:927
+#: C:\xampp\htdocs\wp/wp-admin/includes/template.php:929
 msgid "Upload file and import &raquo;"
 msgstr "上传文件并导入 &raquo;"
 
@@ -6406,7 +6389,7 @@ msgstr "不是垃圾评论 &raquo;"
 
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:609
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
-msgstr "如果 Akismet 将正常评论识别为垃圾评论，请您选择被错误识别的评论并点击“不是垃圾评论”按钮，Akismet 将自动进行学习以便更好的为您服务。"
+msgstr "如果 Akismet 将正常评论识别为垃圾评论，请您选择被错误识别的评论并点击“不是垃圾评论”按钮，Akismet 将自动学习以便更好地为您服务。"
 
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:645
 #, php-format
@@ -7265,11 +7248,11 @@ msgstr "查看%2$s年%1$05s的日志"
 
 #: C:\xampp\htdocs\wp/wp-includes/general-template.php:947
 msgid "HTML"
-msgstr "编辑 HTML"
+msgstr "HTML 源代码"
 
 #: C:\xampp\htdocs\wp/wp-includes/general-template.php:948
 msgid "Visual"
-msgstr "可视化"
+msgstr "可视化编辑器"
 
 #: C:\xampp\htdocs\wp/wp-includes/general-template.php:951
 #: C:\xampp\htdocs\wp/wp-includes/general-template.php:967
@@ -7695,6 +7678,7 @@ msgid "Private: %s"
 msgstr "私人日志：%s"
 
 #: C:\xampp\htdocs\wp/wp-includes/post-template.php:145
+#, fuzzy
 msgid "There is no excerpt because this is a protected post."
 msgstr "被密码保护的日志没有摘录。"
 
@@ -7736,11 +7720,11 @@ msgstr "查找"
 
 #: C:\xampp\htdocs\wp/wp-includes/script-loader.php:23
 msgid "Close all open tags"
-msgstr "关闭所有未关闭的标签"
+msgstr "闭合所有开放的标签"
 
 #: C:\xampp\htdocs\wp/wp-includes/script-loader.php:24
 msgid "close tags"
-msgstr "关闭标签"
+msgstr "闭合标签"
 
 #: C:\xampp\htdocs\wp/wp-includes/script-loader.php:25
 msgid "Enter the URL"
@@ -7864,20 +7848,20 @@ msgstr ""
 #: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:380
 #: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:519
 #: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1017
-#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1213
+#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1215
 msgid "Invalid Taxonomy"
 msgstr "无效分类"
 
-#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1118
-#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1355
+#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1120
+#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1369
 msgid "Invalid taxonomy"
 msgstr "无效的分类"
 
-#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1121
+#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1123
 msgid "Invalid term ID"
 msgstr "无效 term ID。"
 
-#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1403
+#: C:\xampp\htdocs\wp/wp-includes/taxonomy.php:1417
 #, php-format
 msgid "The slug \"%s\" is already in use by another term"
 msgstr "缩略名 \"%s\" 已被占用"
