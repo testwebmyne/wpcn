@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-15 01:25+0800\n"
+"PO-Revision-Date: 2008-02-15 03:27+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -87,7 +87,7 @@ msgstr "抱歉，这篇日志评论已关闭。"
 
 #: C:\xampp\htdocs\wp/wp-comments-post.php:46
 msgid "Sorry, you must be logged in to post a comment."
-msgstr "对不起，您必须登录后才可以发表评论。"
+msgstr "对不起，发表评论前您必须先登录。"
 
 #: C:\xampp\htdocs\wp/wp-comments-post.php:53
 msgid "Error: please fill the required fields (name, email)."
@@ -249,7 +249,7 @@ msgstr "走错地方了？"
 #: C:\xampp\htdocs\wp/wp-login.php:398
 #, php-format
 msgid "&laquo; Back to %s"
-msgstr "&laquo; 返回到 %s"
+msgstr "&laquo; 返回 %s"
 
 #: C:\xampp\htdocs\wp/wp-login.php:295
 msgid "Registration Form"
@@ -586,7 +586,7 @@ msgstr "您无权编辑该日志。"
 
 #: C:\xampp\htdocs\wp/wp-admin/admin-footer.php:7
 msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>"
-msgstr "谢谢使用 <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "感谢您选用 <a href=\"http://wordpress.org/\">WordPress</a>"
 
 #: C:\xampp\htdocs\wp/wp-admin/admin-footer.php:7
 msgid "<a href=\"http://codex.wordpress.org/\">Documentation</a>"
@@ -2222,12 +2222,12 @@ msgstr "某物"
 #: C:\xampp\htdocs\wp/wp-admin/index-extra.php:52
 #, php-format
 msgid "%1$s linked here <a href=\"%2$s\">saying</a>, \"%3$s\"|feed_display"
-msgstr ""
+msgstr "%1$s <a href=\"%2$s\">写道</a>， \"%3$s\"|feed_display"
 
 #: C:\xampp\htdocs\wp/wp-admin/index-extra.php:54
 #, php-format
 msgid "%1$s linked here saying, \"%3$s\"|feed_display"
-msgstr ""
+msgstr "%1$s 写道, \"%3$s\"|feed_display"
 
 #: C:\xampp\htdocs\wp/wp-admin/index-extra.php:58
 #, php-format
@@ -4158,7 +4158,7 @@ msgstr "当前 Widgets %s"
 
 #: C:\xampp\htdocs\wp/wp-admin/widgets.php:213
 msgid "Go"
-msgstr "搜索"
+msgstr "转到"
 
 #: C:\xampp\htdocs\wp/wp-admin/widgets.php:240
 msgid "Add more from the Available Widgets section."
@@ -5427,7 +5427,7 @@ msgstr "次要 Feed"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/dashboard.php:168
 msgid "See&nbsp;All"
-msgstr "查看 &nbsp; 所有"
+msgstr "查看全部"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/dashboard.php:180
 #: C:\xampp\htdocs\wp/wp-admin/includes/media.php:136
@@ -5786,23 +5786,23 @@ msgstr "Y-m-d g:i a"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:266
 msgid "Administrator|User role"
-msgstr "管理员|用户规则"
+msgstr "管理员|用户身份"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:267
 msgid "Editor|User role"
-msgstr "编辑|用户规则"
+msgstr "编辑|用户身份"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:268
 msgid "Author|User role"
-msgstr "作者|用户规则"
+msgstr "作者|用户身份"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:269
 msgid "Contributor|User role"
-msgstr "投稿人|用户规则"
+msgstr "投稿人|用户身份"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/schema.php:270
 msgid "Subscriber|User role"
-msgstr "订阅者|用户规则"
+msgstr "订阅者|用户身份"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/template.php:292
 #: C:\xampp\htdocs\wp/wp-admin/includes/template.php:313
@@ -6422,13 +6422,13 @@ msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:665
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
-msgstr "<a href=\"%1$s\">Akismet</a> 保护您的 Blog 不受垃圾评论困扰,"
+msgstr "<a href=\"%1$s\">Akismet</a> 保护您的 Blog 不受垃圾评论困扰，"
 
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:670
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment in your spam queue</a> right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments in your spam queue</a> right now."
-msgstr[0] "目前您的<a href='%1$s'>垃圾评论队列</a>中有<a href=\"%2$s\">%1$s条垃圾评论。"
+msgstr[0] "目前您的垃圾评论队列中有 <a href=\"%2$s\">%1$s 条垃圾评论</a>。"
 
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:675
 #, php-format
@@ -6447,7 +6447,7 @@ msgstr "重新检测垃圾评论队列"
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:764
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
-msgstr "%1$s %2$s垃圾评论%3$s %4$s截获于%5$s<br />%6$sAkismet%7$s"
+msgstr "%1$s %2$s垃圾评论%3$s %4$s被%5$s<br />%6$sAkismet%7$s截获"
 
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet.php:796
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:408
@@ -7546,7 +7546,7 @@ msgstr "<strong>错误</strong>：无效的用户名。"
 
 #: C:\xampp\htdocs\wp/wp-includes/pluggable.php:449
 msgid "<strong>ERROR</strong>: Incorrect password."
-msgstr "<strong>错误</strong>：错误的密码。"
+msgstr "<strong>错误</strong>：密码错误。"
 
 #: C:\xampp\htdocs\wp/wp-includes/pluggable.php:795
 #, php-format
@@ -8035,19 +8035,19 @@ msgstr "Feed 标题 (可选):"
 
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:1221
 msgid "How many items would you like to display?"
-msgstr "显示数目"
+msgstr "条目显示数量"
 
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:1234
 msgid "Display item content?"
-msgstr "显示项目内容"
+msgstr "显示条目内容"
 
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:1241
 msgid "Display item author if available?"
-msgstr "若可用，显示项目作者"
+msgstr "若可用，显示条目作者"
 
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:1248
 msgid "Display item date?"
-msgstr "显示项目日期"
+msgstr "显示条目日期"
 
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:1281
 msgid "Error: could not find an RSS or ATOM feed at that URL."
