@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-15 10:03+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-02-15 14:10+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7030,49 +7030,49 @@ msgstr "无法写入文件%s。"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1211
 #, php-format
 msgid "Your attempt to edit this attachment: &quot;%s&quot; has failed."
-msgstr "您试图编辑附件： &quot;%s&quot; 时发生错误。"
+msgstr "尝试编辑附件 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1213
 msgid "Your attempt to add this category has failed."
-msgstr "您试图添加分类时发生错误。"
+msgstr "尝试添加分类时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1214
 #, php-format
 msgid "Your attempt to delete this category: &quot;%s&quot; has failed."
-msgstr "您试图删除分类： &quot;%s&quot; 时发生错误。"
+msgstr "尝试删除分类 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1215
 #, php-format
 msgid "Your attempt to edit this category: &quot;%s&quot; has failed."
-msgstr "您试图编辑分类： &quot;%s&quot; 时发生错误。"
+msgstr "尝试编辑分类 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1217
 #, php-format
 msgid "Your attempt to delete this comment: &quot;%s&quot; has failed."
-msgstr "您试图删除评论： &quot;%s&quot; 时发生错误。"
+msgstr "尝试删除评论 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1218
 #, php-format
 msgid "Your attempt to unapprove this comment: &quot;%s&quot; has failed."
-msgstr "您试图不审批评论： &quot;%s&quot; 时发生错误。"
+msgstr "尝试不审批评论 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1219
 #, php-format
 msgid "Your attempt to approve this comment: &quot;%s&quot; has failed."
-msgstr "您试图审批评论： &quot;%s&quot; 时发生错误。"
+msgstr "尝试审批评论 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1220
 #, php-format
 msgid "Your attempt to edit this comment: &quot;%s&quot; has failed."
-msgstr "您试图编辑评论： &quot;%s&quot; 时发生错误。"
+msgstr "尝试编辑评论 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1221
 msgid "Your attempt to bulk modify comments has failed."
-msgstr "您试图批量修改评论时发生错误。"
+msgstr "尝试批量修改评论时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1222
 msgid "Your attempt to moderate comments has failed."
-msgstr "您试图审核评论时发生错误。"
+msgstr "尝试审核评论时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1224
 msgid "Your attempt to add this link has failed."
@@ -7081,16 +7081,16 @@ msgstr "尝试添加链接失败。"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1225
 #, php-format
 msgid "Your attempt to delete this link: &quot;%s&quot; has failed."
-msgstr "您试图删除链接： &quot;%s&quot; 时发生错误。"
+msgstr "尝试删除链接 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1226
 #, php-format
 msgid "Your attempt to edit this link: &quot;%s&quot; has failed."
-msgstr "您试图编辑链接： &quot;%s&quot; 时发生错误。"
+msgstr "尝试编辑链接 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1227
 msgid "Your attempt to bulk modify links has failed."
-msgstr "您试图批量修改链接时发生错误。"
+msgstr "尝试批量修改链接时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1229
 msgid "Your attempt to add this page has failed."
@@ -7099,41 +7099,41 @@ msgstr "尝试添加页面失败。"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1230
 #, php-format
 msgid "Your attempt to delete this page: &quot;%s&quot; has failed."
-msgstr "您试图删除页面： &quot;%s&quot; 时发生错误。"
+msgstr "尝试删除页面 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1231
 #, php-format
 msgid "Your attempt to edit this page: &quot;%s&quot; has failed."
-msgstr "您试图编辑页面： &quot;%s&quot; 时发生错误。"
+msgstr "尝试编辑页面 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1233
 #, php-format
 msgid "Your attempt to edit this plugin file: &quot;%s&quot; has failed."
-msgstr "您试图编辑插件文件： &quot;%s&quot; 时发生错误。"
+msgstr "尝试编辑插件文件 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1234
 #, php-format
 msgid "Your attempt to activate this plugin: &quot;%s&quot; has failed."
-msgstr "您试图启用插件： &quot;%s&quot; 时发生错误。"
+msgstr "尝试启用插件 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1235
 #, php-format
 msgid "Your attempt to deactivate this plugin: &quot;%s&quot; has failed."
-msgstr "您试图禁用插件： &quot;%s&quot; 时发生错误。"
+msgstr "尝试禁用插件 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1237
 msgid "Your attempt to add this post has failed."
-msgstr "尝试编辑该日志时失败。"
+msgstr "尝试编辑该日志时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1238
 #, php-format
 msgid "Your attempt to delete this post: &quot;%s&quot; has failed."
-msgstr "尝试删除日志 &quot;%s&quot; 时失败。"
+msgstr "尝试删除日志 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1239
 #, php-format
 msgid "Your attempt to edit this post: &quot;%s&quot; has failed."
-msgstr "尝试编辑日志 &quot;%s&quot; 时失败。"
+msgstr "尝试编辑日志 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1241
 msgid "Your attempt to add this user has failed."
@@ -7141,45 +7141,45 @@ msgstr "尝试添加用户失败。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1242
 msgid "Your attempt to delete users has failed."
-msgstr "尝试删除用户时失败。"
+msgstr "尝试删除用户时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1243
 msgid "Your attempt to bulk modify users has failed."
-msgstr "尝试批量修改用户资料时失败。"
+msgstr "尝试批量修改用户资料时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1244
 #, php-format
 msgid "Your attempt to edit this user: &quot;%s&quot; has failed."
-msgstr "您试图编辑用户 &quot;%s&quot; 时发生错误。"
+msgstr "尝试编辑用户 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1245
 #, php-format
 msgid "Your attempt to modify the profile for: &quot;%s&quot; has failed."
-msgstr "您试图修改 &quot;%s&quot; 的个人资料时发生错误。"
+msgstr "尝试修改 &quot;%s&quot; 的个人资料时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1247
 msgid "Your attempt to edit your settings has failed."
-msgstr "尝试修改设置时失败。"
+msgstr "尝试修改设置时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1248
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
-msgstr "尝试将永久链接结构更改为 %s 时失败。"
+msgstr "尝试将永久链接结构更改为 %s 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1249
 #, php-format
 msgid "Your attempt to edit this file: &quot;%s&quot; has failed."
-msgstr "尝试编辑文件 &quot;%s&quot; 时失败。"
+msgstr "尝试编辑文件 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1250
 #, php-format
 msgid "Your attempt to edit this theme file: &quot;%s&quot; has failed."
-msgstr "尝试编辑主题 &quot;%s&quot; 时失败。"
+msgstr "尝试编辑主题 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1251
 #, php-format
 msgid "Your attempt to switch to this theme: &quot;%s&quot; has failed."
-msgstr "尝试切换到主题 &quot;%s&quot; 时失败。"
+msgstr "尝试切换到主题 &quot;%s&quot; 时发生错误。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/functions.php:1266
 msgid "Are you sure you want to do this?"
