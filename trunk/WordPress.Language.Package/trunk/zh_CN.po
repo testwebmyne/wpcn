@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-20 08:59+0800\n"
+"PO-Revision-Date: 2008-02-20 10:40+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -221,9 +221,8 @@ msgid "Username or E-mail:"
 msgstr "用户名或电子邮箱地址："
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:239
-#, fuzzy
 msgid "Get New Password"
-msgstr "获得新密码 &raquo;"
+msgstr "获得新密码"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:244
 #: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:247
@@ -1034,7 +1033,6 @@ msgid "(no title)"
 msgstr "（无标题）"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-attachment-rows.php:93
-#, fuzzy
 msgid "Permalink"
 msgstr "永久链接"
 
@@ -2208,9 +2206,8 @@ msgid "View all categories"
 msgstr "显示所有分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit.php:171
-#, fuzzy
 msgid "Filter"
-msgstr "过滤 &#187;"
+msgstr "筛选"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/export.php:4
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/export.php:16
@@ -2560,7 +2557,7 @@ msgstr "按票数排列"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/link-manager.php:112
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:173
 msgid "Filter &#187;"
-msgstr "过滤 &#187;"
+msgstr "筛选 &#187;"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/link-manager.php:126
 msgid "rel"
@@ -3386,9 +3383,8 @@ msgstr "更新文件并尝试重新启用 &raquo;"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/plugin-editor.php:140
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/theme-editor.php:163
-#, fuzzy
 msgid "Update File"
-msgstr "更新文件 &raquo;"
+msgstr "更新文件"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/plugin-editor.php:144
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/theme-editor.php:167
@@ -3753,19 +3749,16 @@ msgid "%s seconds"
 msgstr "%s 秒"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:57
-#, fuzzy
 msgid "Manage Media|manage media header"
-msgstr "草稿|管理日志篇头"
+msgstr "媒体管理|管理媒体篇头"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:104
-#, fuzzy
 msgid "All Types"
-msgstr "所有设置"
+msgstr "全部格式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:119
-#, fuzzy
 msgid "Search Media"
-msgstr "媒体文件"
+msgstr "搜索媒体"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:56
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:135
@@ -4012,9 +4005,9 @@ msgid "Manage Users"
 msgstr "用户管理"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:267
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s (%2$s)|user role with count"
-msgstr "新用户默认身份："
+msgstr "%1$s (%2$s)|使用数字区分用户规则"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:271
 msgid "All Users"
@@ -4073,7 +4066,6 @@ msgid "Password (twice)"
 msgstr "重复输入密码"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:439
-#, fuzzy
 msgid "Add User"
 msgstr "添加新用户"
 
@@ -5716,7 +5708,7 @@ msgstr "替换文本"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:541
 msgid "Alternate Text helps people who can not see the image."
-msgstr ""
+msgstr "替换文字将对那些看不到图像的用户有所帮助。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:544
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:278
@@ -5725,7 +5717,7 @@ msgstr "链接 URL"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:547
 msgid "If filled, this will override the default link URL."
-msgstr ""
+msgstr "如果填写，将不再使用默认链接。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:572
 msgid "Empty Title filled from filename."
@@ -5737,7 +5729,7 @@ msgstr "摘要"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:625
 msgid "If filled, the default link URL will be the attachment permalink."
-msgstr ""
+msgstr "如果填写，默认链接将使用附件永久链接。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:669
 msgid "Describe &raquo;"
@@ -5827,48 +5819,43 @@ msgid "Private posts"
 msgstr "私人日志"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:545
-#, fuzzy
 msgid "Images"
-msgstr "图像和其他文件"
+msgstr "图像"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:545
-#, fuzzy
 msgid "Manage Images"
-msgstr "管理链接"
+msgstr "图像管理"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:545
-#, fuzzy, php-format
+#, php-format
 msgid "Images (%s)"
-msgstr "图像和其他文件"
+msgstr "图像 (%s)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:546
 msgid "Audio"
-msgstr ""
+msgstr "音频"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:546
-#, fuzzy
 msgid "Manage Audio"
-msgstr "管理链接"
+msgstr "音频管理"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:546
 #, php-format
 msgid "Audio (%s)"
-msgstr ""
+msgstr "音频 (%s)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:547
-#, fuzzy
 msgid "Video"
-msgstr "无窗口视频"
+msgstr "视频"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:547
-#, fuzzy
 msgid "Manage Video"
-msgstr "无窗口视频"
+msgstr "视频管理"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:547
-#, fuzzy, php-format
+#, php-format
 msgid "Video (%s)"
-msgstr "无窗口视频"
+msgstr "视频 (%s)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:599
 msgid "Click to edit this part of the permalink"
@@ -5935,25 +5922,24 @@ msgid "Status"
 msgstr "状态"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:314
-#, fuzzy
 msgid "Media|media column header"
-msgstr "裁剪标题图片 &raquo;"
+msgstr "媒体|媒体栏目题头"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:315
 msgid "Description|media column header"
-msgstr ""
+msgstr "描述|媒体栏目题头"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:316
 msgid "Date Added|media column header"
-msgstr ""
+msgstr "添加日期|媒体栏目题头"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:317
 msgid "Appears with|media column header"
-msgstr ""
+msgstr "出现在|媒体栏目题头"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:318
 msgid "Location|media column header"
-msgstr ""
+msgstr "地址|媒体栏目题头"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:376
 msgid "Never"
@@ -6562,9 +6548,9 @@ msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at them moment.
 msgstr "目前您的<a href='%1$s'>垃圾评论队列</a>为空。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/plugins/akismet/akismet.php:678
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s %2$s|akismet_rightnow"
-msgstr "Akismet 配置"
+msgstr "%1$s %2$s|马上使用 Akismet"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/plugins/akismet/akismet.php:692
 msgid "Recheck Queue for Spam"
@@ -8778,7 +8764,7 @@ msgstr "插入预设模板内容"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:151
 msgid "Visual control characters on/off."
-msgstr ""
+msgstr "可视化控制符 开/关。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:154
 msgid "Toggle spellchecker"
@@ -9321,9 +9307,8 @@ msgid "Href"
 msgstr "Href"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:327
-#, fuzzy
 msgid "Choke speed"
-msgstr "曝光速度"
+msgstr "速度限制"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:329
 msgid "Volume"
