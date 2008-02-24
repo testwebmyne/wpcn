@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-24 13:49+0800\n"
-"Last-Translator: Edward Gao <edwardright@gmail.com>\n"
+"PO-Revision-Date: 2008-02-24 20:50+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1158,9 +1158,9 @@ msgid "Actions"
 msgstr "操作"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:187
-#, fuzzy, php-format
+#, php-format
 msgid "From %1$s, %2$s at %3$s"
-msgstr "From %1$s, %2$s at %3$s"
+msgstr "所在日志：%1$s　发表于：%2$s %3$s"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:192
 #: C:\xampp\htdocs\wp/wp-admin/edit-form-advanced.php:121
