@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-26 11:40+0800\n"
+"PO-Revision-Date: 2008-02-26 11:53+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -1534,7 +1534,7 @@ msgstr "审核状态"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-form-comment.php:36
 msgid "Moderated"
-msgstr "待审查"
+msgstr "待审核"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-form-comment.php:56
 msgid ""
@@ -6777,7 +6777,7 @@ msgstr "页眉图片和颜色"
 
 #: C:\xampp\htdocs\wp/wp-content/themes/default/functions.php:160
 msgid "Close Color Picker"
-msgstr "关闭颜色拾取器"
+msgstr "关闭拾色器"
 
 #: C:\xampp\htdocs\wp/wp-content/themes/default/functions.php:375
 msgid "Font Color:"
@@ -9008,11 +9008,11 @@ msgstr "Alt+Q 切换到工具按钮，Alt-Z 切换到编辑器，Alt-X 切换到
 
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/langs/wp-langs.php:232
 msgid "0| Extra width for the colorpicker popup in pixels"
-msgstr "0| 颜色拾取器弹出窗口的宽度（像素）"
+msgstr "0| 拾色器弹出窗口的宽度（像素）"
 
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/langs/wp-langs.php:233
 msgid "0| Extra height for the colorpicker popup in pixels"
-msgstr "0| 颜色拾取器弹出窗口的高度（像素）"
+msgstr "0| 拾色器弹出窗口的高度（像素）"
 
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/langs/wp-langs.php:240
 msgid "License"
