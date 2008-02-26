@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-26 11:05+0800\n"
+"PO-Revision-Date: 2008-02-26 11:40+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -853,7 +853,7 @@ msgstr "您将要审核通过下列评论："
 
 #: C:\xampp\htdocs\wp/wp-admin/comment.php:69
 msgid "Approve Comment"
-msgstr "审批该评论"
+msgstr "审核该评论"
 
 #: C:\xampp\htdocs\wp/wp-admin/comment.php:73
 msgid "Caution:"
@@ -1101,7 +1101,7 @@ msgstr "编辑评论"
 #, php-format
 msgid "%s comment approved"
 msgid_plural "%s comments approved"
-msgstr[0] "%s 条评论被审批"
+msgstr[0] "%s 条评论被审核"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:70
 #, php-format
@@ -1128,7 +1128,7 @@ msgstr "待审核(%s)"
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:91
 #: C:\xampp\htdocs\wp/wp-admin/edit-form-comment.php:35
 msgid "Approved"
-msgstr "已审批"
+msgstr "已审核"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:101
 msgid "All Comments"
@@ -1150,7 +1150,7 @@ msgstr "列表视图"
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:221
 #: C:\xampp\htdocs\wp/wp-admin/includes/template.php:634
 msgid "Approve"
-msgstr "已审批"
+msgstr "已审核"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:154
 msgid "Mark as Spam"
@@ -1179,7 +1179,7 @@ msgstr "所在日志：%1$s　发表于：%2$s"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:221
 msgid "Approve this comment"
-msgstr "审批该评论"
+msgstr "审核该评论"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-comments.php:222
 msgid "Mark this comment as spam"
@@ -1530,7 +1530,7 @@ msgstr "查看该评论"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-form-comment.php:32
 msgid "Approval Status"
-msgstr "审批状态"
+msgstr "审核状态"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-form-comment.php:36
 msgid "Moderated"
@@ -3983,11 +3983,11 @@ msgstr "显示所有 widgets"
 
 #: C:\xampp\htdocs\wp/wp-admin/widgets.php:158
 msgid "Show unused widgets"
-msgstr "显示未激活 widgets"
+msgstr "显示未使用的 widgets"
 
 #: C:\xampp\htdocs\wp/wp-admin/widgets.php:159
 msgid "Show used widgets"
-msgstr "显示已激活 widgets"
+msgstr "显示使用中的 widgets"
 
 #: C:\xampp\htdocs\wp/wp-admin/widgets.php:166
 msgid "Changes saved."
@@ -5359,11 +5359,11 @@ msgstr "弹出式评论"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/file.php:3
 msgid "Footer"
-msgstr "页尾"
+msgstr "页脚"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/file.php:3
 msgid "Header"
-msgstr "页首"
+msgstr "页眉"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/file.php:3
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:26
@@ -5391,7 +5391,7 @@ msgstr "搜索表单"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/file.php:3
 msgid "Single Post"
-msgstr "独立日志页"
+msgstr "单篇日志页"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/file.php:3
 msgid "404 Template"
@@ -5843,7 +5843,7 @@ msgstr "Fj日 ag点i分"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/template.php:632
 msgid "Unapprove"
-msgstr "未审批"
+msgstr "未审核"
 
 # meta 的 key，或者 Akismet 的 Key。
 #: C:\xampp\htdocs\wp/wp-admin/includes/template.php:682
@@ -5880,7 +5880,7 @@ msgid "Edit timestamp"
 msgstr "修改日志发布时间"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/template.php:809
-#, php-format
+#, fuzzy, php-format
 msgid "%1$s%2$s%3$s @ %4$s : %5$s"
 msgstr ""
 
@@ -6542,7 +6542,7 @@ msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>本日志的评论 R
 
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:27
 msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
-msgstr ""
+msgstr "本日志的 TrackBack <abbr title=\"Universal Resource Locator\">URL</abbr> ："
 
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:45
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments.php:17
@@ -6557,7 +6557,7 @@ msgstr "Pingback"
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:45
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments.php:17
 msgid "by"
-msgstr ""
+msgstr "评论者："
 
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:51
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments.php:25
@@ -6571,6 +6571,7 @@ msgid "Leave a comment"
 msgstr "发表评论"
 
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:56
+#, fuzzy
 msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
 msgstr ""
 
@@ -6646,9 +6647,8 @@ msgstr "%条评论"
 # 以下为模板编辑器
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments.php:17
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/index.php:11
-#, fuzzy
 msgid "Edit This"
-msgstr "编辑主题"
+msgstr "编辑评论"
 
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments.php:30
 msgid "TrackBack <abbr title=\"Universal Resource Locator\">URL</abbr>"
@@ -6722,7 +6722,7 @@ msgstr "下一页 &raquo;"
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/sidebar.php:8
 #: C:\xampp\htdocs\wp/wp-includes/post-template.php:160
 msgid "Pages:"
-msgstr "页："
+msgstr "页面："
 
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/sidebar.php:10
 msgid "Categories:"
@@ -7152,12 +7152,12 @@ msgstr "尝试删除评论 &quot;%s&quot; 时发生错误。"
 #: C:\xampp\htdocs\wp/wp-includes/functions.php:1251
 #, php-format
 msgid "Your attempt to unapprove this comment: &quot;%s&quot; has failed."
-msgstr "尝试不审批评论 &quot;%s&quot; 时发生错误。"
+msgstr "尝试不审核评论 &quot;%s&quot; 时发生错误。"
 
 #: C:\xampp\htdocs\wp/wp-includes/functions.php:1252
 #, php-format
 msgid "Your attempt to approve this comment: &quot;%s&quot; has failed."
-msgstr "尝试审批评论 &quot;%s&quot; 时发生错误。"
+msgstr "尝试审核评论 &quot;%s&quot; 时发生错误。"
 
 #: C:\xampp\htdocs\wp/wp-includes/functions.php:1253
 #, php-format
@@ -8959,6 +8959,7 @@ msgid "Insert custom character"
 msgstr "插入自定义字符"
 
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/langs/wp-langs.php:218
+#, fuzzy
 msgid "Toggle guidelines/invisible elements"
 msgstr ""
 
