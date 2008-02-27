@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-02-27 09:46+0800\n"
+"PO-Revision-Date: 2008-02-27 10:24+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -5524,7 +5524,7 @@ msgstr "'%s' 不是一个图片文件。"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/media.php:5
 msgid "From Computer"
-msgstr "从计算机中"
+msgstr "本地"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/media.php:6
 msgid "Attachments"
@@ -6560,9 +6560,8 @@ msgstr "提交评论"
 
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:92
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments.php:74
-#, fuzzy
 msgid "Sorry, the comment form is closed at this time."
-msgstr "抱歉，这篇日志评论已关闭。"
+msgstr "抱歉，这篇的日志评论已关闭。"
 
 #: C:\xampp\htdocs\wp/wp-content/themes/classic/comments-popup.php:97
 msgid "Close this window."
