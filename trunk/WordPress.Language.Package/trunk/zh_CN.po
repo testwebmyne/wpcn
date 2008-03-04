@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-04 07:58+0800\n"
+"PO-Revision-Date: 2008-03-04 08:40+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -571,36 +571,36 @@ msgstr "标签 <a href=\"#%s\">%s</a> 已添加"
 msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "用户 <a href=\"#%s\">%s</a> 已添加。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:487
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:485
 #, php-format
 msgid "Draft Saved at %s."
 msgstr "草稿保存于 %s。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:487
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:485
 msgid "g:i:s a"
 msgstr "g:i:s a"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:507
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:505
 msgid "Someone"
 msgstr "某人"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:509
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:507
 #, php-format
 msgid "Autosave disabled: %s is currently editing this page."
 msgstr "自动保存已禁用：%s 当前正在编辑该页面。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:509
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:507
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
 msgstr "自动保存已禁用：%s 当前正在编辑该日志。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:518
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:516
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/page.php:74
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:10
 msgid "You are not allowed to edit this page."
 msgstr "您无权编辑该页面。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:521
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-ajax.php:519
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/post.php:83
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:13
 msgid "You are not allowed to edit this post."
@@ -695,7 +695,7 @@ msgid "Cheatin&#8217; uh?"
 msgstr "您的攻击行为已被记录。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/categories.php:4
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:210
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:211
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form.php:28
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:93
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/link-category.php:44
@@ -1251,7 +1251,7 @@ msgstr "发表状态"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:75
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:42
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:135
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:504
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:508
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:429
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:306
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:328
@@ -1267,7 +1267,7 @@ msgstr "预发布"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:80
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:44
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:141
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:506
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:510
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:435
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:304
 msgid "Pending Review"
@@ -1311,7 +1311,7 @@ msgstr "时间戳：<br />%1$s - %2$s"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/plugins.php:141
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/post.php:47
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:214
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:636
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:640
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/widgets.php:91
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/widgets.php:175
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:161
@@ -1372,40 +1372,40 @@ msgstr "删除日志"
 msgid "Last edited on %1$s at %2$s"
 msgstr "最后编辑于 %1$s - %2$s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:159
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:160
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-comment.php:61
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:59
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:137
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:138
 msgid "Related"
 msgstr "相关操作"
 
 # 加一个引号标识出日志标题
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:163
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:164
 msgid "See Comments on this Post"
 msgstr "查看该日志的所有评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:165
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:166
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-comment.php:64
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:143
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:144
 msgid "Manage All Comments"
 msgstr "管理所有评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:166
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:167
 msgid "Manage All Posts"
 msgstr "管理所有页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:167
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:168
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:63
 msgid "Manage All Categories"
 msgstr "管理所有分类"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:168
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:169
 msgid "Manage All Tags"
 msgstr "管理所有页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:177
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:178
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form.php:23
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:152
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:153
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:531
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:616
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1078
@@ -1420,13 +1420,13 @@ msgstr "管理所有页面"
 msgid "Title"
 msgstr "标题"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:190
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:191
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form.php:34
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:29
 msgid "Post"
 msgstr "日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:202
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:203
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-tags.php:4
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:39
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:618
@@ -1435,21 +1435,21 @@ msgstr "日志"
 msgid "Tags"
 msgstr "标签"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:214
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:215
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:97
 msgid "+ Add New Category"
 msgstr "+ 添加分类"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:216
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:217
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:99
 msgid "New category name"
 msgstr "新分类名称"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:217
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:218
 msgid "Parent category"
 msgstr "上级分类"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:218
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:219
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:100
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/widgets.php:85
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:118
@@ -1458,72 +1458,72 @@ msgstr "上级分类"
 msgid "Add"
 msgstr "添加"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:225
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:226
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:107
 msgid "All Categories"
 msgstr "所有分类"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:226
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:227
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:108
 msgid "Most Used"
 msgstr "常用分类"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:254
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:255
 msgid "This feature requires iframe support."
 msgstr "该功能需要浏览器支持 iframe。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:258
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:259
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:128
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:177
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:178
 msgid "Advanced Options"
 msgstr "高级选项"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:261
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:262
 msgid "Optional Excerpt"
 msgstr "可选摘要"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:266
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:267
 msgid "Trackbacks"
 msgstr "引用"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:268
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:269
 msgid "Send trackbacks to:"
 msgstr "发送引用通告到："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:268
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:269
 msgid "Separate multiple URLs with spaces"
 msgstr "多个引用通告地址请用空格隔开。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:277
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:180
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:278
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:181
 msgid "Custom Fields"
 msgstr "自定义字段"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:298
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:199
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:299
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:200
 msgid "Comments &amp; Pings"
 msgstr "评论与引用"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:303
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:204
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:304
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:205
 msgid "Allow Comments"
 msgstr "允许评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:304
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:205
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:305
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:206
 msgid "Allow Pings"
 msgstr "允许引用"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:309
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:310
 msgid "Password Protect This Post"
 msgstr "日志加密"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:316
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:317
 msgid "Post Slug"
 msgstr "日志缩略名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:329
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:259
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:330
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:260
 msgid "Post Author"
 msgstr "日志作者"
 
@@ -1664,7 +1664,7 @@ msgstr "导入链接"
 
 # 链接的网址
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:79
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:182
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:187
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:175
 msgid "Address"
 msgstr "地址"
@@ -1796,7 +1796,7 @@ msgstr "倾心"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:259
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/default/functions.php:393
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:146
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:149
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:291
 msgid "Advanced"
 msgstr "高级"
@@ -1848,46 +1848,46 @@ msgid "Delete&nbsp;page"
 msgstr "删除页面"
 
 # 加一个引号标识出日志标题
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:141
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:142
 msgid "See Comments on this Page"
 msgstr "在本页查看评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:144
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:145
 msgid "Manage All Pages"
 msgstr "管理所有页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:165
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:166
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:30
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:169
 msgid "Page"
 msgstr "页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:210
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:211
 msgid "Password Protect This Page"
 msgstr "页面加密"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:217
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:218
 msgid "Page Slug"
 msgstr "页面缩略名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:224
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:225
 msgid "Page Parent"
 msgstr "上级页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:227
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:228
 msgid "Main Page (no parent)"
 msgstr "主页面（无上级页面）"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:235
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:236
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:3
 msgid "Page Template"
 msgstr "页面模板"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:238
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:239
 msgid "Default Template"
 msgstr "默认模板"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:246
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:247
 msgid "Page Order"
 msgstr "页面序号"
 
@@ -1922,14 +1922,14 @@ msgid "Published pages"
 msgstr "已发布的页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:42
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:504
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:508
 #, php-format
 msgid "Published (%s)"
 msgstr "已发布 (%s)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:43
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:138
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:505
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:509
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:432
 msgid "Scheduled"
 msgstr "预发布"
@@ -1939,7 +1939,7 @@ msgid "Scheduled pages"
 msgstr "预发布页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:43
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:505
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:509
 #, php-format
 msgid "Scheduled (%s)"
 msgstr "预发布 (%s)"
@@ -1949,31 +1949,31 @@ msgid "Pending pages"
 msgstr "待审核页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:44
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:506
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:510
 #, php-format
 msgid "Pending Review (%s)"
 msgstr "待审核 (%s)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:45
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:507
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:511
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:303
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:326
 msgid "Draft"
 msgstr "草稿"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:45
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:507
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:511
 msgid "Drafts|manage posts header"
 msgstr "草稿 | 管理日志头部"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:45
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:507
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:511
 #, php-format
 msgid "Draft (%s)|manage posts header"
 msgstr "草稿 (%s)| 管理日志头部"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:46
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:508
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:512
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:305
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:327
 msgid "Private"
@@ -1984,7 +1984,7 @@ msgid "Private pages"
 msgstr "私人页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:46
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:508
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:512
 #, php-format
 msgid "Private (%s)"
 msgstr "私人 (%s)"
@@ -3139,7 +3139,7 @@ msgstr "高度"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:72
 msgid "Crop to size"
-msgstr ""
+msgstr "裁切到该尺寸"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:76
 msgid "Medium size"
@@ -3211,8 +3211,8 @@ msgstr "某人"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/page.php:63
 #, php-format
-msgid "%s is currently editing this page"
-msgstr "%s 当前正在编辑该页面"
+msgid "Warning: %s is currently editing this page"
+msgstr "警告：%s 当前正在编辑该页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/plugin-editor.php:4
 msgid "Edit Plugins"
@@ -3360,8 +3360,8 @@ msgstr "版本"
 # 操作，比如编辑或删除等等。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/plugins.php:112
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:688
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:174
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:187
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:177
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:193
 msgid "Action"
 msgstr "操作"
 
@@ -3455,8 +3455,8 @@ msgstr "您正在试图编辑一个不存在的日志。该日志可能已被删
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/post.php:72
 #, php-format
-msgid "%s is currently editing this post"
-msgstr "%s 当前正在编辑该日志"
+msgid "Warning: %s is currently editing this post"
+msgstr "警告：%s 当前正在编辑该日志"
 
 # 以下为模板编辑器
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/theme-editor.php:4
@@ -5780,82 +5780,82 @@ msgstr "您无权以该用户身份编辑页面。"
 msgid "You are not allowed to edit posts as this user."
 msgstr "您无权以该用户身份编辑日志。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:205
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:207
 msgid "You are not allowed to create pages on this blog."
 msgstr "您无权在此 Blog 创建页面。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:208
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:210
 msgid "You are not allowed to create posts or drafts on this blog."
 msgstr "您无权在此 Blog 创建日志或草稿。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:250
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:252
 msgid "You are not allowed to create pages as this user."
 msgstr "您无权以该用户身份创建页面。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:253
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:255
 msgid "You are not allowed to post as this user."
 msgstr "您无权以该用户身份发布日志。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:504
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:508
 msgid "Published posts"
 msgstr "已发布的日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:505
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:509
 msgid "Scheduled posts"
 msgstr "预发布日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:506
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:510
 msgid "Pending posts"
 msgstr "待审核日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:508
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:512
 msgid "Private posts"
 msgstr "私人日志/页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:553
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:557
 msgid "Images"
 msgstr "图片"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:553
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:557
 msgid "Manage Images"
 msgstr "图片管理"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:553
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:557
 #, php-format
 msgid "Images (%s)"
 msgstr "图片 (%s)"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:554
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:558
 msgid "Audio"
 msgstr "音频"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:554
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:558
 msgid "Manage Audio"
 msgstr "音频管理"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:554
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:558
 #, php-format
 msgid "Audio (%s)"
 msgstr "音频 (%s)"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:555
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:559
 msgid "Video"
 msgstr "视频"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:555
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:559
 msgid "Manage Video"
 msgstr "视频管理"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:555
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:559
 #, php-format
 msgid "Video (%s)"
 msgstr "视频 (%s)"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:627
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:631
 msgid "Click to edit this part of the permalink"
 msgstr "点击此处以编辑这部分永久链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:635
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:639
 msgid "Permalink:"
 msgstr "永久链接："
 
@@ -6151,7 +6151,7 @@ msgstr "这里是<strong>关于</strong>页面，是一个 WordPress 页面范�
 
 # 第一个页面的标题
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upgrade.php:108
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:148
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:151
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:238
 msgid "About"
 msgstr "关于"
@@ -8306,259 +8306,264 @@ msgstr "<strong>错误</strong>：WordPress %s 需要 MySQL 4.0.0 以上版本�
 msgid "Rich Editor Help"
 msgstr "可视化编辑器帮助"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:145
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:148
 msgid "Basics of Rich Editing"
 msgstr "可视化编辑器使用基础"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:145
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:148
 msgid "Basics"
 msgstr "基本资料"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:146
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:149
 msgid "Advanced use of the Rich Editor"
 msgstr "可视化编辑器使用进阶"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:147
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:150
 msgid "Hotkeys"
 msgstr "热键"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:148
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:151
 msgid "About the software"
 msgstr "关于本软件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:154
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:157
 msgid "Rich Editing Basics"
 msgstr "可视化编辑器基础教程"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:155
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:158
 msgid "<em>Rich editing</em>, also called WYSIWYG for What You See Is What You Get, means your text is formatted as you type. The rich editor creates HTML code behind the scenes while you concentrate on writing. Font styles, links and images all appear approximately as they will on the internet."
 msgstr "<em>可视化编辑</em>，又叫做WYSIWYG (What You See Is What You Get，所见即所得)，意味着您在输入的同时即可看到最终显示效果。可视化编辑器在后台为您生成 html 代码，以便您能专心于写作。字体效果，链接，图片都将直接显示在编辑器中，和最终展示在 Blog 上的效果一样。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:156
-#, fuzzy
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:159
 msgid "WordPress includes a rich HTML editor that works well in all major web browsers used today. However editing HTML is not the same as typing text. Each web page has two major components: the structure, which is the actual HTML code and is produced by the editor as you type, and the display, that is applied to it by the currently selected WordPress theme and is defined in style.css. Furthermore WordPress is producing valid XHTML 1.0 which means that display cannot be controlled by structural elements. So inserting multiple line breaks (BR tags) after a paragraph would not produce white space on the web page. The BR tags will be stripped as invalid by the internal HTML correcting functions."
 msgstr "WordPress 包含了一款在当今绝大多数网页浏览器中都能正常使用的富文本编辑器。然而，编辑 HTML 代码与输入文本是不同的。每个网页都有两个重要的组成部分：结构，就是您在编辑器里输入并被处理的 HTML 代码。显示，那些已经在您的 WordPress 当前主题中 style.css 中被定义后而现实的内容。此外，WordPress 完全按照 XHTML 1.0 标准进行的开发，这意味着将无法受结构元素的控制。所以，段落插入多行截断（BR 标签）后，将不会在页面上出现效果。插入的 BR 标签将被内置的 HTML 过滤功能设置为无效。"
 
 # 编辑器说明
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:157
-msgid "While using the editor, most basic keyboard shortcuts work like in any other text editor. For example: Shift+Enter inserts line break, Ctrl+C = copy, Ctrl+X = cut, Ctrl+Z = undo, Ctrl+Y = redo, Ctrl+B = bold, Ctrl+I = italic, Ctrl+U = underline, etc. (on Mac use the Apple key instead of Ctrl). See the Hotkeys tab for all available keyboard shortcuts."
-msgstr "当使用此编辑器时，像使用其他编辑器一样，大多数基本快捷键可以使用。例如：Shift+Enter 插入截断行，Ctrl+C 复制，Ctrl+X 剪切，Ctrl+Z 撤消，Ctrl+Y 重做，Ctrl+B 粗体，Ctrl+I 斜体，Ctrl+U 下划线等等。（苹果电脑请使用 Apple 键来代替 Ctrl 键）。"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:160
+msgid "While using the editor, most basic keyboard shortcuts work like in any other text editor. For example: Shift+Enter inserts line break, Ctrl+C = copy, Ctrl+X = cut, Ctrl+Z = undo, Ctrl+Y = redo, Ctrl+A = select all, etc. (on Mac use the Command key instead of Ctrl). See the Hotkeys tab for all available keyboard shortcuts."
+msgstr "当使用此编辑器时，像使用其他编辑器一样，大多数基本快捷键可以使用。例如：Shift + Enter 插入截断行，Ctrl + C 复制，Ctrl + X 剪切，Ctrl + Z 撤消，Ctrl + Y 重做，Ctrl + A 全选等等。（苹果电脑请使用 Command 键来代替 Ctrl 键）。查看所有可用的快捷键。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:158
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:161
 msgid "If you do not like the way the rich editor works, you may turn it off from Your Profile submenu, under Users in the admin menu."
 msgstr "如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:162
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:165
 msgid "Advanced Rich Editing"
 msgstr "可视化编辑高级教程"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:163
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:166
 msgid "Images and Attachments"
 msgstr "图片与附件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:164
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:167
 msgid "There is a button in the editor toolbar for inserting images that are already hosted somewhere on the internet. If you have a URL for an image, click this button and enter the URL in the box which appears."
 msgstr "编辑器工具栏上有一个“插入图片”按钮，用于插入互联网上的图片。只要你有这个图片的 URL ，点击这个按钮然后在弹出的对话框中输入图片 URL 即可。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:165
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:168
 msgid "If you need to upload an image or sound file from your computer, you can use the uploading tool below the editor. The tool will attempt to create a thumbnail-sized image when you upload an image. To insert your uploaded image into the post, first click on the thumbnail to reveal a menu of options. Clicking on a \"Using..\" or \"Linked...\" option will change that option. For instance, you might want to use the thumbnail in the post and link it to a page showing the original with a caption. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing."
 msgstr "如果您需要上传您的电脑中的图片或者音频文件，那么您可以使用编辑器下方的上传工具。如果您上传的是图片文件，WordPress 将为该图片创建一个缩略图。上传完毕后，您可以看到该图片文件以缩略图的形式显示在上传工具里。点击它将会显示一个选项框，如果您想调整选项，只要在该选项上单击一下就可以了。比如，您希望日志中显示该图片的缩略图，并链接该图片的独立页面，那么您可以在弹出的选项框中进行设置。当您设置完毕后，只要点击“发送到编辑器”按钮，您的图片或文件就会被发送到您的可视化编辑器并立即显示出最终效果来。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:166
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:169
 msgid "HTML in the Rich Editor"
 msgstr "可视化编辑器中的 HTML"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:167
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:170
 msgid "Any HTML entered directly into the rich editor will show up as text when the post is viewed. What you see is what you get. When you want to include HTML elements that cannot be generated with the toolbar buttons, you must enter it by hand in the HTML editor. Examples are tables and &lt;code&gt;. To do this, click the HTML button and edit the code, then click Update. If the code is valid and understood by the editor, you should see it rendered immediately."
 msgstr "所有直接输入到可视化编辑器里的 HTML 标签都会在日志里被直接显示出来（所见即所得）。如果您想在日志中插入一些 HTML 标签，而这些标签无法使用工具栏按钮创建，那么您必须在代码编辑器中手工输入它们。例如，表格需要用到的标签以及&lt;代码&gt;都需要手工输入。您只要点击“代码”按钮即可切换到代码编辑器，修改好后切换回可视化编辑器即可。如果输出的 HTML 代码是正确的，您将立刻看到显示效果。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:171
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:174
 msgid "Writing at Full Speed"
 msgstr "提高编辑速度"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:172
-msgid "Rather than reaching for your mouse to click on the toolbar, use these access keys. Windows and Linux use Ctrl + letter. Macintosh uses Apple + letter."
-msgstr "相比之下，使用快捷键更加方便。Windows 和 Linux 平台下请使用Alt+&lt;快捷键>，Macintosh 平台下请使用Ctrl+&lt;快捷键>。"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:175
+msgid "Rather than reaching for your mouse to click on the toolbar, use these access keys. Windows and Linux use Ctrl + letter. Macintosh uses Command + letter."
+msgstr "相比之下，使用快捷键更加方便。Windows 和 Linux 平台下请使用 Ctrl + 字母键，Macintosh 平台下请使用 Command + 字母键。"
 
 # "Ctrl+a"的"a"
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:174
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:187
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:177
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:193
 msgid "Letter"
 msgstr "快捷键"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:175
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:178
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:221
 msgid "Copy"
 msgstr "复制"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:175
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:178
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:222
 msgid "Paste"
 msgstr "粘贴内容"
 
 # 提示用户在下拉列表中选择。
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:176
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:179
 msgid "Select all"
 msgstr "全选"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:176
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:179
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:220
 msgid "Cut"
 msgstr "剪切"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:177
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:180
 msgid "Undo"
 msgstr "撤消"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:177
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:180
 msgid "Redo"
 msgstr "重做"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:178
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:183
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:196
 msgid "Bold"
 msgstr "粗体"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:178
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:183
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:196
 msgid "Italic"
 msgstr "斜体"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:179
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:184
 msgid "Underline"
 msgstr "下划线"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:179
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:184
 msgid "Header 1"
 msgstr "标题 1"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:180
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:185
 msgid "Header 2"
 msgstr "标题 2"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:180
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:185
 msgid "Header 3"
 msgstr "标题 3"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:181
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:186
 msgid "Header 4"
 msgstr "标题 4"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:181
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:186
 msgid "Header 5"
 msgstr "标题 5"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:182
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:187
 msgid "Header 6"
 msgstr "标题 6"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:185
-msgid "The following shortcuts use different access keys. Windows and Linux use Alt + letter. Macintosh uses Ctrl + letter."
-msgstr "相比之下，使用快捷键更加方便。Windows 和 Linux 平台下请使用Alt+&lt;快捷键>，Macintosh 平台下请使用Ctrl+&lt;快捷键>。"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:191
+msgid "The following shortcuts use different access keys: Alt + Shift + letter."
+msgstr "以下快捷方式使用不同的组合键：Alt + Shift + 字母键。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:188
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:198
 msgid "Check Spelling"
 msgstr "拼写检查"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:188
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:198
 msgid "Align Left"
 msgstr "左对齐"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:189
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:199
 msgid "Justify Text"
 msgstr "两端对齐"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:189
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:199
 msgid "Align Center"
 msgstr "居中"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:190
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:200
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:191
 msgid "Strikethrough"
 msgstr "删除线"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:190
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:200
 msgid "Align Right"
 msgstr "右对齐"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:191
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:192
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:201
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:202
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:293
 msgid "List"
 msgstr "列表"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:191
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:201
 msgid "Insert link"
 msgstr "插入链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:192
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:202
 msgid "Remove link"
 msgstr "去除链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:193
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:203
 msgid "Quote"
 msgstr "引用"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:193
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:203
 msgid "Insert Image"
 msgstr "插入图片"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:194
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:204
 msgid "Full Screen"
 msgstr "全屏"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:194
-msgid "Insert \"More\" Tag"
-msgstr "插入\"More\"标签"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:204
+msgid "Insert More Tag"
+msgstr "插入“更多”标签"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:195
-msgid "Insert \"Page break\" tag"
-msgstr "插入页面截断标签"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:205
+msgid "Insert Page Break tag"
+msgstr "插入文章分页标签"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:195
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:205
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:225
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:239
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:396
 msgid "Help"
 msgstr "帮助"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:200
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:206
+msgid "Switch to HTML mode"
+msgstr "切换到 HTML 模式"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:211
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:237
 msgid "About TinyMCE"
 msgstr "关于 TinyMCE"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:202
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:213
 msgid "Version:"
 msgstr "版本："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:203
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:214
 #, php-format
 msgid "TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under %sLGPL</a>\tby Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances."
 msgstr "TinyMCE 是一个跨平台的，基于 Web 的 JavaScript HTML 所见即所得编辑器控件。它是由 Moxiecode Systems AB 开发一个开源软件，以 %sLGPL</a> 协议发布。它可以将包含 html 内容的 TEXTAREA 域或者其他 html 标签转化成编辑器实体。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:203
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:214
 msgid "GNU Library General Public Licence"
 msgstr "GNU Library General Public 协议"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:204
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:215
 msgid "Copyright &copy; 2003-2007, <a href=\"http://www.moxiecode.com\" target=\"_blank\">Moxiecode Systems AB</a>, All rights reserved."
 msgstr "Copyright &copy; 2003-2007, <a href=\"http://www.moxiecode.com\" target=\"_blank\">Moxiecode Systems AB</a>, All rights reserved."
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:205
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:216
 msgid "For more information about this software visit the <a href=\"http://tinymce.moxiecode.com\" target=\"_blank\">TinyMCE website</a>."
 msgstr "关于本产品的更多信息，请访问 <a href=\"http://tinymce.moxiecode.com\" target=\"_blank\">TinyMCE 网站</a>。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:208
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:219
 msgid "Got Moxie?"
 msgstr "获取 Moxie?"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:209
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:220
 msgid "Hosted By Sourceforge"
 msgstr "由 Sourceforge 托管"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:210
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:221
 msgid "Also on freshmeat"
 msgstr "同样位于 freshmeat"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:218
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:229
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:18
 msgid "Close"
 msgstr "关闭"
