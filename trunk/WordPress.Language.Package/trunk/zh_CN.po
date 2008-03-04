@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-04 10:36+0800\n"
+"PO-Revision-Date: 2008-03-04 10:38+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -8344,7 +8344,7 @@ msgstr "关于本软件"
 
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/wp-mce-help.php:157
 msgid "Rich Editing Basics"
-msgstr "可视化编辑器基础教程"
+msgstr "可视化编辑基础"
 
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/wp-mce-help.php:158
 msgid "<em>Rich editing</em>, also called WYSIWYG for What You See Is What You Get, means your text is formatted as you type. The rich editor creates HTML code behind the scenes while you concentrate on writing. Font styles, links and images all appear approximately as they will on the internet."
@@ -8365,7 +8365,7 @@ msgstr "如果您不喜欢使用所见即所得编辑器，您可以后台用户
 
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/wp-mce-help.php:165
 msgid "Advanced Rich Editing"
-msgstr "可视化编辑高级教程"
+msgstr "可视化编辑进阶"
 
 #: C:\xampp\htdocs\wp/wp-includes/js/tinymce/wp-mce-help.php:166
 msgid "Images and Attachments"
