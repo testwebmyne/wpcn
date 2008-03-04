@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-04 10:38+0800\n"
+"PO-Revision-Date: 2008-03-04 13:39+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -6587,7 +6587,7 @@ msgstr "检测垃圾评论"
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet/akismet.php:773
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
-msgstr "%1$s %2$s垃圾评论%3$s %4$s被%5$s<br />%6$sAkismet%7$s截获"
+msgstr "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet/akismet.php:805
 #: C:\xampp\htdocs\wp/wp-includes/widgets.php:410
