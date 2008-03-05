@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-05 10:27+0800\n"
+"PO-Revision-Date: 2008-03-05 13:43+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -6400,7 +6400,7 @@ msgstr "无法连接 Akismet 服务器，请检查您的服务器的设置。"
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet/akismet.php:107
 #, php-format
 msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
-msgstr "请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key。</a>）"
+msgstr "请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
 
 #: C:\xampp\htdocs\wp/wp-content/plugins/akismet/akismet.php:108
 msgid "This key is valid."
