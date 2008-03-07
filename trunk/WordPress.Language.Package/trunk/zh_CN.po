@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-05 19:41+0800\n"
-"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
+"PO-Revision-Date: 2008-03-07 08:29+0800\n"
+"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -703,8 +703,8 @@ msgstr "您的攻击行为已被记录。"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:38
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:288
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/category-template.php:269
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:685
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:812
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:686
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:814
 msgid "Categories"
 msgstr "分类"
 
@@ -755,15 +755,15 @@ msgstr "搜索分类"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:170
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-categories.php:85
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:115
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:166
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:168
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-tags.php:148
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit.php:139
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/link-manager.php:92
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:139
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:303
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:669
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:671
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:647
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:727
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:739
 msgid "Delete"
 msgstr "删除"
 
@@ -787,12 +787,12 @@ msgstr "名称"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:86
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/plugins.php:111
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/themes.php:101
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:447
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:536
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:618
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1038
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:449
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:538
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:620
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1040
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:169
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:179
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:170
 msgid "Description"
 msgstr "描述"
 
@@ -900,10 +900,10 @@ msgstr "作者"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/comment.php:109
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-comment.php:87
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/link-manager.php:124
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1119
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:883
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1121
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:895
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:155
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:178
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:169
 msgid "URL"
 msgstr "URL"
 
@@ -991,7 +991,7 @@ msgid "Choose an image from your computer:"
 msgstr "从您的计算机中选择一幅图片："
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/custom-header.php:186
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:799
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:801
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:225
 msgid "Upload"
 msgstr "上传"
@@ -1028,7 +1028,7 @@ msgstr "现在请访问您 Blog 首页，您的新标题栏已经生效。"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:104
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:81
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:40
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:144
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:145
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:366
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:438
 msgid "Unpublished"
@@ -1061,7 +1061,7 @@ msgstr "%s前"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-attachment-rows.php:75
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:57
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:383
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:637
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:638
 msgid "Y/m/d"
 msgstr "Y/m/d"
 
@@ -1076,7 +1076,7 @@ msgid "Permalink"
 msgstr "永久链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-attachment-rows.php:116
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:184
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:186
 msgid "No posts found."
 msgstr "没找到日志。"
 
@@ -1107,11 +1107,11 @@ msgid "Category Parent"
 msgstr "上级分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-category-form.php:38
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:459
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:549
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1048
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:461
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:551
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1050
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/deprecated.php:741
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:175
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:166
 msgid "None"
 msgstr "无"
 
@@ -1157,7 +1157,7 @@ msgstr "待审核(%s)"
 msgid "Approved"
 msgstr "已审核"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:110
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:102
 msgid "All Comments"
 msgstr "所有评论"
 
@@ -1174,8 +1174,8 @@ msgid "List View"
 msgstr "列表视图"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:164
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:642
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:644
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:651
 msgid "Approve"
 msgstr "已审核"
 
@@ -1184,6 +1184,8 @@ msgid "Mark as Spam"
 msgstr "标记为垃圾评论"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:168
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:645
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:654
 msgid "Unapprove"
 msgstr "不审核"
 
@@ -1232,7 +1234,7 @@ msgid "Save and Continue Editing"
 msgstr "保存并继续编辑"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:84
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:56
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:484
 msgid "View this Post"
 msgstr "查看该日志"
 
@@ -1250,7 +1252,7 @@ msgstr "发表状态"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:73
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:75
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:42
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:135
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:136
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:508
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:429
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:306
@@ -1266,7 +1268,7 @@ msgstr "预发布"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:103
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:80
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:44
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:141
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:142
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:510
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:435
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:304
@@ -1306,16 +1308,16 @@ msgstr "时间戳：<br />%1$s - %2$s"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:129
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-comment.php:47
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:107
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:160
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:162
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/page.php:43
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/plugins.php:141
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/post.php:47
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:214
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:640
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:642
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/widgets.php:91
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/widgets.php:175
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:166
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:187
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:157
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:178
 msgid "Edit"
 msgstr "编辑"
 
@@ -1327,7 +1329,7 @@ msgstr "编辑"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:225
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/default/functions.php:374
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/default/functions.php:381
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:148
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:139
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:63
 msgid "Save"
 msgstr "保存"
@@ -1406,16 +1408,16 @@ msgstr "管理所有页面"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:178
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form.php:23
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:153
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:532
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:617
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1076
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1100
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1124
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:534
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:619
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1078
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1102
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1126
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:286
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:322
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:165
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:207
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:170
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:161
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:282
 msgid "Title"
 msgstr "标题"
@@ -1429,9 +1431,9 @@ msgstr "日志"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:203
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-tags.php:4
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:39
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:619
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:621
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:289
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1323
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1326
 msgid "Tags"
 msgstr "标签"
 
@@ -1452,9 +1454,9 @@ msgstr "上级分类"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:219
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:100
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/widgets.php:85
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:120
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:154
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:186
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:111
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:145
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:177
 msgid "Add"
 msgstr "添加"
 
@@ -1479,8 +1481,8 @@ msgid "Advanced Options"
 msgstr "高级选项"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:262
-msgid "Optional Excerpt"
-msgstr "可选摘要"
+msgid "Excerpt"
+msgstr "摘要"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:267
 msgid "Trackbacks"
@@ -1615,7 +1617,7 @@ msgstr "管理链接分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-categories.php:100
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:37
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1369
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1372
 msgid "Links"
 msgstr "链接"
 
@@ -1826,7 +1828,7 @@ msgid "Write Page"
 msgstr "撰写页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:61
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:55
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:483
 msgid "View this Page"
 msgstr "查看本页面"
 
@@ -1858,7 +1860,7 @@ msgstr "管理所有页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:166
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:30
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:174
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:165
 msgid "Page"
 msgstr "页面"
 
@@ -1912,8 +1914,8 @@ msgstr "删除时出错..."
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:36
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post-template.php:304
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:366
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1357
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1358
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1360
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1361
 msgid "Pages"
 msgstr "页面"
 
@@ -1928,7 +1930,7 @@ msgid "Published (%s)"
 msgstr "已发布 (%s)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:43
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:138
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:139
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:509
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:432
 msgid "Scheduled"
@@ -2012,7 +2014,7 @@ msgstr "作者：%s"
 msgid "%1$s%2$s%3$s|You can reorder these: 1: Pages, 2: by {s}, 3: matching {s}"
 msgstr "%1$s%2$s%3$s| 您可以对它们进行重新排序： 1：页面， 2：通过 {s}， 3：符合 {s}"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:91
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:79
 msgid "All Pages"
 msgstr "所有页面"
 
@@ -2075,7 +2077,7 @@ msgstr "1"
 msgid "%"
 msgstr "%"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:154
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:156
 msgid "View"
 msgstr "查看"
 
@@ -2193,7 +2195,7 @@ msgstr "在 %s 之间"
 msgid "%1$s%2$s%3$s%4$s%5$s%6$s|You can reorder these: 1: Posts, 2: by {s}, 3: matching {s}, 4: in {s}, 5: tagged with {s}, 6: during {s}"
 msgstr "%1$s%2$s%3$s%4$s%5$s%6$s| 你可以对他们进行重新排序： 1：日志， 2：通过 {s}，3：符合 {s}， 4：在 {s} 中， 5：标签为 {s} 期间, 6：在 {s} 期间"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit.php:100
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit.php:86
 msgid "All Posts"
 msgstr "所有日志"
 
@@ -2222,7 +2224,7 @@ msgstr "搜索日志"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit.php:151
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:151
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:976
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:978
 msgid "Show all dates"
 msgstr "所有日期"
 
@@ -3004,7 +3006,7 @@ msgstr "首页显示%s页面的内容。"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:31
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/mt.php:46
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wordpress.php:231
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:755
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:767
 msgid "- Select -"
 msgstr "- 选择 -"
 
@@ -3360,7 +3362,7 @@ msgstr "版本"
 
 # 操作，比如编辑或删除等等。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/plugins.php:112
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:688
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:700
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:177
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:193
 msgid "Action"
@@ -3662,13 +3664,13 @@ msgstr "%s 秒"
 msgid "Manage Media|manage media header"
 msgstr "管理媒体|管理媒体篇头"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:104
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:944
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:92
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:935
 msgid "All Types"
 msgstr "全部格式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:119
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:920
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:922
 msgid "Search Media"
 msgstr "搜索媒体"
 
@@ -3806,7 +3808,7 @@ msgid "Password Strength:"
 msgstr "密码强度："
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:265
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:128
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:119
 msgid "Too short"
 msgstr "密码过短"
 
@@ -4048,7 +4050,7 @@ msgstr "可用 Widgets %s"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/widgets.php:196
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/widgets.php:213
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:621
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:623
 msgid "Show"
 msgstr "显示"
 
@@ -4866,7 +4868,7 @@ msgstr "完成！"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/rss.php:181
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:219
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1301
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1304
 msgid "RSS"
 msgstr "RSS"
 
@@ -5256,28 +5258,20 @@ msgstr "连接 %1$s:%2$s FTP 服务器失败"
 msgid "Username/Password incorrect for %s"
 msgstr "%s 的用户名/密码错误"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:92
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:112
-#, php-format
-msgid "Changing to %s"
-msgstr "切换到 %s"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:97
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:112
-#, php-format
-msgid "Found %s"
-msgstr "找到 %s"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpsockets.php:94
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:98
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpsockets.php:100
 msgid "Changing to "
 msgstr "切换到 "
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpsockets.php:99
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpsockets.php:114
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:103
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:118
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpsockets.php:105
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpsockets.php:120
 msgid "Found "
 msgstr "查找"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpsockets.php:114
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:118
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpsockets.php:120
 msgid "Changing to"
 msgstr "切换到"
 
@@ -5292,9 +5286,9 @@ msgid_plural "%d comments awaiting moderation"
 msgstr[0] "%d 条评论正在等待审核"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:31
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:928
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:991
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:992
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:930
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:993
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:994
 msgid "Recent Comments"
 msgstr "最新评论"
 
@@ -5325,10 +5319,10 @@ msgid "See&nbsp;All"
 msgstr "查看全部"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:212
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:799
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:801
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/widgets.php:171
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:149
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:188
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:140
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:179
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:17
 msgid "Cancel"
 msgstr "取消"
@@ -5417,8 +5411,8 @@ msgstr "侧边栏"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:3
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:457
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1365
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1366
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1368
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1369
 msgid "Archives"
 msgstr "存档页"
 
@@ -5523,29 +5517,29 @@ msgstr "指定的文件没有通过上传测试。"
 msgid "File type does not meet security guidelines. Try another."
 msgstr "该文件类型不符合安全规则，请尝试其它类型的文件。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:173
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:176
 #, php-format
 msgid "The uploaded file could not be moved to %s."
 msgstr "已上传的文件无法被移动到 %s。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:221
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:224
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/update.php:138
 msgid "Could not access filesystem."
 msgstr "无法访问文件系统。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:231
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:234
 msgid "Incompatible archive"
 msgstr "不兼容的文件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:234
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:237
 msgid "Empty archive"
 msgstr "空存档"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:257
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:260
 msgid "Could not create directory"
 msgstr "无法创建目录"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:263
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:266
 msgid "Could not copy file"
 msgstr "无法复制文件"
 
@@ -5576,50 +5570,50 @@ msgstr "图片库"
 msgid "Gallery (%s)"
 msgstr "图片库 （%s）"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:128
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:127
 msgid "Uploads"
 msgstr "上传"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:159
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:158
 #, php-format
 msgid "Add media: %s"
 msgstr "添加媒体： %s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:161
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:160
 msgid "Add Media"
 msgstr "添加媒体"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:163
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:162
 msgid "Add an Image"
 msgstr "添加图片"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:165
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:164
 msgid "Add Video"
 msgstr "添加视频"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:167
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:166
 msgid "Add Audio"
 msgstr "添加音频"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:448
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1042
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:450
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1044
 msgid "Alternate text, e.g. \"The Mona Lisa\""
 msgstr "替换文本。例如：蒙娜丽莎"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:450
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:452
 msgid "Long Description"
 msgstr "详细描述"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:455
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1044
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:457
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1046
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:29
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:268
 msgid "Alignment"
 msgstr "对齐方式"
 
 # "Ctrl+a"的"a"
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:461
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1050
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:463
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1052
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:30
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:275
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:372
@@ -5627,129 +5621,129 @@ msgid "Left"
 msgstr "左"
 
 # "Ctrl+a"的"a"
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:463
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1052
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:465
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1054
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:31
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:352
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:373
 msgid "Center"
 msgstr "中"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:465
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1054
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:467
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1056
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:32
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:276
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:370
 msgid "Right"
 msgstr "右"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:468
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:470
 msgid "Size"
 msgstr "显示尺寸"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:472
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:167
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:474
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:158
 msgid "Thumbnail"
 msgstr "缩略图"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:474
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:476
 msgid "Medium"
 msgstr "中等"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:476
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:168
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:478
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:159
 msgid "Full size"
 msgstr "完整尺寸"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:488
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:490
 msgid "Empty Title filled from filename."
 msgstr "留空将使用文件名作为标题。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:540
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:542
 msgid "Long description"
 msgstr "详细描述"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:545
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:547
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:278
 msgid "Link URL"
 msgstr "链接 URL"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:550
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:552
 msgid "File URL"
 msgstr "文件链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:551
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:553
 msgid "Post URL"
 msgstr "日志链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:555
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:557
 msgid "Enter a link URL or click above for presets."
 msgstr "输入链接 URL 或点击上面的按钮以使用预置方案"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:622
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:624
 msgid "Hide"
 msgstr "隐藏"
 
 # 对应于Add Images（而非Add Image）
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:667
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1060
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1084
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1108
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1132
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:669
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1062
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1086
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1110
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1134
 msgid "Insert into Post"
 msgstr "插入到日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:793
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:795
 msgid "Choose files to upload"
 msgstr "选择待上传的文件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:794
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:796
 msgid "After a file has been uploaded, you can add titles and descriptions."
 msgstr "每当上传完成后，您都可以在下面添加已上传文件的标题与描述。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:820
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:822
 msgid "From Computer"
 msgstr "从本地"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:842
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:844
 msgid "&mdash; OR &mdash;"
 msgstr "&mdash; 或者 &mdash;"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:843
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:845
 msgid "From URL"
 msgstr "从URL"
 
 # 对应于Add Images（而非Add Image）
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:884
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:886
 msgid "Insert gallery into post"
 msgstr "插入媒体到日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:996
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:998
 msgid "Filter &#187;"
 msgstr "筛选 &#187;"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1033
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1035
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:261
 msgid "Image URL"
 msgstr "图片 URL"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1071
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1073
 msgid "Audio File URL"
 msgstr "音频链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1080
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1082
 msgid "Link text, e.g. \"Still Alive by Jonathan Coulton\""
 msgstr "链接文本。如：“Still Alive by Jonathan Coulton”"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1095
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1097
 msgid "Video URL"
 msgstr "视频链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1104
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1106
 msgid "Link text, e.g. \"Lucy on YouTube\""
 msgstr "链接文本。如：“Lucy on YouTube”"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1128
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1130
 msgid "Link text, e.g. \"Ransom Demands (PDF)\""
 msgstr "链接文本。如：“Ransom Demands (PDF)”"
 
@@ -5845,11 +5839,11 @@ msgstr "视频管理"
 msgid "Video (%s)"
 msgstr "视频 (%s)"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:631
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:633
 msgid "Click to edit this part of the permalink"
 msgstr "点击此处以编辑这部分永久链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:639
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/post.php:641
 msgid "Permalink:"
 msgstr "永久链接："
 
@@ -5873,23 +5867,23 @@ msgstr "g:i a"
 msgid "F j, Y g:i a"
 msgstr "Y-m-d g:i a"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:278
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:277
 msgid "Administrator|User role"
 msgstr "管理员|用户身份"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:279
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:278
 msgid "Editor|User role"
 msgstr "编辑|用户身份"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:280
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:279
 msgid "Author|User role"
 msgstr "作者|用户身份"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:281
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:280
 msgid "Contributor|User role"
 msgstr "投稿人|用户身份"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:282
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/schema.php:281
 msgid "Subscriber|User role"
 msgstr "订阅者|用户身份"
 
@@ -5941,98 +5935,103 @@ msgstr "查看该作者的日志"
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "Y-n-j　G:i:s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:635
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:636
 #, php-format
 msgid "From %1$s, %2$s"
 msgstr "所在日志：%1$s　发表时间：%2$s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:642
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:644
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:651
 msgid "Approve this comment"
 msgstr "审核该评论"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:645
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:654
+msgid "Unapprove this comment"
+msgstr "不审核该评论"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:646
 msgid "Mark this comment as spam"
 msgstr "标记该评论为垃圾评论"
 
 # meta 的 key，或者 Akismet 的 Key。
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:686
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:748
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:698
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:760
 msgid "Key"
 msgstr "字段名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:687
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:749
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:699
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:761
 msgid "Value"
 msgstr "字段值"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:725
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:737
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:16
 msgid "Update"
 msgstr "更新"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:745
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:757
 msgid "Add a new custom field:"
 msgstr "添加一个自定义字段："
 
 # 或者自行输入一个值
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:763
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:775
 msgid "or"
 msgstr "或者"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:772
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:784
 msgid "Add Custom Field"
 msgstr "添加自定义字段"
 
 # 选中这一项，日志的发布时间将被修改为新的日期和时间。
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:789
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:801
 msgid "Edit timestamp"
 msgstr "修改日志发布时间"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:813
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:825
 #, php-format
 msgid "%1$s%2$s%3$s @ %4$s : %5$s"
 msgstr "%1$s%2$s%3$s @ %4$s : %5$s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:858
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:870
 msgid "WordPress recommends a better browser"
 msgstr "WordPress 推荐您使用一个更好的浏览器"
 
 # 下面四项是设置上传文件在日志中显示的方式
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:888
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:900
 msgid "Thumbnail linked to file"
 msgstr "缩略图，链接到文件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:888
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:900
 msgid "Image linked to file"
 msgstr "原始图片，链接到文件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:892
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:904
 msgid "Thumbnail linked to page"
 msgstr "缩略图，链接到文件页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:892
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:904
 msgid "Image linked to page"
 msgstr "原始图片，链接到文件页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:897
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:909
 msgid "Link to file"
 msgstr "链接到文件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:901
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:913
 msgid "Link to page"
 msgstr "链接到文件页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:957
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:969
 msgid "Choose a file from your computer:"
 msgstr "选择要导入的文件："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:957
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:969
 #, php-format
 msgid "Maximum size: %s"
 msgstr "最大%s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:963
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:975
 msgid "Upload file and import"
 msgstr "上传文件并导入"
 
@@ -6192,9 +6191,7 @@ msgstr ""
 "--The WordPress Team\n"
 "http://wordpress.org/\n"
 "--WordPress 中文团队\n"
-"http://wp-cn.com/\n"
-"--WordPress 中文论坛\n"
-"http://wordpress.org.cn/\n"
+"http://wpcng.com/\n"
 
 # 安装成功 email 的标题
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upgrade.php:133
@@ -6205,7 +6202,7 @@ msgstr "一个崭新的 WordPress Blog 已经诞生"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:105
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:129
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:146
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:165
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:156
 msgid "Direct link to file"
 msgstr "直接链接到文件"
 
@@ -6224,7 +6221,7 @@ msgstr "编辑"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:99
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:140
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:163
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:154
 msgid "Browse your files"
 msgstr "浏览您的文件"
 
@@ -6238,7 +6235,7 @@ msgid "links"
 msgstr "链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:160
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:173
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:164
 msgid "File"
 msgstr "文件"
 
@@ -6275,7 +6272,7 @@ msgid "Shutter Speed"
 msgstr "曝光速度"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/upload.php:214
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:180
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:171
 msgid "Delete File"
 msgstr "删除文件"
 
@@ -6488,7 +6485,7 @@ msgstr "全部删除"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/plugins/akismet/akismet.php:450
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/classic/sidebar.php:16
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:445
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1376
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1379
 msgid "Search"
 msgstr "搜索"
 
@@ -6584,10 +6581,10 @@ msgstr "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:492
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:531
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:559
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:777
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:914
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:973
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1346
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:779
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:916
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:975
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1349
 msgid "Title:"
 msgstr "标题："
 
@@ -7377,8 +7374,8 @@ msgid "%1$s %2$d"
 msgstr "%2$d年%1$05s"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/general-template.php:591
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1361
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1362
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1364
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1365
 msgid "Calendar"
 msgstr "日历"
 
@@ -7919,147 +7916,147 @@ msgstr "输入图片 URL"
 msgid "Enter a description of the image"
 msgstr "输入图片描述"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:58
-msgid "Saving Draft&#8230;"
-msgstr "正在保存草稿 &#8230;"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:64
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:55
 msgid "You don't have permission to do that."
 msgstr "您无权执行此项操作。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:65
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:56
 msgid "Something strange happened.  Try refreshing the page."
 msgstr "出错了。请刷新本页。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:66
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:57
 msgid "Slow down, I'm still sending your data!"
 msgstr "慢一点，数据仍在传送中！"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:99
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:90
 msgid "You have attempted to queue too many files."
 msgstr "您试图查询的文件太多了。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:100
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:91
 #, php-format
 msgid "This file is too big. Your php.ini upload_max_filesize is %s."
 msgstr "文件太大了。您的 php.ini 中的 upload_max_filesize 参数设置为 %s。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:101
-msgid "The file you selected is empty. Please select another file."
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:92
+msgid "This file is empty. Please try another."
 msgstr "您选择的文件是空文件。请选择其他文件。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:102
-msgid "The file you choose is not an allowed file type."
-msgstr "您选择的文件类型不允许使用。"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:93
+msgid "This file type is not allowed. Please try another."
+msgstr "您选择的文件类型不允许使用。请选择其他文件。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:103
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:94
 msgid "An error occurred in the upload. Please try again later."
 msgstr "上传时发生错误。请稍后再试。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:104
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:95
 msgid "There was a configuration error. Please contact the server administrator."
 msgstr "发生配置错误。请联系您的服务器管理员。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:105
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:96
 msgid "You may only upload 1 file."
 msgstr "您只可以上传一个文件。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:106
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:97
 msgid "HTTP error."
 msgstr "HTTP 错误。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:107
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:98
 msgid "Upload failed."
 msgstr "上传失败。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:108
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:99
 msgid "IO error."
 msgstr "IO 错误"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:109
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:100
 msgid "Security error."
 msgstr "安全错误。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:110
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:101
 msgid "File cancelled."
 msgstr "文件已取消。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:111
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:102
 msgid "Upload stopped."
 msgstr "上传已停止。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:112
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:103
 msgid "Dismiss"
 msgstr "撤销"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:121
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:112
 msgid "Separate multiple categories with commas."
 msgstr "请用英文逗号隔开多个类别。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:129
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:120
 msgid "Bad"
 msgstr "差"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:130
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:121
 msgid "Good"
 msgstr "好"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:131
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:122
 msgid "Strong"
 msgstr "安全"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:135
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:126
 msgid "%i% pending"
 msgstr "%i% 条评论待审核"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:153
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:144
 msgid "Tags used on this post:"
 msgstr "此篇日志使用的标签："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:155
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:146
 msgid "Add new tag"
 msgstr "添加标签"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:156
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:147
 msgid "Separate tags with commas"
 msgstr "请用英文逗号隔开多个标签"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:164
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:155
 msgid "&laquo; Back"
 msgstr "&laquo; 后退"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:169
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:160
 msgid "Icon"
 msgstr "图标"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:171
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:162
 msgid "Show:"
 msgstr "显示："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:172
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:163
 msgid "Link to:"
 msgstr "链接到："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:176
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:167
 msgid "Send to editor &raquo;"
 msgstr "发送到编辑器 &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:177
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:168
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:15
 msgid "Insert"
 msgstr "插入"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:181
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:172
 msgid "Save &raquo;"
 msgstr "保存 &raquo;"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:182
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:173
 msgid ""
 "Are you sure you want to delete the file '%title%'?\n"
 "Click ok to delete or cancel to go back."
 msgstr ""
 "您确定要删除文件“%title%”？\n"
 "点“确认”删除，点“取消”取消操作。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:486
+msgid "Saving Draft&#8230;"
+msgstr "正在保存草稿 &#8230;"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/taxonomy.php:200
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/taxonomy.php:266
@@ -8136,7 +8133,7 @@ msgid "Select Month"
 msgstr "选择月份"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:494
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:790
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:792
 msgid "Show post counts"
 msgstr "显示日志数"
 
@@ -8145,8 +8142,8 @@ msgid "Display as a drop down"
 msgstr "以下拉方式显示"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:505
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1372
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1373
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1375
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1376
 msgid "Meta"
 msgstr "功能"
 
@@ -8158,146 +8155,146 @@ msgstr "订阅本站 RSS 2.0"
 msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 msgstr "日志 <abbr title=\"RSS\">RSS</abbr>"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:648
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:649
 msgid "Arbitrary text or HTML"
 msgstr "普通文本或 HTML 代码"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:650
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:651
 msgid "Text"
 msgstr "文本"
 
 # 编辑分类页面的标题
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:693
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:694
 msgid "Select Category"
 msgstr "选择分类"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:785
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:787
 msgid "Show as dropdown"
 msgstr "显示为下拉菜单"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:795
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:797
 msgid "Show hierarchy"
 msgstr "显示层次"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:810
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:812
 msgid "A list or dropdown of categories"
 msgstr "分类的列表或下拉菜单"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:865
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1379
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1380
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:867
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1382
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1383
 msgid "Recent Posts"
 msgstr "最新日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:916
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:918
 msgid "Number of posts to show:"
 msgstr "显示日志数："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:918
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:977
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:920
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:979
 msgid "(at most 15)"
 msgstr "(最多 15 条)"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:946
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:948
 #, php-format
 msgid "%1$s on %2$s"
 msgstr "%1$s发表于《%2$s》"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:975
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:977
 msgid "Number of comments to show:"
 msgstr "评论显示数量："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:990
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:992
 msgid "The most recent comments"
 msgstr "最新评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1033
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1035
 msgid "Unknown Feed"
 msgstr "未知 Feed"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1039
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1041
 msgid "Syndicate this content"
 msgstr "订阅该内容"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1081
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1083
 msgid "Untitled"
 msgstr "未命名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1131
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1133
 msgid "An error has occurred; the feed is probably down. Try again later."
 msgstr "出错了。Feed 可能没有正常工作。请稍后重试。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1212
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1215
 msgid "Enter the RSS feed URL here:"
 msgstr "输入 RSS Feed 地址："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1218
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1221
 msgid "Give the feed a title (optional):"
 msgstr "Feed 标题 (可选):"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1224
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1227
 msgid "How many items would you like to display?"
 msgstr "条目显示数量"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1237
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1240
 msgid "Display item content?"
 msgstr "显示条目内容"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1244
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1247
 msgid "Display item author if available?"
 msgstr "若可用，显示条目作者"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1251
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1254
 msgid "Display item date?"
 msgstr "显示条目日期"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1284
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1287
 msgid "Error: could not find an RSS or ATOM feed at that URL."
 msgstr "错误：在该 URL 找不到 RSS 或 ATOM Feed。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1285
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1288
 #, php-format
 msgid "Error in RSS %1$d"
 msgstr "RSS %1$d 中存在错误"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1299
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1302
 msgid "Entries from any RSS or Atom feed"
 msgstr "嵌入 RSS 或 Atom feed"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1356
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1359
 msgid "Your blog's WordPress Pages"
 msgstr "您 Blog 上的页面列表"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1360
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1363
 msgid "A calendar of your blog's posts"
 msgstr "按日历归档您 Blog 的文章"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1364
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1367
 msgid "A monthly archive of your blog's posts"
 msgstr "按月份归档您 Blog 的文章"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1368
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1371
 msgid "Your blogroll"
 msgstr "您的 Blogroll"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1371
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1374
 msgid "Log in/out, admin, feed and WordPress links"
 msgstr "登录、注销、后台管理、订阅和链接单元"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1375
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1378
 msgid "A search form for your blog"
 msgstr "您的 Blog 上的搜索表单"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1378
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1381
 msgid "The most recent posts on your blog"
 msgstr "您的 Blog 上的最新日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1382
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1385
 msgid "Your most used tags in cloud format"
 msgstr "按标签云的方式显示您使用最频繁的标签"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1383
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1384
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1386
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:1387
 msgid "Tag Cloud"
 msgstr "标签云"
 
@@ -8411,24 +8408,29 @@ msgid "Cut"
 msgstr "剪切"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:180
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:200
 msgid "Undo"
 msgstr "撤消"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:180
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:201
 msgid "Redo"
 msgstr "重做"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:183
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:196
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:188
 msgid "Bold"
 msgstr "粗体"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:183
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:196
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:189
 msgid "Italic"
 msgstr "斜体"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:184
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:190
 msgid "Underline"
 msgstr "下划线"
 
@@ -9020,18 +9022,6 @@ msgstr "术语"
 msgid "Definition description"
 msgstr "术语描述"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:188
-msgid "Bold (Ctrl+B)"
-msgstr "粗体 (Ctrl+B)"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:189
-msgid "Italic (Ctrl+I)"
-msgstr "斜体 (Ctrl+I)"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:190
-msgid "Underline (Ctrl+U)"
-msgstr "下划线 (Ctrl+U)"
-
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:192
 msgid "Align left"
 msgstr "左对齐"
@@ -9063,14 +9053,6 @@ msgstr "减少缩进量"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:199
 msgid "Indent"
 msgstr "增加缩进量"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:200
-msgid "Undo (Ctrl+Z)"
-msgstr "撤消 (Ctrl+Z)"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:201
-msgid "Redo (Ctrl+Y)"
-msgstr "重做 (Ctrl+Y)"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:203
 msgid "0| Extra width for the link popup in pixels"
