@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-08 18:36+0800\n"
+"PO-Revision-Date: 2008-03-10 08:52+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -101,173 +101,173 @@ msgstr "错误：无效的电子邮件地址。"
 msgid "Error: please type a comment."
 msgstr "错误：您需要填写评论内容。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:27
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:30
 msgid "Powered by WordPress"
 msgstr "Powered by WordPress"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:62
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:65
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
 msgstr "<strong>错误</strong>：请输入一个用户名或电子邮箱地址。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:67
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:70
 msgid "<strong>ERROR</strong>: There is no user registered with that email address."
 msgstr "<strong>错误</strong>：没有使用该电子邮箱地址进行注册的用户。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:79
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:82
 msgid "<strong>ERROR</strong>: Invalid username or e-mail."
 msgstr "<strong>错误</strong>：无效的用户名或电子邮箱地址。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:98
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:101
 msgid "Someone has asked to reset the password for the following site and username."
 msgstr "有人要求重设下面这个网站地址和帐号的登录密码。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:100
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:127
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:103
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:130
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/pluggable.php:922
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/pluggable.php:930
 #, php-format
 msgid "Username: %s"
 msgstr "用户名：%s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:101
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:104
 msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
 msgstr "如果您确实需要重设您的登录密码，请访问下面的链接。否则，请忽略这封邮件，您的密码不会被改动。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:104
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:107
 #, php-format
 msgid "[%s] Password Reset"
 msgstr "[%s] 密码重设邮件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:105
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:132
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:108
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:135
 msgid "The e-mail could not be sent."
 msgstr "电子邮件发送出错。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:105
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:132
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:108
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:135
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "可能是因为您的服务器禁用了 mail() 函数。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:116
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:120
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:119
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:123
 msgid "Invalid key"
 msgstr "无效的密码重置密钥"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:128
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:131
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/pluggable.php:931
 #, php-format
 msgid "Password: %s"
 msgstr "密码：%s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:131
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:134
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] 您的新密码"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:137
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:140
 #, php-format
 msgid "Password Lost and Changed for user: %s"
 msgstr "用户：%s 的密码已被重设"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:138
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:141
 #, php-format
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] 密码找回/重设通知"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:152
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:155
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/user.php:80
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>错误</strong>：请填写一个用户名。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:154
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:157
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>错误</strong>：该用户名无效，请重新填写一个有效的用户名。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:157
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:160
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>错误</strong>：该用户名已被注册，请重新选择一个用户名。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:161
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:164
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>错误</strong>：请填写您的电子邮箱地址。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:163
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:166
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>错误</strong>：无效的电子邮件地址。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:166
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:169
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>错误</strong>：该电子邮件地址已被注册，请另选一个。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:178
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:181
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:241
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:244
 msgid "Sorry, that key does not appear to be valid."
 msgstr "对不起，验证码无效。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:244
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:247
 msgid "Lost Password"
 msgstr "忘记密码"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:244
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:247
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "请输入您的用户名或电子邮箱地址，我们会把新的密码发到您的电子邮箱里。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:249
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:252
 msgid "Username or E-mail:"
 msgstr "用户名或电子邮箱地址："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:253
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:256
 msgid "Get New Password"
 msgstr "获取新密码"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:258
 #: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:261
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:326
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:388
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:264
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:329
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:391
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/general-template.php:36
 msgid "Log in"
 msgstr "登录"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:259
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:322
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:400
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:262
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:325
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:403
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/general-template.php:48
 msgid "Register"
 msgstr "注册"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:267
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:332
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:409
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:270
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:335
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:412
 msgid "Are you lost?"
 msgstr "走错地方了？"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:267
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:332
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:409
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:270
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:335
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:412
 #, php-format
 msgid "&laquo; Back to %s"
 msgstr "&laquo; 返回 %s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:308
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:311
 msgid "Registration Form"
 msgstr "注册表单"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:308
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:311
 msgid "Register For This Site"
 msgstr "注册帐号"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:313
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:378
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:316
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:381
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/install.php:96
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:336
 msgid "Username"
 msgstr "用户名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:317
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:320
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/comment.php:103
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-comment.php:80
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:338
@@ -275,57 +275,57 @@ msgstr "用户名"
 msgid "E-mail"
 msgstr "电子邮箱"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:321
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:324
 msgid "A password will be e-mailed to you."
 msgstr "您的密码将通过电子邮件发送给您。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:327
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:401
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:403
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:330
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:404
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:406
 msgid "Password Lost and Found"
 msgstr "密码找回页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:327
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:401
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:403
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:330
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:404
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:406
 msgid "Lost your password?"
 msgstr "忘记密码？"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:363
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:366
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>错误</strong>：Cookies 被禁用或您的浏览器不支持。您必须<a href='http://www.google.com/cookies.html'>开启 Cookies</a>才能够使用 WordPress。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:366
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:369
 msgid "You are now logged out."
 msgstr "已成功注销。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:367
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:370
 msgid "User registration is currently not allowed."
 msgstr "目前不允许新用户注册。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:368
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:371
 msgid "Check your e-mail for the confirmation link."
 msgstr "请登录您的电子邮箱查看邮件，并点击其中的确认链接。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:369
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:372
 msgid "Check your e-mail for your new password."
 msgstr "请登录您的电子邮箱查看邮件，您的新密码就在邮件中。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:370
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:373
 msgid "Registration complete. Please check your e-mail."
 msgstr "注册成功。请检查您的电子邮箱。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:372
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:375
 msgid "Login"
 msgstr "登录"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:382
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:385
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/install.php:100
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:102
 msgid "Password"
 msgstr "密码"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:386
+#: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:389
 msgid "Remember Me"
 msgstr "记住我"
 
@@ -1410,7 +1410,6 @@ msgid "Manage All Posts"
 msgstr "管理所有页面"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:171
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:63
 msgid "Manage All Categories"
 msgstr "管理所有分类"
 
@@ -1652,7 +1651,6 @@ msgid "Description (optional)"
 msgstr "描述（可选）"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:3
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:38
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/link.php:91
 msgid "Edit Link"
 msgstr "编辑链接"
@@ -1674,6 +1672,10 @@ msgstr "保持该链接为私人链接"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:62
 msgid "Manage All Links"
 msgstr "管理所有链接"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:63
+msgid "Manage All Link Categories"
+msgstr "管理所有链接分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:64
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:587
@@ -2276,7 +2278,7 @@ msgid "When you click the button below WordPress will create an XML file for you
 msgstr "点击下面的按钮，WordPress 会将您的 Blog 导出为一个 XML 文件，并保存到您的电脑中。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/export.php:18
-msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, comments, custom fields, and categories."
+msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
 msgstr "导出的文件称为 WordPress 扩展 RSS 格式，简称\"WXR\"。该格式文件包含您的所有日志、评论、分类和自定义字段。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/export.php:19
@@ -3517,9 +3519,8 @@ msgid "Templates"
 msgstr "模板"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/theme-editor.php:135
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:169
-msgid "Styles"
-msgstr "样式"
+msgid "Styles|Theme stylesheets in theme editor"
+msgstr "样式表|主题编辑器中的主题样式表"
 
 # 以下为模板管理页面
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/themes.php:14
@@ -8978,6 +8979,10 @@ msgstr "未发现拼写错误"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:165
 msgid "Insert page break."
 msgstr "插入分页标记"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:169
+msgid "Styles"
+msgstr "样式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:170
 msgid "Font size"
