@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-11 22:01+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-03-11 23:36+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1197,7 +1197,7 @@ msgstr "已审核"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:169
 msgid "Mark as Spam"
-msgstr "标记为垃圾评论"
+msgstr "垃圾评论"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:171
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:645
