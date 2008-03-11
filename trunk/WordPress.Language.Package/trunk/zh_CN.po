@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-11 10:36+0800\n"
+"PO-Revision-Date: 2008-03-11 10:39+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -1112,7 +1112,7 @@ msgstr "分类缩略名"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-category-form.php:35
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-category-form.php:34
 msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
-msgstr "The &#8220;slug&#8221; 是名称的一种链接形式。它通常是全部由小写字母、数字和连字符（-）组成。"
+msgstr "&#8220;slug&#8221; 是名称的一种链接形式。它通常是全部由小写字母、数字和连字符（-）组成。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-category-form.php:38
 msgid "Category Parent"
