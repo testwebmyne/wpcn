@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-11 16:42+0800\n"
+"PO-Revision-Date: 2008-03-11 22:01+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -1505,7 +1505,7 @@ msgstr "摘要"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:267
 msgid "Excerpts are optional hand-crafted summaries of your content. You can <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">use them in your template</a>"
-msgstr ""
+msgstr "用来简单描述您的内容的摘要是可选的。您可以<a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">在模板中进行调用</a>"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:272
 msgid "Trackbacks"
@@ -1521,7 +1521,7 @@ msgstr "多个引用通告地址请用空格隔开。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:275
 msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress blogs they&#8217;ll be notified automatically using <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
-msgstr ""
+msgstr "Trackbacks 是通知您在日志中所链接到博客的一种方式。如果您链接到其他的 WordPress 博客，他们将自动收到 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Pingbacks</a> 通知，无需其他操作。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:284
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:181
@@ -1530,7 +1530,7 @@ msgstr "自定义字段"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:299
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
-msgstr ""
+msgstr "自定义区域可以用来在日志中添加扩展元数据，您可以<a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">在主题中调用</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:306
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:200
@@ -1550,7 +1550,7 @@ msgstr "允许引用"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:313
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:207
 msgid "These settings apply to this post only. &#8220;Pings&#8221; are <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a>."
-msgstr ""
+msgstr "这些设置只适用于该日志。&#8220;允许引用&#8221;代表 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Trackbacks 和 Pingbacks</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:318
 msgid "Password Protect This Post"
@@ -1559,7 +1559,7 @@ msgstr "日志加密"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:321
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:215
 msgid "Setting a password will require people who visit your blog to enter the above password to view this post and its comments."
-msgstr ""
+msgstr "设置一个密码后，当有人访问该日志以及它的评论时，将需要输入上方设置的密码。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:326
 msgid "Post Slug"
@@ -1757,7 +1757,7 @@ msgstr "无"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:149
 msgid "Choose the frame your link targets. Essentially this means if you choose <code>_blank</code> your link will open in a new window."
-msgstr ""
+msgstr "选择链接的打开方式。这意味着如果您选择 <code>_blank</code>，那么将使用新窗口打开链接。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:154
 msgid "Link Relationship (XFN)"
@@ -1869,7 +1869,7 @@ msgstr "倾心"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:262
 msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"http://gmpg.org/xfn/\">XFN</a>."
-msgstr ""
+msgstr "如果链接是指向某人，那么您可以使用上面的选项来指定您与他们的关系。如果您有兴趣了解更多，可以查阅 <a href=\"http://gmpg.org/xfn/\">XFN</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:267
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/default/functions.php:393
@@ -1957,7 +1957,7 @@ msgstr "主页面（无上级页面）"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:233
 msgid "You can arrange your pages in hierarchies, for example you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how deeply nested you can make pages."
-msgstr ""
+msgstr "您可以指定您的页面的层级。例如：您可以撰写一个&#8220;关于&#8221;页面，然后将&#8220;生活叙事&#8221;和&#8220;我的宠物&#8221;设置为它的下级页面。页面的层级没有深度限制。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:239
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:3
@@ -1970,7 +1970,7 @@ msgstr "默认模板"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:245
 msgid "Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them above."
-msgstr ""
+msgstr "某些主题为特定的页面提供了一些自定义模板，其中包含一些扩展功能或自定义布局。如果存在，您可以在上面选择。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:251
 msgid "Page Order"
@@ -1978,7 +1978,7 @@ msgstr "页面序号"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:254
 msgid "Pages are usually ordered alphabetically, but you can put a number above to change the order pages appear in. (We know this is a little janky, it&#8217;ll be better in future releases.)"
-msgstr ""
+msgstr "页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。（也许该功能现在还不是很方便，不过在以后的版本中将得到改善。）"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:11
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/page.php:163
@@ -3810,6 +3810,10 @@ msgstr "个人设置"
 msgid "Use the visual editor when writing"
 msgstr "撰写日志时使用可视化编辑器。"
 
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:168
+msgid "Your username cannot be changed"
+msgstr "您的用户名无法被更改"
+
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:172
 msgid "Role:"
 msgstr "身份："
@@ -3834,6 +3838,10 @@ msgstr "昵称"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:212
 msgid "Display name publicly&nbsp;as"
 msgstr "对外显示为"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:240
+msgid "Required"
+msgstr "必填"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:244
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:421
@@ -3860,6 +3868,10 @@ msgstr "关于您"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:264
 msgid "About the user"
 msgstr "关于该用户"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:268
+msgid "Biographical Info"
+msgstr "档案信息"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:269
 msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
