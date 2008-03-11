@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-11 10:39+0800\n"
+"PO-Revision-Date: 2008-03-11 16:42+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -755,7 +755,7 @@ msgid "Search Categories"
 msgstr "搜索分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/categories.php:138
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:170
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:173
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-categories.php:85
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:115
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-post-rows.php:168
@@ -911,7 +911,7 @@ msgid "URL"
 msgstr "URL"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/comment.php:114
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:186
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:189
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-comment.php:94
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:182
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit.php:213
@@ -966,7 +966,7 @@ msgstr "使用默认颜色"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:82
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:112
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:55
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:176
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:181
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-privacy.php:27
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:97
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:140
@@ -1111,6 +1111,7 @@ msgstr "分类缩略名"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-category-form.php:35
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-category-form.php:34
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-tag-form.php:35
 msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
 msgstr "&#8220;slug&#8221; 是名称的一种链接形式。它通常是全部由小写字母、数字和连字符（-）组成。"
 
@@ -1176,35 +1177,35 @@ msgstr "已审核"
 msgid "Show All Comments"
 msgstr "显示所有评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:118
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:121
 msgid "Search Comments"
 msgstr "搜索评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:126
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:129
 msgid "Detail View"
 msgstr "详细视图"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:127
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:130
 msgid "List View"
 msgstr "列表视图"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:164
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:167
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:644
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:651
 msgid "Approve"
 msgstr "已审核"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:166
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:169
 msgid "Mark as Spam"
 msgstr "标记为垃圾评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:168
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:171
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:645
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:654
 msgid "Unapprove"
 msgstr "不审核"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:187
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:190
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:183
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit.php:214
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:285
@@ -1212,13 +1213,17 @@ msgstr "不审核"
 msgid "Date"
 msgstr "日期"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:188
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:191
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:184
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit.php:215
 msgid "Actions"
 msgstr "操作"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:220
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:223
+msgid "No comments awaiting moderation&hellip; yet."
+msgstr "没有评论等待审核&hellip;"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:229
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/plugins/akismet/akismet.php:614
 msgid "No results found."
 msgstr "找不到符合搜索条件的评论。"
@@ -1498,48 +1503,70 @@ msgstr "高级选项"
 msgid "Excerpt"
 msgstr "摘要"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:270
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:267
+msgid "Excerpts are optional hand-crafted summaries of your content. You can <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">use them in your template</a>"
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:272
 msgid "Trackbacks"
 msgstr "引用"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:272
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:274
 msgid "Send trackbacks to:"
 msgstr "发送引用通告到："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:272
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:274
 msgid "Separate multiple URLs with spaces"
 msgstr "多个引用通告地址请用空格隔开。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:281
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:275
+msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress blogs they&#8217;ll be notified automatically using <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:284
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:181
 msgid "Custom Fields"
 msgstr "自定义字段"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:302
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:299
+msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:306
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:200
 msgid "Comments &amp; Pings"
 msgstr "评论与引用"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:307
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:311
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:205
 msgid "Allow Comments"
 msgstr "允许评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:308
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:312
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:206
 msgid "Allow Pings"
 msgstr "允许引用"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:313
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:207
+msgid "These settings apply to this post only. &#8220;Pings&#8221; are <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a>."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:318
 msgid "Password Protect This Post"
 msgstr "日志加密"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:320
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:321
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:215
+msgid "Setting a password will require people who visit your blog to enter the above password to view this post and its comments."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:326
 msgid "Post Slug"
 msgstr "日志缩略名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:333
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:260
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:339
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:265
 msgid "Post Author"
 msgstr "日志作者"
 
@@ -1728,17 +1755,17 @@ msgstr "打开方式"
 msgid "none"
 msgstr "无"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:153
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:149
+msgid "Choose the frame your link targets. Essentially this means if you choose <code>_blank</code> your link will open in a new window."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:154
 msgid "Link Relationship (XFN)"
 msgstr "链接关系网（XFN）"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:157
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:158
 msgid "rel:"
 msgstr "关系代码："
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:161
-msgid "<a href=\"http://gmpg.org/xfn/\">XFN</a> Creator:"
-msgstr "<a href=\"http://gmpg.org/xfn/\">XFN</a>代码生成器："
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:165
 msgid "identity"
@@ -1840,30 +1867,34 @@ msgstr "约会"
 msgid "sweetheart"
 msgstr "倾心"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:266
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:262
+msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"http://gmpg.org/xfn/\">XFN</a>."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:267
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/default/functions.php:393
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:149
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:291
 msgid "Advanced"
 msgstr "高级"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:270
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:271
 msgid "Image Address"
 msgstr "图片地址"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:274
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:275
 msgid "RSS Address"
 msgstr "RSS 地址"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:278
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:279
 msgid "Notes"
 msgstr "备注"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:282
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:283
 msgid "Rating"
 msgstr "分级"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:291
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:292
 msgid "(Leave at 0 for no rating.)"
 msgstr "（0表示不分级）"
 
@@ -1908,34 +1939,46 @@ msgstr "管理所有页面"
 msgid "Page"
 msgstr "页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:211
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:212
 msgid "Password Protect This Page"
 msgstr "页面加密"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:218
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:220
 msgid "Page Slug"
 msgstr "页面缩略名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:225
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:227
 msgid "Page Parent"
 msgstr "上级页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:228
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:230
 msgid "Main Page (no parent)"
 msgstr "主页面（无上级页面）"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:236
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:233
+msgid "You can arrange your pages in hierarchies, for example you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how deeply nested you can make pages."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:239
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:3
 msgid "Page Template"
 msgstr "页面模板"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:239
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:242
 msgid "Default Template"
 msgstr "默认模板"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:247
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:245
+msgid "Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them above."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:251
 msgid "Page Order"
 msgstr "页面序号"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:254
+msgid "Pages are usually ordered alphabetically, but you can put a number above to change the order pages appear in. (We know this is a little janky, it&#8217;ll be better in future releases.)"
+msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-pages.php:11
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/page.php:163
@@ -2139,7 +2182,11 @@ msgstr "添加标签"
 msgid "Tag name"
 msgstr "标签名称"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-tag-form.php:32
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-tag-form.php:30
+msgid "The name is how the tag appears on your site."
+msgstr "名称将决定标签在页面上显示的内容。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-tag-form.php:33
 msgid "Tag slug"
 msgstr "标签缩略名"
 
@@ -2970,47 +3017,51 @@ msgstr "自定义永久链接结构"
 msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
 msgstr "WordPress 默认使用的 <abbr title=\"Universal Resource Locator\">URL</abbr> 格式包含问号和一些数字。然而，WordPress 还为您提供了自定义日志的永久链接结构的功能。使用该功能可以使您的链接更美观，易用，并且向前兼容您以前使用的 Blog 系统。下面是一些常见的永久链接结构，在我们的网站上还提供了很多您可以使用的<a href=\"http://codex.wordpress.org/Using_Permalinks\">结构标记</a>以便您自由设置任意格式的永久链接结构。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:129
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:130
 msgid "Common settings"
 msgstr "通用设置"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:132
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:133
 msgid "Default"
 msgstr "默认"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:136
-msgid "Date and name based"
-msgstr "使用日志发布日期和日志缩略名"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:137
+msgid "Day and name"
+msgstr "日期和名称"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:140
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:141
+msgid "Month and name"
+msgstr "月份和名称"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:145
 msgid "Numeric"
 msgstr "使用日志的 ID 号"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:150
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:155
 msgid "Custom Structure"
 msgstr "自定义结构"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:159
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:164
 msgid "Optional"
 msgstr "可选设置"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:161
-msgid "If you like, you may enter custom bases for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <code>/topics/</code> as your category base would make your category links like <code>http://example.org/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:166
+msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <code>/topics/</code> as your category base would make your category links like <code>http://example.org/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
 msgstr "如果您乐意，您可以自定义您的分类和标签 <abbr title=\"Universal Resource Locator\">URL</abbr> 的前缀。例如，填写<code>/topics/</code>，则可以使您的分类地址形式如 <code>http://example.org/topics/uncategorized/</code>。留空则使用默认设置。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:163
-msgid "If you like, you may enter custom bases for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <code>/topics/</code> as your category base would make your category links like <code>http://example.org/index.php/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:168
+msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <code>/topics/</code> as your category base would make your category links like <code>http://example.org/index.php/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
 msgstr "如果您乐意，您可以自定义您的分类和标签 <abbr title=\"Universal Resource Locator\">URL</abbr> 的前缀。例如，填写<code>/topics/</code>，则可以使您的分类地址形式如 <code>http://example.org/index.php/topics/uncategorized/</code>。留空则使用默认设置。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:168
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:173
 msgid "Category base"
 msgstr "分类地址前缀"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:172
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:177
 msgid "Tag base"
 msgstr "标签前缀"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:179
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:184
 msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
 msgstr "如果您的 <code>.htaccess</code> 文件 <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">可写</a>，WordPress 会自动更新该文件。但是现在该文件不可写，所以您需要手工将这些 mod_rewrite 规则写入您的 <code>.htaccess</code> 文件中。单击下面的文本框，按 <kbd>Ctrl+A</kbd> 以全选。"
 
@@ -3557,8 +3608,8 @@ msgstr "当前主题已损坏，正在恢复到默认主题。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/themes.php:22
 #, php-format
-msgid "New theme activated. <a href=\"%s\">View site</a>"
-msgstr "新主题已启用。<a href=\"%s\">查看网站</a>"
+msgid "New theme activated. <a href=\"%s\" target=\"_blank\">Visit site</a>"
+msgstr "新主题已启用。<a href=\"%s\" target=\"_blank\">查看网站</a>"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/themes.php:31
 msgid "Current Theme"
