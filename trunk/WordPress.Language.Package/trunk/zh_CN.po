@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-12 09:09+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-03-12 09:11+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3830,7 +3830,7 @@ msgstr "撰写日志时使用可视化编辑器。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:157
 msgid "Admin Color Scheme"
-msgstr "管理面板颜色拾取器"
+msgstr "管理界面配色方案"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:190
 msgid "Your username cannot be changed"
