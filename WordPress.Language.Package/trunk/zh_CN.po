@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-12 14:26+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-03-12 21:45+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3936,7 +3936,7 @@ msgstr "密码过短"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:303
 msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&( in your password."
-msgstr "提示：在密码，请使用大写字母、小写字母、数字和 !\"?$%^&( 等符号。"
+msgstr "提示：尽量在密码中混合使用大写字母、小写字母、数字和 !\"?$%^&( 等符号。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:322
 msgid "Additional Capabilities:"
