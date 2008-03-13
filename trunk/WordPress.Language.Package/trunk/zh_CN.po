@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-12 21:45+0800\n"
-"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
+"PO-Revision-Date: 2008-03-13 08:41+0800\n"
+"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -264,7 +264,7 @@ msgstr "注册帐号"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:316
 #: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:381
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/install.php:96
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:188
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:191
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:334
 msgid "Username"
 msgstr "用户名"
@@ -272,7 +272,7 @@ msgstr "用户名"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:320
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/comment.php:103
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-comment.php:80
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:260
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:263
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:336
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/classic/comments-popup.php:71
 msgid "E-mail"
@@ -773,7 +773,7 @@ msgstr "搜索分类"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/upload.php:140
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:301
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:692
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:654
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:652
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:746
 msgid "Delete"
 msgstr "删除"
@@ -785,7 +785,7 @@ msgstr "删除"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-tags.php:161
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/link-manager.php:123
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/themes.php:100
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:184
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:187
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:335
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/classic/comments-popup.php:64
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/classic/comments.php:50
@@ -1226,7 +1226,7 @@ msgid "List View"
 msgstr "列表视图"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:167
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:651
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:653
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:658
 msgid "Approve"
 msgstr "已审核"
@@ -1236,7 +1236,7 @@ msgid "Mark as Spam"
 msgstr "垃圾评论"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:171
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:652
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:654
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:661
 msgid "Unapprove"
 msgstr "不审核"
@@ -1567,26 +1567,27 @@ msgid "Custom Fields"
 msgstr "自定义字段"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:301
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:198
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
 msgstr "自定义区域可以用来在日志中添加扩展元数据，您可以<a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">在主题中调用</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:308
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:202
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:203
 msgid "Comments &amp; Pings"
 msgstr "评论与引用"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:313
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:207
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:208
 msgid "Allow Comments"
 msgstr "允许评论"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:314
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:208
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:209
 msgid "Allow Pings"
 msgstr "允许引用"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:315
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:209
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:210
 msgid "These settings apply to this post only. &#8220;Pings&#8221; are <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a>."
 msgstr "这些设置只适用于该日志。&#8220;允许引用&#8221;代表 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Trackbacks 和 Pingbacks</a>。"
 
@@ -1595,7 +1596,7 @@ msgid "Password Protect This Post"
 msgstr "日志加密"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:323
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:217
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:218
 msgid "Setting a password will require people who visit your blog to enter the above password to view this post and its comments."
 msgstr "设置一个密码后，当有人访问该日志以及它的评论时，将需要输入上方设置的密码。"
 
@@ -1604,7 +1605,7 @@ msgid "Post Slug"
 msgstr "日志缩略名"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:341
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:267
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:268
 msgid "Post Author"
 msgstr "日志作者"
 
@@ -1626,7 +1627,7 @@ msgid "Moderated"
 msgstr "待审核"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-comment.php:37
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:653
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:651
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/plugins/akismet/akismet.php:639
 msgid "Spam"
 msgstr "垃圾评论"
@@ -1977,44 +1978,44 @@ msgstr "管理所有页面"
 msgid "Page"
 msgstr "页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:214
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:215
 msgid "Password Protect This Page"
 msgstr "页面加密"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:222
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:223
 msgid "Page Slug"
 msgstr "页面缩略名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:229
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:230
 msgid "Page Parent"
 msgstr "上级页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:232
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:233
 msgid "Main Page (no parent)"
 msgstr "主页面（无上级页面）"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:235
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:236
 msgid "You can arrange your pages in hierarchies, for example you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how deeply nested you can make pages."
 msgstr "您可以指定您的页面的层级。例如：您可以撰写一个&#8220;关于&#8221;页面，然后将&#8220;生活叙事&#8221;和&#8220;我的宠物&#8221;设置为它的下级页面。页面的层级没有深度限制。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:241
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:242
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:3
 msgid "Page Template"
 msgstr "页面模板"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:244
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:245
 msgid "Default Template"
 msgstr "默认模板"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:247
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:248
 msgid "Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them above."
 msgstr "某些主题为特定的页面提供了一些自定义模板，其中包含一些扩展功能或自定义布局。如果存在，您可以在上面选择。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:253
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:254
 msgid "Page Order"
 msgstr "页面序号"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:256
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:257
 msgid "Pages are usually ordered alphabetically, but you can put a number above to change the order pages appear in. (We know this is a little janky, it&#8217;ll be better in future releases.)"
 msgstr "页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。（也许该功能现在还不是很方便，不过在以后的版本中将得到改善。）"
 
@@ -3842,111 +3843,111 @@ msgstr "撰写日志时使用可视化编辑器。"
 msgid "Admin Color Scheme"
 msgstr "管理界面配色方案"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:189
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:192
 msgid "Your username cannot be changed"
 msgstr "您的用户名无法被更改"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:193
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:196
 msgid "Role:"
 msgstr "身份："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:210
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:212
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:213
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:215
 msgid "&mdash; No role for this blog &mdash;"
 msgstr "&mdash; 没有任何权限 &mdash;"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:218
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:221
 msgid "First name"
 msgstr "名字"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:223
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:226
 msgid "Last name"
 msgstr "姓氏"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:228
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:231
 msgid "Nickname"
 msgstr "昵称"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:233
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:236
 msgid "Display name publicly&nbsp;as"
 msgstr "对外显示为"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:256
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:259
 msgid "Contact Info"
 msgstr "联系信息"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:261
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:264
 msgid "Required"
 msgstr "必填"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:265
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:268
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/users.php:421
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/classic/comments.php:56
 msgid "Website"
 msgstr "网址"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:270
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:273
 msgid "AIM"
 msgstr "AIM"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:275
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:278
 msgid "Yahoo IM"
 msgstr "Yahoo IM"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:280
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:283
 msgid "Jabber / Google Talk"
 msgstr "Jabber / Google Talk"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:285
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:288
 msgid "About Yourself"
 msgstr "关于您"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:285
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:288
 msgid "About the user"
 msgstr "关于该用户"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:289
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:292
 msgid "Biographical Info"
 msgstr "档案信息"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:290
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:293
 msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
 msgstr "写一点关于您自己的说明。这些信息可能会被公开显示。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:298
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:301
 msgid "New Password:"
 msgstr "新密码："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:299
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:302
 msgid "If you would like to change the password type a new one. Otherwise leave this blank."
 msgstr "如果您想修改您的密码，请在下面的密码框中输入新密码两次。否则请保持密码框空白。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:300
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:303
 msgid "Type your new password again."
 msgstr "请再次输入您的新密码。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:302
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:305
 msgid "Password Strength:"
 msgstr "密码强度："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:303
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:306
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:121
 msgid "Too short"
 msgstr "密码过短"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:303
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:306
 msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&( in your password."
 msgstr "提示：尽量在密码中混合使用大写字母、小写字母、数字和 !\"?$%^&( 等符号。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:322
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:325
 msgid "Additional Capabilities:"
 msgstr "其他："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:340
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:343
 msgid "Update Profile"
 msgstr "更新档案"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:340
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/user-edit.php:343
 msgid "Update User"
 msgstr "更新用户"
 
@@ -6073,18 +6074,18 @@ msgid "From %1$s, %2$s"
 msgstr "所在日志：%1$s　发表时间：%2$s"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:651
+msgid "Mark this comment as spam"
+msgstr "标记该评论为垃圾评论"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:653
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:658
 msgid "Approve this comment"
 msgstr "审核该评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:652
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:654
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:661
 msgid "Unapprove this comment"
 msgstr "不审核该评论"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:653
-msgid "Mark this comment as spam"
-msgstr "标记该评论为垃圾评论"
 
 # meta 的 key，或者 Akismet 的 Key。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:705
@@ -7814,9 +7815,9 @@ msgstr "十进制数字小数点 |$dec_point 参见 http://php.net/number_format
 msgid "number_format_thousands_sep|$thousands_sep argument for http://php.net/number_format, default is ,"
 msgstr "数字千位分隔符 |$thousands_sep 参见 http://php.net/number_format, 默认为 ,"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/media.php:211
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/media.php:215
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/media.php:217
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/media.php:221
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/media.php:227
 msgid "Resize path invalid"
 msgstr "无效的缩略图路径"
 
@@ -8258,8 +8259,8 @@ msgid "Template is missing."
 msgstr "模板丢失。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/user.php:29
-msgid "Your session has expired."
-msgstr "您的登录已超时。"
+msgid "Please log in again."
+msgstr "请再次登陆。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:24
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/widgets.php:52
@@ -8462,7 +8463,7 @@ msgstr "按标签云的方式显示您使用最频繁的标签"
 msgid "Tag Cloud"
 msgstr "标签云"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/wp-db.php:510
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/wp-db.php:522
 #, php-format
 msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.0.0 or higher"
 msgstr "<strong>错误</strong>：WordPress %s 需要 MySQL 4.0.0 以上版本的支持。"
