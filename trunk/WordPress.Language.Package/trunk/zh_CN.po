@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-14 08:16+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-03-14 10:25+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1766,7 +1766,7 @@ msgstr "导入链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:79
 msgid "Example: Nifty blogging software"
-msgstr "例如：漂亮的博客软件"
+msgstr "例如：不错的博客软件"
 
 # 链接的网址
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:84
@@ -1779,7 +1779,7 @@ msgstr "例如：<code>http://wordpress.org/</code> &#8212; 不要忘记输入<c
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:95
 msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
-msgstr "当鼠标悬同在 Blogroll 中链接的上方时，将显示该内容。"
+msgstr "当鼠标悬停在 Blogroll 中链接的上方时，将显示该内容。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:138
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:279
@@ -1796,7 +1796,7 @@ msgstr "无"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:149
 msgid "Choose the frame your link targets. Essentially this means if you choose <code>_blank</code> your link will open in a new window."
-msgstr "选择链接的打开方式。这意味着如果您选择 <code>_blank</code>，那么将使用新窗口打开链接。"
+msgstr "选择链接的打开方式。如果选择 <code>_blank</code>，将使用新窗口打开链接。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:154
 msgid "Link Relationship (XFN)"
