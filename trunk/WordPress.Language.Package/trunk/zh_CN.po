@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-17 10:39+0800\n"
+"PO-Revision-Date: 2008-03-17 10:54+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -1552,7 +1552,7 @@ msgstr "摘要"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:265
 msgid "Excerpts are optional hand-crafted summaries of your content. You can <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">use them in your template</a>"
-msgstr "用来简单描述您的内容的摘要是可选的。您可以<a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">在模板中进行调用</a>"
+msgstr "摘要是可选的，它用于精练地概括日志的主要内容，以供<a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">在模板中调用</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:270
 msgid "Trackbacks"
@@ -1568,7 +1568,7 @@ msgstr "多个引用通告地址请用空格隔开。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:273
 msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress blogs they&#8217;ll be notified automatically using <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
-msgstr "Trackbacks 是通知您在日志中所链接到博客的一种方式。如果您链接到其他的 WordPress 博客，他们将自动收到 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Pingbacks</a> 通知，无需其他操作。"
+msgstr "Trackback 是通知您在日志中所链接到博客的一种方式。如果您链接到其他的 WordPress 博客，他们将自动收到 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Pingback</a> 通知，无需其他操作。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:282
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:176
@@ -1578,7 +1578,7 @@ msgstr "自定义字段"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:297
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:191
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
-msgstr "自定义区域可以用来在日志中添加扩展元数据，您可以<a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">在主题中调用</a>。"
+msgstr "自定义字段可以用来在日志中添加扩展元数据，以供<a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">在主题中调用</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:304
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:196
@@ -1598,7 +1598,7 @@ msgstr "允许引用"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:311
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:203
 msgid "These settings apply to this post only. &#8220;Pings&#8221; are <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a>."
-msgstr "这些设置只适用于该日志。&#8220;允许引用&#8221;代表 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Trackbacks 和 Pingbacks</a>。"
+msgstr "这些设置只适用于该日志。“引用”包括 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Trackback 及 Pingback</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:316
 msgid "Password Protect This Post"
@@ -1607,7 +1607,7 @@ msgstr "日志加密"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:319
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:211
 msgid "Setting a password will require people who visit your blog to enter the above password to view this post and its comments."
-msgstr "设置一个密码后，当有人访问该日志以及它的评论时，将需要输入上方设置的密码。"
+msgstr "在此对日志设置密码后，当有人访问该日志及其评论时，将被要求提供输密码。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:324
 msgid "Post Slug"
