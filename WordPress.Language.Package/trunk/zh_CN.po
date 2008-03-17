@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-17 08:13+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-03-17 10:39+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -828,7 +828,7 @@ msgstr "日志"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/categories.php:174
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
-msgstr "<strong>提示：</strong><br />删除一个分类并不会删除该分类中的日志，这些日志会移动到分类 <strong>%s</strong> 中。"
+msgstr "<strong>提示：</strong><br />删除一个分类并不会删除该分类中的日志，这些日志会移动到当前默认分类 <strong>%s</strong> 中。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/categories.php:175
 #, php-format
@@ -1147,7 +1147,7 @@ msgstr "分类名称"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-category-form.php:30
 msgid "The name is used to identify the category almost everywhere, for example under the post or in the category widget."
-msgstr "激活所有的地方都是用名称来区分分类，例如在日志中或者在侧栏中。"
+msgstr "几乎所有的场合都使用名称来区分分类，例如在日志中或者在侧边栏的分类 widget 中。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-category-form.php:33
 msgid "Category Slug"
@@ -1174,11 +1174,11 @@ msgstr "无"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-category-form.php:41
 msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
-msgstr "分类或不同的标签可以设定一个层级。您可以设置一个 Jazz 分类，并且在其下面建立子分类 Bebop 和 Big Band。该操作并不强制要求。"
+msgstr "分类可以有层级性，这一点不同于标签。例如，您可以设置一个 Jazz 主分类，并且在其下面建立子分类 Bebop 和 Big Band。这一点是可选的。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-category-form.php:47
 msgid "The description is not prominent by default, however some themes may show it."
-msgstr "描述在默认情况下并不突出显示，但是某些主题可能会显示他。"
+msgstr "在默认情况下描述并不可见，但是某些主题可能会显示它们。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-comments.php:4
 msgid "Edit Comments"
@@ -1924,7 +1924,7 @@ msgstr "倾心"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:263
 msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"http://gmpg.org/xfn/\">XFN</a>."
-msgstr "如果链接是指向某人，那么您可以使用上面的选项来指定您与他们的关系。如果您有兴趣了解更多，可以查阅 <a href=\"http://gmpg.org/xfn/\">XFN</a>。"
+msgstr "如果链接指向的是个人站点，那么您可以使用上面的选项来指定您与他们的关系。如果您有兴趣了解更多，可以查阅 <a href=\"http://gmpg.org/xfn/\">XFN</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:268
 #: D:\Source.Code.SVN\WordPress.SVN/wp-content/themes/default/functions.php:393
@@ -5507,7 +5507,7 @@ msgstr "位于 %4$s|feed_display"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:364
 msgid "This dashboard widget queries <a href=\"http://blogsearch.google.com/\">Google Blog Search</a> so that when another blog links to your site it will show up here. They have found no incoming links found&hellip; yet. It&#8217;s okay &#8212; there is no rush."
-msgstr "该面板组件将对 <a href=\"http://blogsearch.google.com/\">Google 博客搜索</a>进行查询。所以，当其他博客链接您的站点时，将在此显示。还没有发现外部链接。没关系，不用急。"
+msgstr "该面板组件会向 <a href=\"http://blogsearch.google.com/\">Google 博客搜索</a> 进行查询。当其它博客有指向您的站点的外部链接时，将在此显示。目前还没有发现外部链接，没关系，不用急。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:403
 msgid "Most Popular"
@@ -7862,15 +7862,15 @@ msgstr "下午"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/locale.php:183
 msgid "number_format_decimals|$decimals argument for http://php.net/number_format, default is 0"
-msgstr "十进制数字填充符 |$decimals 参见 http://php.net/number_format, 默认为 0"
+msgstr "0|$decimals 参见 http://php.net/number_format, 默认为 0"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/locale.php:186
 msgid "number_format_decimal_point|$dec_point argument for http://php.net/number_format, default is ."
-msgstr "十进制数字小数点 |$dec_point 参见 http://php.net/number_format, 默认为 ."
+msgstr ".|$dec_point 参见 http://php.net/number_format, 默认为 ."
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/locale.php:189
 msgid "number_format_thousands_sep|$thousands_sep argument for http://php.net/number_format, default is ,"
-msgstr "数字千位分隔符 |$thousands_sep 参见 http://php.net/number_format, 默认为 ,"
+msgstr ",|$thousands_sep 参见 http://php.net/number_format, 默认为 ,"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/media.php:217
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/media.php:221
