@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-20 13:17+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-03-20 14:40+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6061,7 +6061,7 @@ msgstr "添加日期|媒体栏目题头"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:313
 msgid "Appears with|media column header"
-msgstr "出现在|媒体栏目题头"
+msgstr "所在位置|媒体栏目题头"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/template.php:315
 msgid "Location|media column header"
