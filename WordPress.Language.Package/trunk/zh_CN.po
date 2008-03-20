@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-20 09:29+0800\n"
+"PO-Revision-Date: 2008-03-20 10:29+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -6186,7 +6186,7 @@ msgstr "版本 %s&nbsp;&nbsp;&nbsp;&nbsp;本中文版由 <a href=\"http://www.wp
 #: C:\xampp\htdocs\wp/wp-admin/includes/update.php:13
 #, php-format
 msgid "You are using a development version (%s). Cool! Please <a href=\"%s\">stay updated</a>."
-msgstr "您正在使用开发中的版本（%s）。请 <a href=\"%s\">保持更新</a>。"
+msgstr "您正在使用开发中的版本 %s。请 <a href=\"%s\">保持更新</a>。"
 
 #: C:\xampp\htdocs\wp/wp-admin/includes/update.php:18
 #, php-format
