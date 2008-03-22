@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-22 09:31+0800\n"
+"PO-Revision-Date: 2008-03-22 09:53+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -8548,18 +8548,16 @@ msgid "There is a button in the editor toolbar for inserting images that are alr
 msgstr "编辑器工具栏上有一个“插入图片”按钮，用于插入互联网上的图片。只要你有这个图片的 URL ，点击这个按钮然后在弹出的对话框中输入图片 URL 即可。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:186
-#, fuzzy
 msgid "If you need to upload an image or sound file from your computer, you can use the media library buttons above the editor. The media library will attempt to create a thumbnail-sized image when you upload an image. To insert your uploaded image into the post, first click on the thumbnail to reveal a menu of options. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing."
-msgstr "如果您需要上传您的电脑中的图片或者音频文件，那么您可以使用编辑器下方的上传工具。如果您上传的是图片文件，WordPress 将为该图片创建一个缩略图。上传完毕后，您可以看到该图片文件以缩略图的形式显示在上传工具里。点击它将会显示一个选项框，如果您想调整选项，只要在该选项上单击一下就可以了。比如，您希望日志中显示该图片的缩略图，并链接该图片的独立页面，那么您可以在弹出的选项框中进行设置。当您设置完毕后，只要点击“发送到编辑器”按钮，您的图片或文件就会被发送到您的可视化编辑器并立即显示出最终效果来。"
+msgstr "如果您需要上传您的电脑中的图片或者音频文件，那么您可以使用编辑器上方的媒体库。如果您上传的是图片文件，媒体库将为该图片创建一个缩略图。如果想将上传的图片插入到日志中，您需要点击缩略图来显示出设置菜单。当您选择了合适的设置时，点击“发送到编辑器”，所选的图片或者文件将被插入到编辑器中并处于编辑状态。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:187
 msgid "HTML in the Rich Editor"
 msgstr "可视化编辑器中的 HTML"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:188
-#, fuzzy
 msgid "Any HTML entered directly into the rich editor will show up as text when the post is viewed. What you see is what you get. When you want to include HTML elements that cannot be generated with the toolbar buttons, you must enter it by hand in the HTML editor. Examples are tables and &lt;code&gt;. To do this, click the HTML tab and edit the code, then switch back to Visual mode. If the code is valid and understood by the editor, you should see it rendered immediately."
-msgstr "所有直接输入到可视化编辑器里的 HTML 标签都会在日志里被直接显示出来（所见即所得）。如果您想在日志中插入一些 HTML 标签，而这些标签无法使用工具栏按钮创建，那么您必须在代码编辑器中手工输入它们。例如，表格需要用到的标签以及&lt;代码&gt;都需要手工输入。您只要点击“代码”按钮即可切换到代码编辑器，修改好后切换回可视化编辑器即可。如果输出的 HTML 代码是正确的，您将立刻看到显示效果。"
+msgstr "所有直接输入到可视化编辑器里的 HTML 标签都会在日志里被直接显示出来（所见即所得）。如果您想在日志中插入一些 HTML 标签，而这些标签无法使用工具栏按钮创建，那么您必须在代码编辑器中手工输入它们。例如，表格需要用到的标签以及&lt;代码&gt;都需要手工输入。您只要点击“HTML 源代码”按钮即可切换到代码编辑器，修改好后切换回可视化编辑器即可。如果输出的 HTML 代码是正确的，您将立刻看到显示效果。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:189
 msgid "Pasting in the Rich Editor"
