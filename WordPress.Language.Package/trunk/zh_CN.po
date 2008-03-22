@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-22 09:53+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-03-22 12:07+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8520,7 +8520,7 @@ msgstr "可视化编辑基础"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:176
 msgid "<em>Rich editing</em>, also called WYSIWYG for What You See Is What You Get, means your text is formatted as you type. The rich editor creates HTML code behind the scenes while you concentrate on writing. Font styles, links and images all appear approximately as they will on the internet."
-msgstr "<em>可视化编辑</em>，又叫做WYSIWYG (What You See Is What You Get，所见即所得)，意味着您在输入的同时即可看到最终显示效果。可视化编辑器在后台为您生成 html 代码，以便您能专心于写作。字体效果，链接，图片都将直接显示在编辑器中，和最终展示在 Blog 上的效果一样。"
+msgstr "<em>可视化编辑</em>，又叫做 WYSIWYG (What You See Is What You Get，所见即所得)，意味着您在输入的同时即可看到最终显示效果。可视化编辑器在后台为您生成 html 代码，以便您能专心于写作。字体效果，链接，图片都将直接显示在编辑器中，和最终展示在网页上的效果几乎一样。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:177
 msgid "WordPress includes a rich HTML editor that works well in all major web browsers used today. However editing HTML is not the same as typing text. Each web page has two major components: the structure, which is the actual HTML code and is produced by the editor as you type, and the display, that is applied to it by the currently selected WordPress theme and is defined in style.css. Furthermore WordPress is producing valid XHTML 1.0 which means that display cannot be controlled by structural elements. So inserting multiple line breaks (BR tags) after a paragraph would not produce white space on the web page. The BR tags will be stripped as invalid by the internal HTML correcting functions."
@@ -8549,7 +8549,7 @@ msgstr "编辑器工具栏上有一个“插入图片”按钮，用于插入互
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:186
 msgid "If you need to upload an image or sound file from your computer, you can use the media library buttons above the editor. The media library will attempt to create a thumbnail-sized image when you upload an image. To insert your uploaded image into the post, first click on the thumbnail to reveal a menu of options. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing."
-msgstr "如果您需要上传您的电脑中的图片或者音频文件，那么您可以使用编辑器上方的媒体库。如果您上传的是图片文件，媒体库将为该图片创建一个缩略图。如果想将上传的图片插入到日志中，您需要点击缩略图来显示出设置菜单。当您选择了合适的设置时，点击“发送到编辑器”，所选的图片或者文件将被插入到编辑器中并处于编辑状态。"
+msgstr "如果您需要上传您的电脑中的图片或者音频文件，您可以使用编辑器上方的媒体库按钮。媒体库将尝试为上传的图片创建一个缩略图。要将已上传的图片插件到日志中，请点击缩略图，在弹出的菜单中选择相应选项，然后点击“发送到编辑器”，图片就会出现在您在编辑的日志中。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:187
 msgid "HTML in the Rich Editor"
@@ -8557,7 +8557,7 @@ msgstr "可视化编辑器中的 HTML"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:188
 msgid "Any HTML entered directly into the rich editor will show up as text when the post is viewed. What you see is what you get. When you want to include HTML elements that cannot be generated with the toolbar buttons, you must enter it by hand in the HTML editor. Examples are tables and &lt;code&gt;. To do this, click the HTML tab and edit the code, then switch back to Visual mode. If the code is valid and understood by the editor, you should see it rendered immediately."
-msgstr "所有直接输入到可视化编辑器里的 HTML 标签都会在日志里被直接显示出来（所见即所得）。如果您想在日志中插入一些 HTML 标签，而这些标签无法使用工具栏按钮创建，那么您必须在代码编辑器中手工输入它们。例如，表格需要用到的标签以及&lt;代码&gt;都需要手工输入。您只要点击“HTML 源代码”按钮即可切换到代码编辑器，修改好后切换回可视化编辑器即可。如果输出的 HTML 代码是正确的，您将立刻看到显示效果。"
+msgstr "所有直接输入到可视化编辑器里的 HTML 标签都会在日志里被直接显示出来（所见即所得）。如果您想在日志中插入一些无法使用工具栏按钮创建的 HTML 标签，您必须在 HTML 源代码模式下手工输入它们，比如，表格标签以及&lt;code&gt;标签。您只要点击“HTML 源代码”按钮即可切换到 HTML 源代码编辑器，编辑完成后切换回可视化编辑器即可。如果输出的 HTML 代码合法并能被编辑器所识别，您将立刻看到显示效果。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:189
 msgid "Pasting in the Rich Editor"
@@ -8565,11 +8565,11 @@ msgstr "粘贴到可视化编辑器中"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:190
 msgid "When pasting content from another web page the results can be inconsistent and depend on your browser and on the web page you are pasting from. The editor tries to correct any invalid HTML code that was pasted, but for best results try using the HTML tab or one of the paste buttons that are on the second row. Alternatively try pasting paragraph by paragraph. In most browsers to select one paragraph at a time, triple-click on it."
-msgstr ""
+msgstr "从另一个网页中粘贴内容，结果可能与预期的不一样，这取决于您的浏览器与源网页。编辑器会尝试纠正粘贴内容中无效的 HTML 代码，但最好是在 HTML 源代码模式下粘贴或使用高级工具栏中粘贴按钮。或者，可以尝试逐段落地粘贴。在大多数浏览器中，三击以选择段落。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:191
 msgid "Pasting content from another application, like Word or Excel, is best done with the Paste from Word button on the second row, or in HTML mode."
-msgstr ""
+msgstr "从其它程序（如 Word 或 Excel ）往编辑中粘贴内容，最好使用高级工具栏的“粘贴为富文本”按钮或在 HTML 源代码模式下粘贴。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:195
 msgid "Writing at Full Speed"
@@ -8961,7 +8961,7 @@ msgstr "粘贴为纯文本"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:102
 msgid "Paste from Word"
-msgstr "从 Word 中粘贴"
+msgstr "粘贴为富文本"
 
 # 提示用户在下拉列表中选择。
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:103
