@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
-"PO-Revision-Date: 2008-03-22 12:12+0800\n"
+"PO-Revision-Date: 2008-03-23 22:34+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -855,7 +855,7 @@ msgstr "没有该 ID 的评论。"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/comment.php:162
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/comment.php:187
 msgid "Go back"
-msgstr "后退"
+msgstr "返回"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/comment.php:33
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/comment.php:137
@@ -8188,7 +8188,7 @@ msgstr "浏览您的文件"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:166
 msgid "&laquo; Back"
-msgstr "&laquo; 后退"
+msgstr "&laquo; 返回"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:167
 msgid "Direct link to file"
