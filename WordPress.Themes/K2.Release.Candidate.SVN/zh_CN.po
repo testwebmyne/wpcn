@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: K2 SVN 简体中文语言包\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-10-30 09:19+0800\n"
+"PO-Revision-Date: 2008-03-24 13:25+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: D:\\Source.Code.SVN\\K2\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: D:\\Source.Code.SVN\\K2\n"
 
@@ -29,8 +29,8 @@ msgstr "哦不！您要找的东西好像不在这！"
 #: D:\Source.Code.SVN\K2/page-archives.php:29
 #: D:\Source.Code.SVN\K2/page-comments.php:18
 #: D:\Source.Code.SVN\K2/page.php:14
-#: D:\Source.Code.SVN\K2/theloop.php:100
-#: D:\Source.Code.SVN\K2/app/modules/asides.php:21
+#: D:\Source.Code.SVN\K2/theloop.php:94
+#: D:\Source.Code.SVN\K2/app/modules/asides.php:25
 #, php-format
 msgid "Permanent Link to \"%s\""
 msgstr "《%s》的永久链接"
@@ -46,14 +46,14 @@ msgid "by %s"
 msgstr "%s"
 
 #: D:\Source.Code.SVN\K2/attachment.php:41
-#: D:\Source.Code.SVN\K2/theloop.php:108
+#: D:\Source.Code.SVN\K2/theloop.php:102
 #, php-format
 msgid "View all posts by %s"
 msgstr "查看 %s 的所有文章"
 
 # 使用Time Since插件后的文章发布日期
 #: D:\Source.Code.SVN\K2/attachment.php:43
-#: D:\Source.Code.SVN\K2/theloop.php:113
+#: D:\Source.Code.SVN\K2/theloop.php:107
 #, php-format
 msgid "%s ago"
 msgstr "%s 前"
@@ -94,59 +94,59 @@ msgstr "错误：请填写评论内容。"
 msgid "Duplicate comment detected; it looks as though you've already said that!"
 msgstr "检测到完全相同的评论内容。貌似这条评论你已经发表过了。"
 
-#: D:\Source.Code.SVN\K2/comments-ajax.php:121
-#: D:\Source.Code.SVN\K2/comments.php:50
+#: D:\Source.Code.SVN\K2/comments-ajax.php:126
+#: D:\Source.Code.SVN\K2/comments.php:57
 msgid "What is this?"
 msgstr "这是什么？"
 
-#: D:\Source.Code.SVN\K2/comments-ajax.php:121
-#: D:\Source.Code.SVN\K2/comments.php:50
+#: D:\Source.Code.SVN\K2/comments-ajax.php:126
+#: D:\Source.Code.SVN\K2/comments.php:58
 msgid "Gravatar Icon"
 msgstr "Gravatar 头像"
 
-#: D:\Source.Code.SVN\K2/comments-ajax.php:122
-#: D:\Source.Code.SVN\K2/comments-ajax.php:133
-#: D:\Source.Code.SVN\K2/comments.php:51
+#: D:\Source.Code.SVN\K2/comments-ajax.php:129
+#: D:\Source.Code.SVN\K2/comments-ajax.php:140
 #: D:\Source.Code.SVN\K2/comments.php:62
-#: D:\Source.Code.SVN\K2/comments.php:93
-#: D:\Source.Code.SVN\K2/comments.php:105
+#: D:\Source.Code.SVN\K2/comments.php:73
+#: D:\Source.Code.SVN\K2/comments.php:104
+#: D:\Source.Code.SVN\K2/comments.php:116
 msgid "Permanent Link to this Comment"
 msgstr "本条评论的永久链接"
 
-#: D:\Source.Code.SVN\K2/comments-ajax.php:130
-#: D:\Source.Code.SVN\K2/comments.php:59
-#: D:\Source.Code.SVN\K2/comments.php:102
+#: D:\Source.Code.SVN\K2/comments-ajax.php:137
+#: D:\Source.Code.SVN\K2/comments.php:70
+#: D:\Source.Code.SVN\K2/comments.php:113
 #, php-format
 msgid "%s ago."
 msgstr "%s 前."
 
-#: D:\Source.Code.SVN\K2/comments-ajax.php:135
-#: D:\Source.Code.SVN\K2/comments.php:64
-#: D:\Source.Code.SVN\K2/comments.php:107
+#: D:\Source.Code.SVN\K2/comments-ajax.php:142
+#: D:\Source.Code.SVN\K2/comments.php:75
+#: D:\Source.Code.SVN\K2/comments.php:118
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s %2$s"
 
 # 评论的日期
-#: D:\Source.Code.SVN\K2/comments-ajax.php:136
-#: D:\Source.Code.SVN\K2/comments.php:65
-#: D:\Source.Code.SVN\K2/comments.php:108
+#: D:\Source.Code.SVN\K2/comments-ajax.php:143
+#: D:\Source.Code.SVN\K2/comments.php:76
+#: D:\Source.Code.SVN\K2/comments.php:119
 msgid "M jS, Y"
 msgstr "Y-n-j"
 
-#: D:\Source.Code.SVN\K2/comments-ajax.php:142
-#: D:\Source.Code.SVN\K2/comments.php:71
-#: D:\Source.Code.SVN\K2/comments.php:114
+#: D:\Source.Code.SVN\K2/comments-ajax.php:149
+#: D:\Source.Code.SVN\K2/comments.php:82
+#: D:\Source.Code.SVN\K2/comments.php:125
 #: D:\Source.Code.SVN\K2/page-archives.php:30
 #: D:\Source.Code.SVN\K2/page-comments.php:19
 #: D:\Source.Code.SVN\K2/page.php:15
-#: D:\Source.Code.SVN\K2/theloop.php:128
-#: D:\Source.Code.SVN\K2/app/modules/asides.php:21
+#: D:\Source.Code.SVN\K2/theloop.php:122
+#: D:\Source.Code.SVN\K2/app/modules/asides.php:25
 msgid "Edit"
 msgstr "编辑"
 
-#: D:\Source.Code.SVN\K2/comments-ajax.php:149
-#: D:\Source.Code.SVN\K2/comments.php:78
+#: D:\Source.Code.SVN\K2/comments-ajax.php:156
+#: D:\Source.Code.SVN\K2/comments.php:89
 msgid "Your comment is awaiting moderation."
 msgstr "您的评论正在等待管理员的审查。"
 
@@ -183,96 +183,97 @@ msgstr "复制这个地址用来 trackback 本文。"
 msgid "Trackback Address"
 msgstr "Trackback 地址"
 
-#: D:\Source.Code.SVN\K2/comments.php:97
+#: D:\Source.Code.SVN\K2/comments.php:108
 #, php-format
 msgid "%1$s on %2$s"
 msgstr "%1$s 于 %2$s"
 
-#: D:\Source.Code.SVN\K2/comments.php:98
+#: D:\Source.Code.SVN\K2/comments.php:109
 msgid "Trackback"
 msgstr "Trackback"
 
-#: D:\Source.Code.SVN\K2/comments.php:98
+#: D:\Source.Code.SVN\K2/comments.php:109
 msgid "Pingback"
 msgstr "Pingback"
 
 # 文章没有评论时显示在评论区的话
 # 可以修改成你想要说的话
-#: D:\Source.Code.SVN\K2/comments.php:124
+#: D:\Source.Code.SVN\K2/comments.php:135
 msgid "No Comments"
 msgstr "没有评论"
 
-#: D:\Source.Code.SVN\K2/comments.php:130
+#: D:\Source.Code.SVN\K2/comments.php:141
 msgid "Comments are currently closed."
 msgstr "评论功能被关闭。"
 
-#: D:\Source.Code.SVN\K2/comments.php:139
+#: D:\Source.Code.SVN\K2/comments.php:150
 msgid "Edit Your Comment"
 msgstr "编辑您的评论"
 
-#: D:\Source.Code.SVN\K2/comments.php:139
+#: D:\Source.Code.SVN\K2/comments.php:150
 msgid "Leave a Reply"
 msgstr "请留下您的评论："
 
-#: D:\Source.Code.SVN\K2/comments.php:143
+#: D:\Source.Code.SVN\K2/comments.php:154
 #, php-format
 msgid "You must <a href=\"%s\">login</a> to post a comment."
 msgstr "您必须 <a href=\"%s\">登陆</a> 才能发表评论。"
 
-#: D:\Source.Code.SVN\K2/comments.php:159
+#: D:\Source.Code.SVN\K2/comments.php:170
 #, php-format
 msgid "Logged in as %s."
 msgstr "当前登陆帐号： %s"
 
-#: D:\Source.Code.SVN\K2/comments.php:159
+#: D:\Source.Code.SVN\K2/comments.php:170
 msgid "Log out of this account"
 msgstr "登出此帐号"
 
-#: D:\Source.Code.SVN\K2/comments.php:159
+#: D:\Source.Code.SVN\K2/comments.php:170
 msgid "Logout"
 msgstr "登出"
 
-#: D:\Source.Code.SVN\K2/comments.php:163
+#: D:\Source.Code.SVN\K2/comments.php:174
 #, php-format
 msgid "Welcome back <strong>%s</strong>"
 msgstr "欢迎回来，<strong>%s</strong>"
 
-#: D:\Source.Code.SVN\K2/comments.php:164
+#: D:\Source.Code.SVN\K2/comments.php:175
 msgid "Change"
 msgstr "修改个人信息"
 
-#: D:\Source.Code.SVN\K2/comments.php:165
+#: D:\Source.Code.SVN\K2/comments.php:176
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:32
 msgid "Close"
 msgstr "隐藏"
 
-#: D:\Source.Code.SVN\K2/comments.php:172
+#: D:\Source.Code.SVN\K2/comments.php:183
 #: D:\Source.Code.SVN\K2/app/modules/wptagcloud.php:63
 msgid "Name"
 msgstr "姓名"
 
-#: D:\Source.Code.SVN\K2/comments.php:172
-#: D:\Source.Code.SVN\K2/comments.php:175
+#: D:\Source.Code.SVN\K2/comments.php:183
+#: D:\Source.Code.SVN\K2/comments.php:186
 msgid "(required)"
 msgstr "(必须填写)"
 
-#: D:\Source.Code.SVN\K2/comments.php:175
+#: D:\Source.Code.SVN\K2/comments.php:186
 msgid "Mail"
 msgstr "电子邮件"
 
-#: D:\Source.Code.SVN\K2/comments.php:175
+#: D:\Source.Code.SVN\K2/comments.php:186
 msgid "will not be published"
 msgstr "不会被公开"
 
-#: D:\Source.Code.SVN\K2/comments.php:178
+#: D:\Source.Code.SVN\K2/comments.php:189
 msgid "Website"
 msgstr "网址"
 
-#: D:\Source.Code.SVN\K2/comments.php:181
+#: D:\Source.Code.SVN\K2/comments.php:192
 #, php-format
-msgid "<strong>XHTML:</strong> You can use these tags %s:"
+msgid "<strong>XHTML:</strong> You can use these tags: %s"
 msgstr "<strong>XHTML:</strong> 您可以使用这些 HTML 标签： %s"
 
-#: D:\Source.Code.SVN\K2/comments.php:192
+#: D:\Source.Code.SVN\K2/comments.php:203
 msgid "Submit"
 msgstr "提交"
 
@@ -304,42 +305,42 @@ msgstr "<a href=\"%1$s\">Entries Feed</a> and <a href=\"%2$s\">Comments Feed</a>
 msgid "%d queries. %.4f seconds."
 msgstr "<strong>%d</strong>次查询. <strong>%.4f</strong>秒."
 
-#: D:\Source.Code.SVN\K2/header.php:32
+#: D:\Source.Code.SVN\K2/header.php:35
 #, php-format
 msgid "Category Archive for &lsquo;%s&rsquo;"
 msgstr "&lsquo;%s&rsquo; 的分类存档"
 
-#: D:\Source.Code.SVN\K2/header.php:36
+#: D:\Source.Code.SVN\K2/header.php:39
 #, php-format
 msgid "Tag Archive for &lsquo;%s&rsquo;"
 msgstr "&lsquo;%s&rsquo; 的标签存档"
 
 # 为了Archives Page的slug，只能不翻译
-#: D:\Source.Code.SVN\K2/header.php:40
+#: D:\Source.Code.SVN\K2/header.php:43
 #, php-format
 msgid "%s Archive"
 msgstr "%s 的存档"
 
-#: D:\Source.Code.SVN\K2/header.php:44
+#: D:\Source.Code.SVN\K2/header.php:47
 #, php-format
 msgid "Search Results for &lsquo;%s&rsquo;"
 msgstr "&lsquo;%s&rsquo; 的搜索结果"
 
-#: D:\Source.Code.SVN\K2/header.php:49
+#: D:\Source.Code.SVN\K2/header.php:52
 msgid " at "
 msgstr " 于 "
 
 # 启用Live Search后搜索框中显示的文字
-#: D:\Source.Code.SVN\K2/header.php:96
+#: D:\Source.Code.SVN\K2/header.php:114
 msgid "Type and Wait to Search"
 msgstr "即时搜索..."
 
-#: D:\Source.Code.SVN\K2/header.php:103
+#: D:\Source.Code.SVN\K2/header.php:121
 #, php-format
 msgid "Page %1$d of %2$d"
 msgstr "第%1$d页 / 共%2$d页"
 
-#: D:\Source.Code.SVN\K2/header.php:124
+#: D:\Source.Code.SVN\K2/header.php:142
 msgid "Skip to content"
 msgstr "跳转到内容"
 
@@ -356,10 +357,9 @@ msgstr "较新文章"
 msgid "This is the frontpage of the %1$s archives. Currently the archives are spanning %2$s posts and %3$s comments, contained within the meager confines of %4$s categories. Through here, you will be able to move down into the archives by way of time or category. If you are looking for something specific, perhaps you should try the search on the sidebar."
 msgstr "这里是 %1$s 的存档页。目前本 Blog 有 %2$s 篇文章、 %3$s 条评论和 %4$s 个分类。在这里您可以按时间和分类查找文章。如果您需要查找某篇特定的文章，您可以使用右边的搜索功能。"
 
-# 为了Archives Page的slug，只能不翻译
 #: D:\Source.Code.SVN\K2/page-archives.php:39
 msgid "Live Archives"
-msgstr ""
+msgstr "Live Archives"
 
 #: D:\Source.Code.SVN\K2/page-archives.php:40
 #, php-format
@@ -380,44 +380,44 @@ msgstr "按分类浏览"
 
 #: D:\Source.Code.SVN\K2/page-comments.php:25
 #: D:\Source.Code.SVN\K2/page.php:21
-#: D:\Source.Code.SVN\K2/theloop.php:141
+#: D:\Source.Code.SVN\K2/theloop.php:135
 msgid "Pages:"
 msgstr "页面："
 
-#: D:\Source.Code.SVN\K2/rollingarchive.php:33
+#: D:\Source.Code.SVN\K2/rollingarchive.php:46
 msgid "Less"
 msgstr "减少"
 
-#: D:\Source.Code.SVN\K2/rollingarchive.php:34
+#: D:\Source.Code.SVN\K2/rollingarchive.php:47
 msgid "More"
 msgstr "增加"
 
-#: D:\Source.Code.SVN\K2/rollingarchive.php:35
+#: D:\Source.Code.SVN\K2/rollingarchive.php:48
 msgid "Trim"
 msgstr "列表"
 
-#: D:\Source.Code.SVN\K2/rollingarchive.php:36
+#: D:\Source.Code.SVN\K2/rollingarchive.php:49
 msgid "Untrim"
 msgstr "平铺"
 
-#: D:\Source.Code.SVN\K2/rollingarchive.php:44
-#: D:\Source.Code.SVN\K2/rollingarchive.php:45
+#: D:\Source.Code.SVN\K2/rollingarchive.php:57
+#: D:\Source.Code.SVN\K2/rollingarchive.php:58
 msgid "Older"
 msgstr "前一页"
 
-#: D:\Source.Code.SVN\K2/rollingarchive.php:47
-#: D:\Source.Code.SVN\K2/rollingarchive.php:48
+#: D:\Source.Code.SVN\K2/rollingarchive.php:60
+#: D:\Source.Code.SVN\K2/rollingarchive.php:61
 msgid "Home"
 msgstr "首页"
 
-#: D:\Source.Code.SVN\K2/rollingarchive.php:50
-#: D:\Source.Code.SVN\K2/rollingarchive.php:51
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:141
+#: D:\Source.Code.SVN\K2/rollingarchive.php:63
+#: D:\Source.Code.SVN\K2/rollingarchive.php:64
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:139
 msgid "Loading"
 msgstr "载入中"
 
-#: D:\Source.Code.SVN\K2/rollingarchive.php:53
-#: D:\Source.Code.SVN\K2/rollingarchive.php:54
+#: D:\Source.Code.SVN\K2/rollingarchive.php:66
+#: D:\Source.Code.SVN\K2/rollingarchive.php:67
 msgid "Newer"
 msgstr "后一页"
 
@@ -470,8 +470,8 @@ msgid "You are currently browsing the %1$s weblog archives for the month %2$s."
 msgstr "您正在浏览 %1$s 网站中 %2$s 的存档。"
 
 #: D:\Source.Code.SVN\K2/sidebar.php:57
-#: D:\Source.Code.SVN\K2/theloop.php:48
-#: D:\Source.Code.SVN\K2/app/includes/info.php:169
+#: D:\Source.Code.SVN\K2/theloop.php:50
+#: D:\Source.Code.SVN\K2/app/includes/info.php:267
 #: D:\Source.Code.SVN\K2/app/modules/aboutcurrent.php:23
 msgid "F, Y"
 msgstr "Y年m月"
@@ -503,7 +503,7 @@ msgid "You are currently browsing the %s weblog archives."
 msgstr "您正在浏览 %1$s 网站中的存档。"
 
 #: D:\Source.Code.SVN\K2/sidebar.php:82
-#: D:\Source.Code.SVN\K2/theloop.php:126
+#: D:\Source.Code.SVN\K2/theloop.php:120
 msgid "Comments"
 msgstr "评论"
 
@@ -515,10 +515,10 @@ msgstr "评论 feed"
 #: D:\Source.Code.SVN\K2/sidebar.php:83
 #: D:\Source.Code.SVN\K2/sidebar.php:93
 #: D:\Source.Code.SVN\K2/sidebar.php:115
-#: D:\Source.Code.SVN\K2/app/modules/asides.php:11
-#: D:\Source.Code.SVN\K2/app/modules/flickr.php:8
+#: D:\Source.Code.SVN\K2/app/modules/asides.php:15
+#: D:\Source.Code.SVN\K2/app/modules/flickr.php:22
 #: D:\Source.Code.SVN\K2/app/modules/latest_comments.php:10
-#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:15
+#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:19
 #: D:\Source.Code.SVN\K2/app/modules/rss.php:37
 msgid "RSS"
 msgstr "订阅"
@@ -528,7 +528,7 @@ msgid "Latest"
 msgstr "最近更新"
 
 #: D:\Source.Code.SVN\K2/sidebar.php:93
-#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:15
+#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:19
 msgid "RSS Feed for Blog Entries"
 msgstr "文章 feed"
 
@@ -541,7 +541,7 @@ msgid "Flickr"
 msgstr "Flickr"
 
 #: D:\Source.Code.SVN\K2/sidebar.php:115
-#: D:\Source.Code.SVN\K2/app/modules/flickr.php:8
+#: D:\Source.Code.SVN\K2/app/modules/flickr.php:22
 msgid "RSS Feed for flickr"
 msgstr "flickr feed"
 
@@ -556,99 +556,99 @@ msgstr "存档"
 msgid "Categories"
 msgstr "分类"
 
-#: D:\Source.Code.SVN\K2/theloop.php:39
+#: D:\Source.Code.SVN\K2/theloop.php:41
 #, php-format
 msgid "Archive for the '%s' Category"
 msgstr "'%s' 分类的存档"
 
-#: D:\Source.Code.SVN\K2/theloop.php:45
-#: D:\Source.Code.SVN\K2/theloop.php:48
-#: D:\Source.Code.SVN\K2/theloop.php:51
+#: D:\Source.Code.SVN\K2/theloop.php:47
+#: D:\Source.Code.SVN\K2/theloop.php:50
+#: D:\Source.Code.SVN\K2/theloop.php:53
 #, php-format
 msgid "Archive for %s"
 msgstr "%s 的存档"
 
-#: D:\Source.Code.SVN\K2/theloop.php:45
+#: D:\Source.Code.SVN\K2/theloop.php:47
 msgid "F jS, Y"
 msgstr "F jS, Y"
 
-#: D:\Source.Code.SVN\K2/theloop.php:51
+#: D:\Source.Code.SVN\K2/theloop.php:53
 msgid "Y"
 msgstr "Y年"
 
-#: D:\Source.Code.SVN\K2/theloop.php:54
+#: D:\Source.Code.SVN\K2/theloop.php:56
 #, php-format
 msgid "Search Results for '%s'"
 msgstr "搜索 '%s'"
 
-#: D:\Source.Code.SVN\K2/theloop.php:58
 #: D:\Source.Code.SVN\K2/theloop.php:60
+#: D:\Source.Code.SVN\K2/theloop.php:62
 #, php-format
 msgid "Tag Archive for '%s'"
 msgstr "标签 '%s' 的存档"
 
-#: D:\Source.Code.SVN\K2/theloop.php:64
+#: D:\Source.Code.SVN\K2/theloop.php:66
 #, php-format
 msgid "Author Archive for %s"
 msgstr "作者 %s 的文章"
 
 # 为了Archives Page的slug，只能不翻译
-#: D:\Source.Code.SVN\K2/theloop.php:67
+#: D:\Source.Code.SVN\K2/theloop.php:69
 msgid "Archive"
 msgstr "存档"
 
-#: D:\Source.Code.SVN\K2/theloop.php:70
+#: D:\Source.Code.SVN\K2/theloop.php:72
 #, php-format
 msgid " <span class=\"archivepages\">Page %1$s of %2$s</span>"
 msgstr " <span class=\"archivepages\">第 %1$s 页 - 共 %2$s 页</span>"
 
-#: D:\Source.Code.SVN\K2/theloop.php:104
+#: D:\Source.Code.SVN\K2/theloop.php:98
 #, php-format
 msgid "<span class=\"meta-start\">Published</span> %1$s %2$s %3$s<span class=\"meta-end\">.</span>"
 msgstr "<span class=\"meta-start\">文章</span>%1$s %2$s %3$s<span class=\"meta-end\">。</span>"
 
-#: D:\Source.Code.SVN\K2/theloop.php:107
+#: D:\Source.Code.SVN\K2/theloop.php:101
 #, php-format
 msgid "<span class=\"meta-prep\">by</span> %s"
 msgstr "<span class=\"meta-prep\">作者</span> %s"
 
-#: D:\Source.Code.SVN\K2/theloop.php:115
+#: D:\Source.Code.SVN\K2/theloop.php:109
 #, php-format
 msgid "<span class=\"meta-prep\">on</span> %s"
 msgstr "<span class=\"meta-prep\">日期</span> %s"
 
-#: D:\Source.Code.SVN\K2/theloop.php:120
+#: D:\Source.Code.SVN\K2/theloop.php:114
 #, php-format
 msgid "<span class=\"meta-prep\">in</span> %s"
 msgstr "<span class=\"meta-prep\">分类</span> %s"
 
-#: D:\Source.Code.SVN\K2/theloop.php:121
+#: D:\Source.Code.SVN\K2/theloop.php:115
 msgid " and "
 msgstr " & "
 
-#: D:\Source.Code.SVN\K2/theloop.php:126
+#: D:\Source.Code.SVN\K2/theloop.php:120
 msgid "Comment"
 msgstr "评论"
 
-#: D:\Source.Code.SVN\K2/theloop.php:126
+#: D:\Source.Code.SVN\K2/theloop.php:120
 msgid "Closed"
 msgstr "评论功能已关闭"
 
-#: D:\Source.Code.SVN\K2/theloop.php:131
-#: D:\Source.Code.SVN\K2/theloop.php:133
+#: D:\Source.Code.SVN\K2/theloop.php:125
+#: D:\Source.Code.SVN\K2/theloop.php:127
 msgid "Tags: "
 msgstr "标签："
 
-#: D:\Source.Code.SVN\K2/theloop.php:139
+#: D:\Source.Code.SVN\K2/theloop.php:133
 #, php-format
 msgid "Continue reading '%s'"
 msgstr "<span class=\"readmore\">继续阅读《%s》</span>"
 
-#: D:\Source.Code.SVN\K2/theloop.php:155
+#: D:\Source.Code.SVN\K2/theloop.php:149
 msgid "Not Found"
 msgstr "没有找到"
 
-#: D:\Source.Code.SVN\K2/theloop.php:159
+#: D:\Source.Code.SVN\K2/theloop.php:153
 msgid "Oh no! You're looking for something which just isn't here! Fear not however, errors are to be expected, and luckily there are tools on the sidebar for you to use in your search for what you need."
 msgstr "抱歉，没有找到符合您的要求的文章。不过不要担心，侧边栏里有一些工具可以供您用来查找您所需要的东西。"
 
@@ -681,92 +681,85 @@ msgstr "按分类"
 msgid "Folksonomy"
 msgstr "按 TAG"
 
-#: D:\Source.Code.SVN\K2/app/classes/options.php:83
+#: D:\Source.Code.SVN\K2/app/classes/header.php:160
+#: D:\Source.Code.SVN\K2/app/classes/header.php:181
+#, php-format
+msgid "Custom Header Image for K2 (%1$d x %2$d)"
+msgstr "K2 自定义页眉图像（%1$d x %2$d）"
+
+#: D:\Source.Code.SVN\K2/app/classes/options.php:82
 msgid "K2 Options"
 msgstr "K2 设置"
 
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:147
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:822
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:150
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:815
 msgid "You must specify a valid module name"
 msgstr "您必须指定一个有效的模块名称"
 
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:157
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:167
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:160
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:170
 msgid "Missing sidebar and module ids"
 msgstr "丢失侧边栏和模块的编号"
 
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:177
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:180
 msgid "Missing ordering data"
 msgstr "丢失顺序数据"
 
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:184
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:187
 msgid "Invalid call"
 msgstr "错误调用"
 
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:222
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:224
 #: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:94
 msgid "K2 Sidebar Manager"
 msgstr "K2 侧栏管理器"
 
 # 不能翻译，否则将导致SBM出错。
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:283
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:323
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:346
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:286
+#: D:\Source.Code.SVN\K2/app/classes/sbm.php:335
 #, php-format
 msgid "Sidebar %d"
 msgstr "侧边栏 %d"
 
-#: D:\Source.Code.SVN\K2/app/classes/sbm.php:327
-#, php-format
-msgid " %d"
-msgstr " %d"
-
-#: D:\Source.Code.SVN\K2/app/display/options.php:6
+#: D:\Source.Code.SVN\K2/app/display/options.php:8
 msgid "No Style"
 msgstr "无样式"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:17
+#: D:\Source.Code.SVN\K2/app/display/options.php:24
 msgid "Single Column"
 msgstr "单栏"
 
 # 文章没有评论时显示在评论区的话
 # 可以修改成你想要说的话
-#: D:\Source.Code.SVN\K2/app/display/options.php:18
+#: D:\Source.Code.SVN\K2/app/display/options.php:25
 #: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:10
 msgid "Two Columns"
 msgstr "双栏"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:19
+#: D:\Source.Code.SVN\K2/app/display/options.php:26
 #: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:11
 msgid "Three Columns"
 msgstr "三栏"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:32
-msgid "560 &#215; 200px"
-msgstr "560 &#215; 200 像素"
-
-#: D:\Source.Code.SVN\K2/app/display/options.php:33
-msgid "780 &#215; 200px"
-msgstr "780 &#215; 200 像素"
-
-#: D:\Source.Code.SVN\K2/app/display/options.php:34
-msgid "950 &#215; 200px"
-msgstr "950 &#215; 200 像素"
-
-#: D:\Source.Code.SVN\K2/app/display/options.php:52
+#: D:\Source.Code.SVN\K2/app/display/options.php:49
 msgid "K2 Options have been updated"
 msgstr "K2 的设置已经被更新"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:58
+#: D:\Source.Code.SVN\K2/app/display/options.php:55
 msgid "The Extended Live Archives plugin has been setup for use with K2"
 msgstr "Extended Live Archives 插件已经配置完毕，它可以很好地和 K2 协同工作了。"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:65
+#: D:\Source.Code.SVN\K2/app/display/options.php:62
 #, php-format
 msgid "<p>The directory: <code>%s</code>, needed to store custom styles is missing.</p><p>For you to be able to use custom styles, you need to add this directory.</p>"
 msgstr "<p>目录： <code>%s</code> ，无法找到自定义样式。</p><p>使用自定义样式，您需要添加此目录。</p>"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:78
+#: D:\Source.Code.SVN\K2/app/display/options.php:68
+#, php-format
+msgid "<p>The K2 directory: <code>%s</code>, contains spaces. For K2 to function properly, you will need to remove the spaces from the directory name.</p>"
+msgstr "<p>K2 目录：<code>%s</code>，包含空格。由于 K2 的函数限制，您需要移除目录名中的空格。</p>"
+
+#: D:\Source.Code.SVN\K2/app/display/options.php:79
 #: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:76
 msgid "Save"
 msgstr "保存"
@@ -838,7 +831,7 @@ msgstr "Asides"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:142
 #: D:\Source.Code.SVN\K2/app/display/options.php:159
-#: D:\Source.Code.SVN\K2/app/display/options.php:203
+#: D:\Source.Code.SVN\K2/app/display/options.php:188
 msgid "Off"
 msgstr "关闭"
 
@@ -852,7 +845,7 @@ msgstr "样式"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:166
 #, php-format
-msgid "Stop editing core files, K2 is highly customizable using only CSS. %s"
+msgid "No need to edit core files, K2 is highly customizable using only CSS. %s"
 msgstr "不要修改核心文件了， K2 可以通过 CSS 实现高可定制性。 %s"
 
 #: D:\Source.Code.SVN\K2/app/display/options.php:166
@@ -863,54 +856,40 @@ msgstr "阅读 &nbsp; 更多"
 msgid "Header"
 msgstr "标题"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:174
+#: D:\Source.Code.SVN\K2/app/display/options.php:176
 #, php-format
-msgid "The header size for a default %s setup is <strong>%s</strong>."
-msgstr "默认 %s 的页眉尺寸为 <strong>%s</strong>。"
+msgid "The current header size is <strong>%1$s px by %2$s px</strong>. Use %3$s to customize the header."
+msgstr "当前页眉尺寸是 <strong>%1$s px x %2$s px</strong>。使用 %3$s 自定义页眉。"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:178
-#, php-format
-msgid "<p>The directory: <code>%s</code>, needed to store custom headers is missing.</p>"
-msgstr "<p>目录： <code>%s</code> ， 所需自定义页眉不存在。</p>"
+#: D:\Source.Code.SVN\K2/app/display/options.php:179
+msgid "Custom Image Header"
+msgstr "自定义图像页眉"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:182
-#, php-format
-msgid "<p>The directory <code>%s</code> should be writable (CHMOD 777) to upload custom headers through this interface. You can still manually upload images to the directory however.</p>"
-msgstr "<p>目录 <code>%s</code> 可写入 (CHMOD 777) 用来在此界面上传自定义页眉文件。您也可以使用 FTP 直接把文件上传到此目录。</p>"
-
-#: D:\Source.Code.SVN\K2/app/display/options.php:190
-msgid "Upload an Image"
-msgstr "上传一个图片"
-
-#: D:\Source.Code.SVN\K2/app/display/options.php:194
-msgid "Activate immediately"
-msgstr "立即激活"
-
-#: D:\Source.Code.SVN\K2/app/display/options.php:199
+#: D:\Source.Code.SVN\K2/app/display/options.php:184
 msgid "Select an Image"
 msgstr "选择一个图片"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:210
+#: D:\Source.Code.SVN\K2/app/display/options.php:189
 msgid "Random"
 msgstr "随机"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:215
+#: D:\Source.Code.SVN\K2/app/display/options.php:198
 msgid "Rename the 'Blog' tab"
 msgstr "重命名\"Blog\"标签名称"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:231
+#: D:\Source.Code.SVN\K2/app/display/options.php:214
 msgid "Uninstall K2"
 msgstr "卸载 K2"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:235
+#: D:\Source.Code.SVN\K2/app/display/options.php:218
 msgid "Delete your K2 settings?"
 msgstr "删除 K2 相关设置？"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:244
+#: D:\Source.Code.SVN\K2/app/display/options.php:227
 msgid "Remove all K2 settings and revert WordPress to its default theme. No files are deleted."
 msgstr "移除 K2 的全部设置并恢复到 WordPress 的默认主题。此操作不会删除任何文件。"
 
-#: D:\Source.Code.SVN\K2/app/display/options.php:245
+#: D:\Source.Code.SVN\K2/app/display/options.php:228
 msgid "Reset and Uninstall K2"
 msgstr "卸载 K2"
 
@@ -923,6 +902,7 @@ msgid "Title"
 msgstr "标题"
 
 #: D:\Source.Code.SVN\K2/app/display/sbm/edit-module-form.php:17
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:50
 msgid "Display"
 msgstr "显示"
 
@@ -1006,6 +986,14 @@ msgstr "无效侧栏管理器备份文件"
 msgid "Options for this module type"
 msgstr "此模块格式的设置项目"
 
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:48
+msgid "Options"
+msgstr "设置"
+
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:49
+msgid "Advanced"
+msgstr "高级"
+
 #: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:50
 msgid "Where to display this module"
 msgstr "在何处显示此模块"
@@ -1018,86 +1006,87 @@ msgstr "“回车”保存，“ ESC ”关闭。"
 msgid "Save &amp; Close"
 msgstr "保存 &amp; 关闭"
 
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:97
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:127
+msgid "Restore"
+msgstr "恢复"
+
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:98
+msgid "Backup"
+msgstr "备份"
+
 #: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:101
 msgid "Undo"
 msgstr "撤销"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:103
-msgid "Empty Trash"
-msgstr "清空回收站"
-
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:118
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:116
 msgid "Backup current sidebar:"
 msgstr "备份当前侧栏："
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:119
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:117
 msgid "This will create a backup of your current sidebar configuration."
 msgstr "这将会创建当前侧栏设置信息的备份。"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:119
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:117
 msgid "Keep in a safe place in case of disaster."
 msgstr "为了避免灾难发生，请保存到安全的地方。"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:120
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:118
 msgid "Create sidebar backup &raquo;"
 msgstr "创建侧栏备份 &raquo;"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:126
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:124
 msgid "Restore sidebar:"
 msgstr "复位侧栏："
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:127
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:125
 msgid "Did it fail? Never fear, restore is here!"
 msgstr "失败了？不要怕，您可以在这里恢复！"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:127
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:125
 msgid "I hope you kept that file safe..."
 msgstr "我希望您可以妥善保管那个文件……"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:129
-msgid "Restore"
-msgstr "恢复"
-
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:144
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:142
 msgid "Available Modules"
 msgstr "可用模块"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:175
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:202
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:172
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:198
 msgid "Module Options"
 msgstr "模块选项"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:176
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:203
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:173
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:199
 msgid "Delete Module"
 msgstr "删除模块"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:189
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:185
 msgid "Disabled"
 msgstr "已禁用"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:214
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:211
 msgid "Trash"
 msgstr "回收站"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:225
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:221
 #, php-format
 msgid "Help to be had at the %1$s or in the %2$s."
 msgstr "需要帮助？请到 %1$s 和 %2$s。"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:225
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:221
 msgid "K2 Support Forums"
 msgstr "K2 支持论坛"
 
-#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:225
+#: D:\Source.Code.SVN\K2/app/display/sbm/modules.php:221
 msgid "K2 Documentation"
 msgstr "K2 文档"
 
-#: D:\Source.Code.SVN\K2/app/includes/info.php:277
+#: D:\Source.Code.SVN\K2/app/includes/info.php:375
 msgid "Uncategorized"
 msgstr "未分类"
 
-#: D:\Source.Code.SVN\K2/app/includes/info.php:293
+#: D:\Source.Code.SVN\K2/app/includes/info.php:391
 #, php-format
 msgid "View all posts in %s"
 msgstr "查看 %s 中的所有文章"
@@ -1137,17 +1126,17 @@ msgstr "关于："
 msgid "Enter a blurp about yourself here, and it will show up on the frontpage. Deleting the content disables the about blurp."
 msgstr "请在这里输入您的自我介绍，它将显示在 Blog 首页。如果清空文本框，“关于”将不会显示。"
 
-#: D:\Source.Code.SVN\K2/app/modules/asides.php:11
+#: D:\Source.Code.SVN\K2/app/modules/asides.php:15
 msgid "RSS Feed for Asides"
 msgstr "订阅 Asides"
 
-#: D:\Source.Code.SVN\K2/app/modules/asides.php:21
+#: D:\Source.Code.SVN\K2/app/modules/asides.php:25
 msgid "(more)"
 msgstr "(更多)"
 
-#: D:\Source.Code.SVN\K2/app/modules/asides.php:35
+#: D:\Source.Code.SVN\K2/app/modules/asides.php:42
 #: D:\Source.Code.SVN\K2/app/modules/latest_comments.php:57
-#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:34
+#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:41
 msgid "Number of posts:"
 msgstr "文章数："
 
@@ -1180,7 +1169,7 @@ msgstr "最新一篇文章的颜色："
 msgid "Oldest color:"
 msgstr "最老一篇文章的颜色："
 
-#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:36
+#: D:\Source.Code.SVN\K2/app/modules/latest_posts.php:43
 msgid "Exclude Asides from list:"
 msgstr "不显示 Asides 的分类："
 
