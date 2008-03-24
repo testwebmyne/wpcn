@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-24 10:43+0800\n"
-"PO-Revision-Date: 2008-03-24 11:54+0800\n"
+"PO-Revision-Date: 2008-03-24 11:55+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -2843,11 +2843,11 @@ msgstr "Blog 可见性"
 
 #: C:\xampp\htdocs\wp/wp-admin/options-privacy.php:19
 msgid "I would like my blog to be visible to everyone, including search engines (like Google, Sphere, Technorati) and archivers"
-msgstr "任何人都可以访问我的 Blog ，包括搜索引擎（Google，百度，Technorati 等等）。"
+msgstr "任何人都可以访问我的 Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
 
 #: C:\xampp\htdocs\wp/wp-admin/options-privacy.php:21
 msgid "I would like to block search engines, but allow normal visitors"
-msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问。"
+msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
 
 #: C:\xampp\htdocs\wp/wp-admin/options-reading.php:4
 #: C:\xampp\htdocs\wp/wp-admin/options-reading.php:11
