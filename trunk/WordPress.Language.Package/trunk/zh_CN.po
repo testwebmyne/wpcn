@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-24 10:43+0800\n"
-"PO-Revision-Date: 2008-03-24 13:18+0800\n"
+"PO-Revision-Date: 2008-03-24 16:56+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -324,7 +324,7 @@ msgstr "登录"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-login.php:385
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/install.php:100
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:102
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:76
 msgid "Password"
 msgstr "密码"
 
@@ -981,13 +981,13 @@ msgstr "使用默认颜色"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/custom-header.php:172
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-link-form.php:4
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/media.php:66
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:82
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:112
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:65
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:119
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:113
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:94
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:181
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-privacy.php:27
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:97
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:140
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:70
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:114
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options.php:88
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/widgets.php:307
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/blogger.php:616
@@ -2953,6 +2953,46 @@ msgstr "评论黑名单"
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be marked as spam. One word or IP per line. It will match inside words, so \"press\" will match \"WordPress\"."
 msgstr "当评论的内容、姓名、URL、电子邮箱、IP 地址中包含以下任何一个关键词，则将其标记为垃圾评论。（一行一个关键词）"
 
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:79
+msgid "Avatars"
+msgstr "头像"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:81
+msgid "By default WordPress uses <a href=\"http://gravatar.com/\">Gravatars</a> &#8212; short for Globally Recognized Avatars &#8212; for the pictures that show up next to comments. Plugins may override this."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:87
+msgid "Avatar display"
+msgstr "头像显示"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:90
+msgid "Don&#8217;t show Avatars"
+msgstr "不显示头像"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:90
+msgid "Show Avatars"
+msgstr "显示头像"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:99
+msgid "Maximum Rating"
+msgstr "最高等级"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:103
+msgid "G &#8212; Suitable for all audiences"
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:103
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:103
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:103
+msgid "X &#8212; Even more mature than above"
+msgstr ""
+
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:4
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:11
 msgid "General Settings"
@@ -2983,8 +3023,8 @@ msgid "E-mail address"
 msgstr "电子邮箱地址"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:37
-msgid "This address is used only for admin purposes."
-msgstr "该地址只用于 Blog 管理。"
+msgid "This address is used for admin purposes, like new user notification."
+msgstr "该地址只用于 Blog 管理，比如新用户通知等。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:40
 msgid "Membership"
@@ -3031,24 +3071,28 @@ msgstr "Y年n月j日 g点i分s秒"
 msgid "UTC %1$s is <code>%2$s</code>"
 msgstr "UTC %1$s 是 <code>%2$s</code>"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:89
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:86
+msgid "Unfortunately, you have to manually update this for Daylight Savings Time. Lame, we know, but will be fixed in the future."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:90
 msgid "Date Format"
 msgstr "日期格式"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:91
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:96
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:92
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:97
 msgid "Output:"
 msgstr "预览："
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:94
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:95
 msgid "Time Format"
 msgstr "时间格式"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:97
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:98
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click \"Save Changes\" to update sample output."
 msgstr "具体代码的含义请参考相关文档 <a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">日期时间格式</a>。点击“保存修改”即可看到新格式的输出预览。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:100
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:101
 msgid "Week Starts On"
 msgstr "每星期开始于"
 
@@ -3081,11 +3125,47 @@ msgstr "文件的完整链接路径（可选）"
 msgid "Organize my uploads into month- and year-based folders"
 msgstr "将上传的文件存放在“年份/月份”格式的目录中"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:47
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:41
+msgid "Image sizes"
+msgstr "图片大小"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:42
+msgid "The sizes listed below determine the maximum dimensions to use when inserting an image into the body of a post."
+msgstr "插入图片到日志正文时，以下值决定了这些图片的最大分辨率。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:46
+msgid "Thumbnail size"
+msgstr "缩略图大小"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:48
+msgid "Width"
+msgstr "宽度"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:50
+msgid "Height"
+msgstr "高度"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:53
+msgid "Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:57
+msgid "Medium size"
+msgstr "中等大小"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:59
+msgid "Max Width"
+msgstr "最大宽度"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:61
+msgid "Max Height"
+msgstr "最大高度"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:75
 msgid "Track Links&#8217; Update Times"
 msgstr "追踪链接的更新时间"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:56
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-misc.php:84
 msgid "Use legacy <code>my-hacks.php</code> file support"
 msgstr "兼容旧版 WordPress 中的 <code>my-hacks.php</code> 文件"
 
@@ -3240,43 +3320,11 @@ msgstr "全文"
 msgid "Summary"
 msgstr "摘要"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:61
-msgid "Avatar display"
-msgstr "头像显示"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:65
-msgid "Don't show Avatars"
-msgstr "不显示头像"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:65
-msgid "Show Avatars"
-msgstr "显示头像"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:75
-msgid "Show Avatars with Rating"
-msgstr "允许显示的头像分级"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:79
-msgid "G|rating"
-msgstr "G|分级"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:79
-msgid "PG|Rating"
-msgstr "PG|分级"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:79
-msgid "R|Rating"
-msgstr "R|分级"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:79
-msgid "X|Rating"
-msgstr "X|分级"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:89
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:62
 msgid "Encoding for pages and feeds"
 msgstr "页面及 Feed 的字符集编码"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:91
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-reading.php:64
 msgid "The character encoding you write your blog in (UTF-8 is <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recommended</a>)"
 msgstr "您的 Blog 的输出所采用的字符编码方式（<a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">推荐使用</a> UTF-8）"
 
@@ -3314,69 +3362,39 @@ msgid "Default Link Category"
 msgstr "默认链接分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:60
-msgid "Image sizes"
-msgstr "图片大小"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:61
-msgid "The sizes listed below determine the maximum dimensions to use when inserting an image into the body of a post."
-msgstr "插入图片到日志正文时，以下值决定了这些图片的最大分辨率。"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:65
-msgid "Thumbnail size"
-msgstr "缩略图大小"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:67
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:78
-msgid "Width"
-msgstr "宽度"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:69
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:80
-msgid "Height"
-msgstr "高度"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:72
-msgid "Crop to size"
-msgstr "裁切到该尺寸"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:76
-msgid "Medium size"
-msgstr "中等大小"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:86
 msgid "Post via e-mail"
 msgstr "通过电子邮件发布日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:87
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:61
 #, php-format
 msgid "To post to WordPress by e-mail you must set up a secret e-mail account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <code>%s</code>, <code>%s</code>, <code>%s</code>."
 msgstr "想通过电子邮件发表日志到 WordPress，您必须设置一个支持 POP3 的机密电子邮箱账号。这个信箱帐号收到的所有邮件都会被发布为日志，所以这个电子邮箱地址应该严格保密。这里有几个随机生成的字符串可供您选择：<code>%s</code>, <code>%s</code>, <code>%s</code>。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:91
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:65
 msgid "Mail Server"
 msgstr "邮件服务器"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:93
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:67
 msgid "Port"
 msgstr "端口"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:98
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:72
 msgid "Login Name"
 msgstr "登录名"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:108
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:82
 msgid "Default Mail Category"
 msgstr "默认把用邮件发布的日志归类到"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:123
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:97
 msgid "Update Services"
 msgstr "更新通知"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:127
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:101
 msgid "When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> on the Codex. Separate multiple service <abbr title=\"Universal Resource Locator\">URL</abbr>s with line breaks."
 msgstr "当您发布一篇新日志时，WordPress 会自动通告下列地址，以通知这些网站更新。想了解更多，请参考 WordPress 文档中的 <a href=\"http://codex.wordpress.org/Update_Services\">更新通知</a> 部分。<br />每个通知地址各占一行。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:133
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-writing.php:107
 #, php-format
 msgid "WordPress is not notifying any <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> because of your blog's <a href=\"%s\">privacy settings</a>."
 msgstr "根据您 Blog 中的 <a href=\"%s\">隐私设置</a>， WordPress 不再为您发送任何 <a href=\"http://codex.wordpress.org/Update_Services\">更新服务</a>。"
@@ -7323,15 +7341,15 @@ msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s天"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/formatting.php:1364
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/formatting.php:1371
 msgid ", |between list items"
 msgstr "，|between list items"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/formatting.php:1365
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/formatting.php:1372
 msgid ", and |between last two list items"
 msgstr "，以及 |between last two list items"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/formatting.php:1366
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/formatting.php:1373
 msgid " and |between only two list items"
 msgstr "与|between only two list items"
 
