@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-24 10:43+0800\n"
-"PO-Revision-Date: 2008-03-24 11:52+0800\n"
+"PO-Revision-Date: 2008-03-24 11:54+0800\n"
 "Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -1496,7 +1496,7 @@ msgstr "链接"
 #: C:\xampp\htdocs\wp/wp-admin/edit-link-categories.php:141
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the links in that category. Instead, links that were only assigned to the deleted category are set to the category <strong>%s</strong>."
-msgstr "<strong>提示：</strong><br />删除一个分类并不会删除该分类中的链接，链接会被移动到分类 <strong>%s</strong> 中。"
+msgstr "<strong>提示：</strong><br />删除一个分类并不会删除该分类中的链接，链接会被移动到当前默认分类 <strong>%s</strong> 中。"
 
 #: C:\xampp\htdocs\wp/wp-admin/edit-link-category-form.php:28
 msgid "Category name"
