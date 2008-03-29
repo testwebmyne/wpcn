@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-27 17:19+0800\n"
-"PO-Revision-Date: 2008-03-29 12:22+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-03-29 23:08+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8674,9 +8674,8 @@ msgstr "<em>可视化编辑</em>，又叫做 WYSIWYG (What You See Is What You G
 
 # 等待校对…………
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:173
-#, fuzzy
 msgid "WordPress includes a rich HTML editor that works well in all major web browsers used today. However editing HTML is not the same as typing text. Each web page has two major components: the structure, which is the actual HTML code and is produced by the editor as you type, and the display, that is applied to it by the currently selected WordPress theme and is defined in style.css. WordPress is producing valid XHTML 1.0 which means that inserting multiple line breaks (BR tags) after a paragraph would not produce white space on the web page. The BR tags will be removed as invalid by the internal HTML correcting functions."
-msgstr "WordPress 包含了一款能在当前绝大多数浏览器中正常工作的富文本编辑器。然而，编辑 HTML 代码与纯粹的文本输入是不同的。每个网页都有两个重要的组成部分：结构——即实际的 HTML 代码，随着您的输入，编辑器会为您生成它们；外观——由 WordPress 当前的主题中的 style.css 定义。WordPress 能产生有效的 XHTML 1.0 代码，这意味着结构化元素无法控制外观。所以，在段落后插入换行标签 BR 将不会在页面上产生空行。所插入的 BR 标签将被内置的 HTML 纠错功能视为无效进而被忽略。"
+msgstr "WordPress 包含了一款能在当前绝大多数浏览器中正常工作的富文本编辑器。然而，编辑 HTML 代码与纯粹的文本输入是不同的。每个网页都有两个重要的组成部分：结构——即实际的 HTML 代码，随着您的输入，编辑器会为您生成它们；外观——由 WordPress 当前的主题中的 style.css 定义。WordPress 能产生有效的 XHTML 1.0 代码，这意味着在段落后插入换行标签 BR 将不会在页面上产生空行。所插入的 BR 标签将被内置的 HTML 纠错功能视为无效进而被忽略。"
 
 # 编辑器说明
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:174
@@ -8701,9 +8700,8 @@ msgstr "编辑器工具栏上有一个“插入图片”按钮，用于插入互
 
 # 等待校对…………
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:182
-#, fuzzy
 msgid "If you need to upload an image or another media file from your computer, you can use the Media Library buttons above the editor. The media library will attempt to create a thumbnail-sized copy from each uploaded image. To insert your image into the post, first click on the thumbnail to reveal a menu of options. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing. If you are inserting a movie, there are additional options in the \"Media\" dialog that can be opened from the second toolbar row."
-msgstr "如果您需要上传您的电脑中的图片或其它媒体文件，您可以使用编辑器上方的“媒体库”按钮。媒体库将尝试为上传的图片创建一个缩略图。要将已上传的图片插件到日志中，请点击缩略图，在弹出的菜单中选择相应选项，然后点击“发送到编辑器”，图片或文件就会出现在您所编辑的日志中。如果您需要插入一部影片，那么在编辑器第二行的“媒体”对话框中有相关的扩展设置项。"
+msgstr "如果您需要从电脑中上传图片或其它媒体文件，您可以使用编辑器上方的“媒体库”按钮。媒体库将尝试为上传的每张图片创建一个缩略图。要将已上传的图片插入到日志中，请点击缩略图，在弹出的菜单中选择相应选项，然后点击“发送到编辑器”，图片或文件就会出现在您所编辑的日志中。如果您需要插入一段视频，则请在编辑器第二排的“媒体”对话框中设置相关的扩展选项。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:183
 msgid "HTML in the Rich Editor"
