@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-27 17:19+0800\n"
-"PO-Revision-Date: 2008-03-29 23:50+0800\n"
+"PO-Revision-Date: 2008-03-30 12:51+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -1483,7 +1483,7 @@ msgstr "管理评论"
 
 #: ./wp-admin/edit-form-advanced.php:169
 msgid "Manage All Posts"
-msgstr "管理页面"
+msgstr "管理日志"
 
 #: ./wp-admin/edit-form-advanced.php:170
 msgid "Manage All Categories"
@@ -1491,7 +1491,7 @@ msgstr "管理分类"
 
 #: ./wp-admin/edit-form-advanced.php:171
 msgid "Manage All Tags"
-msgstr "管理页面"
+msgstr "管理标签"
 
 #: ./wp-admin/edit-form-advanced.php:172
 msgid "View Drafts"
@@ -3853,11 +3853,11 @@ msgstr "插件升级成功"
 
 #: ./wp-admin/update.php:123
 msgid "Attempting reactivation of the plugin"
-msgstr "尝试重新启用该插件"
+msgstr "正在尝试重新启用该插件"
 
 #: ./wp-admin/update.php:152
 msgid "Plugin Reactivation"
-msgstr "重新插件启用"
+msgstr "重新启用插件"
 
 # 第一篇评论的名称
 #: ./wp-admin/update.php:152
@@ -6458,7 +6458,7 @@ msgstr "正在解压缩升级文件"
 
 #: ./wp-admin/includes/update.php:202
 msgid "Deactivating the plugin"
-msgstr "禁用的插件。"
+msgstr "正在禁用插件"
 
 #: ./wp-admin/includes/update.php:207
 msgid "Removing the old version of the plugin"
