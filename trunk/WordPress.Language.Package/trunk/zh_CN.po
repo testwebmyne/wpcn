@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-27 17:19+0800\n"
-"PO-Revision-Date: 2008-04-07 07:53+0800\n"
+"PO-Revision-Date: 2008-04-07 08:04+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -5847,7 +5847,7 @@ msgstr "无法访问文件系统。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:239
 msgid "Incompatible archive"
-msgstr "不兼容的文件"
+msgstr "不兼容的存档"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/file.php:242
 msgid "Empty archive"
