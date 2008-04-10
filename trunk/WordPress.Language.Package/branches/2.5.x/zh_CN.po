@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.5.x 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-09 12:19+0800\n"
-"PO-Revision-Date: 2008-04-09 12:20+0800\n"
+"PO-Revision-Date: 2008-04-09 14:29+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -1878,7 +1878,7 @@ msgstr "草稿"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-pages.php:42
 msgid "Drafts|manage posts header"
-msgstr "草稿 | 管理日志头部"
+msgstr "草稿|manage posts header"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-pages.php:42
 #, php-format
@@ -1919,7 +1919,7 @@ msgstr "作者：%s"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-pages.php:74
 #, php-format
 msgid "%1$s%2$s%3$s|You can reorder these: 1: Pages, 2: by {s}, 3: matching {s}"
-msgstr "%1$s%2$s%3$s| 您可以对它们进行重新排序： 1：页面， 2：通过 {s}， 3：符合 {s}"
+msgstr "%1$s%2$s%3$s|You can reorder these: 1: Pages, 2: by {s}, 3: matching {s}"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-pages.php:85
 msgid "All Pages"
@@ -2042,7 +2042,7 @@ msgstr "&#8220;%s&#8221;中的评论"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit.php:56
 msgid "Manage Posts|manage posts header"
-msgstr "管理日志|管理日志篇头"
+msgstr "管理日志|manage posts header"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit.php:60
 #, php-format
@@ -2076,7 +2076,7 @@ msgstr "在 %s 之间"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit.php:78
 #, php-format
 msgid "%1$s%2$s%3$s%4$s%5$s%6$s|You can reorder these: 1: Posts, 2: by {s}, 3: matching {s}, 4: in {s}, 5: tagged with {s}, 6: during {s}"
-msgstr "%1$s%2$s%3$s%4$s%5$s%6$s| 你可以对他们进行重新排序： 1：日志， 2：通过 {s}，3：符合 {s}， 4：在 {s} 中， 5：标签为 {s} 期间, 6：在 {s} 期间"
+msgstr "%1$s%2$s%3$s%4$s%5$s%6$s|You can reorder these: 1: Posts, 2: by {s}, 3: matching {s}, 4: in {s}, 5: tagged with {s}, 6: during {s}"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit.php:87
 msgid "All Posts"
@@ -3376,7 +3376,7 @@ msgstr "模板"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/theme-editor.php:134
 msgid "Styles|Theme stylesheets in theme editor"
-msgstr "样式表|主题编辑器中的主题样式表"
+msgstr "样式表|Theme stylesheets in theme editor"
 
 # 以下为模板管理页面
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/themes.php:14
@@ -3403,7 +3403,7 @@ msgstr "当前主题预览"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/themes.php:36
 #, php-format
 msgid "%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author"
-msgstr "%1$s %2$s by %3$s|1：主题标题， 2：主题版本， 3：主题作者"
+msgstr "%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/themes.php:39
 #, php-format
@@ -3573,7 +3573,7 @@ msgstr "%s 秒"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/upload.php:59
 msgid "Manage Media|manage media header"
-msgstr "管理媒体|管理媒体篇头"
+msgstr "管理媒体|manage media header"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/upload.php:94
 msgid "All Types"
@@ -3856,7 +3856,7 @@ msgstr "所有用户"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/users.php:282
 #, php-format
 msgid "%1$s (%2$s)|user role with count"
-msgstr "%1$s (%2$s)|使用数字区分用户规则"
+msgstr "%1$s (%2$s)|user role with count"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/users.php:291
 msgid "Search Users"
@@ -5759,23 +5759,23 @@ msgstr "Y-m-d g:i a"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/schema.php:277
 msgid "Administrator|User role"
-msgstr "管理员|用户身份"
+msgstr "管理员|User role"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/schema.php:278
 msgid "Editor|User role"
-msgstr "编辑|用户身份"
+msgstr "编辑|User role"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/schema.php:279
 msgid "Author|User role"
-msgstr "作者|用户身份"
+msgstr "作者|User role"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/schema.php:280
 msgid "Contributor|User role"
-msgstr "投稿人|用户身份"
+msgstr "投稿人|User role"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/schema.php:281
 msgid "Subscriber|User role"
-msgstr "订阅者|用户身份"
+msgstr "订阅者|User role"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:295
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:332
@@ -5789,23 +5789,23 @@ msgstr "已提交"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:317
 msgid "Media|media column header"
-msgstr "媒体|媒体栏目题头"
+msgstr "媒体|media column header"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:318
 msgid "Description|media column header"
-msgstr "描述|媒体栏目题头"
+msgstr "描述|media column header"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:319
 msgid "Date Added|media column header"
-msgstr "添加日期|媒体栏目题头"
+msgstr "添加日期|media column header"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:320
 msgid "Appears with|media column header"
-msgstr "所在位置|媒体栏目题头"
+msgstr "所在位置|media column header"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:322
 msgid "Location|media column header"
-msgstr "地址|媒体栏目题头"
+msgstr "地址|media column header"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:568
 #, php-format
@@ -5874,7 +5874,7 @@ msgstr "添加自定义字段"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:871
 #, php-format
 msgid "%1$s%2$s, %3$s <br />@ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
-msgstr "%1$s%2$s%3$s @ %4$s : %5$s|1: 月, 2: 日, 3: 年, 4: 小时, 5: 分钟"
+msgstr "%1$s%2$s%3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:920
 msgid "WordPress recommends a better browser"
@@ -6165,7 +6165,7 @@ msgstr "没有找到符合条件的 Widgets"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/widgets.php:216
 #, php-format
 msgid "%1$s: %2$s|1: widget name, 2: widget title"
-msgstr "%1$s: %2$s|1：侧栏名称，2：侧栏标题"
+msgstr "%1$s: %2$s|1: widget name, 2: widget title"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/widgets.php:243
 msgid "There are no options for this widget."
@@ -6384,7 +6384,7 @@ msgstr "目前您的<a href='%1$s'>垃圾评论队列</a>为空。"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/plugins/akismet/akismet.php:678
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
-msgstr "%1$s %2$s|马上使用 Akismet"
+msgstr "%1$s %2$s|akismet_rightnow"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/plugins/akismet/akismet.php:693
 msgid "Recheck Queue for Spam"
@@ -7183,7 +7183,7 @@ msgstr "日历"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/general-template.php:592
 #, php-format
 msgid "%1$s %2$s|Used as a calendar caption"
-msgstr "%1$s %2$s|用于日历说明"
+msgstr "%1$s %2$s|Used as a calendar caption"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/general-template.php:616
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/general-template.php:626
@@ -7445,15 +7445,15 @@ msgstr "下午"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/locale.php:183
 msgid "number_format_decimals|$decimals argument for http://php.net/number_format, default is 0"
-msgstr "0|$decimals 参见 http://php.net/number_format, 默认为 0"
+msgstr "number_format_decimals|$decimals argument for http://php.net/number_format, default is 0"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/locale.php:186
 msgid "number_format_decimal_point|$dec_point argument for http://php.net/number_format, default is ."
-msgstr ".|$dec_point 参见 http://php.net/number_format, 默认为 ."
+msgstr "number_format_decimal_point|$dec_point argument for http://php.net/number_format, default is ."
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/locale.php:189
 msgid "number_format_thousands_sep|$thousands_sep argument for http://php.net/number_format, default is ,"
-msgstr ",|$thousands_sep 参见 http://php.net/number_format, 默认为 ,"
+msgstr "number_format_thousands_sep|$thousands_sep argument for http://php.net/number_format, default is ,"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/media.php:217
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/media.php:221
@@ -8716,11 +8716,11 @@ msgstr "插入/编辑内嵌多媒体"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:140
 msgid "0| Extra width for the media popup in pixels"
-msgstr "0| 媒体弹出窗口的宽度（像素）"
+msgstr "0| Extra width for the media popup in pixels"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:141
 msgid "0| Extra height for the media popup in pixels"
-msgstr "0| 媒体弹出窗口的高度（像素）"
+msgstr "0| Extra height for the media popup in pixels"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:142
 msgid "Edit embedded media"
@@ -8892,11 +8892,11 @@ msgstr "增加缩进量"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:203
 msgid "0| Extra width for the link popup in pixels"
-msgstr "0| 链接弹出窗口的宽度（像素）"
+msgstr "0| Extra width for the link popup in pixels"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:204
 msgid "0| Extra height for the link popup in pixels"
-msgstr "0| 链接弹出窗口的高度（像素）"
+msgstr "0| Extra height for the link popup in pixels"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:205
 msgid "Unlink"
@@ -8904,11 +8904,11 @@ msgstr "删除链接"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:207
 msgid "0| Extra width for the image popup in pixels"
-msgstr "0| 图片弹出窗口的宽度（像素）"
+msgstr "0| Extra width for the image popup in pixels"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:208
 msgid "0| Extra height for the image popup in pixels"
-msgstr "0| 图片弹出窗口的高度（像素）"
+msgstr "0| Extra height for the image popup in pixels"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:209
 msgid "Cleanup messy code"
@@ -8978,11 +8978,11 @@ msgstr "Alt+Q 切换到工具按钮，Alt-Z 切换到编辑器，Alt-X 切换到
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:232
 msgid "0| Extra width for the colorpicker popup in pixels"
-msgstr "0| 拾色器弹出窗口的宽度（像素）"
+msgstr "0| Extra width for the colorpicker popup in pixels"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:233
 msgid "0| Extra height for the colorpicker popup in pixels"
-msgstr "0| 拾色器弹出窗口的高度（像素）"
+msgstr "0| Extra height for the colorpicker popup in pixels"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:240
 msgid "License"
