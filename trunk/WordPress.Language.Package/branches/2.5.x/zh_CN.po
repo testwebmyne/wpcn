@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.5.x 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-21 10:56+0800\n"
-"PO-Revision-Date: 2008-04-21 11:04+0800\n"
+"POT-Creation-Date: 2008-04-21 15:17+0800\n"
+"PO-Revision-Date: 2008-04-21 15:17+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "抱歉，您无权编辑或者发布新的日志。"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-app.php:448
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-app.php:599
 msgid "Sorry, your entry could not be posted. Something wrong happened."
-msgstr "发生错误，无法发表您的日志。"
+msgstr "抱歉，出现了一些错误，无法发表您的日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-app.php:299
 msgid "Sorry, you do not have the right to access this post."
@@ -75,11 +75,11 @@ msgstr "读取日志的文件位置元数据时出错。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-comments-post.php:21
 msgid "Sorry, comments are closed for this item."
-msgstr "抱歉，这篇日志评论已关闭。"
+msgstr "抱歉，这篇文章评论已关闭。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-comments-post.php:46
 msgid "Sorry, you must be logged in to post a comment."
-msgstr "对不起，发表评论前您必须先登录。"
+msgstr "抱歉，发表评论前您必须先登录。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-comments-post.php:53
 msgid "Error: please fill the required fields (name, email)."
@@ -141,7 +141,7 @@ msgstr "可能是因为您的服务器禁用了 mail() 函数。"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:119
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:123
 msgid "Invalid key"
-msgstr "无效的密码重置密钥"
+msgstr "无效的激活密钥"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:131
 #, php-format
@@ -194,7 +194,7 @@ msgstr "<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:244
 msgid "Sorry, that key does not appear to be valid."
-msgstr "对不起，验证码无效。"
+msgstr "抱歉，验证码无效。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:247
 msgid "Lost Password"
@@ -202,7 +202,7 @@ msgstr "忘记密码"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:247
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
-msgstr "请输入您的用户名或电子邮箱地址，我们会把新的密码发到您的电子邮箱里。"
+msgstr "请输入您的用户名或电子邮箱地址。您会收到一封包含新密码的电子邮件。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:252
 msgid "Username or E-mail:"
@@ -276,7 +276,7 @@ msgstr "<strong>错误</strong>：Cookies 被禁用或您的浏览器不支持�
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:369
 msgid "You are now logged out."
-msgstr "已成功注销。"
+msgstr "您现在已注销。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-login.php:370
 msgid "User registration is currently not allowed."
@@ -451,11 +451,11 @@ msgstr "无效的日志 ID"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/xmlrpc.php:1449
 msgid "You are not allowed to change the post author as this user."
-msgstr "您无权以该用户身份编辑该日志。"
+msgstr "您无权以该用户身份编辑该日志作者"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/xmlrpc.php:1454
 msgid "You are not allowed to change the page author as this user."
-msgstr "您无权以该用户身份编辑该页面。"
+msgstr "您无权以该用户身份编辑该页面作者"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/xmlrpc.php:1562
 msgid "Sorry, you do not have the right to publish this page."
@@ -587,7 +587,7 @@ msgstr "您无权编辑该日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/admin-footer.php:8
 msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>"
-msgstr "感谢您选用 <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "感谢您使用 <a href=\"http://wordpress.org/\">WordPress</a>"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/admin-footer.php:8
 msgid "<a href=\"http://codex.wordpress.org/\">Documentation</a>"
@@ -784,7 +784,7 @@ msgstr "您将要审核通过下列评论："
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/comment.php:69
 msgid "Approve Comment"
-msgstr "审核该评论"
+msgstr "审核评论"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/comment.php:73
 msgid "Caution:"
@@ -1042,7 +1042,7 @@ msgstr "已审核|plural"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-comments.php:102
 msgid "Show All Comments"
-msgstr "所有评论"
+msgstr "显示所有评论"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-comments.php:121
 msgid "Search Comments"
@@ -1131,7 +1131,7 @@ msgstr "预览该日志"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:86
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:72
 msgid "Publish Status"
-msgstr "发表状态"
+msgstr "发布状态"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:90
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:76
@@ -1229,13 +1229,13 @@ msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:145
 msgid "Delete&nbsp;post"
-msgstr "删除日志"
+msgstr "删除 &nbsp; 日志"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:151
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:135
 #, php-format
 msgid "Last edited by %1$s on %2$s at %3$s"
-msgstr "由 %1$s 最后编辑于：<br />%2$s - %3$s"
+msgstr "%1$s 在 %2$s - %3$s 最后一次编辑"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:153
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:137
@@ -1259,19 +1259,19 @@ msgstr "查看该日志的评论"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-comment.php:57
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:152
 msgid "Manage All Comments"
-msgstr "管理评论"
+msgstr "管理所有评论"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:169
 msgid "Manage All Posts"
-msgstr "管理日志"
+msgstr "管理所有日志"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:170
 msgid "Manage All Categories"
-msgstr "管理分类"
+msgstr "管理所有分类"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:171
 msgid "Manage All Tags"
-msgstr "管理标签"
+msgstr "管理所有标签"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:172
 msgid "View Drafts"
@@ -1296,7 +1296,7 @@ msgstr "标签"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:221
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-link-form.php:105
 msgid "+ Add New Category"
-msgstr "+ 添加分类"
+msgstr "+ 添加新分类"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:223
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-link-form.php:107
@@ -1320,7 +1320,7 @@ msgstr "所有分类"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:233
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-link-form.php:116
 msgid "Most Used"
-msgstr "常用分类"
+msgstr "使用最多"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-form-advanced.php:255
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-link-form.php:136
@@ -1542,11 +1542,11 @@ msgstr "删除&nbsp;链接"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-link-form.php:66
 msgid "Manage All Links"
-msgstr "管理链接"
+msgstr "管理所有链接"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-link-form.php:67
 msgid "Manage All Link Categories"
-msgstr "管理链接分类"
+msgstr "管理所有链接分类"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-link-form.php:68
 msgid "Import Links"
@@ -1743,7 +1743,7 @@ msgstr "预览该页面"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:81
 msgid "Pending"
-msgstr "预发布"
+msgstr "待审核"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:88
 msgid "Keep this page private"
@@ -1760,7 +1760,7 @@ msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:129
 msgid "Delete&nbsp;page"
-msgstr "删除页面"
+msgstr "删除&nbsp;页面"
 
 # 加一个引号标识出日志标题
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:150
@@ -1769,7 +1769,7 @@ msgstr "查看该页面的评论"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:153
 msgid "Manage All Pages"
-msgstr "管理页面"
+msgstr "管理所有页面"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-page-form.php:177
 msgid "Page"
@@ -1965,7 +1965,7 @@ msgstr "无标签"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-post-rows.php:137
 #, php-format
 msgid "View \"%s\""
-msgstr "查看 %s"
+msgstr "查看 \"%s\""
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit-post-rows.php:162
 msgid "View"
@@ -2100,11 +2100,11 @@ msgstr "搜索日志"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit.php:150
 msgid "Show all dates"
-msgstr "所有日期"
+msgstr "显示所有日期"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit.php:171
 msgid "View all categories"
-msgstr "所有分类"
+msgstr "查看所有分类"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/edit.php:176
 msgid "Filter"
@@ -2137,7 +2137,7 @@ msgstr "限定作者："
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/export.php:28
 msgid "All Authors"
-msgstr "全部作者"
+msgstr "所有作者"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/export.php:40
 msgid "Download Export File"
@@ -2198,7 +2198,7 @@ msgstr[0] "%s 篇预发布日志"
 #, php-format
 msgid "There is <a href=\"%1$s\">%2$s post</a> pending your review."
 msgid_plural "There are <a href=\"%1$s\">%2$s posts</a> pending your review."
-msgstr[0] "目前有 <a href=\"%2$s\">%1$s 篇日志</a> 等待审核。"
+msgstr[0] "目前有 <a href=\"%1$s\">%2$s 篇日志</a> 等待审核。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/index.php:89
 #, php-format
@@ -2390,7 +2390,7 @@ msgstr "搜索链接"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/link-manager.php:94
 msgid "View all Categories"
-msgstr "显示所有分类"
+msgstr "查看所有分类"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/link-manager.php:100
 msgid "Order by Link ID"
@@ -3170,7 +3170,7 @@ msgstr "更新文件"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/plugin-editor.php:146
 msgid "You need to make this file writable before you can save your changes. See <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more information."
-msgstr "必须将该文件设置为可读才能保存更改。查看 <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">技术文档/a> 以获取更多信息。"
+msgstr "必须将该文件设置为可写才能保存更改。查看 <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">技术文档/a> 以获取更多信息。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/plugin-editor.php:151
 msgid "Oops, no such file exists! Double check the name and try again, merci."
@@ -3331,7 +3331,7 @@ msgstr "已发布"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/sidebar.php:23
 #, php-format
 msgid "<a href=\"%s\">Click here</a> to post again."
-msgstr "<a href=\"%s\">再次发表</a>"
+msgstr "<a href=\"%s\">点击这里</a>再次发布。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/sidebar.php:33
 msgid "WordPress &#8250; Sidebar"
@@ -3385,7 +3385,7 @@ msgstr "管理主题"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/themes.php:20
 msgid "The active theme is broken.  Reverting to the default theme."
-msgstr "当前主题已损坏，已恢复为默认主题。"
+msgstr "当前主题已损坏，正在恢复到默认主题。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/themes.php:22
 #, php-format
@@ -3997,7 +3997,7 @@ msgstr "导入 Blogger"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/blogger.php:14
 msgid "Howdy! This importer allows you to import posts and comments from your Blogger account into your WordPress blog."
-msgstr "该导入工具可以帮助您从 Blogger 中导入日志和评论到 WordPress。"
+msgstr "您好！该导入工具可以帮助您从 Blogger 中导入日志和评论到 WordPress。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/blogger.php:15
 msgid "To use this importer, you must have a Google account and an upgraded (New, was Beta) blog hosted on blogspot.com or a custom domain (not FTP)."
@@ -4147,7 +4147,7 @@ msgstr "Blogger"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/blogger.php:840
 msgid "Import posts, comments, and users from a Blogger blog."
-msgstr "从 Blogger 中导入日志、评论和用户"
+msgstr "从 Blogger 中导入日志、评论和用户。"
 
 # 以下为导入链接
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/blogware.php:11
@@ -4156,7 +4156,7 @@ msgstr "导入 Blogware"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/blogware.php:26
 msgid "Howdy! This importer allows you to extract posts from Blogware XML export file into your blog.  Pick a Blogware file to upload and click Import."
-msgstr "该导入工具可以帮助您从 Blogware 导出的 XML 文件中解析出日志并导入到您的 Blog 中。请选择 Blogware 导出文件然后点导入按钮。"
+msgstr "您好！这个导入工具可以帮您从 Blogware 导出的 XML 文件中解析出日志并导入到您的 Blog 中。请选择 Blogware 导出文件然后点导入按钮。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/blogware.php:89
 #, php-format
@@ -4189,7 +4189,7 @@ msgstr "Blogware"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/blogware.php:200
 msgid "Import posts from Blogware."
-msgstr "从 Blogware 中导入日志"
+msgstr "从 Blogware 中导入日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/btt.php:7
 msgid "Import Bunny&#8217;s Technorati Tags"
@@ -4230,7 +4230,7 @@ msgstr "读取 Bunny&#8217;s Technorati Tags&#8230;"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/jkw.php:83
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/jkw.php:124
 msgid "No Tags Found!"
-msgstr "没有找到标签"
+msgstr "没有找到标签！"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/btt.php:71
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/jkw.php:87
@@ -4431,7 +4431,7 @@ msgstr "Dotclear"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/dotclear.php:745
 msgid "Import categories, users, posts, comments, and links from a DotClear blog."
-msgstr "从 DotClear 导入分类、用户、日志、评论和链接"
+msgstr "从 DotClear 导入分类、用户、日志、评论和链接。"
 
 # Greymatter 导入工具
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/greymatter.php:9
@@ -4575,7 +4575,7 @@ msgstr "Greymatter"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/greymatter.php:319
 msgid "Import users, posts, and comments from a Greymatter blog."
-msgstr "从 Greymatter 导入用户、日志和评论"
+msgstr "从 Greymatter 导入用户、日志和评论。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/jkw.php:7
 msgid "Import Jerome&#8217;s Keywords"
@@ -4623,7 +4623,7 @@ msgstr "导入 LiveJournal"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/livejournal.php:24
 msgid "Howdy! Upload your LiveJournal XML export file and we&#8217;ll import the posts into this blog."
-msgstr "请选择您从 LiveJournal 中导出的 XML 文件，我们将把其中的日志导入到您的 Blog 中。"
+msgstr "您好！请选择您从 LiveJournal 中导出的 XML 文件，我们将把其中的日志导入到您的 Blog 中。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/livejournal.php:25
 msgid "Choose a LiveJournal XML file to upload, then click Upload file and import."
@@ -4643,7 +4643,7 @@ msgstr "LiveJournal"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/livejournal.php:178
 msgid "Import posts from a LiveJournal XML export file."
-msgstr "从 LiveJournal 导出文件中导入日志"
+msgstr "从 LiveJournal 导出文件中导入日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/mt.php:14
 msgid "Import Movable Type or TypePad"
@@ -4681,7 +4681,7 @@ msgstr "在下面，您可以看到所有 MovableType 日志中的作者被用<i
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/mt.php:158
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/wordpress.php:185
 msgid "If a new user is created by WordPress, a password will be randomly generated. Manually change the user's details if necessary."
-msgstr "如果在 WordPress 中创建一个新用户，用户密码会被默认设成\"changeme\"。很聪明的想法，不是吗？;)"
+msgstr "如果在 WordPress 中创建一个新用户，会随机生成一个用户密码。如果必要的话，请手动更改用户信息。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/mt.php:169
 msgid "Current author:"
@@ -4704,12 +4704,12 @@ msgstr "<code>mt-export.txt</code> 不存在"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/mt.php:190
 msgid "Sorry, there has been an error"
-msgstr "对不起，有错误发生"
+msgstr "抱歉，有错误发生"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/mt.php:231
 #, php-format
 msgid "<br />Adding tags <i>%s</i>..."
-msgstr "<br />正在添加标签<i>%s</i>..."
+msgstr "<br />正在添加标签<i>%s</i>……"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/mt.php:267
 #, php-format
@@ -4723,7 +4723,7 @@ msgstr "Movable Type 和 Typepad"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/mt.php:468
 msgid "Import posts and comments from a Movable Type or Typepad blog."
-msgstr "从 Movable Type 或 Typepad 中导入日志和评论"
+msgstr "从 Movable Type 或 Typepad 中导入日志和评论。"
 
 # RSS 2.0导入工具
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/rss.php:10
@@ -4752,7 +4752,7 @@ msgstr "RSS"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/rss.php:181
 msgid "Import posts from an RSS feed."
-msgstr "从 RSS feed 中导入日志"
+msgstr "从 RSS feed 中导入日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/stp.php:5
 msgid "Import Simple Tagging"
@@ -4765,11 +4765,11 @@ msgstr "已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 
 # (Mileage may vary)
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/stp.php:16
 msgid "This has not been tested on any other versions of Simple Tagging. Mileage may vary."
-msgstr "这没有在其它版本的 Ultimate Tag Warrior 上测试过。后果无法预计。"
+msgstr "这没有在其它版本的 Simple Tagging 上测试过。后果无法预计。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/stp.php:17
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
-msgstr "为了适应标签狂人的大数据库，我们准备了一个简单的五步程序帮助您从 Simple Tagging 转换。您只需要一路点击，我们会让您清楚地知道下一步应该干什么。"
+msgstr "为了适应标签狂人的大数据库，我们准备了一个简单的四步程序帮助您从 Simple Tagging 转换。您只需要一路点击，我们会让您清楚地知道下一步应该干什么。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/stp.php:21
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/utw.php:22
@@ -4849,7 +4849,7 @@ msgstr "您的 Textpattern 配置如下："
 #, php-format
 msgid "Done! <strong>%s</strong> link imported"
 msgid_plural "Done! <strong>%s</strong> links imported"
-msgstr[0] "完成！<strong>%s</strong> 个分类已导入"
+msgstr[0] "完成！<strong>%s</strong> 个链接已导入"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/textpattern.php:559
 msgid "Welcome to WordPress.  We hope (and expect!) that you will find this platform incredibly rewarding!  As a new WordPress user coming from Textpattern, there are some things that we would like to point out.  Hopefully, they will help your transition go as smoothly as possible."
@@ -4867,7 +4867,7 @@ msgstr "而且，既然您来自 Textpattern，您可能曾经使用 Textile 来
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/textpattern.php:573
 #, php-format
 msgid "That&#8217;s it! What are you waiting for? Go <a href=\"%1$s\">login</a>!"
-msgstr "就这样了！还在等什么？快点去 <a href=\"%1$s\">登录</a>！"
+msgstr "就这样了！还在等什么？快点去 <a href=\"%1$s\">登录</a>吧！"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/textpattern.php:579
 msgid "Textpattern Database User:"
@@ -4895,7 +4895,7 @@ msgstr "Textpattern"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/textpattern.php:673
 msgid "Import categories, users, posts, comments, and links from a Textpattern blog."
-msgstr "从 Textpattern 中导入分类、用户、日志、评论和链接"
+msgstr "从 Textpattern 中导入分类、用户、日志、评论和链接。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/utw.php:7
 msgid "Import Ultimate Tag Warrior"
@@ -4936,7 +4936,7 @@ msgstr "读取 UTW 日志标签&#8230;"
 #, php-format
 msgid "Done! <strong>%s</strong> tag were added!"
 msgid_plural "Done! <strong>%s</strong> tags were added!"
-msgstr[0] "完成！<strong>%s</strong> 条标签已添加！"
+msgstr[0] "完成！<strong>%s</strong> 个标签已添加！"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/utw.php:164
 msgid "Step 4"
@@ -5033,7 +5033,7 @@ msgstr "远程文件太大了，限制为 %s"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/wordpress.php:704
 msgid "Sorry, there has been an error."
-msgstr "对不起，有错误发生。"
+msgstr "抱歉，有错误发生。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/import/wordpress.php:746
 msgid "Import <strong>posts, comments, custom fields, pages, and categories</strong> from a WordPress export file."
@@ -5195,7 +5195,7 @@ msgstr "次要 Feed"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:207
 msgid "See&nbsp;All"
-msgstr "查看全部"
+msgstr "查看 &nbsp; 所有"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:219
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:825
@@ -5337,15 +5337,15 @@ msgstr "弹出式评论模板"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/file.php:85
 msgid "Sorry, can&#8217;t edit files with \"..\" in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in."
-msgstr "对不起，无法编辑文件路径中包含\"..\"的文件。如果您想编辑 WordPress 根目录里的文件，请直接输入要编辑的文件名，前面不用加目录名。"
+msgstr "抱歉，无法编辑文件路径中包含\"..\"的文件。如果您想编辑 WordPress 根目录里的文件，请直接输入要编辑的文件名，前面不用加目录名。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/file.php:88
 msgid "Sorry, can&#8217;t call files with their real path."
-msgstr "对不起，不能用文件的真实路径调用文件。"
+msgstr "抱歉，不能用文件的真实路径调用文件。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/file.php:91
 msgid "Sorry, that file cannot be edited."
-msgstr "对不起，不能编辑该文件。"
+msgstr "抱歉，不能编辑该文件。"
 
 # 下面均为上传文件的错误信息
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/file.php:116
@@ -5485,12 +5485,12 @@ msgstr "已保存。"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:432
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:528
 msgid "Caption"
-msgstr "摘要"
+msgstr "说明"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:433
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1085
 msgid "Alternate text, e.g. \"The Mona Lisa\""
-msgstr "替换文本。例如：蒙娜丽莎"
+msgstr "替换文字。例如：\"蒙娜丽莎\""
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:440
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1087
@@ -5516,7 +5516,7 @@ msgstr "右"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:453
 msgid "Size"
-msgstr "显示尺寸"
+msgstr "尺寸"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:457
 msgid "Thumbnail"
@@ -5597,7 +5597,7 @@ msgstr "从URL"
 # 对应于Add Images（而非Add Image）
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:915
 msgid "Insert gallery into post"
-msgstr "插入媒体到日志"
+msgstr "插入相册到日志"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1034
 msgid "Filter &#187;"
@@ -5874,7 +5874,7 @@ msgstr "添加自定义字段"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:875
 #, php-format
 msgid "%1$s%2$s, %3$s <br />@ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
-msgstr "%1$s%2$s%3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
+msgstr "%1$s%2$s, %3$s <br />@ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/template.php:924
 msgid "WordPress recommends a better browser"
@@ -6110,7 +6110,7 @@ msgstr ""
 "--The WordPress Team\n"
 "http://wordpress.org/\n"
 "--WordPress 中文团队\n"
-"http://wpcng.com/\n"
+"http://www.wpcng.com/\n"
 
 # 安装成功 email 的标题
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/upgrade.php:134
@@ -6455,12 +6455,12 @@ msgstr "登陆为 %s。"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/themes/classic/comments-popup.php:60
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/themes/classic/comments.php:46
 msgid "Log out of this account"
-msgstr "登出此帐号"
+msgstr "注销当前账号"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/themes/classic/comments-popup.php:60
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/themes/classic/comments.php:46
 msgid "Log out &raquo;"
-msgstr "登出 &raquo;"
+msgstr "注销 &raquo;"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/themes/classic/comments-popup.php:76
 msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
@@ -7897,7 +7897,7 @@ msgstr "无效的分类"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/taxonomy.php:1168
 msgid "Invalid term ID"
-msgstr "无效 term ID。"
+msgstr "无效 term ID"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/taxonomy.php:1199
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/taxonomy.php:1206
@@ -8062,19 +8062,19 @@ msgstr "Feed 标题 (可选):"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1257
 msgid "How many items would you like to display?"
-msgstr "条目显示数量"
+msgstr "条目显示数量？"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1270
 msgid "Display item content?"
-msgstr "显示条目内容"
+msgstr "显示条目内容？"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1277
 msgid "Display item author if available?"
-msgstr "若可用，显示条目作者"
+msgstr "若可用，显示条目作者？"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1284
 msgid "Display item date?"
-msgstr "显示条目日期"
+msgstr "显示条目日期？"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1317
 msgid "Error: could not find an RSS or ATOM feed at that URL."
@@ -8308,7 +8308,7 @@ msgstr "地址"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/wp-mce-help.php:208
 msgid "The following shortcuts use different access keys: Alt + Shift + letter."
-msgstr "以下功能使用不同的快捷键：Alt + Shift + 快捷键"
+msgstr "以下功能使用不同的快捷键：Alt + Shift + 字母键。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/wp-mce-help.php:215
 msgid "Check Spelling"
@@ -8347,7 +8347,7 @@ msgstr "插入链接"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/wp-mce-help.php:219
 msgid "Remove link"
-msgstr "去除链接"
+msgstr "移除链接"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/wp-mce-help.php:220
 msgid "Quote"
@@ -8464,7 +8464,7 @@ msgstr "错误：输入的值无效，已经用红色标出。"
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:26
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:231
 msgid "More colors"
-msgstr "其它颜色"
+msgstr "更多颜色"
 
 # 校对后新翻译词条
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:33
@@ -8605,7 +8605,7 @@ msgstr "粘贴为纯文本"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:102
 msgid "Paste from Word"
-msgstr "粘贴为富文本"
+msgstr "从 Word 中粘贴"
 
 # 提示用户在下拉列表中选择。
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:103
@@ -8801,7 +8801,7 @@ msgstr "段落"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:174
 msgid "Div"
-msgstr "部分"
+msgstr "Div"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:176
 msgid "Preformatted"
@@ -9014,7 +9014,7 @@ msgstr "拾色器"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:252
 msgid "Color picker"
-msgstr "拾色器"
+msgstr "颜色拾色器"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/js/tinymce/langs/wp-langs.php:253
 msgid "Palette"
