@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: WordPress 2.5.x 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-21 15:17+0800\n"
-"PO-Revision-Date: 2008-04-21 15:17+0800\n"
-"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"PO-Revision-Date: 2008-04-24 16:22+0800\n"
+"Last-Translator: Leo <skyros[at]gmail(dot)com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2160,7 +2160,7 @@ msgstr "管理首页"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/index.php:49
 msgid "Right Now"
-msgstr "当前情况"
+msgstr "当前情况统计"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/index.php:52
 msgid "Write a New Post"
