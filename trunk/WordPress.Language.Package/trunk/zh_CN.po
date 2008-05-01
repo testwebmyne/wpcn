@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-29 08:28+0800\n"
-"PO-Revision-Date: 2008-04-29 08:28+0800\n"
+"PO-Revision-Date: 2008-05-01 21:53+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -5243,7 +5243,7 @@ msgstr "次要 Feed"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:207
 msgid "See&nbsp;All"
-msgstr "查看 &nbsp; 所有"
+msgstr "查看所有"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:219
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:830
