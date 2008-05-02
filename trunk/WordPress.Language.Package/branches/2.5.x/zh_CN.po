@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.5.x 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-29 08:31+0800\n"
-"PO-Revision-Date: 2008-05-01 21:54+0800\n"
+"POT-Creation-Date: 2008-05-02 19:48+0800\n"
+"PO-Revision-Date: 2008-05-02 19:49+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -5151,112 +5151,112 @@ msgstr "查找 %s"
 msgid "You are not allowed to edit comments on this post, so you cannot edit this comment."
 msgstr "您没有编辑该日志的权限，所以您不能编辑这条评论。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:27
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:29
 #, php-format
 msgid "%d comment awaiting moderation"
 msgid_plural "%d comments awaiting moderation"
 msgstr[0] "%d 条评论正在等待审核"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:32
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:34
 msgid "Recent Comments"
 msgstr "最新评论"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:46
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:50
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:48
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:52
 msgid "Incoming Links"
 msgstr "外部链接"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:66
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:68
 msgid "http://wordpress.org/development/"
 msgstr "http://wordpress.org/development/"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:67
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:69
 msgid "http://wordpress.org/development/feed/"
 msgstr "http://wordpress.org/development/feed/"
 
 # 安装成功 email 的标题
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:68
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:70
 msgid "WordPress Development Blog"
 msgstr "WordPress 开发日志"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:79
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:81
 msgid "Primary Feed"
 msgstr "主要 Feed"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:88
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:90
 msgid "http://planet.wordpress.org/"
 msgstr "http://planet.wordpress.org/"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:89
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:91
 msgid "http://planet.wordpress.org/feed/"
 msgstr "http://planet.wordpress.org/feed/"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:90
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:92
 msgid "Other WordPress News"
 msgstr "其它 WordPress 新闻"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:98
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:100
 msgid "Secondary Feed"
 msgstr "次要 Feed"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:207
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:209
 msgid "See&nbsp;All"
 msgstr "查看所有"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:219
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:825
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:221
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:828
 msgid "Cancel"
 msgstr "取消"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:226
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:228
 msgid "rss icon"
 msgstr "RSS feed 的图标"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:282
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:284
 #, php-format
 msgid "From <strong>%1$s</strong> on %2$s %3$s"
 msgstr "<strong>%s</strong> 发表于 %s %s"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:346
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:348
 msgid "something"
 msgstr "某物"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:349
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:351
 #, php-format
 msgid "%1$s linked here <a href=\"%2$s\">saying</a>, \"%3$s\"|feed_display"
 msgstr "%1$s <a href=\"%2$s\">写道</a>， \"%3$s\"|feed_display"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:351
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:353
 #, php-format
 msgid "%1$s linked here saying, \"%3$s\"|feed_display"
 msgstr "%1$s 写道, \"%3$s\"|feed_display"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:355
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:357
 #, php-format
 msgid " on %4$s|feed_display"
 msgstr "位于 %4$s|feed_display"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:367
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:369
 msgid "This dashboard widget queries <a href=\"http://blogsearch.google.com/\">Google Blog Search</a> so that when another blog links to your site it will show up here. It has found no incoming links&hellip; yet. It&#8217;s okay &#8212; there is no rush."
 msgstr "该面板组件会向 <a href=\"http://blogsearch.google.com/\">Google 博客搜索</a> 进行查询。当其它博客有指向您的站点的外部链接时，将在此显示。目前还没有发现外部链接，没关系，不用急。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:406
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:408
 msgid "Most Popular"
 msgstr "最受欢迎"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:406
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:408
 msgid "Newest Plugins"
 msgstr "最新插件"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:406
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:408
 msgid "Recently Updated"
 msgstr "最近更新"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:437
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:439
 msgid "Download"
 msgstr "下载"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:447
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/dashboard.php:449
 msgid "Loading&#8230;"
 msgstr "正在读取&#8230;"
 
@@ -5481,155 +5481,155 @@ msgstr "添加视频"
 msgid "Add Audio"
 msgstr "添加音频"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:284
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:322
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:360
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:398
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:287
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:325
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:363
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:401
 msgid "Saved."
 msgstr "已保存。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:432
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:528
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:435
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:531
 msgid "Caption"
 msgstr "说明"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:433
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1085
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:436
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1088
 msgid "Alternate text, e.g. \"The Mona Lisa\""
 msgstr "替换文字。例如：\"蒙娜丽莎\""
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:440
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1087
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:443
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1090
 msgid "Alignment"
 msgstr "对齐方式"
 
 # "Ctrl+a"的"a"
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:446
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1092
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:449
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1095
 msgid "Left"
 msgstr "左"
 
 # "Ctrl+a"的"a"
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:448
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1094
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:451
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1097
 msgid "Center"
 msgstr "中"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:450
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1096
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:453
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1099
 msgid "Right"
 msgstr "右"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:453
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:456
 msgid "Size"
 msgstr "尺寸"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:457
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:460
 msgid "Thumbnail"
 msgstr "缩略图"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:459
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:462
 msgid "Medium"
 msgstr "中等"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:461
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:464
 msgid "Full size"
 msgstr "完整尺寸"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:478
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:481
 msgid "Empty Title filled from filename."
 msgstr "留空将使用文件名作为标题。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:537
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:540
 msgid "Link URL"
 msgstr "链接 URL"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:542
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:545
 msgid "File URL"
 msgstr "文件链接"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:543
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:546
 msgid "Post URL"
 msgstr "日志链接"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:547
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:550
 msgid "Enter a link URL or click above for presets."
 msgstr "输入链接 URL 或点击上面的按钮以使用预置方案"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:619
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:622
 msgid "Hide"
 msgstr "隐藏"
 
 # 对应于Add Images（而非Add Image）
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:677
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1102
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1130
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1158
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1186
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:680
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1105
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1133
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1161
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1189
 msgid "Insert into Post"
 msgstr "插入到日志"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:817
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:820
 msgid "Choose files to upload"
 msgstr "选择待上传的文件"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:818
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:821
 msgid "After a file has been uploaded, you can add titles and descriptions."
 msgstr "每当上传完成后，您都可以在下面添加已上传文件的标题与描述。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:830
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:833
 msgid "If you want to use all capabilities of the uploader, like uploading multiple files at once, please upgrade to lighttpd 1.5."
 msgstr "如果您想使用上传工具的全部功能，例如同时上传多个文件，请将 lighttpd 升级到 1.5。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:849
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:852
 msgid "From Computer"
 msgstr "从本地"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:867
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:881
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:914
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1062
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:870
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:884
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:917
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1064
 msgid "Save all changes"
 msgstr "保存所有更改"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:872
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:875
 msgid "&mdash; OR &mdash;"
 msgstr "&mdash; 或者 &mdash;"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:873
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:876
 msgid "From URL"
 msgstr "从URL"
 
 # 对应于Add Images（而非Add Image）
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:915
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:918
 msgid "Insert gallery into post"
 msgstr "插入相册到日志"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1034
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1035
 msgid "Filter &#187;"
 msgstr "筛选 &#187;"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1073
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1076
 msgid "Image URL"
 msgstr "图片 URL"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1114
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1117
 msgid "Audio File URL"
 msgstr "音频链接"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1126
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1129
 msgid "Link text, e.g. \"Still Alive by Jonathan Coulton\""
 msgstr "链接文本。如：“Still Alive by Jonathan Coulton”"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1142
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1145
 msgid "Video URL"
 msgstr "视频链接"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1154
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1157
 msgid "Link text, e.g. \"Lucy on YouTube\""
 msgstr "链接文本。如：“Lucy on YouTube”"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1182
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/media.php:1185
 msgid "Link text, e.g. \"Ransom Demands (PDF)\""
 msgstr "链接文本。如：“Ransom Demands (PDF)”"
 
@@ -6583,11 +6583,11 @@ msgid "Sorry, no posts matched your criteria."
 msgstr "抱歉，没有符合条件的日志。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/themes/classic/index.php:30
-msgid "&laquo; Older Posts"
+msgid "&laquo; Newer Posts"
 msgstr "&laquo; 上一页"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/themes/classic/index.php:30
-msgid "Newer Posts &raquo;"
+msgid "Older Posts &raquo;"
 msgstr "下一页 &raquo;"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-content/themes/classic/sidebar.php:8
