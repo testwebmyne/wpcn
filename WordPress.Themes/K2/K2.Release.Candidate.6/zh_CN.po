@@ -1,0 +1,1677 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: K2 SVN 简体中文语言包\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-05-04 05:25+0800\n"
+"Last-Translator: Edward Gao <edwardright@gmail.com>\n"
+"Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../plugins/akismet/akismet.php:41
+#: ../plugins/akismet/akismet.php:115
+msgid "Akismet Configuration"
+msgstr "Akismet 设置"
+
+#: ../plugins/akismet/akismet.php:50
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../plugins/akismet/akismet.php:102
+msgid "Your key has been cleared."
+msgstr "您的 Key 已经被清除。"
+
+#: ../plugins/akismet/akismet.php:103
+msgid "Your key has been verified. Happy blogging!"
+msgstr "您的 Key 已经通过认证，去写博吧！"
+
+#: ../plugins/akismet/akismet.php:104
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "您输入的 Key 不合法，请再次检查。"
+
+#: ../plugins/akismet/akismet.php:105
+msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
+msgstr "由于无法连接到 akismet.com，您输入的 Key 无法通过认证。请检查您的服务器设置。"
+
+#: ../plugins/akismet/akismet.php:106
+msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
+msgstr "无法连接到 Akismet 服务器，请检查您的服务器设置。"
+
+#: ../plugins/akismet/akismet.php:107
+#, php-format
+msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
+msgstr "请输入一个 API Key(<a href=\"%s\" style=\"color:#fff\">获取一个 Key</a>)。"
+
+#: ../plugins/akismet/akismet.php:108
+msgid "This key is valid."
+msgstr "这个 Key 通过认证。"
+
+#: ../plugins/akismet/akismet.php:109
+msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
+msgstr "下面的 Key 曾通过认证，但现在无法连接到 akismet.com，请检查您的服务器设置。"
+
+#: ../plugins/akismet/akismet.php:112
+#: ../themes/default/functions.php:357
+msgid "Options saved."
+msgstr "设置已保存"
+
+#: ../plugins/akismet/akismet.php:119
+#, php-format
+msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
+msgstr "对大多数人来说，<a href=\"%1$s\">Akismet</a> 将有效地遏制网站垃圾评论以及引用的数量。如果有漏网之鱼，只需要简单地在后台将它标记为“垃圾评论”，Akismet 就会将自动学习并在此后将其判断为“垃圾评论”。如果您还没有 Wordpress.com 帐号，可以现在就去 <a href=\"%2$s\">WordPress.com</a> 注册。"
+
+#: ../plugins/akismet/akismet.php:122
+msgid "WordPress.com API Key"
+msgstr "WordPress.com API Key"
+
+#: ../plugins/akismet/akismet.php:126
+msgid "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
+msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
+
+#: ../plugins/akismet/akismet.php:128
+msgid "Why might my key be invalid?"
+msgstr "为什么我的 Key 可能是非法的？"
+
+#: ../plugins/akismet/akismet.php:129
+msgid "This can mean one of two things, either you copied the key wrong or that the plugin is unable to reach the Akismet servers, which is most often caused by an issue with your web host around firewalls or similar."
+msgstr "这意味着您拷贝的 Key 是错误的，或者本插件无法连接到 Akismet 服务器，导致此情况的原因可能是您服务器的防火墙存在漏洞或者其他类似的情况。"
+
+#: ../plugins/akismet/akismet.php:132
+msgid "Automatically discard spam comments on posts older than a month."
+msgstr "自动删除超过一个月之前的的垃圾评论。"
+
+#: ../plugins/akismet/akismet.php:133
+msgid "Update options &raquo;"
+msgstr "更新设置 &raquo;"
+
+#: ../plugins/akismet/akismet.php:154
+msgid "Akismet is almost ready."
+msgstr "Akismet 已就绪。"
+
+#: ../plugins/akismet/akismet.php:154
+#, php-format
+msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
+msgstr "要使本插件工作，您必须输入您的 <a href=\"%1$s\">WordPress API Key</a>。"
+
+#: ../plugins/akismet/akismet.php:331
+#, php-format
+msgid "Akismet Spam (%s)"
+msgstr "Akismet 垃圾评论 (%s)"
+
+#: ../plugins/akismet/akismet.php:333
+#: ../plugins/akismet/akismet.php:335
+msgid "Akismet Spam"
+msgstr "Akismet 垃圾评论"
+
+#: ../plugins/akismet/akismet.php:344
+#: ../plugins/akismet/akismet.php:363
+msgid "You do not have sufficient permission to moderate comments."
+msgstr "您没有足够权限来判定垃圾评论。"
+
+#: ../plugins/akismet/akismet.php:375
+#, php-format
+msgid "%1$s comments recovered."
+msgstr "%1$s 条评论已恢复。"
+
+#: ../plugins/akismet/akismet.php:379
+msgid "All spam deleted."
+msgstr "所有的垃圾评论已被删除。"
+
+#: ../plugins/akismet/akismet.php:427
+msgid "Caught Spam"
+msgstr "捕捉垃圾评论"
+
+#: ../plugins/akismet/akismet.php:432
+#, php-format
+msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
+msgstr "自从您安装 Akismet，它已经捕捉了<strong>%1$s</strong> 条垃圾评论。"
+
+#: ../plugins/akismet/akismet.php:439
+msgid "You have no spam currently in the queue. Must be your lucky day. :)"
+msgstr "今天没有发现垃圾评论，您真幸运！"
+
+#: ../plugins/akismet/akismet.php:442
+msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
+msgstr "您只需要简单地点击一下便可将所有的垃圾评论全部从您数据库里删除，但此操作无法撤消，所以您最好先检查一下这些评论是否都是垃圾评论。不过，垃圾评论将会在15天后自动删除，所以不用担心这些。"
+
+#: ../plugins/akismet/akismet.php:448
+#: ../plugins/akismet/akismet.php:626
+#, php-format
+msgid "There are currently %1$s comments identified as spam."
+msgstr "现在有 %1$s 条评论被认为是垃圾评论。"
+
+#: ../plugins/akismet/akismet.php:448
+#: ../plugins/akismet/akismet.php:626
+msgid "Delete all"
+msgstr "删除所有"
+
+#: ../plugins/akismet/akismet.php:455
+#: ../themes/k2/sidebar.php:5
+msgid "Search"
+msgstr "搜索"
+
+#: ../plugins/akismet/akismet.php:457
+msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
+msgstr "这些是最近被 Akismet 判定为垃圾评论的评论。如果您发现有什么错误，请将其标记为“不是垃圾评论”，然后 Akismet 会从中自动学习。如果您想从“垃圾评论”中恢复一条评论，只需要简单的选中那条评论并点击“不是垃圾评论”即可。15天以后我们会自动清除垃圾评论。"
+
+#: ../plugins/akismet/akismet.php:488
+msgid "All"
+msgstr "所有"
+
+#: ../plugins/akismet/akismet.php:493
+#: ../themes/k2/image.php:21
+#: ../themes/k2/sidebar.php:82
+#: ../themes/k2/theloop.php:139
+msgid "Comments"
+msgstr "评论"
+
+#: ../plugins/akismet/akismet.php:511
+msgid "Search Spam &raquo;"
+msgstr "查找垃圾评论 &raquo;"
+
+#: ../plugins/akismet/akismet.php:518
+#: ../plugins/akismet/akismet.php:585
+msgid "&laquo; Previous Page"
+msgstr "&laquo; 上一页"
+
+#: ../plugins/akismet/akismet.php:539
+#: ../plugins/akismet/akismet.php:606
+msgid "Next Page &raquo;"
+msgstr "下一页 &raquo;"
+
+#: ../plugins/akismet/akismet.php:561
+msgid "IP:"
+msgstr "IP:"
+
+#: ../plugins/akismet/akismet.php:567
+msgid "Not Spam"
+msgstr "不是垃圾评论"
+
+#: ../plugins/akismet/akismet.php:573
+msgid "View Post"
+msgstr "查看原文章"
+
+#: ../plugins/akismet/akismet.php:612
+msgid "De-spam marked comments &raquo;"
+msgstr "这不是垃圾评论 &raquo;"
+
+#: ../plugins/akismet/akismet.php:614
+msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
+msgstr "您标记为非垃圾评论的评论将会被提交给 Akismet 来使其自动学习，从而更加完美地工作。"
+
+#: ../plugins/akismet/akismet.php:619
+msgid "No results found."
+msgstr "没有找到。"
+
+#: ../plugins/akismet/akismet.php:644
+msgid "Spam"
+msgstr "垃圾评论"
+
+#: ../plugins/akismet/akismet.php:650
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr "<a href=\"%1$s\">Akismet</a> 已经为您清除了 <a href=\"%2$s\">%3$s 条垃圾评论</a>."
+
+#: ../plugins/akismet/akismet.php:665
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
+msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经为您的网站清除了 %2$s 条垃圾评论了，"
+
+#: ../plugins/akismet/akismet.php:670
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
+msgstr "<a href=\"%1$s\">Akismet</a> 阻止垃圾评论出现在您的博客上，"
+
+#: ../plugins/akismet/akismet.php:675
+#, php-format
+msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "现在有 <a href=\"%2$s\">%1$s 条评论</a>在您的垃圾评论队列里。"
+
+#: ../plugins/akismet/akismet.php:680
+#, php-format
+msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
+msgstr "现在有任何评论在您的<a href='%1$s'>垃圾评论队列</a>里。"
+
+#: ../plugins/akismet/akismet.php:683
+#, php-format
+msgid "%1$s %2$s|akismet_rightnow"
+msgstr ""
+
+#: ../plugins/akismet/akismet.php:698
+msgid "Recheck Queue for Spam"
+msgstr "重新检测垃圾评论队列"
+
+#: ../plugins/akismet/akismet.php:713
+msgid "Check for Spam"
+msgstr "检测垃圾评论"
+
+#: ../plugins/akismet/akismet.php:780
+#, fuzzy, php-format
+msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
+msgstr "%1$s %2$s条垃圾评论%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
+
+#: ../plugins/akismet/akismet.php:812
+msgid "Title:"
+msgstr "标题"
+
+#: ../plugins/akismet/akismet.php:842
+msgid "spam comments"
+msgstr "垃圾评论"
+
+#: ../plugins/akismet/akismet.php:842
+msgid "blocked by"
+msgstr ""
+
+#: ../themes/default/functions.php:147
+msgid "Customize Header"
+msgstr "自定义页眉"
+
+#: ../themes/default/functions.php:147
+#: ../themes/default/functions.php:361
+msgid "Header Image and Color"
+msgstr "标题图片和文字颜色"
+
+#: ../themes/default/functions.php:160
+msgid "Close Color Picker"
+msgstr "关闭取色器"
+
+#: ../themes/default/functions.php:374
+#: ../themes/default/functions.php:381
+#: ../themes/k2/app/display/sbm/modules.php:71
+msgid "Save"
+msgstr "保存"
+
+#: ../themes/default/functions.php:375
+msgid "Font Color:"
+msgstr "字体颜色："
+
+#: ../themes/default/functions.php:375
+#, php-format
+msgid "Any CSS color (%s or %s or %s)"
+msgstr "任何 CSS 颜色 （%s 或 %s 或 %s）"
+
+#: ../themes/default/functions.php:376
+msgid "Upper Color:"
+msgstr "顶部颜色："
+
+#: ../themes/default/functions.php:376
+#: ../themes/default/functions.php:377
+#, php-format
+msgid "HEX only (%s or %s)"
+msgstr "请使用16进制 (%s or %s)"
+
+#: ../themes/default/functions.php:377
+msgid "Lower Color:"
+msgstr "底部颜色"
+
+#: ../themes/default/functions.php:379
+msgid "Toggle Text"
+msgstr "文本开关"
+
+#: ../themes/default/functions.php:380
+msgid "Use Defaults"
+msgstr "使用默认设置"
+
+#: ../themes/default/functions.php:389
+msgid "Font Color"
+msgstr "字体颜色"
+
+#: ../themes/default/functions.php:390
+msgid "Upper Color"
+msgstr "顶部颜色"
+
+#: ../themes/default/functions.php:391
+msgid "Lower Color"
+msgstr "底部颜色"
+
+#: ../themes/default/functions.php:392
+msgid "Revert"
+msgstr "恢复"
+
+#: ../themes/default/functions.php:393
+#: ../themes/k2/app/display/sbm/modules.php:48
+msgid "Advanced"
+msgstr "高级"
+
+#: ../themes/default/functions.php:400
+msgid "Update Header"
+msgstr "更新页眉"
+
+#: ../themes/default/functions.php:406
+msgid "Font Color (CSS):"
+msgstr "字体颜色（CSS）："
+
+#: ../themes/default/functions.php:407
+msgid "Upper Color (HEX):"
+msgstr "顶部颜色（HEX）："
+
+#: ../themes/default/functions.php:408
+msgid "Lower Color (HEX):"
+msgstr "底部颜色（HEX）："
+
+#: ../themes/default/functions.php:409
+msgid "Select Default Colors"
+msgstr "选择默认颜色"
+
+#: ../themes/default/functions.php:410
+msgid "Toggle Text Display"
+msgstr "文本显示开关"
+
+# 参考IE的404页面
+#: ../themes/k2/404.php:16
+msgid "Error 404 - Not Found"
+msgstr "HTTP 404 - 未找到文件"
+
+#: ../themes/k2/404.php:20
+msgid "Oh no! You're looking for something which just isn't here!"
+msgstr "哦不！您要找的东西好像不在这！"
+
+#: ../themes/k2/attachment.php:36
+#: ../themes/k2/image.php:16
+#: ../themes/k2/page-archives.php:31
+#: ../themes/k2/page-comments.php:20
+#: ../themes/k2/page.php:16
+#: ../themes/k2/theloop.php:113
+#: ../themes/k2/app/modules/asides.php:25
+#, php-format
+msgid "Permanent Link to \"%s\""
+msgstr "《%s》的永久链接"
+
+#: ../themes/k2/attachment.php:41
+#, php-format
+msgid "Published %1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: ../themes/k2/attachment.php:42
+#, php-format
+msgid "by %s"
+msgstr "%s"
+
+#: ../themes/k2/attachment.php:42
+#: ../themes/k2/theloop.php:121
+#, php-format
+msgid "View all posts by %s"
+msgstr "查看 %s 的所有文章"
+
+# 使用Time Since插件后的文章发布日期
+#: ../themes/k2/attachment.php:44
+#: ../themes/k2/image.php:56
+#: ../themes/k2/theloop.php:126
+#, php-format
+msgid "%s ago"
+msgstr "%s 前"
+
+#: ../themes/k2/attachment.php:62
+msgid "Sorry, no attachments matched your criteria."
+msgstr "对不起，没有符合您的要求的附件。"
+
+#: ../themes/k2/comments-ajax.php:57
+msgid "The post you are trying to comment on does not currently exist in the database."
+msgstr "您要评论的文章不存在。"
+
+#: ../themes/k2/comments-ajax.php:60
+msgid "Sorry, comments are closed for this item."
+msgstr "对不起，本篇文章禁止评论。"
+
+#: ../themes/k2/comments-ajax.php:63
+msgid "The post you are trying to comment on has not been published."
+msgstr "您要评论的文章未发布。"
+
+#: ../themes/k2/comments-ajax.php:85
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "对不起，您需要登陆才能发表评论。"
+
+#: ../themes/k2/comments-ajax.php:92
+msgid "Error: please fill the required fields (name, email)."
+msgstr "请填写您的姓名以及电子信箱。"
+
+#: ../themes/k2/comments-ajax.php:94
+msgid "Error: please enter a valid email address."
+msgstr "错误：请填写正确的 email 地址。"
+
+#: ../themes/k2/comments-ajax.php:98
+msgid "Error: please type a comment."
+msgstr "错误：请填写评论内容。"
+
+#: ../themes/k2/comments-ajax.php:106
+msgid "Duplicate comment detected; it looks as though you've already said that!"
+msgstr "检测到完全相同的评论内容。貌似这条评论你已经发表过了。"
+
+#: ../themes/k2/comments-ajax.php:135
+#: ../themes/k2/comments.php:38
+msgid "What is this?"
+msgstr "这是什么？"
+
+#: ../themes/k2/comments-ajax.php:136
+#: ../themes/k2/comments.php:39
+msgid "Gravatar Icon"
+msgstr "Gravatar 头像"
+
+#: ../themes/k2/comments-ajax.php:140
+#: ../themes/k2/comments-ajax.php:144
+#: ../themes/k2/comments.php:43
+#: ../themes/k2/comments.php:47
+#: ../themes/k2/comments.php:102
+#: ../themes/k2/comments.php:115
+msgid "Permanent Link to this Comment"
+msgstr "本条评论的永久链接"
+
+#: ../themes/k2/comments-ajax.php:144
+#: ../themes/k2/comments.php:50
+#: ../themes/k2/comments.php:112
+#, php-format
+msgid "%s ago."
+msgstr "%s 前."
+
+#: ../themes/k2/comments-ajax.php:144
+#: ../themes/k2/comments.php:52
+#: ../themes/k2/comments.php:117
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: ../themes/k2/comments-ajax.php:147
+#: ../themes/k2/comments.php:61
+#: ../themes/k2/comments.php:63
+#: ../themes/k2/comments.php:124
+#: ../themes/k2/image.php:25
+#: ../themes/k2/page-archives.php:32
+#: ../themes/k2/page-comments.php:21
+#: ../themes/k2/page.php:17
+#: ../themes/k2/theloop.php:141
+#: ../themes/k2/app/modules/asides.php:25
+msgid "Edit"
+msgstr "编辑"
+
+#: ../themes/k2/comments-ajax.php:156
+#: ../themes/k2/comments.php:74
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待管理员的审查。"
+
+#: ../themes/k2/comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "请不要直接打开这个地址，谢谢！"
+
+#: ../themes/k2/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "这篇文章受密码保护，请输入密码以便查看评论。"
+
+#: ../themes/k2/comments.php:15
+#, php-format
+msgid "%1$s %2$s to &#8220;%3$s&#8221;"
+msgstr "本文共有 %1$s 条%2$s<span style=\"display:none\">%3$s</span>"
+
+#: ../themes/k2/comments.php:15
+msgid "Response"
+msgstr "评论"
+
+#: ../themes/k2/comments.php:15
+msgid "Responses"
+msgstr "评论"
+
+#: ../themes/k2/comments.php:18
+msgid "Feed for this Entry"
+msgstr "评论 feed"
+
+#: ../themes/k2/comments.php:19
+msgid "Copy this URI to trackback this entry."
+msgstr "复制这个地址用来 trackback 本文。"
+
+#: ../themes/k2/comments.php:19
+msgid "Trackback Address"
+msgstr "Trackback 地址"
+
+# 文章没有评论时显示在评论区的话
+# 可以修改成你想要说的话
+#: ../themes/k2/comments.php:85
+msgid "No Comments"
+msgstr "没有评论"
+
+#: ../themes/k2/comments.php:107
+#, php-format
+msgid "%1$s on %2$s"
+msgstr "%1$s 于 %2$s"
+
+#: ../themes/k2/comments.php:108
+msgid "Trackback"
+msgstr "Trackback"
+
+#: ../themes/k2/comments.php:108
+msgid "Pingback"
+msgstr "Pingback"
+
+# 评论的日期
+#: ../themes/k2/comments.php:118
+msgid "M jS, Y"
+msgstr "Y-n-j"
+
+#: ../themes/k2/comments.php:134
+msgid "Comments are currently closed."
+msgstr "评论功能被关闭。"
+
+#: ../themes/k2/comments.php:139
+msgid "Edit Your Comment"
+msgstr "编辑您的评论"
+
+#: ../themes/k2/comments.php:139
+msgid "Leave a Reply"
+msgstr "请留下您的评论："
+
+#: ../themes/k2/comments.php:143
+#, php-format
+msgid "You must <a href=\"%s\">login</a> to post a comment."
+msgstr "您必须 <a href=\"%s\">登陆</a> 才能发表评论。"
+
+#: ../themes/k2/comments.php:159
+#, php-format
+msgid "Logged in as %s."
+msgstr "当前登陆帐号： %s"
+
+#: ../themes/k2/comments.php:159
+msgid "Log out of this account"
+msgstr "登出此帐号"
+
+#: ../themes/k2/comments.php:159
+msgid "Logout"
+msgstr "登出"
+
+#: ../themes/k2/comments.php:164
+#, php-format
+msgid "Welcome back <strong>%s</strong>"
+msgstr "欢迎回来，<strong>%s</strong>"
+
+#: ../themes/k2/comments.php:167
+#: ../themes/k2/comments.php:172
+msgid "(Change)"
+msgstr "(更改)"
+
+#: ../themes/k2/comments.php:173
+msgid "(Close)"
+msgstr "(关闭)"
+
+#: ../themes/k2/comments.php:197
+#: ../themes/k2/app/modules/wptagcloud.php:63
+msgid "Name"
+msgstr "姓名"
+
+#: ../themes/k2/comments.php:197
+#: ../themes/k2/comments.php:204
+msgid "(required)"
+msgstr "(必须填写)"
+
+#: ../themes/k2/comments.php:204
+msgid "Mail"
+msgstr "电子邮件"
+
+#: ../themes/k2/comments.php:204
+msgid "will not be published"
+msgstr "不会被公开"
+
+#: ../themes/k2/comments.php:211
+msgid "Website"
+msgstr "网址"
+
+#: ../themes/k2/comments.php:217
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: %s"
+msgstr "<strong>XHTML:</strong> 您可以使用这些 HTML 标签： %s"
+
+#: ../themes/k2/comments.php:236
+msgid "Submit"
+msgstr "提交"
+
+#: ../themes/k2/footer.php:15
+#, php-format
+msgid "Powered by %1$s and %2$s|1:WordPress, 2:K2"
+msgstr "Powered by %1$s and %2$s|1:WordPress, 2:K2"
+
+#: ../themes/k2/footer.php:17
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../themes/k2/footer.php:21
+msgid "Loves you like a kitten."
+msgstr "像小猫一样爱你。"
+
+#: ../themes/k2/footer.php:30
+#, php-format
+msgid "%1$s and %2$s|1:Entries Feed, 2:Comments Feed"
+msgstr "%1$s and %2$s|1:订阅文章, 2:订阅评论"
+
+#: ../themes/k2/footer.php:31
+msgid "Entries Feed"
+msgstr "文章订阅"
+
+#: ../themes/k2/footer.php:32
+msgid "Comments Feed"
+msgstr "评论订阅"
+
+#: ../themes/k2/footer.php:38
+#, php-format
+msgid "%d queries. %.4f seconds."
+msgstr "<strong>%d</strong>次查询. <strong>%.4f</strong>秒."
+
+#: ../themes/k2/functions.php:23
+msgid "Styled with <a href=\"%stylelink%\" title=\"%style% by %author%\">%style%</a>"
+msgstr "使用了 <a href=\"%stylelink%\" title=\"%style% by %author%\">%style%</a> 的样式"
+
+#: ../themes/k2/header.php:35
+#, php-format
+msgid "Category Archive for &lsquo;%s&rsquo;"
+msgstr "&lsquo;%s&rsquo; 的分类存档"
+
+#: ../themes/k2/header.php:39
+#, php-format
+msgid "Tag Archive for &lsquo;%s&rsquo;"
+msgstr "&lsquo;%s&rsquo; 的标签存档"
+
+# 为了Archives Page的slug，只能不翻译
+#: ../themes/k2/header.php:43
+#, php-format
+msgid "%s Archive"
+msgstr "%s 的存档"
+
+#: ../themes/k2/header.php:47
+#, php-format
+msgid "Search Results for &lsquo;%s&rsquo;"
+msgstr "&lsquo;%s&rsquo; 的搜索结果"
+
+#: ../themes/k2/header.php:52
+msgid " at "
+msgstr " 于 "
+
+# 启用Live Search后搜索框中显示的文字
+#: ../themes/k2/header.php:113
+msgid "Type and Wait to Search"
+msgstr "即时搜索..."
+
+#: ../themes/k2/header.php:120
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr "第%1$d页 / 共%2$d页"
+
+#: ../themes/k2/header.php:146
+msgid "Skip to content"
+msgstr "跳转到内容"
+
+#: ../themes/k2/image.php:21
+#: ../themes/k2/theloop.php:139
+msgid "Comment"
+msgstr "评论"
+
+#: ../themes/k2/image.php:38
+#: ../themes/k2/image.php:77
+#: ../themes/k2/theloop.php:152
+#, php-format
+msgid "Continue reading '%s'"
+msgstr "<span class=\"readmore\">继续阅读《%s》</span>"
+
+#: ../themes/k2/image.php:46
+msgid "Dimensions:"
+msgstr "分辨率："
+
+#: ../themes/k2/image.php:47
+#, php-format
+msgid "%1$s px &times; %2$s px|1: width, 2: height"
+msgstr "%1$s px &times; %2$s px|1: 宽度, 2: 高度"
+
+#: ../themes/k2/image.php:50
+msgid "File Size:"
+msgstr "文件尺寸："
+
+#: ../themes/k2/image.php:54
+#, fuzzy
+msgid "Uploaded on:"
+msgstr "上传位置："
+
+#: ../themes/k2/image.php:105
+#: ../themes/k2/page-comments.php:41
+#: ../themes/k2/theloop.php:168
+msgid "Not Found"
+msgstr "没有找到"
+
+#: ../themes/k2/image.php:109
+#: ../themes/k2/page-comments.php:45
+#: ../themes/k2/theloop.php:172
+msgid "Oh no! You're looking for something which just isn't here! Fear not however, errors are to be expected, and luckily there are tools on the sidebar for you to use in your search for what you need."
+msgstr "抱歉，没有找到符合您的要求的文章。不过不要担心，侧边栏里有一些工具可以供您用来查找您所需要的东西。"
+
+#: ../themes/k2/navigation.php:20
+#: ../themes/k2/app/includes/display.php:15
+msgid "Older Entries"
+msgstr "较老文章"
+
+#: ../themes/k2/navigation.php:21
+#: ../themes/k2/app/includes/display.php:16
+msgid "Newer Entries"
+msgstr "较新文章"
+
+#: ../themes/k2/page-archives.php:37
+#, php-format
+msgid "This is the frontpage of the %1$s archives. Currently the archives are spanning %2$s posts and %3$s comments, contained within the meager confines of %4$s categories. Through here, you will be able to move down into the archives by way of time or category. If you are looking for something specific, perhaps you should try the search on the sidebar."
+msgstr "这里是 %1$s 的存档页。目前本 Blog 有 %2$s 篇文章、 %3$s 条评论和 %4$s 个分类。在这里您可以按时间和分类查找文章。如果您需要查找某篇特定的文章，您可以使用右边的搜索功能。"
+
+#: ../themes/k2/page-archives.php:41
+msgid "Live Archives"
+msgstr "Live Archives"
+
+#: ../themes/k2/page-archives.php:42
+#, php-format
+msgid "This is a 'live archive', which allows you to 'dig' into the %s repository in a fast and efficient way without having to reload this page as you explore."
+msgstr "这是“ Live Archive ”，可以不需要浏览器刷新就可以快速高效的将 %s 加入到 Dig 中。"
+
+#: ../themes/k2/page-archives.php:52
+msgid "Tag Cloud"
+msgstr "标签云"
+
+#: ../themes/k2/page-archives.php:58
+msgid "Browse by Month"
+msgstr "按月浏览"
+
+#: ../themes/k2/page-archives.php:65
+msgid "Browse by Category"
+msgstr "按分类浏览"
+
+#: ../themes/k2/page-comments.php:27
+#: ../themes/k2/page.php:23
+#: ../themes/k2/theloop.php:154
+msgid "Pages:"
+msgstr "页面："
+
+#: ../themes/k2/rollingarchive.php:58
+msgid "Less"
+msgstr "减少"
+
+#: ../themes/k2/rollingarchive.php:59
+msgid "More"
+msgstr "增加"
+
+#: ../themes/k2/rollingarchive.php:60
+msgid "Trim"
+msgstr "列表"
+
+#: ../themes/k2/rollingarchive.php:61
+msgid "Untrim"
+msgstr "平铺"
+
+#: ../themes/k2/rollingarchive.php:69
+#: ../themes/k2/rollingarchive.php:70
+msgid "Older"
+msgstr "前一页"
+
+#: ../themes/k2/rollingarchive.php:72
+#: ../themes/k2/rollingarchive.php:73
+msgid "Home"
+msgstr "首页"
+
+#: ../themes/k2/rollingarchive.php:75
+#: ../themes/k2/rollingarchive.php:76
+#: ../themes/k2/app/display/sbm/modules.php:132
+msgid "Loading"
+msgstr "载入中"
+
+#: ../themes/k2/rollingarchive.php:78
+#: ../themes/k2/rollingarchive.php:79
+msgid "Newer"
+msgstr "后一页"
+
+#: ../themes/k2/searchform.php:3
+msgid "go"
+msgstr "搜索"
+
+#: ../themes/k2/sidebar.php:26
+msgid "Subpages"
+msgstr "子页面"
+
+#: ../themes/k2/sidebar.php:33
+#: ../themes/k2/app/modules/navigation.php:29
+#, php-format
+msgid "Back to %s"
+msgstr "返回 %s"
+
+#: ../themes/k2/sidebar.php:41
+#: ../themes/k2/app/modules/navigation.php:39
+#, php-format
+msgid "Back to '%s'"
+msgstr "返回 '%s'"
+
+#: ../themes/k2/sidebar.php:48
+msgid "About"
+msgstr "关于"
+
+#: ../themes/k2/sidebar.php:51
+#, php-format
+msgid "You are currently browsing the %1$s weblog archives for the %2$s category."
+msgstr "您正在浏览 %1$s 网站中被分类为 <strong>%2$s</strong> 的存档。"
+
+#: ../themes/k2/sidebar.php:54
+#, php-format
+msgid "You are currently browsing the %1$s weblog archives for the day %2$s."
+msgstr "您正在浏览 %1$s 网站中 %2$s 的存档。"
+
+#: ../themes/k2/sidebar.php:54
+#: ../themes/k2/app/modules/aboutcurrent.php:20
+msgid "l, F jS, Y"
+msgstr "Y年m月d日 l"
+
+#: ../themes/k2/sidebar.php:57
+#, php-format
+msgid "You are currently browsing the %1$s weblog archives for the month %2$s."
+msgstr "您正在浏览 %1$s 网站中 %2$s 的存档。"
+
+#: ../themes/k2/sidebar.php:57
+#: ../themes/k2/theloop.php:74
+#: ../themes/k2/app/includes/info.php:269
+#: ../themes/k2/app/modules/aboutcurrent.php:23
+msgid "F, Y"
+msgstr "Y年m月"
+
+#: ../themes/k2/sidebar.php:60
+#, php-format
+msgid "You are currently browsing the %1$s weblog archives for the year %2$s."
+msgstr "您正在浏览 %1$s 网站中 %2$s 的存档。"
+
+#: ../themes/k2/sidebar.php:63
+#, php-format
+msgid "You have searched the %1$s weblog archives for '<strong>%2$s</strong>'."
+msgstr "您正在 %1$s 网站中搜索包含 '<strong>%2$s</strong>' 的文章。"
+
+#: ../themes/k2/sidebar.php:66
+#: ../themes/k2/app/modules/aboutcurrent.php:32
+#, php-format
+msgid "Archive for <strong>%s</strong>."
+msgstr "<strong>%s</strong> 的文章。"
+
+#: ../themes/k2/sidebar.php:70
+#, php-format
+msgid "You are currently browsing the %1$s weblog archives for '%2$s' tag."
+msgstr "您正在浏览 %1$s 网站中被打上 '<strong>%2$s</strong>' 标签的文章。"
+
+#: ../themes/k2/sidebar.php:73
+#, php-format
+msgid "You are currently browsing the %s weblog archives."
+msgstr "您正在浏览 %1$s 网站中的存档。"
+
+#: ../themes/k2/sidebar.php:83
+#: ../themes/k2/app/modules/latest_comments.php:10
+msgid "RSS Feed for all Comments"
+msgstr "评论 feed"
+
+#: ../themes/k2/sidebar.php:83
+#: ../themes/k2/sidebar.php:93
+#: ../themes/k2/sidebar.php:115
+#: ../themes/k2/app/modules/asides.php:15
+#: ../themes/k2/app/modules/flickr.php:22
+#: ../themes/k2/app/modules/latest_comments.php:10
+#: ../themes/k2/app/modules/latest_posts.php:19
+#: ../themes/k2/app/modules/rss.php:37
+msgid "RSS"
+msgstr "订阅"
+
+#: ../themes/k2/sidebar.php:92
+msgid "Latest"
+msgstr "最近更新"
+
+#: ../themes/k2/sidebar.php:93
+#: ../themes/k2/app/modules/latest_posts.php:19
+msgid "RSS Feed for Blog Entries"
+msgstr "文章 feed"
+
+#: ../themes/k2/sidebar.php:104
+msgid "Related Entries"
+msgstr "相关文章"
+
+#: ../themes/k2/sidebar.php:114
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../themes/k2/sidebar.php:115
+#: ../themes/k2/app/modules/flickr.php:22
+msgid "RSS Feed for flickr"
+msgstr "flickr feed"
+
+# 为了Archives Page的slug，只能不翻译
+#: ../themes/k2/sidebar.php:149
+#: ../themes/k2/app/classes/archive.php:20
+#: ../themes/k2/app/display/sbm/edit-module-form.php:43
+msgid "Archives"
+msgstr "存档"
+
+#: ../themes/k2/sidebar.php:157
+msgid "Categories"
+msgstr "分类"
+
+#: ../themes/k2/theloop.php:65
+#, php-format
+msgid "Archive for the '%s' Category"
+msgstr "'%s' 分类的存档"
+
+#: ../themes/k2/theloop.php:71
+#, php-format
+msgid "Daily Archive for %s"
+msgstr "%s 的按日存档"
+
+#: ../themes/k2/theloop.php:71
+msgid "F jS, Y"
+msgstr "Y年Fj日"
+
+#: ../themes/k2/theloop.php:74
+#, php-format
+msgid "Monthly Archive for %s"
+msgstr "%s 的按月存档"
+
+#: ../themes/k2/theloop.php:77
+#, php-format
+msgid "Yearly Archive for %s"
+msgstr "%s 的按年存档"
+
+#: ../themes/k2/theloop.php:77
+msgid "Y"
+msgstr "Y年"
+
+#: ../themes/k2/theloop.php:80
+#, php-format
+msgid "Search Results for '%s'"
+msgstr "搜索 '%s'"
+
+#: ../themes/k2/theloop.php:84
+#: ../themes/k2/theloop.php:86
+#, php-format
+msgid "Tag Archive for '%s'"
+msgstr "标签 '%s' 的存档"
+
+#: ../themes/k2/theloop.php:90
+#, php-format
+msgid "Author Archive for %s"
+msgstr "作者 %s 的文章"
+
+# 为了Archives Page的slug，只能不翻译
+#: ../themes/k2/theloop.php:93
+msgid "Archive"
+msgstr "存档"
+
+#: ../themes/k2/theloop.php:97
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr "第%1$s页 / 共%2$s页"
+
+#: ../themes/k2/theloop.php:117
+#, php-format
+msgid "<span class=\"meta-start\">Published</span> %1$s %2$s %3$s<span class=\"meta-end\">.</span>"
+msgstr "<span class=\"meta-start\">文章</span>%1$s %2$s %3$s<span class=\"meta-end\">。</span>"
+
+#: ../themes/k2/theloop.php:120
+#, php-format
+msgid "<span class=\"meta-prep\">by</span> %s"
+msgstr "<span class=\"meta-prep\">作者</span> %s"
+
+#: ../themes/k2/theloop.php:128
+#, php-format
+msgid "<span class=\"meta-prep\">on</span> %s"
+msgstr "<span class=\"meta-prep\">日期</span> %s"
+
+#: ../themes/k2/theloop.php:133
+#, php-format
+msgid "<span class=\"meta-prep\">in</span> %s"
+msgstr "<span class=\"meta-prep\">分类</span> %s"
+
+#: ../themes/k2/theloop.php:134
+msgid " and "
+msgstr " & "
+
+#: ../themes/k2/theloop.php:139
+msgid "Closed"
+msgstr "评论功能已关闭"
+
+#: ../themes/k2/theloop.php:144
+#: ../themes/k2/theloop.php:146
+msgid "Tags: "
+msgstr "标签："
+
+#: ../themes/k2/app/classes/archive.php:18
+#: ../themes/k2/app/classes/archive.php:19
+msgid "Do not edit this page"
+msgstr "请不要编辑本页内容"
+
+#: ../themes/k2/app/classes/archive.php:80
+msgid "next 15 posts &raquo;"
+msgstr "后15篇文章 &raquo;"
+
+#: ../themes/k2/app/classes/archive.php:81
+msgid "&laquo; previous 15 posts"
+msgstr "&laquo; 前15篇文章"
+
+#: ../themes/k2/app/classes/archive.php:85
+msgid "Chronology"
+msgstr "按时间"
+
+#: ../themes/k2/app/classes/archive.php:86
+msgid "Taxonomy"
+msgstr "按分类"
+
+# 参考
+# http://blog.timetide.net/archives/2005/01/15/20050115015808.php
+# 应该为分众分类。
+# 不过在这里的意思就是本地的TAG
+#: ../themes/k2/app/classes/archive.php:87
+msgid "Folksonomy"
+msgstr "按 TAG"
+
+#: ../themes/k2/app/classes/header.php:145
+#: ../themes/k2/app/classes/header.php:166
+#, php-format
+msgid "Custom Header Image for K2 (%1$d x %2$d)"
+msgstr "K2 自定义页眉图像（%1$d x %2$d）"
+
+#: ../themes/k2/app/classes/options.php:134
+msgid "K2 Options"
+msgstr "K2 设置"
+
+#: ../themes/k2/app/classes/sbm.php:123
+#: ../themes/k2/app/classes/sbm.php:787
+msgid "You must specify a valid module name"
+msgstr "您必须指定一个有效的模块名称"
+
+#: ../themes/k2/app/classes/sbm.php:133
+#: ../themes/k2/app/classes/sbm.php:143
+msgid "Missing sidebar and module ids"
+msgstr "丢失侧边栏和模块的编号"
+
+#: ../themes/k2/app/classes/sbm.php:153
+msgid "Missing ordering data"
+msgstr "丢失顺序数据"
+
+#: ../themes/k2/app/classes/sbm.php:160
+msgid "Invalid call"
+msgstr "错误调用"
+
+#: ../themes/k2/app/classes/sbm.php:197
+#: ../themes/k2/app/display/sbm/modules.php:87
+msgid "K2 Sidebar Manager"
+msgstr "K2 侧栏管理器"
+
+# 不能翻译，否则将导致SBM出错。
+#: ../themes/k2/app/classes/sbm.php:259
+#: ../themes/k2/app/classes/sbm.php:308
+#, php-format
+msgid "Sidebar %d"
+msgstr "侧边栏 %d"
+
+#: ../themes/k2/app/display/options.php:25
+msgid "Single Column"
+msgstr "单栏"
+
+# 文章没有评论时显示在评论区的话
+# 可以修改成你想要说的话
+#: ../themes/k2/app/display/options.php:26
+#: ../themes/k2/app/display/sbm/modules.php:10
+msgid "Two Columns"
+msgstr "双栏"
+
+#: ../themes/k2/app/display/options.php:27
+#: ../themes/k2/app/display/sbm/modules.php:11
+msgid "Three Columns"
+msgstr "三栏"
+
+#: ../themes/k2/app/display/options.php:52
+msgid "K2 Options have been updated"
+msgstr "K2 的设置已经被更新"
+
+#: ../themes/k2/app/display/options.php:58
+msgid "The Extended Live Archives plugin has been setup for use with K2"
+msgstr "Extended Live Archives 插件已经配置完毕，它可以很好地和 K2 协同工作了。"
+
+#: ../themes/k2/app/display/options.php:65
+#, php-format
+msgid "<p>The directory: <code>%s</code>, needed to store custom styles is missing.</p><p>For you to be able to use custom styles, you need to add this directory.</p>"
+msgstr "<p>目录： <code>%s</code> ，无法找到自定义样式。</p><p>使用自定义样式，您需要添加此目录。</p>"
+
+#: ../themes/k2/app/display/options.php:71
+#, php-format
+msgid "<p>The K2 directory: <code>%s</code>, contains spaces. For K2 to function properly, you will need to remove the spaces from the directory name.</p>"
+msgstr "<p>K2 目录：<code>%s</code>，包含空格。由于 K2 的函数限制，您需要移除目录名中的空格。</p>"
+
+#: ../themes/k2/app/display/options.php:82
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: ../themes/k2/app/display/options.php:86
+msgid "Sidebar Manager"
+msgstr "侧栏管理器"
+
+#: ../themes/k2/app/display/options.php:89
+msgid "Enable K2's Sidebar Manager"
+msgstr "开启 K2 侧栏管理器"
+
+#: ../themes/k2/app/display/options.php:91
+msgid "K2 has a neat sidebar system. If disabled, K2 reverts to WordPress widgets."
+msgstr "K2 拥有一个强大的侧栏系统。如果禁用， K2 将使用 WordPress widgets。"
+
+#: ../themes/k2/app/display/options.php:96
+msgid "Columns"
+msgstr "分栏数量"
+
+#: ../themes/k2/app/display/options.php:108
+msgid "Dynamically reduce number of columns"
+msgstr "动态减少分栏数量"
+
+#: ../themes/k2/app/display/options.php:112
+msgid "K2 can dynamically reduce the number of columns depending on user's browser width."
+msgstr "K2 可以根据用户浏览器的宽度动态地减少分栏数量。"
+
+#: ../themes/k2/app/display/options.php:118
+msgid "Advanced Navigation"
+msgstr "高级导航条"
+
+#: ../themes/k2/app/display/options.php:121
+msgid "Enable Advanced Navigation"
+msgstr "启用高级导航条"
+
+#: ../themes/k2/app/display/options.php:123
+msgid "Seamlessly search and navigate old posts."
+msgstr "无刷新搜索，并对过去的日志进行导航。"
+
+#: ../themes/k2/app/display/options.php:128
+msgid "Archives Page"
+msgstr "存档页面"
+
+#: ../themes/k2/app/display/options.php:131
+msgid "Enable Archives Page"
+msgstr "启用 K2 存档页面"
+
+#: ../themes/k2/app/display/options.php:133
+msgid "Installs a pre-made archives page."
+msgstr "安装现成的归档页面。"
+
+#: ../themes/k2/app/display/options.php:137
+msgid "Configure Extended Live Archives for K2"
+msgstr "为 K2 配置 Extended Live Archives"
+
+#: ../themes/k2/app/display/options.php:143
+msgid "Live Commenting"
+msgstr "即时评论"
+
+#: ../themes/k2/app/display/options.php:146
+msgid "Enable Live Commenting"
+msgstr "启用即时评论"
+
+#: ../themes/k2/app/display/options.php:148
+msgid "Submit comments without reloading the page."
+msgstr "无刷新提交评论。"
+
+#: ../themes/k2/app/display/options.php:153
+msgid "Asides"
+msgstr "Asides"
+
+#: ../themes/k2/app/display/options.php:157
+#: ../themes/k2/app/display/options.php:176
+#: ../themes/k2/app/display/options.php:210
+msgid "Off"
+msgstr "关闭"
+
+#: ../themes/k2/app/display/options.php:165
+msgid "Aside posts are styled differently and can be placed on the sidebar."
+msgstr "Aside 日志将使用不同于普通日志的样式，并可以放置在侧栏。"
+
+#: ../themes/k2/app/display/options.php:172
+msgid "Style"
+msgstr "样式"
+
+#: ../themes/k2/app/display/options.php:186
+msgid "No need to edit core files, K2 is highly customizable."
+msgstr "不要修改核心文件了， K2 可以实现很高的可定制性。"
+
+#: ../themes/k2/app/display/options.php:187
+msgid "Read&nbsp;more."
+msgstr "阅读更多"
+
+#: ../themes/k2/app/display/options.php:194
+msgid "Header"
+msgstr "标题"
+
+#: ../themes/k2/app/display/options.php:198
+#, php-format
+msgid "The current header size is <strong>%1$s px by %2$s px</strong>. Use %3$s to customize the header."
+msgstr "当前页眉尺寸是 <strong>%1$s px x %2$s px</strong>。使用 %3$s 自定义页眉。"
+
+#: ../themes/k2/app/display/options.php:201
+msgid "Custom Image Header"
+msgstr "自定义图像页眉"
+
+#: ../themes/k2/app/display/options.php:206
+msgid "Select an Image:"
+msgstr "选择一个图片"
+
+#: ../themes/k2/app/display/options.php:211
+msgid "Random"
+msgstr "随机"
+
+#: ../themes/k2/app/display/options.php:219
+msgid "Rename the 'Blog' tab:"
+msgstr "重命名\"Blog\"标签名称"
+
+#: ../themes/k2/app/display/options.php:237
+msgid "Uninstall K2"
+msgstr "卸载 K2"
+
+#: ../themes/k2/app/display/options.php:241
+msgid "Delete your K2 settings?"
+msgstr "删除 K2 相关设置？"
+
+#: ../themes/k2/app/display/options.php:251
+msgid "Remove all K2 settings and revert WordPress to its default theme. No files are deleted."
+msgstr "移除 K2 的全部设置并恢复到 WordPress 的默认主题。此操作不会删除任何文件。"
+
+#: ../themes/k2/app/display/options.php:255
+msgid "Reset and Uninstall K2"
+msgstr "卸载 K2"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:8
+msgid "Type:"
+msgstr "格式："
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:13
+msgid "Title"
+msgstr "标题"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:17
+#: ../themes/k2/app/display/sbm/modules.php:49
+msgid "Display"
+msgstr "显示"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:31
+msgid "Load the following CSS file with this module"
+msgstr "为此模块读取以下 CSS 文件"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:40
+msgid "Display Module On"
+msgstr "显示模块于"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:41
+msgid "Homepage"
+msgstr "首页"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:45
+msgid "Single posts"
+msgstr "文章页面"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:45
+msgid "Select Individual Posts"
+msgstr "选择独立文章"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:49
+msgid "Search results"
+msgstr "搜索结果"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:51
+msgid "Error page"
+msgstr "出错页面"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:53
+msgid "Static pages"
+msgstr "独立页面"
+
+#: ../themes/k2/app/display/sbm/edit-module-form.php:53
+msgid "Select Individual Pages"
+msgstr "选择独立页面"
+
+#: ../themes/k2/app/display/sbm/edit-module-pages-form.php:15
+#: ../themes/k2/app/display/sbm/edit-module-posts-form.php:16
+msgid "Check all"
+msgstr "全部选中"
+
+#: ../themes/k2/app/display/sbm/edit-module-pages-form.php:15
+#: ../themes/k2/app/display/sbm/edit-module-posts-form.php:16
+msgid "Uncheck all"
+msgstr "全部不选"
+
+#: ../themes/k2/app/display/sbm/edit-module-pages-form.php:18
+#: ../themes/k2/app/display/sbm/edit-module-posts-form.php:19
+msgid "Show on checked"
+msgstr "在选中的文章中显示"
+
+#: ../themes/k2/app/display/sbm/edit-module-pages-form.php:19
+#: ../themes/k2/app/display/sbm/edit-module-posts-form.php:20
+msgid "Hide on checked"
+msgstr "在选中的文章中隐藏"
+
+#: ../themes/k2/app/display/sbm/edit-module-pages-form.php:23
+msgid "No pages"
+msgstr "没有页面"
+
+#: ../themes/k2/app/display/sbm/edit-module-posts-form.php:25
+msgid "No posts"
+msgstr "没有文章"
+
+#: ../themes/k2/app/display/sbm/modules.php:9
+msgid "One Column"
+msgstr "单栏"
+
+#: ../themes/k2/app/display/sbm/modules.php:21
+msgid "Your sidebar was restored"
+msgstr "您的侧栏设置已复位"
+
+#: ../themes/k2/app/display/sbm/modules.php:27
+msgid "Invalid SBM backup file"
+msgstr "无效侧栏管理器备份文件"
+
+#: ../themes/k2/app/display/sbm/modules.php:32
+msgid "Close"
+msgstr "隐藏"
+
+#: ../themes/k2/app/display/sbm/modules.php:47
+msgid "Options for this module type"
+msgstr "此模块格式的设置项目"
+
+#: ../themes/k2/app/display/sbm/modules.php:47
+msgid "Options"
+msgstr "设置"
+
+#: ../themes/k2/app/display/sbm/modules.php:49
+msgid "Where to display this module"
+msgstr "在何处显示此模块"
+
+#: ../themes/k2/app/display/sbm/modules.php:64
+msgid "'Enter' saves, 'Escape' closes."
+msgstr "“回车”保存，“ ESC ”关闭。"
+
+#: ../themes/k2/app/display/sbm/modules.php:72
+msgid "Save &amp; Close"
+msgstr "保存 &amp; 关闭"
+
+#: ../themes/k2/app/display/sbm/modules.php:90
+#: ../themes/k2/app/display/sbm/modules.php:120
+msgid "Restore"
+msgstr "恢复"
+
+#: ../themes/k2/app/display/sbm/modules.php:91
+msgid "Backup"
+msgstr "备份"
+
+#: ../themes/k2/app/display/sbm/modules.php:94
+msgid "Undo"
+msgstr "撤销"
+
+#: ../themes/k2/app/display/sbm/modules.php:109
+msgid "Backup current sidebar:"
+msgstr "备份当前侧栏："
+
+#: ../themes/k2/app/display/sbm/modules.php:110
+msgid "This will create a backup of your current sidebar configuration."
+msgstr "这将会创建当前侧栏设置信息的备份。"
+
+#: ../themes/k2/app/display/sbm/modules.php:110
+msgid "Keep in a safe place in case of disaster."
+msgstr "为了避免灾难发生，请保存到安全的地方。"
+
+#: ../themes/k2/app/display/sbm/modules.php:111
+msgid "Create sidebar backup &raquo;"
+msgstr "创建侧栏备份 &raquo;"
+
+#: ../themes/k2/app/display/sbm/modules.php:117
+msgid "Restore sidebar:"
+msgstr "复位侧栏："
+
+#: ../themes/k2/app/display/sbm/modules.php:118
+msgid "Did it fail? Never fear, restore is here!"
+msgstr "失败了？不要怕，您可以在这里恢复！"
+
+#: ../themes/k2/app/display/sbm/modules.php:118
+msgid "I hope you kept that file safe..."
+msgstr "我希望您可以妥善保管那个文件……"
+
+#: ../themes/k2/app/display/sbm/modules.php:135
+msgid "Available Modules"
+msgstr "可用模块"
+
+#: ../themes/k2/app/display/sbm/modules.php:165
+#: ../themes/k2/app/display/sbm/modules.php:191
+msgid "Module Options"
+msgstr "模块选项"
+
+#: ../themes/k2/app/display/sbm/modules.php:166
+#: ../themes/k2/app/display/sbm/modules.php:192
+msgid "Delete Module"
+msgstr "删除模块"
+
+#: ../themes/k2/app/display/sbm/modules.php:178
+msgid "Disabled"
+msgstr "已禁用"
+
+#: ../themes/k2/app/display/sbm/modules.php:204
+msgid "Trash"
+msgstr "回收站"
+
+#: ../themes/k2/app/display/sbm/modules.php:214
+#, php-format
+msgid "Help to be had at the %1$s or in the %2$s."
+msgstr "需要帮助？请到 %1$s 和 %2$s。"
+
+#: ../themes/k2/app/display/sbm/modules.php:214
+msgid "K2 Support Forums"
+msgstr "K2 支持论坛"
+
+#: ../themes/k2/app/display/sbm/modules.php:214
+msgid "K2 Documentation"
+msgstr "K2 文档"
+
+#: ../themes/k2/app/includes/info.php:377
+msgid "Uncategorized"
+msgstr "未分类"
+
+#: ../themes/k2/app/includes/info.php:393
+#, php-format
+msgid "View all posts in %s"
+msgstr "查看 %s 中的所有文章"
+
+#: ../themes/k2/app/modules/aboutcurrent.php:17
+#, php-format
+msgid "The %1$s archives for the %2$s category."
+msgstr "'%2$s' 分类 %1$s 的存档。"
+
+#: ../themes/k2/app/modules/aboutcurrent.php:20
+#: ../themes/k2/app/modules/aboutcurrent.php:23
+#: ../themes/k2/app/modules/aboutcurrent.php:26
+#, php-format
+msgid "The %1$s archives for %2$s."
+msgstr "%2$s 的 %1$s 存档。"
+
+#: ../themes/k2/app/modules/aboutcurrent.php:29
+#, php-format
+msgid "You searched the %1$s archives for '<strong>%2$s</strong>'."
+msgstr "您正在 %1$s 存档中搜索包含 '<strong>%2$s</strong>' 的文章。"
+
+#: ../themes/k2/app/modules/aboutcurrent.php:36
+#, php-format
+msgid "The %1$s archives for the '%2$s' tag."
+msgstr "'%2$s' 标签 %1$s 的存档。"
+
+#: ../themes/k2/app/modules/aboutcurrent.php:39
+#, php-format
+msgid "The %s weblog archives."
+msgstr "%s 博客存档"
+
+#: ../themes/k2/app/modules/aboutcurrent.php:53
+msgid "About Text:"
+msgstr "关于："
+
+#: ../themes/k2/app/modules/aboutcurrent.php:55
+msgid "Enter a blurp about yourself here, and it will show up on the frontpage. Deleting the content disables the about blurp."
+msgstr "请在这里输入您的自我介绍，它将显示在 Blog 首页。如果清空文本框，“关于”将不会显示。"
+
+#: ../themes/k2/app/modules/asides.php:15
+msgid "RSS Feed for Asides"
+msgstr "订阅 Asides"
+
+#: ../themes/k2/app/modules/asides.php:25
+msgid "(more)"
+msgstr "(更多)"
+
+#: ../themes/k2/app/modules/asides.php:42
+#: ../themes/k2/app/modules/latest_comments.php:57
+#: ../themes/k2/app/modules/latest_posts.php:41
+msgid "Number of posts:"
+msgstr "文章数："
+
+#: ../themes/k2/app/modules/latest_comments.php:30
+#, php-format
+msgid "%1$s %2$s <a href=\"%3$s#comment-%4$s\">%5$s</a>"
+msgstr "%1$s %2$s <a href=\"%3$s#comment-%4$s\">%5$s</a>"
+
+#: ../themes/k2/app/modules/latest_comments.php:30
+msgid "on the post"
+msgstr "评论在"
+
+#: ../themes/k2/app/modules/latest_comments.php:34
+msgid "No comments"
+msgstr "没有评论"
+
+#: ../themes/k2/app/modules/latest_comments.php:60
+msgid "Number of comments:"
+msgstr "评论数："
+
+#: ../themes/k2/app/modules/latest_comments.php:62
+msgid "Hide trackbacks/pingbacks:"
+msgstr "隐藏 Trackback 和 Pingback："
+
+#: ../themes/k2/app/modules/latest_comments.php:65
+msgid "Newest color:"
+msgstr "最新一篇文章的颜色："
+
+#: ../themes/k2/app/modules/latest_comments.php:67
+msgid "Oldest color:"
+msgstr "最老一篇文章的颜色："
+
+#: ../themes/k2/app/modules/latest_posts.php:43
+msgid "Exclude Asides from list:"
+msgstr "不显示 Asides 的分类："
+
+#: ../themes/k2/app/modules/meta.php:11
+msgid "Syndicate this site using RSS 2.0"
+msgstr "使用 RSS 2.0 同步本站"
+
+# RSS
+# Really Simple Syndication
+# 这个是对RSS的解释，还是不要翻译了吧
+#: ../themes/k2/app/modules/meta.php:11
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "文章<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: ../themes/k2/app/modules/meta.php:12
+msgid "The latest comments to all posts in RSS"
+msgstr "所有文章中的最新评论的 RSS"
+
+# RSS
+# Really Simple Syndication
+# 这个是对RSS的解释，还是不要翻译了吧
+#: ../themes/k2/app/modules/meta.php:12
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "评论 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: ../themes/k2/app/modules/meta.php:13
+msgid "Powered by Wordpress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: ../themes/k2/app/modules/navigation.php:51
+msgid "Navigation heading:"
+msgstr "导航条标题："
+
+#: ../themes/k2/app/modules/navigation.php:55
+#, php-format
+msgid "%s Subpages"
+msgstr "%s 子页面"
+
+#: ../themes/k2/app/modules/php.php:16
+msgid "Module's code:"
+msgstr "模块的名称："
+
+#: ../themes/k2/app/modules/rss.php:24
+msgid "Syndicate as RSS"
+msgstr "通过 RSS 同步"
+
+#: ../themes/k2/app/modules/rss.php:37
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: ../themes/k2/app/modules/rss.php:43
+msgid "Untitled"
+msgstr "无标题"
+
+#: ../themes/k2/app/modules/rss.php:56
+msgid "No feed items, the feed may currently be unavaliable."
+msgstr "feed 中没有文章，这个 feed 当前一定不可用！"
+
+#: ../themes/k2/app/modules/rss.php:78
+msgid "RSS feed's URL:"
+msgstr "RSS feed 的 URL："
+
+#: ../themes/k2/app/modules/rss.php:79
+msgid "RSS feed's icon:"
+msgstr "RSS feed 的图标："
+
+#: ../themes/k2/app/modules/rss.php:80
+msgid "Number of items:"
+msgstr "显示项目的个数："
+
+#: ../themes/k2/app/modules/wptagcloud.php:34
+msgid "Smallest font size:"
+msgstr "最小字体尺寸："
+
+#: ../themes/k2/app/modules/wptagcloud.php:39
+msgid "Largest font size:"
+msgstr "最大字体尺寸："
+
+#: ../themes/k2/app/modules/wptagcloud.php:44
+msgid "Number of tags:"
+msgstr "标签数量："
+
+#: ../themes/k2/app/modules/wptagcloud.php:46
+msgid "Set to 0 to display all tags."
+msgstr "设置为 0 将显示全部标签。"
+
+#: ../themes/k2/app/modules/wptagcloud.php:51
+msgid "Format of cloud display:"
+msgstr "云显示格式："
+
+#: ../themes/k2/app/modules/wptagcloud.php:53
+msgid "Flat"
+msgstr "平铺"
+
+#: ../themes/k2/app/modules/wptagcloud.php:54
+msgid "List"
+msgstr "列表"
+
+#: ../themes/k2/app/modules/wptagcloud.php:55
+msgid "Array"
+msgstr "阵列"
+
+#: ../themes/k2/app/modules/wptagcloud.php:61
+msgid "Order by:"
+msgstr "排序："
+
+#: ../themes/k2/app/modules/wptagcloud.php:64
+msgid "Count"
+msgstr "计数"
+
+#: ../themes/k2/app/modules/wptagcloud.php:69
+msgid "Sort Order:"
+msgstr "排序次序："
+
+#: ../themes/k2/app/modules/wptagcloud.php:71
+msgid "Ascending"
+msgstr "升序排列"
+
+#: ../themes/k2/app/modules/wptagcloud.php:72
+msgid "Descending"
+msgstr "降序排列"
+
