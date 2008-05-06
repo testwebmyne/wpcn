@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-04 21:10+0800\n"
-"PO-Revision-Date: 2008-05-04 21:12+0800\n"
+"POT-Creation-Date: 2008-05-06 09:05+0800\n"
+"PO-Revision-Date: 2008-05-06 09:06+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -2263,8 +2263,8 @@ msgid_plural "%d widgets"
 msgstr[0] "%d 个 Widgets"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:113
-#, php-format
-msgid "You are using %1$s theme with %2$s."
+#, fuzzy, php-format
+msgid "You are using the %1$s theme with %2$s."
 msgstr "您正在使用 %1$s 主题，启用了 %2$s。"
 
 # 以下为模板管理页面
@@ -2690,8 +2690,8 @@ msgid "Avatars"
 msgstr "头像"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:81
-msgid "By default WordPress uses <a href=\"http://gravatar.com/\">Gravatars</a> &#8212; short for Globally Recognized Avatars &#8212; for the pictures that show up next to comments. Plugins may override this."
-msgstr "默认情况下 WordPress 使用 <a href=\"http://gravatar.com/\">Gravatars</a>（Globally Recognized Avatars 的缩写）在评论后面显示图片。使用插件可以忽略该设置。"
+msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites.  Here you can enable the display of avatars for people who comment on your blog."
+msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:87
 msgid "Avatar Display"
@@ -2740,22 +2740,27 @@ msgid "For users without a custom avatar of their own, you can either display a 
 msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:120
-msgid "Default"
-msgstr "默认"
+msgid "Mystery Man"
+msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:121
+#, fuzzy
+msgid "Blank"
+msgstr "平衡"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:122
 msgid "Gravatar Logo"
 msgstr ""
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:122
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:123
 msgid "Identicon (Generated)"
 msgstr ""
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:123
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:124
 msgid "Wavatar (Generated)"
 msgstr ""
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:124
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:125
 msgid "MonsterID (Generated)"
 msgstr ""
 
@@ -2961,6 +2966,10 @@ msgstr "WordPress 默认使用的 <abbr title=\"Universal Resource Locator\">URL
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:130
 msgid "Common settings"
 msgstr "通用设置"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:133
+msgid "Default"
+msgstr "默认"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-permalink.php:137
 msgid "Day and name"
@@ -5152,68 +5161,122 @@ msgstr "抱歉，有错误发生。"
 msgid "Import <strong>posts, comments, custom fields, pages, and categories</strong> from a WordPress export file."
 msgstr "从 WordPress 导出文件中导入<strong>日志、评论、自定义字段、页面和分类</strong>"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:9
-msgid "Convert Categories to Tags"
-msgstr "转换分类为标签"
-
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:32
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:57
 msgid "Hey there. Here you can selectively converts existing categories to tags. To get started, check the categories you wish to be converted, then click the Convert button."
 msgstr "您好！这个转化器允许您有选择地把现有的分类转换成标签。选取您想转换的分类，然后点击转换按钮。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:33
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:58
 msgid "Keep in mind that if you convert a category with child categories, the children become top-level orphans."
 msgstr "注意，当你转换一个带有子分类的分类时，子分类的父级分类设置将会被移除从而成为顶级分类。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:37
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:62
+msgid "You have no categories that can be converted. However some of your categories are both a tag and a category."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:64
 msgid "You have no categories to convert!"
 msgstr "没有可供转换的分类！"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:56
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:81
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:168
 msgid "Uncheck All"
 msgstr "全部不选"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:63
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:71
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:88
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:95
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:175
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:182
 msgid "Check All"
 msgstr "全部选中"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:93
-msgid "Convert Tags"
-msgstr "转换标签"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:125
+msgid "* This category is also a tag. It cannot be convert again."
+msgstr ""
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:133
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:128
+msgid "Convert Categories to Tags"
+msgstr "转换分类为标签"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:143
+#, fuzzy
+msgid "Here you can selectively converts existing tags to categories. To get started, check the tags you wish to be converted, then click the Convert button."
+msgstr "您好！这个转化器允许您有选择地把现有的分类转换成标签。选取您想转换的分类，然后点击转换按钮。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:144
+msgid "The newly created categories will still be associated with the same posts."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:149
+msgid "You have no tags that can be converted. However some of your tags are both a tag and a category."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:151
+#, fuzzy
+msgid "You have no tags to convert!"
+msgstr "没有可供转换的分类！"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:203
+msgid "* This tag is also a category. It cannot be converted again."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:206
+#, fuzzy
+msgid "Convert Tags to Categories"
+msgstr "转换分类为标签"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:257
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:330
 #, php-format
 msgid "Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
 msgstr "不能完成。请 <a href=\"%s\">重新尝试</a>。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:148
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:271
 #, php-format
 msgid "Converting category #%s ... "
 msgstr "正在转换分类 #%s ... "
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:151
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:274
 msgid "Category doesn't exist!"
 msgstr "分类不存在！"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:156
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:279
 msgid "Category is already a tag."
 msgstr "分类已经是标签了。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:192
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:315
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:374
 msgid "Converted successfully."
 msgstr "转换成功。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:199
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:322
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:384
 #, php-format
 msgid "We&#8217;re all done here, but you can always <a href=\"%s\">convert more</a>."
 msgstr "已经全部完成，但您也可以<a href=\"%s\">转换更多</a>。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:237
-msgid "Categories to Tags Converter"
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:344
+#, fuzzy, php-format
+msgid "Converting tag #%s ... "
+msgstr "正在转换分类 #%s ... "
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:347
+#, fuzzy
+msgid "Tag doesn't exist!"
+msgstr "分类不存在！"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:351
+#, fuzzy
+msgid "This Tag is already a Category."
+msgstr "分类已经是标签了。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:426
+#, fuzzy
+msgid "Categories and Tags Converter"
 msgstr "分类标签转换器"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:237
-msgid "Convert existing categories to tags, selectively."
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:426
+#, fuzzy
+msgid "Convert existing categories to tags or tags to categories, selectively."
 msgstr "选择性地转换已有分类为标签"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:31
@@ -5321,7 +5384,7 @@ msgid "See&nbsp;All"
 msgstr "查看所有"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/dashboard.php:221
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:833
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:834
 msgid "Cancel"
 msgstr "取消"
 
@@ -5610,29 +5673,29 @@ msgid "Caption"
 msgstr "说明"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:436
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1097
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1098
 msgid "Alternate text, e.g. \"The Mona Lisa\""
 msgstr "替换文字。例如：\"蒙娜丽莎\""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:443
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1099
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1100
 msgid "Alignment"
 msgstr "对齐方式"
 
 # "Ctrl+a"的"a"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:449
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1104
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1105
 msgid "Left"
 msgstr "左"
 
 # "Ctrl+a"的"a"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:451
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1106
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1107
 msgid "Center"
 msgstr "中"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:453
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1108
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1109
 msgid "Right"
 msgstr "右"
 
@@ -5678,74 +5741,74 @@ msgstr "隐藏"
 
 # 对应于Add Images（而非Add Image）
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:680
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1114
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1142
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1170
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1198
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1115
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1143
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1171
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1199
 msgid "Insert into Post"
 msgstr "插入到日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:823
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:824
 msgid "Choose files to upload"
 msgstr "选择待上传的文件"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:825
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:826
 msgid "After a file has been uploaded, you can add titles and descriptions."
 msgstr "每当上传完成后，您都可以在下面添加已上传文件的标题与描述。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:838
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:839
 msgid "If you want to use all capabilities of the uploader, like uploading multiple files at once, please upgrade to lighttpd 1.5."
 msgstr "如果您想使用上传工具的全部功能，例如同时上传多个文件，请将 lighttpd 升级到 1.5。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:860
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:861
 msgid "From Computer"
 msgstr "从本地"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:878
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:892
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:925
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1073
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:879
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:893
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:926
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1074
 msgid "Save all changes"
 msgstr "保存所有更改"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:883
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:884
 msgid "&mdash; OR &mdash;"
 msgstr "&mdash; 或者 &mdash;"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:884
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:885
 msgid "From URL"
 msgstr "从URL"
 
 # 对应于Add Images（而非Add Image）
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:926
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:927
 msgid "Insert gallery into post"
 msgstr "插入相册到日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1044
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1045
 msgid "Filter &#187;"
 msgstr "筛选 &#187;"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1085
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1086
 msgid "Image URL"
 msgstr "图片 URL"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1126
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1127
 msgid "Audio File URL"
 msgstr "音频链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1138
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1139
 msgid "Link text, e.g. \"Still Alive by Jonathan Coulton\""
 msgstr "链接文本。如：“Still Alive by Jonathan Coulton”"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1154
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1155
 msgid "Video URL"
 msgstr "视频链接"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1166
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1167
 msgid "Link text, e.g. \"Lucy on YouTube\""
 msgstr "链接文本。如：“Lucy on YouTube”"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1194
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/media.php:1195
 msgid "Link text, e.g. \"Ransom Demands (PDF)\""
 msgstr "链接文本。如：“Ransom Demands (PDF)”"
 
@@ -7838,12 +7901,31 @@ msgstr ""
 msgid "Date Created"
 msgstr "日期格式"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:2957
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:1137
+msgid "Content, title, and excerpt are empty."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:1253
+#, fuzzy
+msgid "Could not update post in the database"
+msgstr "无法往数据库中插入标签。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:1261
+#, fuzzy
+msgid "Could not insert post into the database"
+msgstr "无法往数据库中插入标签。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:1297
+#, fuzzy
+msgid "The page template is invalid."
+msgstr "其中有一个插件是无效的。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:2979
 #, fuzzy
 msgid "Content"
 msgstr "评论"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:3032
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:3054
 msgid "Cannot create a revision of a revision"
 msgstr ""
 
@@ -9663,4 +9745,15 @@ msgstr "更多……"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:398
 msgid "Next page..."
 msgstr "下一页……"
+
+#~ msgid ""
+#~ "By default WordPress uses <a href=\"http://gravatar.com/\">Gravatars</a> "
+#~ "&#8212; short for Globally Recognized Avatars &#8212; for the pictures "
+#~ "that show up next to comments. Plugins may override this."
+#~ msgstr ""
+#~ "默认情况下 WordPress 使用 <a href=\"http://gravatar.com/\">Gravatars</a>"
+#~ "（Globally Recognized Avatars 的缩写）在评论后面显示图片。使用插件可以忽略"
+#~ "该设置。"
+#~ msgid "Convert Tags"
+#~ msgstr "转换标签"
 
