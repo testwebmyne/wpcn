@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.5.x 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-02 19:48+0800\n"
-"PO-Revision-Date: 2008-05-02 19:49+0800\n"
+"POT-Creation-Date: 2008-05-13 20:20+0800\n"
+"PO-Revision-Date: 2008-05-13 20:20+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -3925,7 +3925,7 @@ msgid "Add User"
 msgstr "添加新用户"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:13
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:233
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:235
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -3938,60 +3938,60 @@ msgid "You are seeing this message because the theme you are currently using isn
 msgstr "您当前使用的主题不支持 Widgets，因此不能在此改变您的侧边栏。要使您的主题支持 Widgets，请了解<a href=\"http://automattic.com/code/widgets/themes/\">相关信息</a>。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:131
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:143
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:145
 msgid "Add Widget"
 msgstr "添加 Widget"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:185
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:187
 #, php-format
 msgid "You are using %1$s widget in the \"%2$s\" sidebar."
 msgid_plural "You are using %1$s widgets in the \"%2$s\" sidebar."
 msgstr[0] "您在 \"%2$s\" 侧栏中使用了 %1$s 个 Widgets。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:187
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:189
 #, php-format
 msgid "You are using %1$s widget in the sidebar."
 msgid_plural "You are using %1$s widgets in the sidebar."
 msgstr[0] "您在侧栏中使用了 %1$s 个 widgets。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:209
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:211
 msgid "Show any widgets"
 msgstr "显示任意 Widgets"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:209
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:211
 msgid "Show all widgets"
 msgstr "显示所有 widgets"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:210
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:212
 msgid "Show unused widgets"
 msgstr "显示未使用的 widgets"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:211
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:213
 msgid "Show used widgets"
 msgstr "显示使用中的 widgets"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:218
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:220
 msgid "Changes saved."
 msgstr "修改已保存。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:236
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:238
 msgid "Search Widgets"
 msgstr "搜索 Widgets"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:241
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:243
 msgid "Available Widgets"
 msgstr "可用 Widgets"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:248
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:265
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:250
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:267
 msgid "Show"
 msgstr "显示"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:257
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:259
 msgid "Current Widgets"
 msgstr "当前 Widgets"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:292
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/widgets.php:294
 msgid "Add more from the Available Widgets section."
 msgstr "从可用 Widgets 单元中添加更多 Widgets。"
 
@@ -6173,11 +6173,11 @@ msgstr "没有找到符合条件的 Widgets"
 msgid "%1$s: %2$s|1: widget name, 2: widget title"
 msgstr "%1$s: %2$s|1: widget name, 2: widget title"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/widgets.php:250
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/widgets.php:251
 msgid "There are no options for this widget."
 msgstr "该 Widget 没有可设置选项。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/widgets.php:264
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-admin/includes/widgets.php:265
 msgid "Remove"
 msgstr "移除"
 
@@ -7677,6 +7677,25 @@ msgstr "缺少附件"
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "这篇日志已被密码保护。请在这里输入密码："
 
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/post.php:1192
+msgid "Content, title, and excerpt are empty."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/post.php:1308
+#, fuzzy
+msgid "Could not update post in the database"
+msgstr "无法往数据库中插入标签。"
+
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/post.php:1316
+#, fuzzy
+msgid "Could not insert post into the database"
+msgstr "无法往数据库中插入标签。"
+
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/post.php:1352
+#, fuzzy
+msgid "The page template is invalid."
+msgstr "其中有一个插件是无效的。"
+
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/rss.php:856
 msgid "An error has occurred, which probably means the feed is down. Try again later."
 msgstr "出现错误。Feed 可能未工作。请稍后重试。"
@@ -7967,7 +7986,7 @@ msgid "Select Month"
 msgstr "选择月份"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:514
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:816
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:817
 msgid "Show post counts"
 msgstr "显示日志数"
 
@@ -7976,8 +7995,8 @@ msgid "Display as a drop down"
 msgstr "以下拉方式显示"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:525
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1405
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1406
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1407
 msgid "Meta"
 msgstr "功能"
 
@@ -8002,133 +8021,133 @@ msgstr "文本"
 msgid "Select Category"
 msgstr "选择分类"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:811
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:812
 msgid "Show as dropdown"
 msgstr "显示为下拉菜单"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:821
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:822
 msgid "Show hierarchy"
 msgstr "显示层次"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:836
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:837
 msgid "A list or dropdown of categories"
 msgstr "分类的列表或下拉菜单"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:893
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1412
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:894
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1413
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1414
 msgid "Recent Posts"
 msgstr "最新日志"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:946
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:947
 msgid "Number of posts to show:"
 msgstr "显示日志数："
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:948
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1007
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:949
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1008
 msgid "(at most 15)"
 msgstr "(最多 15 条)"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:976
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:977
 #, php-format
 msgid "%1$s on %2$s"
 msgstr "%1$s发表于《%2$s》"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1005
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1006
 msgid "Number of comments to show:"
 msgstr "评论显示数量："
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1020
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1021
 msgid "The most recent comments"
 msgstr "最新评论"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1063
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1064
 msgid "Unknown Feed"
 msgstr "未知 Feed"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1069
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1070
 msgid "Syndicate this content"
 msgstr "订阅该内容"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1111
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1112
 msgid "Untitled"
 msgstr "未命名"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1161
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1162
 msgid "An error has occurred; the feed is probably down. Try again later."
 msgstr "出错了。Feed 可能没有正常工作。请稍后重试。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1245
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1246
 msgid "Enter the RSS feed URL here:"
 msgstr "输入 RSS Feed 地址："
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1251
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1252
 msgid "Give the feed a title (optional):"
 msgstr "Feed 标题 (可选):"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1257
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1258
 msgid "How many items would you like to display?"
 msgstr "条目显示数量？"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1270
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1271
 msgid "Display item content?"
 msgstr "显示条目内容？"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1277
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1278
 msgid "Display item author if available?"
 msgstr "若可用，显示条目作者？"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1284
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1285
 msgid "Display item date?"
 msgstr "显示条目日期？"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1317
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1318
 msgid "Error: could not find an RSS or ATOM feed at that URL."
 msgstr "错误：在该 URL 找不到 RSS 或 ATOM Feed。"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1318
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1319
 #, php-format
 msgid "Error in RSS %1$d"
 msgstr "RSS %1$d 中存在错误"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1332
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1333
 msgid "Entries from any RSS or Atom feed"
 msgstr "嵌入 RSS 或 Atom feed"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1389
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1390
 msgid "Your blog's WordPress Pages"
 msgstr "您 Blog 上的页面列表"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1393
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1394
 msgid "A calendar of your blog's posts"
 msgstr "按日历归档您 Blog 的文章"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1397
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1398
 msgid "A monthly archive of your blog's posts"
 msgstr "按月份归档您 Blog 的文章"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1401
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1402
 msgid "Your blogroll"
 msgstr "您的 Blogroll"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1404
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1405
 msgid "Log in/out, admin, feed and WordPress links"
 msgstr "登录、注销、后台管理、订阅和链接单元"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1408
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1409
 msgid "A search form for your blog"
 msgstr "您的 Blog 上的搜索表单"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1411
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1412
 msgid "The most recent posts on your blog"
 msgstr "您的 Blog 上的最新日志"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1415
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1416
 msgid "Your most used tags in cloud format"
 msgstr "按标签云的方式显示您使用最频繁的标签"
 
-#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1416
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1417
+#: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/widgets.php:1418
 msgid "Tag Cloud"
 msgstr "标签云"
 
