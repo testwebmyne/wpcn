@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-15 13:43+0800\n"
-"PO-Revision-Date: 2008-05-15 14:06+0800\n"
+"POT-Creation-Date: 2008-05-16 10:25+0800\n"
+"PO-Revision-Date: 2008-05-16 10:46+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -2220,86 +2220,139 @@ msgid "No importers are available."
 msgstr "当前没有可用的导入工具。"
 
 # Dashboard 叫什么，是个问题！
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:36
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:45
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:37
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:46
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/menu.php:7
 msgid "Dashboard"
 msgstr "管理首页"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:49
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:50
 msgid "Right Now"
 msgstr "当前情况统计"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:52
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:53
 msgid "Write a New Post"
 msgstr "创建新日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:54
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:55
 msgid "Write a New Page"
 msgstr "创建新页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:70
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:71
 #, php-format
 msgid "%s post"
 msgid_plural "%s posts"
 msgstr[0] "%s 篇日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:74
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:75
 #, php-format
 msgid "%s page"
 msgid_plural "%s pages"
 msgstr[0] "%s 个页面"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:77
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:78
 #, php-format
 msgid "%s draft"
 msgid_plural "%s drafts"
 msgstr[0] "%s 条草稿"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:80
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:81
 #, php-format
 msgid "%s scheduled post"
 msgid_plural "%s scheduled posts"
 msgstr[0] "%s 篇预发布日志"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:84
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:85
 #, php-format
 msgid "There is <a href=\"%1$s\">%2$s post</a> pending your review."
 msgid_plural "There are <a href=\"%1$s\">%2$s posts</a> pending your review."
 msgstr[0] "目前有 <a href=\"%1$s\">%2$s 篇日志</a> 等待审核。"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:89
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:90
 #, php-format
 msgid "%s category"
 msgid_plural "%s categories"
 msgstr[0] "%s 个分类"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:90
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:91
 #, php-format
 msgid "%s tag"
 msgid_plural "%s tags"
 msgstr[0] "%s 个标签"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:99
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:100
 #, php-format
 msgid "You have %1$s, contained within %2$s and %3$s. %4$s"
 msgstr "您现有 %1$s，包含于 %2$s 与 %3$s。%4$s"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:108
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:109
 #, php-format
 msgid "%d widget"
 msgid_plural "%d widgets"
 msgstr[0] "%d 个 Widgets"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:113
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:114
 #, php-format
 msgid "You are using the %1$s theme with %2$s."
 msgstr "您正在使用 %1$s 主题并启用了 %2$s。"
 
 # 以下为模板管理页面
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:115
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:116
 msgid "Change Theme"
 msgstr "更换主题"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:130
+#, fuzzy
+msgid "Install offline storage for WordPress"
+msgstr "安装 WordPress"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:131
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:138
+msgid "WordPress has support for Google Gears that adds new features to your web browser."
+msgstr "WordPress 已经支持 Google Gears 来为您的浏览器增加一些新功能。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:131
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:138
+msgid "More information..."
+msgstr "更多信息……"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:132
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:139
+msgid "After installing and enabling it, most of the WordPress images, scripts and CSS files will be stored on this computer. This will speed up page loading considerably."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:133
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:140
+msgid "Please make sure you are not using a public or shared computer."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:134
+msgid "Install Now"
+msgstr "开始安装"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:140
+msgid "Install Google Gears"
+msgstr "安装 Google Gears"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:142
+msgid "Google Gears is installed on this computer but is not enabled for use with WordPress. To enable it, make sure this web site is not on the denied list under Tools - Google Gears Settings menu of your browser, then reload this page and allow the site to use Google Gears on this computer."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:143
+msgid "However if this is a public or shared computer, Google Gears should not be enabled."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:145
+msgid "Google Gears is installed and enabled on this computer. You can disable it from your browser Tools menu."
+msgstr ""
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:146
+msgid "Status:"
+msgstr "状态："
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:146
+msgid "Please wait! Updating files:"
+msgstr "请稍等！正在升级文件："
 
 # 下面是 WordPress 安装程序
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/install.php:23
@@ -2336,7 +2389,6 @@ msgid "Please provide the following information.  Don't worry, you can always ch
 msgstr "请提供以下信息。不必担心，这些信息以后都可以随时修改。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/install.php:50
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:16
 msgid "Blog Title"
 msgstr "Blog 标题"
 
@@ -4449,7 +4501,6 @@ msgid "Import Bunny&#8217;s Technorati Tags"
 msgstr "导入 Bunny&#8217;s Technorati Tags"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/btt.php:8
-#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:116
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
 msgstr "这些步骤可能需要几分钟的时间，取决于数据库的大小。请耐心等待。"
 
@@ -4518,55 +4569,67 @@ msgid "Import Categories"
 msgstr "导入分类"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:204
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:156
 msgid "Importing Categories..."
 msgstr "导入分类中..."
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:228
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:180
 #, php-format
 msgid "Done! <strong>%1$s</strong> category imported."
 msgid_plural "Done! <strong>%1$s</strong> categories imported."
 msgstr[0] "完成！<strong>%1$s</strong> 个分类已导入。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:231
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:183
 msgid "No Categories to Import!"
 msgstr "无分类可导入！"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:245
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:197
 msgid "Importing Users..."
 msgstr "导入用户中..."
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:302
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:252
 #, php-format
 msgid "Done! <strong>%1$s</strong> users imported."
 msgstr "完成！<strong>%1$s</strong>个用户已导入。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:306
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:256
 msgid "No Users to Import!"
 msgstr "没有用户可导入！"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:322
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:272
 msgid "Importing Posts..."
 msgstr "导入日志中..."
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:405
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:346
 #, php-format
 msgid "Done! <strong>%1$s</strong> posts imported."
 msgstr "完成！<strong>%1$s</strong>篇日志已导入。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:420
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:361
 msgid "Importing Comments..."
 msgstr "导入评论中..."
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:475
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:413
 #, php-format
 msgid "Done! <strong>%1$s</strong> comments imported."
 msgstr "完成！<strong>%1$s</strong>条评论已导入。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:478
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:416
 msgid "No Comments to Import!"
 msgstr "没有评论可导入！"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:491
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:429
 msgid "Importing Links..."
 msgstr "导入链接中..."
 
@@ -4577,22 +4640,27 @@ msgid_plural "Done! <strong>%s</strong> links or link categories imported."
 msgstr[0] "完成！<strong>%s</strong> 个链接或链接类别成功导入。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:533
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:469
 msgid "No Links to Import!"
 msgstr "没有链接可导入！"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:548
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:484
 msgid "Import Users"
 msgstr "导入用户"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:561
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:497
 msgid "Import Posts"
 msgstr "导入日志"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:575
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:511
 msgid "Import Comments"
 msgstr "导入评论"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:600
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:536
 msgid "Finish"
 msgstr "完成"
 
@@ -4606,14 +4674,17 @@ msgid "You have already setup WordPress and have been assigned an administrative
 msgstr "您已经成功安装了 WordPress 并设置了一个管理员帐号和密码。忘掉它吧！您没有用这个帐号密码登录过 Dotclear ，为什么还要在这里再使用呢？我们已经成功地将您在 Dotclear 中的所有用户导入到我们的系统里。我们只剩下一个小问题：因为 WordPress 和 Dotclear 都对密码使用了强加密措施，我们无法解开所有的用户密码然后指定给这里的用户。<strong>所以，所有的用户名都将保持不变，但是密码都将被初始化为 password123</strong>。您可以在这里<a href=\"%1$s\">登录</a>然后修改密码。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:627
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:562
 msgid "Preserving Authors"
 msgstr "保留作者"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:628
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:563
 msgid "Secondly, we have attempted to preserve post authors.  If you are the only author or contributor to your blog, then you are safe.  In most cases, we are successful in this preservation endeavor.  However, if we cannot ascertain the name of the writer due to discrepancies between database tables, we assign it to you, the administrative user."
 msgstr "其次，我们尝试保留日志的作者。如果您是您原 Blog 的唯一作者，那么您是安全的。多数情况下我们可以很好的处理这种情况。但是，如果我们无法保证导入前后作者信息的统一性，我们会把那些日志放到您，这个网站的管理员，的名下。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:629
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:564
 msgid "Textile"
 msgstr "Textile"
 
@@ -4622,22 +4693,27 @@ msgid "Also, since you're coming from DotClear, you probably have been using Tex
 msgstr "而且，既然您来自 Dotclear，您可能曾经使用 Textile 来格式化您的日志和评论。如果是这样，我们推荐下载使用<a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>。相信我，你会需要它的！"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:631
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:566
 msgid "WordPress Resources"
 msgstr "WordPress 资源"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:632
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:567
 msgid "Finally, there are numerous WordPress resources around the internet.  Some of them are:"
 msgstr "最后，这里有很多 WordPress 资源。例如："
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:634
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:569
 msgid "<a href=\"http://www.wordpress.org\">The official WordPress site</a>"
 msgstr "<a href=\"http://www.wordpress.org\">WordPress 官方网站</a>"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:635
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:570
 msgid "<a href=\"http://wordpress.org/support/\">The WordPress support forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\">WordPress 技术支持论坛</a>"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/dotclear.php:636
+#: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/textpattern.php:571
 msgid "<a href=\"http://codex.wordpress.org\">The Codex (In other words, the WordPress Bible)</a>"
 msgstr "<a href=\"http://codex.wordpress.org\">WordPress Codex（WordPress 官方文档）</a>"
 
@@ -5314,18 +5390,16 @@ msgid "Check All"
 msgstr "全部选中"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:125
-#, fuzzy
 msgid "* This category is also a tag. It cannot be convert again."
-msgstr "* 该标签存在同名分类。无法被再次转换。"
+msgstr "* 该分类存在同名标签。无法被再次转换。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:128
 msgid "Convert Categories to Tags"
 msgstr "转换分类为标签"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:143
-#, fuzzy
 msgid "Here you can selectively converts existing tags to categories. To get started, check the tags you wish to be converted, then click the Convert button."
-msgstr "您好！这个转化器允许您有选择地把现有的分类转换成标签。选取您想转换的分类，然后点击转换按钮。"
+msgstr "您好！这个转化器允许您有选择地把现有的标签转换成分类。选取您想转换的标签，然后点击转换按钮。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:144
 msgid "The newly created categories will still be associated with the same posts."
@@ -5395,9 +5469,8 @@ msgid "Categories and Tags Converter"
 msgstr "分类标签转换器"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:426
-#, fuzzy
 msgid "Convert existing categories to tags or tags to categories, selectively."
-msgstr "选择性地转换已有分类为标签"
+msgstr "选择性地将分类转换为标签或将标签转换为分类。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/includes/class-wp-filesystem-ftpext.php:31
 msgid "The ftp PHP extension is not available"
@@ -7987,12 +8060,12 @@ msgstr "Y年n月j日 @ H:i|revision date format"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post-template.php:589
 #, php-format
 msgid "%s [Autosave]"
-msgstr ""
+msgstr "%s [自动保存]"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post-template.php:590
-#, fuzzy, php-format
+#, php-format
 msgid "%s [Current Revision]"
-msgstr "当前收藏夹"
+msgstr "%s [当前修订版本]"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post-template.php:637
 #, php-format
@@ -8035,9 +8108,8 @@ msgid "Content"
 msgstr "页面内容"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:3107
-#, fuzzy
 msgid "Cannot create a revision of a revision"
-msgstr "Y年n月j日 @ H:i|revision date format"
+msgstr "无法创建修订版本"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/rss.php:856
 msgid "An error has occurred, which probably means the feed is down. Try again later."
@@ -8226,7 +8298,6 @@ msgid "Send to editor &raquo;"
 msgstr "发送到编辑器 &raquo;"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:184
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:15
 msgid "Insert"
 msgstr "插入"
 
@@ -8251,7 +8322,15 @@ msgstr ""
 msgid "Word count: %d"
 msgstr "字数统计：%d"
 
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:506
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:205
+msgid "Update completed."
+msgstr "升级完成。"
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:206
+msgid "Error:"
+msgstr "错误："
+
+#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/script-loader.php:512
 msgid "Saving Draft&#8230;"
 msgstr "正在保存草稿 &#8230;"
 
@@ -8604,12 +8683,10 @@ msgid "Letter"
 msgstr "快捷键"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:195
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:221
 msgid "Copy"
 msgstr "复制"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:195
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:222
 msgid "Paste"
 msgstr "粘贴内容"
 
@@ -8619,34 +8696,28 @@ msgid "Select all"
 msgstr "全选"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:196
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:220
 msgid "Cut"
 msgstr "剪切"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:197
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:200
 msgid "Undo"
 msgstr "撤消"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:197
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:201
 msgid "Redo"
 msgstr "重做"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:200
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:213
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:188
 msgid "Bold"
 msgstr "粗体"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:200
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:213
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:189
 msgid "Italic"
 msgstr "斜体"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:201
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:190
 msgid "Underline"
 msgstr "下划线"
 
@@ -8676,7 +8747,6 @@ msgstr "标题 6"
 
 # 链接的网址
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:204
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:175
 msgid "Address"
 msgstr "地址"
 
@@ -8701,7 +8771,6 @@ msgid "Align Center"
 msgstr "居中"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:217
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:191
 msgid "Strikethrough"
 msgstr "删除线"
 
@@ -8711,7 +8780,6 @@ msgstr "右对齐"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:218
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:219
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:293
 msgid "List"
 msgstr "列表"
 
@@ -8740,9 +8808,6 @@ msgid "Insert Page Break tag"
 msgstr "插入页面截断标签"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:222
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:225
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:239
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:396
 msgid "Help"
 msgstr "帮助"
 
@@ -8751,7 +8816,6 @@ msgid "Switch to HTML mode"
 msgstr "切换到 HTML 模式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:228
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:237
 msgid "About TinyMCE"
 msgstr "关于 TinyMCE"
 
@@ -8789,7 +8853,6 @@ msgid "Also on freshmeat"
 msgstr "同样位于 freshmeat"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/wp-mce-help.php:246
-#: D:\Source.Code.SVN\WordPress.SVN/wp-includes/js/tinymce/langs/wp-langs.php:18
 msgid "Close"
 msgstr "关闭"
 
