@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Mu 1.5.1 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-14 15:07+0800\n"
-"PO-Revision-Date: 2008-05-14 15:07+0800\n"
+"POT-Creation-Date: 2008-05-16 13:09+0800\n"
+"PO-Revision-Date: 2008-05-16 13:34+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -1187,7 +1187,7 @@ msgstr "%s后"
 #: D:\Source.Code\WordPress.MU.1.5.1/wp-admin/edit-post-rows.php:72
 #, php-format
 msgid "%s ago"
-msgstr "%s 前"
+msgstr "%s前"
 
 #: D:\Source.Code\WordPress.MU.1.5.1/wp-admin/edit-attachment-rows.php:83
 #: D:\Source.Code\WordPress.MU.1.5.1/wp-admin/edit-post-rows.php:74
@@ -1324,7 +1324,7 @@ msgstr "已审核"
 
 #: D:\Source.Code\WordPress.MU.1.5.1/wp-admin/edit-comments.php:169
 msgid "Mark as Spam"
-msgstr "垃圾评论"
+msgstr "标记为垃圾数据"
 
 #: D:\Source.Code\WordPress.MU.1.5.1/wp-admin/edit-comments.php:171
 msgid "Unapprove"
@@ -1690,7 +1690,7 @@ msgstr "待审核"
 
 #: D:\Source.Code\WordPress.MU.1.5.1/wp-admin/edit-form-comment.php:30
 msgid "Spam"
-msgstr "垃圾评论"
+msgstr "垃圾数据"
 
 #: D:\Source.Code\WordPress.MU.1.5.1/wp-admin/edit-form-comment.php:35
 #, php-format
@@ -10503,4 +10503,9 @@ msgstr "更多……"
 #: D:\Source.Code\WordPress.MU.1.5.1/wp-includes/js/tinymce/langs/wp-langs.php:398
 msgid "Next page..."
 msgstr "下一页……"
+
+#~ msgid "Admin Notice Feed"
+#~ msgstr "订阅管理通知"
+#~ msgid "Read More"
+#~ msgstr "阅读更多"
 
