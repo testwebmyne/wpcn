@@ -1,0 +1,3921 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress SVN 简体中文语言包\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-16 10:26+0800\n"
+"PO-Revision-Date: 2008-05-16 10:26+0800\n"
+"Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
+"Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: D:\\Source.Code.SVN\\bbPress.SVN\n"
+"X-Poedit-SearchPath-0: D:\\Source.Code.SVN\\bbPress.SVN\n"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "抱歉，帖子太老了。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-post.php:8
+msgid "Slow down; you move too fast."
+msgstr "请慢慢来；您的操作太快了。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr "您需要输入一些内容！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-post.php:15
+#: D:\Source.Code.SVN\bbPress.SVN/bb-post.php:36
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "您没有权限发帖。您登录了吗?"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-post.php:18
+msgid "You are not allowed to write new topics."
+msgstr "您没有权限发表新主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-post.php:26
+msgid "Please enter a topic title"
+msgstr "请输入一个主题的标题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-post.php:39
+msgid "This topic has been closed"
+msgstr "该主题已关闭"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-settings.php:120
+msgid "Your table prefix may only contain letters, numbers and underscores."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-settings.php:214
+msgid "Could not determine site URI"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-settings.php:282
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr "您不能编辑那些收藏。您怎么到这里来的？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/forum.php:10
+msgid "Forum not found."
+msgstr "版面没有找到。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/profile-edit.php:39
+#, fuzzy
+msgid "Invalid email address"
+msgstr "电子邮箱地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/profile-edit.php:47
+#: D:\Source.Code.SVN\bbPress.SVN/profile-edit.php:76
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/profile-edit.php:65
+#, fuzzy
+msgid "Invalid Role"
+msgstr "无效参数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/profile-edit.php:67
+msgid "You are not the Gate Keeper."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/profile-edit.php:69
+msgid "You, Keymaster, may not demote yourself."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/profile-edit.php:90
+msgid "You must enter the same password twice."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/profile-edit.php:92
+#, fuzzy
+msgid "You are not allowed to change this user's password."
+msgstr "您没有权限更改密码。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:88
+msgid "Topic"
+msgstr "主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:97
+msgid "User Favorites"
+msgstr "用户收藏夹"
+
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:105
+msgid "Tag"
+msgstr "标签"
+
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:117
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:123
+msgid "Forum"
+msgstr "版面"
+
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:117
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:136
+msgid "Recent Topics"
+msgstr "最近发表主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:123
+#: D:\Source.Code.SVN\bbPress.SVN/rss.php:144
+msgid "Recent Posts"
+msgstr "最近发帖"
+
+#: D:\Source.Code.SVN\bbPress.SVN/statistics.php:9
+msgid "Statistics"
+msgstr "统计"
+
+#: D:\Source.Code.SVN\bbPress.SVN/tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "您需要登录后才能添加标签。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/tag-add.php:17
+#: D:\Source.Code.SVN\bbPress.SVN/topic.php:15
+msgid "Topic not found."
+msgstr "主题没有找到。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/tag-add.php:22
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "标签没有添加。原因是标签名无效或者主题已关闭。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "无效的标签或主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/tag-remove.php:24
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr "标签没有被删除。您不能从一个关闭的主题中删除标签。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/tags.php:9
+msgid "Tag not found"
+msgstr "标签没有找到"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-base.php:13
+msgid "Nothing to see here."
+msgstr "这里没有内容。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-footer.php:7
+#, php-format
+msgid "Thank you for using <a href=\"%s\">bbPress</a> | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Development</a> | You are using version %s"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-footer.php:18
+#, php-format
+msgid "This page generated in %s seconds, using %d queries"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:50
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:55
+msgid "Users"
+msgstr "用户"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:56
+msgid "Manage"
+msgstr "管理"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:57
+msgid "Design"
+msgstr "外观"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:62
+msgid "Settings"
+msgstr "设置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:63
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:80
+msgid "Plugins"
+msgstr "插件"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:69
+msgid "Find"
+msgstr "查找"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:70
+msgid "Moderators"
+msgstr "版主"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:71
+msgid "Blocked"
+msgstr "封禁"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:73
+msgid "Topics"
+msgstr "主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:74
+msgid "Posts"
+msgstr "帖子"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:75
+msgid "Forums"
+msgstr "版面"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:76
+msgid "Recount"
+msgstr "重新计算"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:78
+msgid "Themes"
+msgstr "模板"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:82
+msgid "General"
+msgstr "常规"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:83
+msgid "WordPress Integration"
+msgstr "WordPress 集成"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:301
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:642
+msgid "Edit"
+msgstr "编辑"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:354
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:492
+msgid "No matching users were found!"
+msgstr "没有找到符合的用户！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:414
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "符合\"%s\"的用户"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:416
+msgid "User List by Role"
+msgstr "按用户身份排序"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:421
+msgid "Search:"
+msgstr "搜索："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:423
+msgid "Search for users &raquo;"
+msgstr "搜索用户 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:429
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; 返回到所有用户"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:431
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "结果 %1$s &#8211; 第 %2$s 条显示在下方，共计 %3$s 条"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:441
+msgid "Users with no role in these forums"
+msgstr "用户无权访问此版面"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:445
+msgid "ID"
+msgstr "ID"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:447
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:450
+msgid "Username"
+msgstr "用户名"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:448
+msgid "Email"
+msgstr "电子邮箱"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:452
+msgid "Registered Since"
+msgstr "注册时间"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:453
+msgid "Actions"
+msgstr "操作"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:644
+msgid "Delete"
+msgstr "删除"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:664
+msgid "Forum Name:"
+msgstr "版面名称："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:667
+msgid "Forum Description:"
+msgstr "版面描述："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:670
+msgid "Forum Parent:"
+msgstr "上级版面："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:673
+msgid "Position:"
+msgstr "位置："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:676
+#, fuzzy
+msgid "Forum is Category:"
+msgstr "论坛管理员"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:687
+msgid "Update Forum &#187;"
+msgstr "更新版面 &#187;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:687
+msgid "Add Forum &#187;"
+msgstr "添加版面 &#187;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:849
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "发表时间: %1$s 在 <a href=\"%2$s\">%3$s</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:864
+msgid "Count posts of every topic"
+msgstr "计算每个主题的帖数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:865
+msgid "Count deleted posts on every topic"
+msgstr "计算每个主题的删帖数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:866
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "计算每个版面的主题数与帖数（根据以上设置）"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:867
+msgid "Count topics to which each user has replied"
+msgstr "计算每个用户回复的主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:868
+msgid "Count tags for every topic"
+msgstr "计算每个主题的标签"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:869
+msgid "Count topics for every tag"
+msgstr "计算每个标签的主题数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:870
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "删除没有主题的标签。仅当上面的选项被选取时才会执行"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:871
+msgid "REMOVE deleted topics from users' favorites"
+msgstr "从用户收藏夹中移除已删除的主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:1009
+msgid "Visit plugin homepage"
+msgstr "访问插件主页"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:1012
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:1057
+msgid "Visit author homepage"
+msgstr "访问作者主页"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-functions.php:1063
+msgid "Visit porter homepage"
+msgstr "访问维护者主页"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-header.php:20
+msgid "Visit Site"
+msgstr "查看网站"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/admin-header.php:25
+#, fuzzy, php-format
+msgid "Howdy, %1$s!"
+msgstr "欢迎您，%1$s！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "正在重新计算"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr "正在计算帖子……"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:24
+msgid "Done counting posts."
+msgstr "帖子计算完成。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:33
+msgid "Counting deleted posts..."
+msgstr "正在计算删除的帖子……"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:43
+msgid "Done counting deleted posts."
+msgstr "删除的帖子计算完成。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:45
+msgid "No deleted posts to count."
+msgstr "没有删除的帖子可供计算。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:53
+msgid "Counting forum topics and posts..."
+msgstr "正在计算版面主题和帖子……"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:67
+msgid "Done counting forum topics and posts."
+msgstr "版面主题和帖子计算完成。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:74
+msgid "Counting topics to which each user has replied..."
+msgstr "正在计算每个用户回复的主题……"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:79
+msgid "Done counting topics."
+msgstr "主题计算完成。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:86
+msgid "Counting topic tags..."
+msgstr "正在计算主题标签……"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:96
+msgid "Done counting topic tags."
+msgstr "主题标签计算完成。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:103
+msgid "Counting tagged topics..."
+msgstr "正在计算含标签的主题……"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:115
+msgid "Done counting tagged topics."
+msgstr "含标签的主题计算完成。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:121
+msgid "Deleted tags with no topics."
+msgstr "已删除不包含主题的标签。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:130
+#, fuzzy
+msgid "Removing deleted topics from users' favorites..."
+msgstr "已经从用户收藏夹中移除已删除的主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:139
+msgid "Done removing deleted topics from users' favorites."
+msgstr "已经从用户收藏夹中移除已删除的主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:148
+msgid "Done recounting.  The process took"
+msgstr "重新计算完成。整个过程花费"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-do-counts.php:149
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d 次查询耗时 %2$s 秒。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "你没有权限调整论坛版面。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-forum.php:15
+msgid "Bad forum name.  Go back and try again."
+msgstr "无效的版面名称。请后退重试。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-forum.php:23
+msgid "The forum was not added"
+msgstr "版面没有添加"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-forum.php:30
+msgid "No forums to update!"
+msgstr "没有版面更新！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-forum.php:45
+msgid "You don't have the authority to kill off the forums."
+msgstr "你没有删除版面的权限。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/bb-forum.php:51
+msgid "Error occured while trying to delete forum"
+msgstr "删除版面时发生错误"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:136
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; 错误"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:137
+msgid "Oh dear!"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:141
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:151
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:162
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:173
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:185
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:141
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:151
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:162
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:173
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:185
+msgid "bbPress installer"
+msgstr "bbPress 安装向导"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:141
+msgid "Welcome"
+msgstr "欢迎"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:142
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:152
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:163
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:174
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:186
+msgid "Welcome to the bbPress installer"
+msgstr "欢迎来到 bbPress 安装向导"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:145
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "现在，我们将通过几步操作，让您的论坛开始运行。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:147
+#, php-format
+msgid "Ready? Then <a href=\"%s\">let's get started!</a>"
+msgstr "准备好了吗？那么，<a href=\"%s\">让我们开始吧！</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:151
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:153
+msgid "Step 1"
+msgstr "第一步"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:153
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:164
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:175
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:153
+msgid "Database configuration"
+msgstr "数据库配置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:156
+msgid "Here you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "在这里，您需要输入数据库连接的详细信息。安装程序试图在您的 bbPress 根目录中建议一个名为 <code>bb-config.php</code> 的文件。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:157
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "如果您不确定这里如何填写，请联系您的空间服务商。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:162
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:164
+msgid "Step 2"
+msgstr "第二步"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:164
+msgid "WordPress integration (optional)"
+msgstr "WordPress 集成（可选）"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:165
+msgid "&laquo; skipped"
+msgstr "&laquo; 跳过"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:167
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this section if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress 可以完美的将登陆和用户数据与 WordPress 进行集成。如果您不想与已创建的 WordPress 进行集成，您可以安全的跳过该步骤。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:173
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:175
+msgid "Step 3"
+msgstr "第三步"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:175
+msgid "Site settings"
+msgstr "站点设置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:178
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "提供一个站点的名称、第一个用户名和第一个版块。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:185
+msgid "Finished"
+msgstr "完成"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:187
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1849
+msgid "Installation complete!"
+msgstr "安装完毕！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:204
+#, php-format
+msgid "Your server is running PHP version %s but bbPress requires at least 4.3"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:210
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:220
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:316
+msgid "Please select the language you wish to use during installation -"
+msgstr "请选择安装过程中想使用的语言 -"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:422
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:435
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:863
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:871
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:883
+msgid "&laquo; completed"
+msgstr "&laquo; 完成"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:443
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "已经找到有效的 <code>bb-config.php</code> 文件<br />您可以进行下一步操作了。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:448
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:449
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:459
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress 已经安装，但可能需要升级。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:460
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:473
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:980
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:479
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "目前 <code>bb-config.php</code> 文件似乎不存在。这通常意味着您将要安装 bbPress。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:551
+#, fuzzy
+msgid "Database name"
+msgstr "数据库名称："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:552
+msgid "The name of the database in which you want to run bbPress."
+msgstr "想要运行 bbPress 的数据库名称。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:556
+#, fuzzy
+msgid "Database user"
+msgstr "数据库用户名："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:557
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:704
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:194
+msgid "The database user that has access to that database."
+msgstr "访问数据库的账户。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:562
+#, fuzzy
+msgid "Database password"
+msgstr "数据库密码："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:563
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:711
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:203
+msgid "That database user's password."
+msgstr "该数据库用户的密码。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:567
+msgid "Language"
+msgstr "语言"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:568
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current language choice (%s) will remain for the rest of the install process."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:572
+#, fuzzy
+msgid "Show advanced settings"
+msgstr "显示高级设置："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:573
+#, php-format
+msgid "99% of the time these settings will not have to be changed."
+msgstr "% o 您基本上无需更改这些设置。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:579
+#, fuzzy
+msgid "Database host"
+msgstr "数据库地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:580
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:212
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "数据库所在服务器的域名或 IP 地址。如果数据库和 WEB 站点在同一台机器，那么这里可以填写 <strong>localhost</strong>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:585
+#, fuzzy
+msgid "Database character set"
+msgstr "数据库字符集："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:586
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:723
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:221
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "最好的选择是 <strong>utf8</strong>，但是您需要与已经建立的数据库的字符集相匹配。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:591
+#, fuzzy
+msgid "Database character collation"
+msgstr "数据库字符集："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:592
+msgid "The character collation value set when the database was created."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:597
+#, fuzzy
+msgid "bbPress cookie secret key"
+msgstr "Cookie 密钥："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:598
+msgid "This should be a unique and secret phrase, it will be used to make your bbPress cookies unique and harder for an attacker to decipher."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:603
+#, fuzzy
+msgid "Table name prefix"
+msgstr "数据表前缀："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:604
+msgid "If you are running multiple bbPress installations in a single database, you will probably want to change this."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:609
+#, fuzzy
+msgid "Contents for <code>bb-config.php</code>"
+msgstr "（你已经在 <code>config.php</code> 文件中设置了此项。）"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:610
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:613
+#, fuzzy
+msgid "Save database configuration file"
+msgstr "保存数据库配置文件 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:616
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:742
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:787
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:62
+msgid "&laquo; Go back"
+msgstr "&laquo; 返回"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:619
+#, fuzzy
+msgid "Check for configuration file"
+msgstr "检查数据库配置文件 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:622
+msgid "Go to step 2 &raquo;"
+msgstr "进行第二步 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:631
+#, fuzzy
+msgid "Add integration settings"
+msgstr "添加集成的相关设置："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:632
+msgid "If you want to integrate bbPress with an existing WordPress installation."
+msgstr "如果您想将 bbPress 集成到已有的 WordPress 站点中。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:637
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:739
+msgid "Skip WordPress integration &raquo;"
+msgstr "跳过与 WordPress 集成的操作 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:638
+#, fuzzy
+msgid "Save WordPress integration settings"
+msgstr "保存与 WordPress 集成的相关设置 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:643
+#, fuzzy
+msgid "Add cookie integration settings"
+msgstr "添加用户数据库集成设置："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:644
+#, fuzzy
+msgid "If you want to allow shared logins with an existing WordPress installation."
+msgstr "是否想与已创建的 WordPress 共享用户数据表。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:651
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:69
+#, fuzzy
+msgid "WordPress address (URL)"
+msgstr "WordPress 地址（URL）："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:652
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:73
+#, fuzzy
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "输入的内容需要与 WordPress 中的“设置”里 <strong>WordPress 地址（URL）</strong> 中输入的完全相同。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:657
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:78
+#, fuzzy
+msgid "Blog address (URL)"
+msgstr "Blog 地址（URL）："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:658
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:82
+#, fuzzy
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "输入的内容需要与 WordPress 中的“设置”里 <strong>Blog 地址（URL）</strong> 中输入的完全相同。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:663
+#, fuzzy
+msgid "WordPress cookie secret key"
+msgstr "WordPress.com API Key"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:664
+msgid "This value must match the value of the constant named \"SECRET_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress cookie secret key set in the first step."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:669
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:87
+#, fuzzy
+msgid "WordPress database secret"
+msgstr "Cookie 密钥："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:670
+msgid "This must match the value of the WordPress setting named \"secret\" in your WordPress installation. Look for the option labeled \"secret\" in <a href=\"#\" id=\"getSecretOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:675
+#, fuzzy
+msgid "Add user database integration settings"
+msgstr "添加用户数据库集成设置："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:676
+#, fuzzy
+msgid "If you want to share user data with an existing WordPress installation."
+msgstr "是否想与已创建的 WordPress 共享用户数据表。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:683
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:137
+#, fuzzy
+msgid "User database table prefix"
+msgstr "用户数据库表前缀："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:684
+msgid "If your bbPress and WordPress installations share the same database, then this is the same value as <code>$wp_table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr "如果您的 bbPress 和 WordPress 共享同一个数据库。那么该值和您的 WordPress 目录里 <code>wp-config.php</code> 文件中 <code>$wp_table_prefix</code> 的参数所设置的是相同的。通常为 <strong>wp_</strong>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:689
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:147
+#, fuzzy
+msgid "Show advanced database settings"
+msgstr "显示高级数据库设置："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:690
+msgid "If your bbPress and WordPress installation do not share the same database, then you will need to add advanced settings."
+msgstr "如果您的 bbPress 和 WordPress 不是共享同一个数据库，那么您需要添加高级设置。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:697
+#, fuzzy
+msgid "User database name"
+msgstr "用户数据库名称："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:698
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:185
+msgid "The name of the database in which your user tables reside."
+msgstr "您的用户表所在的数据库名称。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:703
+#, fuzzy
+msgid "User database user"
+msgstr "用户数据库账户："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:710
+#, fuzzy
+msgid "User database password"
+msgstr "用户数据库密码："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:716
+#, fuzzy
+msgid "User database host"
+msgstr "用户数据库地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:717
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr "数据库所在服务器的域名或 IP 地址。如果数据库和 WEB 站点在同一台机器，那么这里可以填写 <strong>localhost</strong>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:722
+#, fuzzy
+msgid "User database character set"
+msgstr "用户数据库字符集："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:728
+#, fuzzy
+msgid "User database \"user\" table"
+msgstr "用户数据库 \"user\" 表："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:729
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:735
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:234
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:243
+msgid "The complete table name, including any prefix."
+msgstr "完整的表名称，包含所有前缀。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:734
+#, fuzzy
+msgid "User database \"user meta\" table"
+msgstr "用户数据库 \"user meta\" 表："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:745
+msgid "Go to step 3 &raquo;"
+msgstr "进行第三步 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:754
+#, fuzzy
+msgid "Site name"
+msgstr "站点名称："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:755
+msgid "This is what you are going to call your bbPress installation."
+msgstr "想如何称呼您的 bbPress 站点。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:759
+#, fuzzy
+msgid "Site address (URL)"
+msgstr "站点地址（URL）："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:760
+msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
+msgstr "我们尝试猜车出来这个地址，通常是正确的。但是您也可以进行修改。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:766
+msgid "This is the user login for the initial bbPress administrator (known as a \"key master\")."
+msgstr "这是第一个登录 bbPress 的管理员（俗称 \"坛主\"）。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:771
+#, fuzzy
+msgid "Email address"
+msgstr "电子邮箱地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:772
+msgid "The login details will be emailed to this address."
+msgstr "登录的细节将被发送到该地址。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:780
+#, fuzzy
+msgid "Forum name"
+msgstr "版面名称："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:781
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr "安装完成后可以进行修改，所以不需要太担心。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:784
+#, fuzzy
+msgid "Save site settings"
+msgstr "站点设置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:790
+msgid "Complete the installation &raquo;"
+msgstr "完成安装 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:799
+#, fuzzy
+msgid "Show installation messages"
+msgstr "显示安装信息："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:803
+#, fuzzy
+msgid "Installation errors"
+msgstr "安装错误："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:807
+#, fuzzy
+msgid "Installation log"
+msgstr "安装日志："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:996
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1062
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1073
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1090
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr "您选择了跳过与 WordPress 集成的步骤。您也可以在 bbPress 的管理区域随时设置与 WordPress 的集成。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1150
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1168
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1177
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1368
+msgid "&bull; This value is required to continue."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1180
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1371
+msgid "&bull; This does not appear to be a valid URL."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1183
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1374
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1186
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1377
+msgid "&bull; The URL does not contain a host name."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1266
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1282
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1284
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1286
+msgid "&bull; This may not be a valid user table prefix."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1304
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1359
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1380
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1383
+msgid "&bull; The user email address appears to be invalid."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1402
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr "您的站点设置已经保存，并且我们现在准备完成安装过程。还等什么？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1436
+#, fuzzy
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr "提交成功，开始安装……"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1443
+msgid "Setting up custom user table constants"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1451
+msgid "Removed user tables from schema"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1466
+msgid "Removed users table from schema"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1471
+msgid "Removed usermeta table from schema"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1491
+msgid "Step 1 - Creating database tables"
+msgstr "第一步 - 创建数据库表"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1514
+msgid "User tables will already exist when performing a database integrated installation."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1517
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1519
+#, fuzzy
+msgid "Database installation failed!!!"
+msgstr "数据库升级失败"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1518
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1692
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1725
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1751
+#, fuzzy
+msgid "Halting installation!"
+msgstr "安装完毕"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1522
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1694
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1728
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1754
+msgid "Installation failed!"
+msgstr "安装失败！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1523
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1531
+#, fuzzy
+msgid "Database is already installed!!!"
+msgstr "分类已经是标签了。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1536
+msgid "Step 2 - WordPress integration (optional)"
+msgstr "第二步 - WordPress 集成（可选）"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1540
+msgid "WordPress address (URL):"
+msgstr "WordPress 地址（URL）："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1543
+msgid "Blog address (URL):"
+msgstr "Blog 地址（URL）："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1578
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1587
+#, fuzzy
+msgid "WordPress cookie secret key set."
+msgstr "Cookie 密钥："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1581
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1584
+msgid "WordPress cookie secret key not set."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1582
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1583
+msgid "You will need to manually define the \"BB_SECRET_KEY\" in your \"bb-config.php\" file."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1592
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1608
+#, fuzzy
+msgid "WordPress database secret set."
+msgstr "用户数据库字符集："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1600
+#, fuzzy
+msgid "Fetching WordPress database secret."
+msgstr "Cookie 密钥："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1610
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1613
+#, fuzzy
+msgid "WordPress database secret key not set."
+msgstr "用户数据库字符集："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1611
+msgid "Could not fetch secret from the WordPress options table."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1612
+msgid "You will need to manually define the secret in your database."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1619
+msgid "User database table prefix:"
+msgstr "用户数据库表前缀："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1625
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:181
+msgid "User database name:"
+msgstr "用户数据库名称："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1629
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:190
+msgid "User database user:"
+msgstr "用户数据库账户："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1633
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:199
+msgid "User database password:"
+msgstr "用户数据库密码："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1637
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:208
+msgid "User database host:"
+msgstr "用户数据库地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1641
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:217
+msgid "User database character set:"
+msgstr "用户数据库字符集："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1645
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:230
+msgid "User database \"user\" table:"
+msgstr "用户数据库 \"user\" 表："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1649
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:239
+msgid "User database \"user meta\" table:"
+msgstr "用户数据库 \"user meta\" 表："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1654
+msgid "Integration not enabled"
+msgstr "集成未激活。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1659
+msgid "Step 3 - Site settings"
+msgstr "第三步 - 站点设置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1661
+msgid "Site name:"
+msgstr "站点名称："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1663
+msgid "Site address (URL):"
+msgstr "站点地址（URL）："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1665
+#, fuzzy
+msgid "From email address:"
+msgstr "电子邮箱地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1676
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1678
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1724
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1726
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1752
+msgid "Key master could not be created!"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1677
+#, fuzzy
+msgid "That login is already taken!"
+msgstr "用户名已经被激活过了。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1683
+#, fuzzy
+msgid "Existing key master entered!"
+msgstr "%s 现在是坛主了"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1684
+#, fuzzy
+msgid "Your bbPress password"
+msgstr "忘记密码？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1687
+msgid "Re-setting admin email address."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1691
+msgid "Existing user without key master role entered!"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1695
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1718
+#, fuzzy
+msgid "Key master created"
+msgstr "\"坛主\" 账户"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1719
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1745
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:356
+msgid "Username:"
+msgstr "用户名："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1720
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1746
+msgid "Email address:"
+msgstr "电子邮箱地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1721
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1747
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:358
+msgid "Password:"
+msgstr "密码："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1729
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1743
+#, fuzzy
+msgid "Your existing password"
+msgstr "忘记密码？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1744
+msgid "Key master role assigned to existing user"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1750
+msgid "Key master role could not be assigned to existing user!"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1755
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1773
+msgid "Just another bbPress community"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1782
+#, fuzzy
+msgid "Description:"
+msgstr "描述"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1785
+msgid "Forum name:"
+msgstr "版面名称："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1793
+msgid "Your first topic"
+msgstr "您的第一个主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1801
+msgid "First Post!  w00t."
+msgstr "第一帖! "
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1815
+msgid "Topic:"
+msgstr "主题："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1816
+msgid "Post:"
+msgstr "帖子："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1818
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1819
+#, fuzzy
+msgid "Forum could not be created!"
+msgstr "电子邮件发送出错。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1822
+msgid "There are existing forums in this database."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1823
+#, fuzzy
+msgid "No new forum created."
+msgstr "在本版面的新主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1824
+#, fuzzy
+msgid "Forums already exist!"
+msgstr "分类不存在！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1829
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1835
+msgid "New bbPress installation"
+msgstr "安装新的 bbPress"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1836
+#, fuzzy
+msgid "Key master email sent"
+msgstr "坛主邮件未发送！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1838
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1839
+msgid "Key master email not sent!"
+msgstr "坛主邮件未发送！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1844
+msgid "Installation completed with some errors!"
+msgstr "安装完成，但出现一些错误！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1845
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1846
+msgid "There were some errors encountered during installation!"
+msgstr "安装过程中出现一些错误！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:1848
+msgid "Your installation completed successfully.<br />Check below for login details."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:2146
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:2205
+msgid "Warning"
+msgstr "警告"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/class-install.php:2205
+msgid "Message"
+msgstr "信息"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:17
+msgid "Forum Updated."
+msgstr "版面已更新。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:20
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr "版面已删除。你现在应该<a href=\"%s\">重新计算论坛信息</a>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:33
+msgid "Forum Management"
+msgstr "版面管理"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:36
+msgid "Update Forum"
+msgstr "更新版面"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:40
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "你确定想删除\"<strong>%s</strong>\"版面？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:41
+#, fuzzy
+msgid "This forum contains"
+msgstr "在本版面的新主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:43
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d 篇主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:44
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d 篇回复"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:49
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "删除此版面所有主题与帖子。<en>此操作不可恢复。</em>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:50
+msgid "Move topics from this forum into"
+msgstr "将该主题从此版面移动到"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:54
+msgid "Delete forum &raquo;"
+msgstr "删除版面 &raquo; "
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:71
+msgid "Name &#8212; Description"
+msgstr "名称 &#8212; 描述"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-forums.php:78
+msgid "Add Forum"
+msgstr "添加版面"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:6
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:6
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "您怎么到这里来的? 您打算干什么?"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:23
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:26
+#, php-format
+msgid "matching &#8220;%s&#8221;"
+msgstr "搜索 &#8220;%s&#8221;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:24
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:27
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "在 &#8220;%s&#8221;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:25
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:28
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "包含于标签 &#8220;%s&#8221;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:26
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:29
+#, php-format
+msgid "by %s"
+msgstr "作者 %s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:28
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:31
+msgid "Normal"
+msgstr "普通帖子"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:28
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:31
+msgid "Deleted"
+msgstr "已删除"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:33
+#, php-format
+msgid "%1$sposts"
+msgstr "%1$s 篇回复"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:35
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:39
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content-posts.php:39
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:43
+msgid "Filter &#187;"
+msgstr "筛选 &#187;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:32
+msgid "Closed"
+msgstr "已关闭"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:32
+msgid "Open"
+msgstr "打开"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:37
+#, php-format
+msgid "%1$s%2$stopics"
+msgstr "%1$s%2$s 篇主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:51
+msgid "Last Poster"
+msgstr "最后发帖"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:52
+msgid "Freshness"
+msgstr "最近更新"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/content.php:65
+msgid "No Topics Found"
+msgstr "没有找到主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/delete-post.php:17
+msgid "There is a problem with that post, pardner."
+msgstr "那个帖子有些问题，朋友。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/delete-topic.php:16
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/sticky.php:9
+msgid "There is a problem with that topic, pardner."
+msgstr "那个主题有些问题，朋友。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:9
+msgid "Latest Activity"
+msgstr "最近更新"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:10
+msgid "User Registrations"
+msgstr "用户注册"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:13
+msgid "profile"
+msgstr "个人资料"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:13
+#, php-format
+msgid "registered %s ago"
+msgstr "%s 前注册"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:18
+msgid "Recently Moderated"
+msgstr "最近管理操作"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:22
+msgid "Post"
+msgstr "发表"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:22
+msgid "on"
+msgstr "在"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:22
+msgid "by"
+msgstr "作者"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:24
+msgid "Topic titled"
+msgstr "主题标题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:24
+msgid "started by"
+msgstr "发起者"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:33
+msgid "Posts per day"
+msgstr "每日帖子数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:34
+msgid "Topics per day"
+msgstr "每日主题数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:35
+msgid "Registrations per day"
+msgstr "每日新用户数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/index.php:36
+#, php-format
+msgid "Forums started %s ago."
+msgstr "版面创建在 %s 之前。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:175
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:65
+msgid "Cookies"
+msgstr "Cookies"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:176
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:177
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:193
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:133
+msgid "User database"
+msgstr "用户数据库"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:194
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:202
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:176
+msgid "Separate user database settings"
+msgstr "独立用户数据库设置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:203
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:177
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr "很多时候这些设置<em>不需要</em>配置。请确认是否真的需要设置！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:204
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:178
+msgid "All settings except for the character set must be specified."
+msgstr "除了字符集其他设置都必须指定。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:214
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:226
+msgid "Custom user tables"
+msgstr "定制数据表"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:215
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr "您只需要当您集成的数据表与通常的 <em>wp_user</em> 和 <em>wp_usermeta</em> 不符合的时候才需要设置以下选项。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:296
+msgid "\"Key master\" account"
+msgstr "\"坛主\" 账户"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:313
+msgid "First forum"
+msgstr "第一个版面"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:354
+msgid "You can now log in with the following details:"
+msgstr "您现在可以使用以下信息进行登录："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:360
+msgid "Site address:"
+msgstr "站点地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/install.php:366
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr "<strong><em>请妥善保管该密码</em></strong>！它是专门为您<em>随机</em>生成的密码。如果您忘记了它，您必须自己从数据库中删除数据表，然后重新安装 bbPress。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:35
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:40
+#, fuzzy
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:43
+#, fuzzy
+msgid "General Settings"
+msgstr "普通设置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:49
+#, fuzzy
+msgid "Site title"
+msgstr "站点标题："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:57
+#, fuzzy
+msgid "Site description"
+msgstr "描述"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:65
+#, fuzzy
+msgid "bbPress address (URL)"
+msgstr "bbPress 地址（URL）："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:69
+#, fuzzy
+msgid "The full URL of your bbPress install."
+msgstr "bbPress 安装的路径（URL）。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:74
+#, fuzzy
+msgid "E-mail address"
+msgstr "电子邮箱地址："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:78
+msgid "Emails sent by the site will appear to come from this address."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:83
+#, fuzzy
+msgid "Pretty permalink type"
+msgstr "永久链接类型："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:91
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:228
+msgid "None"
+msgstr "无"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:92
+#, fuzzy
+msgid "Numeric"
+msgstr "使用日志的 ID 号"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:93
+#, fuzzy
+msgid "Name based"
+msgstr "使用内容缩略名"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:102
+#, fuzzy
+msgid "Items per page"
+msgstr "每页显示内容数："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:106
+msgid "Number of topics, posts or tags to show per page."
+msgstr "每页显示的主题、回复或标签的个数。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:111
+#, fuzzy
+msgid "Lock post editing after"
+msgstr "锁定文章编辑时限："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:115
+msgid "minutes"
+msgstr "分钟"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:116
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:121
+msgid "Date and Time"
+msgstr "日期和时间"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:124
+#, fuzzy
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is"
+msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> 时间："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:127
+#, fuzzy
+msgid "Y-m-d g:i:s a"
+msgstr "Y年n月j日 g点i分s秒 a"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:132
+#, fuzzy
+msgid "Times should differ<br />from UTC by"
+msgstr "本站的时区："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:136
+msgid "hours"
+msgstr "小时"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:137
+msgid "Example: -7 for Pacific Daylight Time."
+msgstr "例如：8 代表北京时间。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:142
+#, fuzzy
+msgid "Date and time format"
+msgstr "日期和时间格式："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:146
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:155
+#, php-format
+msgid "Output: <strong>%s</strong>"
+msgstr "输出：<strong>%s</strong>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:151
+#, fuzzy
+msgid "Date format"
+msgstr "日期格式："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:156
+#, fuzzy
+msgid "Click \"Update settings\" to update sample output."
+msgstr "点击 \"更新选项\" 来更新示例输出。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:157
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">日期格式文档</a>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:162
+msgid "Avatars"
+msgstr "头像"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:164
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>, you can enable this feature here."
+msgstr "bbPress 内置了 <a href=\"http://gravatar.com/\">Gravatars</a> 支持，您可以在此开启该功能。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:168
+#, fuzzy
+msgid "Show avatars"
+msgstr "显示头像："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:183
+#, fuzzy
+msgid "Gravatar default image"
+msgstr "Gravatar 最高等级："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:191
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:202
+#, fuzzy
+msgid "Default"
+msgstr "删除"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:192
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:205
+msgid "Gravatar Logo"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:193
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:208
+msgid "MonsterID"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:194
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:211
+#, fuzzy
+msgid "Wavatar"
+msgstr "头像"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:195
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:214
+msgid "Identicon"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:220
+#, fuzzy
+msgid "Gravatar maximum rating"
+msgstr "Gravatar 最高等级："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:229
+msgid "X"
+msgstr "X"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:230
+msgid "R"
+msgstr "R"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:231
+msgid "PG"
+msgstr "PG"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:232
+msgid "G"
+msgstr "G"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:239
+msgid "X rated gravatars may contain hardcore sexual imagery or extremely disturbing violence."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:243
+msgid "R rated gravatars may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:247
+msgid "PG rated gravatars may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:251
+msgid "A G rated gravatar is suitable for display on all websites with any audience type."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-general.php:259
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:250
+msgid "Save Changes"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:44
+msgid "User role mapping saved."
+msgstr "用户身份映射已保存。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:56
+msgid "Usually, you will have to specify both cookie sharing and user database sharing settings."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:60
+msgid "<strong>Note:</strong> updating these settings may cause you to be logged out!"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:66
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:91
+msgid "This must match the value of the WordPress setting named \"secret\" in your WordPress installation. Look for the option labeled \"secret\" in <a href=\"#\" id=\"getSecretOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:129
+msgid "bbPress has automatically determined the best cookie settings for WordPress. In some cases integration may work without these settings, but if not add the following code to your <code>wp-config.php</code> file in the root directory of your WordPress installation."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:131
+msgid "Also make sure that the \"SECRET_KEY\" in your WordPress <code>wp-config.php</code> file matches the \"BB_SECRET_KEY\" in your bbPress <code>bb-config.php</code> file."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:134
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:141
+msgid "If your bbPress and WordPress installations share the same database, then this is the same value as <code>$wp_table_prefix</code> in your WordPress <code>wp-config.php</code> file."
+msgstr "如果您的 bbPress 和 WordPress 共享同一个数据库。那么该值和您的 WordPress 目录里 <code>wp-config.php</code> 文件中 <code>$wp_table_prefix</code> 的参数所设置的是相同的。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:142
+msgid "In any case, it is usually <strong>wp_</strong>"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:171
+#, fuzzy
+msgid "If your bbPress and WordPress installations do not share the same database, then you will need to add advanced settings."
+msgstr "如果您的 bbPress 和 WordPress 不是共享同一个数据库，那么您需要添加高级设置。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:227
+#, fuzzy
+msgid "Only set these values if your user tables do not fit the usual mould of <strong>\"wordpressprefix+user\"</strong> and <strong>\"wordpressprefix+usermeta\"</strong>."
+msgstr "您只需要当您集成的数据表与通常的 <em>wp_user</em> 和 <em>wp_usermeta</em> 不符合的时候才需要设置以下选项。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:278
+msgid "If your integration settings will not change, you can help speed up bbPress by adding the following code to your <code>bb-config.php</code> file in the root directory of your bbPress installation. Afterwards, the settings in this form will reflect the hard coded values, but you will not be able to edit them here."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:281
+msgid "User role map"
+msgstr "用户身份映射"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:284
+msgid "Here you can match WordPress roles to bbPress roles. This will not work if your user tables are not shared. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:291
+msgid "none"
+msgstr "无"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/options-wordpress.php:339
+#, fuzzy
+msgid "Save User Role Map"
+msgstr "用户身份映射"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:93
+msgid "Plugin could not be activated; it produced a <strong>Fatal Error</strong>."
+msgstr "无法激活插件；它产生了一个<strong>致命错误</strong>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:96
+msgid "File is not a valid plugin."
+msgstr "此文件不是一个有效的插件。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:99
+#, fuzzy, php-format
+msgid "Plugin \"%s\" <strong>activated</strong>"
+msgstr "插件 <strong>已启用</strong>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:102
+#, fuzzy, php-format
+msgid "Plugin \"%s\" <strong>deactivated</strong>"
+msgstr "插件 <strong>已禁用</strong>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:112
+#, fuzzy
+msgid "Plugin Management"
+msgstr "版面管理"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:114
+msgid "Plugins extend and expand the functionality of bbPress. Once a plugin is installed, you may activate it or deactivate it here."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:123
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:187
+msgid "Plugin"
+msgstr "插件"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:124
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:188
+msgid "Version"
+msgstr "版本"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:125
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:189
+msgid "Description"
+msgstr "描述"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:126
+msgid "Action"
+msgstr "操作"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:136
+msgid "Activate"
+msgstr "启用"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:141
+msgid "Deactivate"
+msgstr "禁用"
+
+# 有待商榷
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:162
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:207
+#, php-format
+msgid "By %s."
+msgstr "作者 %s."
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:182
+msgid "Automatically loaded plugins"
+msgstr "自动加载插件"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:233
+msgid "If something goes wrong with a plugin and you can’t use bbPress, delete or rename that file in the <code>my-plugins</code> directory and it will be automatically deactivated."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:239
+msgid "No Plugins Installed"
+msgstr "没有安装插件"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:245
+#, fuzzy
+msgid "Get More Plugins"
+msgstr "插件"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:247
+#, php-format
+msgid "You can find additional plugins for your site in the <a href=\"%s\">bbPress plugin directory</a>."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/plugins.php:249
+msgid "To install a plugin you generally just need to upload the plugin file into your <code>my-plugins</code> directory. Once a plugin is uploaded, you may activate it here."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/site.php:7
+msgid ""
+"The following checkboxes allow you to recalculate various numbers stored in\n"
+"the database.  These numbers are used for things like counting the number of\n"
+"pages worth of posts a particular topic has.  You shouldn't need to do do any of\n"
+"this unless you're upgrading from one version to another or are seeing\n"
+"pagination oddities."
+msgstr ""
+"下面的复选框允许您重新计算储存在数据库中的数字。\n"
+"这些数字用在计算页数或是某个主题的跟帖数等。\n"
+"一般情况下您无需进行这个操作，\n"
+"除非您从一个版本升级到另一个版本，\n"
+"或是一些计数显示异常。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/site.php:15
+msgid "Choose items to recalculate"
+msgstr "选择要重新计算的项目"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/site.php:21
+msgid "Count!"
+msgstr "计算！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-destroy.php:5
+msgid "You are not allowed to manage tags."
+msgstr "您没有权限管理标签。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-destroy.php:13
+msgid "Tag not found."
+msgstr "标签没有找到。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "从 tags 数据表删除的记录数：%d <br />\n"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "从 tagged 数据表删除的记录数：%d <br />\n"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">首页</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"在尝试删除标签时发生错误。<br />\n"
+"<a href=\"%s\">重试？</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr "指定的标签没有找到。"
+
+# 校对分割线--
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr "需要合并的标签没有找到。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "删除的标签影响到的主题数： %d <br />\n"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "添加的标签影响到的主题数： %d <br />\n"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "从标签数据表删除的记录数： %d <br />\n"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">新建标签</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"尝试合并这些标签时发生错误。<br />\n"
+"<a href=\"%s\">重试？</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "已经有一个同名标签存在，或者标签名称无效。<a href=\"%s\">请重试</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:38
+#, fuzzy, php-format
+msgid "Theme \"%s\" <strong>activated</strong>"
+msgstr "插件 <strong>已启用</strong>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:43
+msgid "Default theme is missing."
+msgstr "默认主题损坏。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:47
+msgid "Theme not found.  Default theme applied."
+msgstr "无法找到主题。使用默认主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:58
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:60
+msgid "Click to activate"
+msgstr "点击以激活"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:62
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "由 <cite>%s</cite>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:62
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr "，由<cite>%s</cite>维护"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:64
+#, php-format
+msgid "Installed in: %s"
+msgstr "安装于：%s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:64
+#, fuzzy
+msgid "Core themes -&gt; "
+msgstr "&lt; 标题 &gt;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:64
+msgid "User installed themes -&gt; "
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:76
+msgid "Current Theme"
+msgstr "当前主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/themes.php:82
+msgid "Available Themes"
+msgstr "可用的主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "无效的主题或版面。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "您的主题或版面导致多种混乱"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade-schema.php:8
+msgid "Database class not loaded."
+msgstr "数据库类没有被读取。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:58
+msgid "bbPress database upgrade"
+msgstr "bbPress 数据库升级"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:76
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "无需升级。<a href=\"%s\">继续使用！</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:85
+msgid "Database upgrade required"
+msgstr "必须升级数据库"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:87
+msgid "It looks like your database is out-of-date.<br />You can update it here."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:93
+msgid "Upgrade database &raquo;"
+msgstr "升级数据库 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:107
+msgid "Database upgrade complete"
+msgstr "数据库升级成功"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:109
+msgid "Your database has been successfully updated.<br />Enjoy!"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:113
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:147
+msgid "Show upgrade log:"
+msgstr "显示升级日志："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:119
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:153
+msgid "Upgrade log:"
+msgstr "升级日志："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:126
+msgid "Go to admin &raquo;"
+msgstr "访问管理页面 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:140
+msgid "Database upgrade failed"
+msgstr "数据库升级失败"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:142
+#, php-format
+msgid "The upgrade process seems to have failed, you can either try again here, or go <a href=\"%s\">back to your forums</a>.<br /><br />Attempting to go to the admin area will launch the database upgrader again."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/upgrade.php:160
+msgid "Try again &raquo;"
+msgstr "重试 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/users-blocked.php:13
+msgid "These users have been blocked by the forum administrators"
+msgstr "这些用户被论坛管理员封禁"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/users-moderators.php:13
+msgid "Forum Administrators"
+msgstr "论坛管理员"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/view-ip.php:18
+msgid "IP Information"
+msgstr "IP 信息"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/view-ip.php:20
+msgid "Last 30 posts"
+msgstr "最新 30 帖"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-admin/view-ip.php:40
+msgid "Posted:"
+msgstr "发表时间："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/capabilities.php:28
+msgid "Key Master"
+msgstr "坛主"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/capabilities.php:71
+msgid "Administrator"
+msgstr "管理员"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/capabilities.php:106
+msgid "Moderator"
+msgstr "版主"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/capabilities.php:135
+msgid "Member"
+msgstr "会员"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/capabilities.php:148
+msgid "Inactive"
+msgstr "不活跃"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/class-bb-taxonomy.php:44
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/class-bb-taxonomy.php:139
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/class-bb-taxonomy.php:249
+#, fuzzy
+msgid "Invalid Taxonomy"
+msgstr "无效参数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/class-bb-taxonomy.php:246
+#, fuzzy
+msgid "Invalid User ID"
+msgstr "无效参数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:825
+msgid "Search &#187;"
+msgstr "搜索 &#187;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:857
+msgid "Search&#8230;"
+msgstr "搜索&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:863
+msgid "Forum&#8230;"
+msgstr "版面&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:864
+msgid "Any"
+msgstr "全部"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:870
+msgid "Tag&#8230;"
+msgstr "标签&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:877
+msgid "Topic Author&#8230;"
+msgstr "主题作者&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:884
+msgid "Post Author&#8230;"
+msgstr "回复作者&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:889
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:916
+msgid "All"
+msgstr "全部"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:892
+msgid "Topic Status&#8230;"
+msgstr "主题状态&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:903
+msgid "Post Status&#8230;"
+msgstr "回复状态&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:914
+msgid "Open?&#8230;"
+msgstr "打开？&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:927
+msgid "Title&#8230;"
+msgstr "标题&#8230;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:960
+msgid "Not a valid directory"
+msgstr "无效目录"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/classes.php:966
+msgid "Invalid arguments"
+msgstr "无效参数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/db.php:495
+#, php-format
+msgid "<strong>ERROR</strong>: bbPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>错误</strong>：bbPress %s 需要 MySQL 版本为 4.0.0 或更高"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/default-filters.php:113
+msgid "Topics with no replies"
+msgstr "没有回复的主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/default-filters.php:114
+msgid "Topics with no tags"
+msgstr "没有标签的主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/formatting-functions.php:274
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/formatting-functions.php:278
+#, php-format
+msgid "[sticky] %s"
+msgstr "[置顶] %s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/formatting-functions.php:287
+#, php-format
+msgid "[closed] %s"
+msgstr "[关闭] %s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:1314
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "您被禁止入内。如果你认为这是个误会，请联系站点管理员。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:1669
+msgid "Please give me a name!"
+msgstr "请输入一个名称！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2007
+msgid "year"
+msgstr "年"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2007
+msgid "years"
+msgstr "年"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2008
+msgid "month"
+msgstr "月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2008
+msgid "months"
+msgstr "月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2009
+msgid "week"
+msgstr "周"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2009
+msgid "weeks"
+msgstr "周"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2010
+msgid "day"
+msgstr "天"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2010
+msgid "days"
+msgstr "天"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2011
+msgid "hour"
+msgstr "小时"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2012
+msgid "minute"
+msgstr "分钟"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2013
+msgid "second"
+msgstr "秒"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2013
+msgid "seconds"
+msgstr "秒"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2027
+#, php-format
+msgid "%1$d %2$s"
+msgstr "%1$d %2$s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2034
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ", %1$d %2$s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2145
+msgid "User not found."
+msgstr "未找到此用户。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2216
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2218
+msgid "should be"
+msgstr "应该为"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2220
+msgid "full permalink"
+msgstr "完整的永久链接"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2222
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2244
+msgid "Favorites"
+msgstr "收藏夹"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2295
+msgid "Website"
+msgstr "网站"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2296
+msgid "Location"
+msgstr "地址"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2297
+msgid "Occupation"
+msgstr "职业"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2298
+msgid "Interests"
+msgstr "兴趣爱好"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2305
+msgid "Custom Title"
+msgstr "自定义头衔"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2312
+#, fuzzy, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr "忽略 30 秒防灌水限制"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2401
+msgid "bbPress Failure Notice"
+msgstr "bbPress 故障通知"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2404
+msgid "Please try again."
+msgstr "请重试。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2413
+msgid "bbPress"
+msgstr "bbPress"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2460
+msgid "<a href=\"http://bbpress.org/\">bbPress</a> - simple, fast, elegant"
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a> - 简单 - 快速 - 优雅"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2479
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "后退到 <a href=\"%s\">%s</a>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2492
+#, fuzzy
+msgid "Your attempt to submit this post has failed."
+msgstr "您试图添加日志时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2493
+#, fuzzy
+msgid "Your attempt to edit this post has failed."
+msgstr "您试图编辑日志： &quot;%s&quot; 时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2494
+#, fuzzy
+msgid "Your attempt to delete this post has failed."
+msgstr "您试图删除日志： &quot;%s&quot; 时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2496
+#, fuzzy
+msgid "Your attempt to create this topic has failed."
+msgstr "您试图添加分类时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2497
+#, fuzzy
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "您确定要更改这个主题的解决状态？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2498
+#, fuzzy
+msgid "Your attempt to delete this topic has failed."
+msgstr "您试图删除分类： &quot;%s&quot; 时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2499
+#, fuzzy
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "您确定要更改这个主题的状态？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2500
+#, fuzzy
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "您确定要更改这个主题的置顶状态？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2501
+#, fuzzy
+msgid "Your attempt to move this topic has failed."
+msgstr "您试图添加分类时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2503
+#, fuzzy
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "您确定要添加这个标签到这个主题？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2504
+#, fuzzy
+msgid "Your attempt to rename this tag has failed."
+msgstr "您试图添加分类时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2505
+#, fuzzy
+msgid "Your attempt to submit these tags has failed."
+msgstr "您确定要提交这些标签？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2506
+#, fuzzy
+msgid "Your attempt to destroy this tag has failed."
+msgstr "您试图添加分类时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2507
+#, fuzzy
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "您确定要从这个主题移除这个标签？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2509
+#, fuzzy
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr "您确定要切换这个主题在您的收藏夹中的状态？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2511
+#, fuzzy
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "您试图编辑用户 &quot;%s&quot; 时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2513
+#, fuzzy
+msgid "Your attempt to add this forum has failed."
+msgstr "您试图添加分类时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2514
+#, fuzzy
+msgid "Your attempt to update your forums has failed."
+msgstr "您试图删除用户时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2515
+#, fuzzy
+msgid "Your attempt to delete that forum has failed."
+msgstr "您试图删除分类： &quot;%s&quot; 时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2517
+#, fuzzy
+msgid "Your attempt to recount these items has failed."
+msgstr "您确定要重新计算这些条目？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2519
+msgid "Your attempt to switch themes has failed."
+msgstr "您试图切换主题时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2534
+#, fuzzy
+msgid "Your attempt to do this has failed."
+msgstr "您试图添加分类时发生错误。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2683
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2762
+msgid "Your search term was too short"
+msgstr "您搜索的关键字太短了"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/functions.php:2729
+msgid "Your query parameters are invalid"
+msgstr "您的请求参数无效"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:22
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:32
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:45
+msgid "Sunday"
+msgstr "星期日"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:23
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:33
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:46
+msgid "Monday"
+msgstr "星期一"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:24
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:34
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:47
+msgid "Tuesday"
+msgstr "星期二"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:25
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:35
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:48
+msgid "Wednesday"
+msgstr "星期三"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:26
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:36
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:49
+msgid "Thursday"
+msgstr "星期四"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:27
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:37
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:50
+msgid "Friday"
+msgstr "星期五"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:28
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:38
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:51
+msgid "Saturday"
+msgstr "星期六"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:32
+msgid "S_Sunday_initial"
+msgstr "S_Sunday_initial"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:33
+msgid "M_Monday_initial"
+msgstr "M_Monday_initial"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:34
+msgid "T_Tuesday_initial"
+msgstr "T_Tuesday_initial"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:35
+msgid "W_Wednesday_initial"
+msgstr "W_Wednesday_initial"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:36
+msgid "T_Thursday_initial"
+msgstr "T_Thursday_initial"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:37
+msgid "F_Friday_initial"
+msgstr "F_Friday_initial"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:38
+msgid "S_Saturday_initial"
+msgstr "S_Saturday_initial"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:45
+msgid "Sun"
+msgstr "日"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:46
+msgid "Mon"
+msgstr "一"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:47
+msgid "Tue"
+msgstr "二"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:48
+msgid "Wed"
+msgstr "三"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:49
+msgid "Thu"
+msgstr "四"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:50
+msgid "Fri"
+msgstr "五"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:51
+msgid "Sat"
+msgstr "六"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:54
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:69
+msgid "January"
+msgstr "1月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:55
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:70
+msgid "February"
+msgstr "2月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:56
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:71
+msgid "March"
+msgstr "3月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:57
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:72
+msgid "April"
+msgstr "4月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:58
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:73
+msgid "May"
+msgstr "5月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:59
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:74
+msgid "June"
+msgstr "6月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:60
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:75
+msgid "July"
+msgstr "7月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:61
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:76
+msgid "August"
+msgstr "8月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:62
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:77
+msgid "September"
+msgstr "9月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:63
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:78
+msgid "October"
+msgstr "10月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:64
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:79
+msgid "November"
+msgstr "11月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:65
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:80
+msgid "December"
+msgstr "12月"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:69
+msgid "Jan_January_abbreviation"
+msgstr "Jan_January_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:70
+msgid "Feb_February_abbreviation"
+msgstr "Feb_February_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:71
+msgid "Mar_March_abbreviation"
+msgstr "Mar_March_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:72
+msgid "Apr_April_abbreviation"
+msgstr "Apr_April_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:73
+msgid "May_May_abbreviation"
+msgstr "May_May_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:74
+msgid "Jun_June_abbreviation"
+msgstr "Jun_June_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:75
+msgid "Jul_July_abbreviation"
+msgstr "Jul_July_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:76
+msgid "Aug_August_abbreviation"
+msgstr "Aug_August_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:77
+msgid "Sep_September_abbreviation"
+msgstr "Sep_September_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:78
+msgid "Oct_October_abbreviation"
+msgstr "Oct_October_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:79
+msgid "Nov_November_abbreviation"
+msgstr "Nov_November_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:80
+msgid "Dec_December_abbreviation"
+msgstr "Dec_December_abbreviation"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:87
+msgid "am"
+msgstr "上午"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:88
+msgid "pm"
+msgstr "下午"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:89
+msgid "AM"
+msgstr "上午"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:90
+msgid "PM"
+msgstr "下午"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:95
+msgid "number_format_decimals"
+msgstr "number_format_decimals"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:98
+msgid "number_format_decimal_point"
+msgstr "number_format_decimal_point"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:101
+msgid "number_format_thousands_sep"
+msgstr "number_format_thousands_sep"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:106
+#, fuzzy
+msgid "F j, Y - h:i A"
+msgstr "Y年m月d日 h:i A"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:107
+msgid "F j, Y"
+msgstr "Y年m月d日"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/locale.php:108
+msgid "h:i A"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/registration-functions.php:85
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"如果您想重置密码，您可以访问下面的地址：\n"
+"\n"
+"%s\n"
+"\n"
+"如果您不想重置密码，只要忽略这封电子邮件即可。谢谢！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/registration-functions.php:87
+msgid "Password Reset"
+msgstr "密码重置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/registration-functions.php:106
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/registration-functions.php:108
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/registration-functions.php:119
+msgid "Key not found."
+msgstr "没有找到键值。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/registration-functions.php:113
+msgid "You are not allowed to change your password."
+msgstr "您没有权限更改密码。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/registration-functions.php:162
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"您的用户名是： %1$s \n"
+"您的密码是： %2$s \n"
+"您现在可以登录： %3$s \n"
+"\n"
+"祝您愉快！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/registration-functions.php:166
+msgid "Password"
+msgstr "密码"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:11
+#, fuzzy
+msgid "You do not have permission to do that."
+msgstr "您没有权限进行该操作。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:12
+msgid "An unidentified error has occurred."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:25
+msgid "drag"
+msgstr "拖动"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:26
+msgid "Save Forum Order &#187;"
+msgstr "保存版面次序 &#187;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:27
+#, fuzzy
+msgid "Edit Forum Order &#187;"
+msgstr "保存版面次序 &#187;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:54
+#, fuzzy
+msgid "Are you sure you wanna delete this post?"
+msgstr "您确定要删除它吗？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:55
+#, fuzzy
+msgid "Are you sure you wanna undelete this post?"
+msgstr "您确定要取消删除它吗？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:56
+#, fuzzy
+msgid "favorites"
+msgstr "收藏夹"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:57
+msgid "?"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:58
+#, fuzzy
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "这个主题是您的 %favorites% 之一 ["
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:59
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:60
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2303
+msgid "&times;"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/script-loader.php:61
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2301
+msgid "Add this topic to your favorites"
+msgstr "添加该主题到您的收藏夹"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:98
+msgid "Profile"
+msgstr "个人资料"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:139
+msgid "Reply"
+msgstr "回复"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:141
+msgid "New Topic in this Forum"
+msgstr "本版面的新主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:143
+msgid "Add New Topic"
+msgstr "发表新主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:169
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "你必须<a href=\"%s\">登录</a>才能发帖。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:347
+msgid "Tags"
+msgstr "标签"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:381
+#, php-format
+msgid "User Favorites: %s"
+msgstr "用户收藏夹：%s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:388
+#, php-format
+msgid "Topic: %s"
+msgstr "主题：%s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:396
+#, php-format
+msgid "Tag: %s"
+msgstr "标签：%s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:404
+#, php-format
+msgid "Forum: %s - Recent Posts"
+msgstr "版面： %s 个最近发表回复"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:408
+#, php-format
+msgid "Forum: %s - Recent Topics"
+msgstr "版面： %s 个最近发表主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:992
+msgid "Are you sure you wanna delete that?"
+msgstr "您确定要删除它吗？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:992
+msgid "Delete entire topic"
+msgstr "删除整个主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:994
+msgid "Are you sure you wanna undelete that?"
+msgstr "您确定要取消删除它吗？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:994
+msgid "Undelete entire topic"
+msgstr "取消删除整个主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1011
+msgid "Close topic"
+msgstr "关闭主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1011
+msgid "Open topic"
+msgstr "开放主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1030
+msgid "Unstick topic"
+msgstr "取消置顶主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1032
+msgid "Stick topic"
+msgstr "置顶主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1032
+msgid "to front"
+msgstr "到首页"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1039
+msgid "View normal posts"
+msgstr "查看普通帖子"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1041
+msgid "View all posts"
+msgstr "查看所有帖子"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1047
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s 篇回复"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1058
+#, php-format
+msgid "+%d more"
+msgstr "+%d 更多"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1083
+msgid "Move this topic to the selected forum:"
+msgstr "将该主题移动到选择的版面："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1087
+msgid "Move"
+msgstr "移动"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1109
+msgid "Add New &raquo;"
+msgstr "发表 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1232
+msgid "Anonymous"
+msgstr "匿名"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1339
+msgid "Undelete"
+msgstr "取消删除"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1358
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1373
+msgid "Unregistered"
+msgstr "未注册"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1448
+msgid "Delete User &raquo;"
+msgstr "删除用户 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1449
+msgid "Are you sure you want to delete this user?"
+msgstr "您确定想删除此用户？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1545
+msgid "Member Since"
+msgstr "注册日期"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1635
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1762
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "这些项<span class=\"required\">必须</span>填写。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1669
+#, fuzzy
+msgid "User Type"
+msgstr "用户类型："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1680
+#, fuzzy
+msgid "Allow this user to"
+msgstr "允许此用户："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1765
+msgid ""
+"Inactive users can login and look around but not do anything.\n"
+"Blocked users just see a simple error message when they visit the site.</p>\n"
+"<p><strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+"未激活用户可以登录，浏览，但禁止其他操作。\n"
+"封禁用户只能在访问此论坛时看到一条简短的错误信息。</p>\n"
+"<p><strong>注意</strong>：禁止一个用户不代表禁止任何IP地址。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1789
+#, fuzzy
+msgid "New password"
+msgstr "新密码："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1812
+#, fuzzy
+msgid "Log Out"
+msgstr "注销"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1831
+msgid "Admin"
+msgstr "管理"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:1848
+msgid "View your profile"
+msgstr "查看个人资料"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2024
+msgid "Add &raquo;"
+msgstr "添加 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2052
+msgid "Rename tag:"
+msgstr "重命名标签："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2056
+msgid "Rename"
+msgstr "重命名"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2060
+msgid "Merge this tag into:"
+msgstr "将此标签合并到："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2064
+msgid "Merge"
+msgstr "合并"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2065
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "您确定要将 \"%s\" 标签与您指定的标签合并？此操作将无法恢复。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2069
+msgid "Destroy tag:"
+msgstr "删除标签："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2072
+msgid "Destroy"
+msgstr "删除"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2073
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "您确定要删除 \"%s\" 标签？这项操作是不可恢复的。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2098
+msgid "Remove this tag"
+msgstr "删除此标签"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2179
+#, php-format
+msgid "%d topics"
+msgstr "%d 主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2240
+msgid "- None -"
+msgstr "- 无 -"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2301
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2303
+msgid "This topic is one of your %favorites% ["
+msgstr "这个主题是您的 %favorites% 之一 ["
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/template-functions.php:2303
+msgid "]"
+msgstr "]"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/wp-functions.php:429
+msgid "&laquo; Previous"
+msgstr "&laquo; 上一页"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/wp-functions.php:430
+msgid "Next &raquo;"
+msgstr "下一页 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-taxonomy.php:1114
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-taxonomy.php:1356
+#, fuzzy
+msgid "Invalid taxonomy"
+msgstr "无效的标签或主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-taxonomy.php:1117
+#, fuzzy
+msgid "Invalid term ID"
+msgstr "无效参数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-taxonomy.php:1148
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-taxonomy.php:1155
+msgid "Could not insert term into the database"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-taxonomy.php:1404
+#, php-format
+msgid "The slug \"%s\" is already in use by another term"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-users.php:39
+#, fuzzy
+msgid "Invalid login name"
+msgstr "无效参数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-users.php:41
+#, fuzzy
+msgid "Name already exists"
+msgstr "分类不存在！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-users.php:44
+#, fuzzy
+msgid "Invalid nicename"
+msgstr "无效参数"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-users.php:46
+#, fuzzy
+msgid "Nicename already exists"
+msgstr "分类不存在！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-users.php:51
+#, fuzzy
+msgid "Email already exists"
+msgstr "分类不存在！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-users.php:64
+#, fuzzy
+msgid "Invalid registration time"
+msgstr "无效的标签或主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-users.php:67
+msgid "Invalid registration timestamp"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/backpress/class.wp-users.php:83
+msgid "Query failed"
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "您确认要删除 %s 吗？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr "跳到新项目"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr "您没有权限进行该操作。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr "发生了一些奇怪的事情。请尝试刷新本页。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr "请慢一些，我仍在发送您的数据！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:16
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:21
+msgid "Akismet Configuration"
+msgstr "Akismet 配置"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:26
+msgid "Akismet Key:"
+msgstr "Akismet 激活密钥："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:30
+msgid "You do not need a key to run bbPress, but if you want to take advantage of Akismet's powerful spam blocking, you'll need one."
+msgstr "运行 bbPress 不需要激活密钥，但是如果您想使用强大的反垃圾信息功能—— Akismet，那么您就需要拥有一个了。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:31
+#, fuzzy
+msgid "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
+msgstr "您可以在 <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a> 得到一个 Akismet 激活密钥"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:38
+msgid "Update Configuration &raquo;"
+msgstr "更新配置 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:67
+msgid "Configuration saved."
+msgstr "配置已保存。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:260
+msgid "Akismet Spam"
+msgstr "Akismet 反垃圾帖"
+
+# 校对分割线--
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:273
+#, fuzzy, php-format
+msgid "The API key you have specified is invalid.  Please double check the <strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</a>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr "您指定的 API 键无效。请仔细检查 <code>config.php file</code> 文件中的 <code>$bb->akismet_key</code> 变量的值。如果您还没有 API 键，您可以在 <a href=\"%s\">WordPress.com</a> 申请。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:295
+msgid "Not Spam"
+msgstr "不是垃圾帖"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/akismet.php:297
+msgid "Spam"
+msgstr "垃圾帖"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:91
+msgid "Counting bozo posts..."
+msgstr "正在计算问题帖……"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:111
+msgid "Done counting bozo posts."
+msgstr "问题帖计算完成。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:122
+msgid "Counting bozo topics for each user...\n"
+msgstr "正在为每个用户计算问题主题……\n"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:151
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+"问题主题计算完成。\n"
+"\n"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:162
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr "计算每个用户回复过的主题以及每个用户的问题帖"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:163
+msgid "Count bozo posts on every topic"
+msgstr "计算每个主题的问题帖"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:263
+msgid "This user is a bozo"
+msgstr "该用户是一个问题人物"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:273
+msgid "Bozos"
+msgstr "问题人物"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-plugins/bozo.php:283
+msgid "These users have been marked as bozos"
+msgstr "下列用户已被标记为问题人物"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "编辑帖子 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/edit-form.php:19
+msgid "Allowed markup:"
+msgstr "允许使用标签："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "将代码放在<code>与</code>之间。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "编辑帖子"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "当前收藏夹"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+"您的收藏夹允许您创建自定义<abbr title=\"Really Simple Syndication\">RSS</abbr>聚合，用来推送最近您指定的主题的回复。\n"
+"要添加主题到您的收藏列表，只要点击主题所在页面的\"添加到收藏夹\"链接。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/favorites.php:10
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "订阅您的收藏夹的 <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> 聚合</a>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/favorites.php:20
+msgid "Remove"
+msgstr "移除"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/favorites.php:39
+msgid "You currently have no favorites."
+msgstr "您当前没有收藏。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/favorites.php:43
+msgid "currently has no favorites."
+msgstr "当前没有收藏。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/forum.php:33
+msgid "RSS feed for this forum"
+msgstr "本版面的 RSS 聚合"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/forum.php:40
+msgid "Subforums"
+msgstr "子版面"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/forum.php:44
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/front-page.php:48
+msgid "Main Theme"
+msgstr "主模板"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "热点标签"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "最新讨论"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/front-page.php:69
+msgid "Views"
+msgstr "查看"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "欢迎您，%1$s！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login-form.php:2
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in"
+msgstr "<a href=\"%1$s\">注册</a>或登录"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login-form.php:12
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:48
+msgid "Log in &raquo;"
+msgstr "登录 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login-form.php:17
+msgid "Remember me"
+msgstr "记住我"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:3
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:5
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "登录"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "登录失败"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:18
+msgid "Incorrect password"
+msgstr "密码错误"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:24
+msgid "This username does not exist."
+msgstr "这个用户名不存在。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:24
+msgid "Register it?"
+msgstr "是否注册？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:41
+msgid "Remember me:"
+msgstr "记住我："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:48
+msgid "Try Again &raquo;"
+msgstr "重试 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:59
+msgid "If you would like to recover the password for this account, you may use the following button to start the recovery process:"
+msgstr "如果您想找回这个帐号的密码，可以点击下面的按钮："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/login.php:65
+msgid "Recover Password &raquo;"
+msgstr "找回密码 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/password-reset.php:8
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "您的密码已经被重置，新密码已经发送到您的邮箱中。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/password-reset.php:10
+#, fuzzy
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "一封电子邮件已经发送到您注册使用的电子邮箱中。如果您几分钟后没有收到邮件，或者您的 Email 已经更改，您需要联系本论坛的管理员。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr "主题标题：（请简明扼要）"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to help someone find your topic:"
+msgstr "输入几个关键词（称为<a href=\"%s\">标签</a>），以空格分隔，方便他人找到您的主题："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr "选择一个版面："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/post-form.php:28
+msgid "Send Post &raquo;"
+msgstr "现在发表 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/post-form.php:31
+#, fuzzy
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "将代码放在<code>与</code>之间。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "%s 前发表"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "编辑个人资料"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "个人资料"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "管理"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "更改密码，请在下方输入两次新密码："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "更新个人资料 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:9
+msgid "Profile updated"
+msgstr "个人资料已更新"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:9
+msgid "Edit again &raquo;"
+msgstr "再次编辑 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:13
+msgid "This is how your profile appears to a logged in member."
+msgstr ""
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:16
+#, fuzzy, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "你必须<a href=\"%s\">登录</a>才能发帖。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:21
+#, fuzzy, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "订阅您的收藏夹的 <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> 聚合</a>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:27
+msgid "User Activity"
+msgstr "用户活跃度"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:29
+msgid "Recent Replies"
+msgstr "最近回复"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:35
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "您最后回复： %s 之前。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:35
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "用户最后回复： %s 之前。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:39
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "回复最多： %s 之前"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:41
+msgid "No replies since."
+msgstr "之后没有回复。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:47
+msgid "No more replies."
+msgstr "没有更多回复。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:49
+msgid "No replies yet."
+msgstr "还没有回复。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:54
+#, fuzzy
+msgid "Topics Started"
+msgstr "发起时间: %s前。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:60
+#, php-format
+msgid "Started: %s ago"
+msgstr "发起时间： %s之前。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:64
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "最多回复： %s 之前。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:66
+msgid "No replies."
+msgstr "没有回复。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:72
+msgid "No more topics posted."
+msgstr "没有更多的主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/profile.php:74
+msgid "No topics posted yet."
+msgstr "还没有主题。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register-success.php:3
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "注册"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "太棒了！"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "您成功注册为 <strong>%s</strong>。几分钟后您会收到一封电子邮件，里面包含了您的密码。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "注册"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:10
+msgid "Profile Information"
+msgstr "个人资料"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:11
+msgid "Your password will be emailed to the address you provide."
+msgstr "您的密码将通过电子邮件发送到你所提供的电子邮箱中。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:17
+msgid "Your username was not valid, please try again"
+msgstr "您的用户名无效，请更换一个"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:31
+msgid "<br />There was a problem with your email; please check it."
+msgstr "<br />你的电子邮箱有问题；请检查并更正。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:33
+msgid "<br />The above field is required."
+msgstr "<br />以上区域为必填项。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:45
+msgid "Register &raquo;"
+msgstr "注册 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/register.php:49
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "您已经登录，为什么还需要注册呢？"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/search-form.php:4
+msgid "Search &raquo;"
+msgstr "搜索 &raquo;"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "搜索"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "搜索"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/search.php:16
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/search.php:28
+msgid "Posted"
+msgstr "发表时间"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/search.php:23
+msgid "Relevant posts"
+msgstr "相关帖子"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/search.php:35
+msgid "No results found."
+msgstr "没有找到结果。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/search.php:38
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "您也可以尝试<a href=\"http://google.com/search?q=site:%1$s %2$s\">使用 Google 搜索</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "注册用户"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "热门主题"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/tag-single.php:27
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag."
+msgstr "这个标签的 <abbr title=\"Really Simple Syndication\">RSS</abbr> 链接。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "这里显示了当前论坛中最热门的标签。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/topic-tags.php:2
+msgid "Tags:"
+msgstr "标签："
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/topic-tags.php:10
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "还没有<a href=\"%s\">标签</a>。"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "发表于 %1$s 之前，作者 %2$s"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/topic.php:14
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "来自 %2$s 的<a href=\"%1$s\">最后回复</a>"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/topic.php:42
+msgid "RSS feed for this topic"
+msgstr "这个主题的 RSS 聚合"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/topic.php:50
+msgid "Topic Closed"
+msgstr "主题已关闭"
+
+#: D:\Source.Code.SVN\bbPress.SVN/bb-templates/kakumei/topic.php:51
+msgid "This topic has been closed to new replies."
+msgstr "这个主题已经关闭，不允许新回复。"
+
+#~ msgid "Documentation"
+#~ msgstr "帮助文档"
+#~ msgid "Development"
+#~ msgstr "开发"
+#~ msgid "%s seconds"
+#~ msgstr "%s 秒"
+
+#, fuzzy
+#~ msgid "WordPress database secret:"
+#~ msgstr "Cookie 密钥："
+#~ msgid "Save site settings &raquo;"
+#~ msgstr "保存站点设置 &raquo;"
+
+#, fuzzy
+#~ msgid "Update Settings &raquo;"
+#~ msgstr "批量操作 &raquo;"
+
+#, fuzzy
+#~ msgid "Show manual config settings:"
+#~ msgstr "显示高级数据库设置项："
+#~ msgid "WordPress role"
+#~ msgstr "WordPress 身份"
+#~ msgid "bbPress role"
+#~ msgstr "bbPress 身份"
+#~ msgid "Update User Role Map &raquo;"
+#~ msgstr "更新用户身份映射 &raquo;"
+
+#, fuzzy
+#~ msgid "Are you sure you wanna delete this post by '%author%'?"
+#~ msgstr "您确定要删除“' + %s + '”发表的这个帖子吗？"
+
+#, fuzzy
+#~ msgid "Are you sure you want to remove the '%tag%' tag?"
+#~ msgstr "您确定要删除“' + %s + '”标签？"
+#~ msgid "Search again &raquo;"
+#~ msgstr "再次搜索 &raquo;"
+
+#, fuzzy
+#~ msgid "Your WordPress password"
+#~ msgstr "*您的 WordPress 密码*"
+#~ msgid "x"
+#~ msgstr "x"
+#~ msgid "This topic is one of your <a href=' + %s + '>favorites</a>"
+#~ msgstr "该主题是您<a href=' + %s + '>收藏夹</a>中的一篇文章"
+
