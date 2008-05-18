@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-05-16 10:25+0800\n"
-"PO-Revision-Date: 2008-05-16 10:46+0800\n"
+"PO-Revision-Date: 2008-05-18 20:27+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -2319,12 +2319,12 @@ msgstr "更多信息……"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:132
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:139
 msgid "After installing and enabling it, most of the WordPress images, scripts and CSS files will be stored on this computer. This will speed up page loading considerably."
-msgstr ""
+msgstr "安装并激活该程序后，WordPress 大部分的图片、脚本和 CSS 文件都将保存在本计算机中。这将显著提高页面读取的速度。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:133
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:140
 msgid "Please make sure you are not using a public or shared computer."
-msgstr ""
+msgstr "请确认您使用的不是一台共用的计算机。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:134
 msgid "Install Now"
@@ -2336,7 +2336,7 @@ msgstr "安装 Google Gears"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:142
 msgid "Google Gears is installed on this computer but is not enabled for use with WordPress. To enable it, make sure this web site is not on the denied list under Tools - Google Gears Settings menu of your browser, then reload this page and allow the site to use Google Gears on this computer."
-msgstr ""
+msgstr "Google Gears 已经在本计算机中安装，但目前并没有为 WordPress 激活。激活该程序，请确认在您浏览器的“工具”-“Google Gears Settings”菜单中本站没有被列在禁止访问列表中，然后重新载入该页面并允许在本计算机中使用 Google Gears。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:143
 msgid "However if this is a public or shared computer, Google Gears should not be enabled."
@@ -2344,7 +2344,7 @@ msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:145
 msgid "Google Gears is installed and enabled on this computer. You can disable it from your browser Tools menu."
-msgstr ""
+msgstr "Google Gears 已经在本计算机安装并激活。您可以在浏览器的工具菜单中禁用该程序。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/index.php:146
 msgid "Status:"
