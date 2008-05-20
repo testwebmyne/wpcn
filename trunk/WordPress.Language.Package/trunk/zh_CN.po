@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-05-20 08:17+0800\n"
-"PO-Revision-Date: 2008-05-20 16:42+0800\n"
+"PO-Revision-Date: 2008-05-20 17:04+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -5412,8 +5412,9 @@ msgid "Here you can selectively converts existing tags to categories. To get sta
 msgstr "您好！这个转化器允许您有选择地把现有的标签转换成分类。选取您想转换的标签，然后点击转换按钮。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:144
+#, fuzzy
 msgid "The newly created categories will still be associated with the same posts."
-msgstr ""
+msgstr "最近创建的分类将仍然与相同的日志相关联。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:149
 msgid "You have no tags that can be converted. However some of your tags are both a tag and a category."

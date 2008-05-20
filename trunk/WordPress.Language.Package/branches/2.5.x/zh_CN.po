@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.5.x 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-13 20:20+0800\n"
-"PO-Revision-Date: 2008-05-13 20:20+0800\n"
+"POT-Creation-Date: 2008-05-20 17:30+0800\n"
+"PO-Revision-Date: 2008-05-20 17:33+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -7679,22 +7679,19 @@ msgstr "这篇日志已被密码保护。请在这里输入密码："
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/post.php:1192
 msgid "Content, title, and excerpt are empty."
-msgstr ""
+msgstr "内容、标题和摘要都为空。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/post.php:1308
-#, fuzzy
 msgid "Could not update post in the database"
-msgstr "无法往数据库中插入标签。"
+msgstr "无法在数据库中更新日志"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/post.php:1316
-#, fuzzy
 msgid "Could not insert post into the database"
-msgstr "无法往数据库中插入标签。"
+msgstr "无法在数据库中插入日志"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/post.php:1352
-#, fuzzy
 msgid "The page template is invalid."
-msgstr "其中有一个插件是无效的。"
+msgstr "页面模板无效。"
 
 #: D:\Source.Code.SVN\WordPress.2.5.x/wp-includes/rss.php:856
 msgid "An error has occurred, which probably means the feed is down. Try again later."
