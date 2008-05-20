@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-05-20 08:17+0800\n"
-"PO-Revision-Date: 2008-05-20 09:38+0800\n"
+"PO-Revision-Date: 2008-05-20 16:42+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <feedback@wpcng.com>\n"
 "MIME-Version: 1.0\n"
@@ -638,11 +638,11 @@ msgstr "Google Gears 已经在本计算机安装，但并没有为 WordPress 激
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-header.php:89
 msgid "To enable it, make sure this web site is not on the denied list in Google Gears Settings under your browser's Tools menu, then click the button below."
-msgstr ""
+msgstr "激活该功能，请确认该站点不在您的浏览器工具菜单中 Google Gears Settings 的禁止访问列表中，然后点击下面的按钮。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-header.php:90
 msgid "However if this is a public or shared computer, Google Gears should not be enabled."
-msgstr ""
+msgstr "但是，如果这是一台共用的计算机，那么 Google Gears 不应该被激活。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-header.php:91
 msgid "Enable Google Gears"
@@ -686,7 +686,6 @@ msgid "<a href=\"http://wordpress.org/support/\">Forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\">论坛</a>"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/admin-header.php:106
-#, fuzzy
 msgid "Speed up!"
 msgstr "加速！"
 
@@ -1190,7 +1189,7 @@ msgstr "日志已从修订版本 %s 恢复"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:13
 #, php-format
 msgid "There is an autosave of this post that is more recent than the version below.  <a href=\"%s\">View the autosave</a>."
-msgstr ""
+msgstr "目前存在一个当前日志最近一次自动保存的版本。<a href=\"%s\">查看自动保存版本</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:43
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form.php:3
@@ -1368,7 +1367,7 @@ msgstr "快捷方式"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:194
 msgid "Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut."
-msgstr ""
+msgstr "将以下文章发布快捷方式链接拖到您的书签栏或右键单击并加入到收藏夹。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-form-advanced.php:194
 msgid "Press This"
@@ -1851,7 +1850,7 @@ msgstr "页面已更新。"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:10
 #, php-format
 msgid "There is an autosave of this page that is more recent than the version below.  <a href=\"%s\">View the autosave</a>."
-msgstr ""
+msgstr "以下存在一个当前页面最近一次自动保存的版本。<a href=\"%s\">查看自动保存版本</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/edit-page-form.php:45
 msgid "Write Page"
@@ -2788,7 +2787,7 @@ msgstr "头像"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:81
 msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites.  Here you can enable the display of avatars for people who comment on your blog."
-msgstr ""
+msgstr "当您在开启了头像功能的各个博客发表评论时，头像是跟随在您名字旁边的一张图片。在这里，您可以为那些在您的站点上发表评论的人们开启头像显示功能。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:87
 msgid "Avatar Display"
@@ -2834,16 +2833,15 @@ msgstr "默认头像"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:116
 msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
-msgstr ""
+msgstr "当用户没有自定义他们的头像时，您可以为他们显示一个预设的标志或基于他们的电子邮箱地址自动生成的头像。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:120
 msgid "Mystery Man"
-msgstr ""
+msgstr "Mystery Man"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:121
-#, fuzzy
 msgid "Blank"
-msgstr "平衡"
+msgstr "空白"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:122
 msgid "Gravatar Logo"
@@ -2851,15 +2849,15 @@ msgstr "Gravatar 图标"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:123
 msgid "Identicon (Generated)"
-msgstr ""
+msgstr "Identicon（自动生成）"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:124
 msgid "Wavatar (Generated)"
-msgstr ""
+msgstr "Wavatar（自动生成）"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-discussion.php:125
 msgid "MonsterID (Generated)"
-msgstr ""
+msgstr "MonsterID（自动生成）"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:4
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/options-general.php:11
@@ -3520,7 +3518,7 @@ msgstr "快速发表"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:255
 msgid "Your post is saved. Do you want to view the post?"
-msgstr ""
+msgstr "您的日志已经保存。想查看您的日志吗？"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:263
 msgid "Text/Link"
@@ -3556,11 +3554,11 @@ msgstr "照片链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:357
 msgid "Link Photo to following URL"
-msgstr ""
+msgstr "为图片添加以下链接"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:357
 msgid "(leave blank to leave the photo unlinked)"
-msgstr ""
+msgstr "（留空将不为图片添加链接）"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:363
 msgid "Create Photo"
@@ -3587,35 +3585,32 @@ msgstr "创建日志"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:416
 #, php-format
 msgid "Quote by %s"
-msgstr ""
+msgstr "引用自 %s"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:423
-#, fuzzy
 msgid "Source <span class=\"optional\">(optional)</span>"
-msgstr "插入<span class=\"anchor\">链接</span>"
+msgstr "来源<span class=\"optional\">（可选）</span>"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:431
 msgid "Create Quote"
 msgstr "创建引用"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:461
-#, fuzzy
 msgid "Embed Code"
-msgstr "正在浏览 <code>%s</code>"
+msgstr "嵌入代码"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:465
-#, fuzzy
 msgid "Caption <span class=\"optional\">(optional)</span>"
-msgstr "插入<span class=\"anchor\">链接</span>"
+msgstr "说明<span class=\"optional\">（可选）</span>"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/press-this.php:474
 msgid "Create Video"
 msgstr "创建视频"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/revision.php:70
-#, fuzzy, php-format
+#, php-format
 msgid "Compare Revisions of &#8220;%1$s&#8221;"
-msgstr "包含于标签 &#8220;%s&#8221;"
+msgstr "对比&#8220;%1$s&#8221;的修订版本"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/revision.php:89
 #, php-format
@@ -3623,19 +3618,18 @@ msgid "Post Revision for &#8220;%1$s&#8221; created on %2$s"
 msgstr "日志 &#8220;%1$s&#8221; 的修订版本，创建于：%2$s"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/revision.php:132
-#, fuzzy, php-format
+#, php-format
 msgid "Older: %s"
-msgstr "前一页"
+msgstr "较老：%s"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/revision.php:133
-#, fuzzy, php-format
+#, php-format
 msgid "Newer: %s"
-msgstr "后一页"
+msgstr "较新：%s"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/revision.php:166
-#, fuzzy
 msgid "These revisions are identical."
-msgstr "这些项<span class=\"required\">必须</span>填写。"
+msgstr "这些修订版本是相同的。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/sidebar.php:15
 msgid "WordPress &#8250; Posted"
@@ -5387,7 +5381,7 @@ msgstr "注意，当你转换一个带有子分类的分类时，子分类的父
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:62
 msgid "You have no categories that can be converted. However some of your categories are both a tag and a category."
-msgstr ""
+msgstr "您没有分类可供转换。或许您的某些分类既是标签也是分类。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:64
 msgid "You have no categories to convert!"
@@ -5423,7 +5417,7 @@ msgstr ""
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:149
 msgid "You have no tags that can be converted. However some of your tags are both a tag and a category."
-msgstr ""
+msgstr "您没有标签可供转换。或许您的某些标签既是标签也是分类。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:151
 msgid "You have no tags to convert!"
@@ -5441,7 +5435,7 @@ msgstr "转换标签为分类"
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:330
 #, php-format
 msgid "Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
-msgstr "不能完成。请 <a href=\"%s\">重新尝试</a>。"
+msgstr "无法完成。请 <a href=\"%s\">重试</a>。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-admin/import/wp-cat2tag.php:271
 #, php-format
@@ -8093,14 +8087,12 @@ msgid "Restore"
 msgstr "恢复"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post-template.php:684
-#, fuzzy
 msgid "Compare Revisions"
-msgstr "日志修订版本"
+msgstr "对比修订版本"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post-template.php:698
-#, fuzzy
 msgid "Date Created"
-msgstr "日期格式："
+msgstr "创建日期"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:1142
 msgid "Content, title, and excerpt are empty."
@@ -8119,9 +8111,8 @@ msgid "The page template is invalid."
 msgstr "页面模板无效。"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:2985
-#, fuzzy
 msgid "Content"
-msgstr "页面内容"
+msgstr "内容"
 
 #: D:\Source.Code.SVN\WordPress.SVN/wp-includes/post.php:3107
 msgid "Cannot create a revision of a revision"
