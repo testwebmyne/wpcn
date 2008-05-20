@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress Mu SVN 简体中文语言包\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-05-16 10:26+0800\n"
-"PO-Revision-Date: 2008-05-16 13:34+0800\n"
+"PO-Revision-Date: 2008-05-20 22:40+0800\n"
 "Last-Translator: Dreamcolor <dreamcolor@gmail.com>\n"
 "Language-Team: WordPress 中文团队 <team@wp-cn.com>\n"
 "MIME-Version: 1.0\n"
@@ -839,7 +839,7 @@ msgstr "您无权编辑该日志。"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin-footer.php:7
 msgid "Thank you for creating with <a href=\"http://mu.wordpress.org/\">WordPress MU</a>"
-msgstr "感谢您使用 <a href=\"http://mu.wordpress.org/\">WordPress MU</a>"
+msgstr "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />感谢您使用 <a href=\"http://mu.wordpress.org/\">WordPress MU</a>"
 
 #: D:\Source.Code.SVN\WordPress.Mu.SVN/wp-admin/admin-footer.php:7
 msgid "<a href=\"http://mu.wordpress.org/docs/\">Documentation</a>"
