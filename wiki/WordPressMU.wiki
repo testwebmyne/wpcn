@@ -1,0 +1,21 @@
+#labels Featured,Phase-Design
+WordPress MU, or multi-user, is designed to do exactly that. It is most famously used for WordPress.com where it serves tens of millions of hits on hundreds of thousands of blogs each day.
+
+= Introduction =
+
+With WordPress we took blogging to the next level by creating powerful self-hosted software that anyone could install and have a blog within minutes.
+
+Now with MU we're making it as easy to create a thousand blogs as it was to create a single blog with WordPress 3 years ago. By building on the base of WordPress and syncing development, we get the benefit of the huge ecosystem in plugins and themes that has developed around the project.
+
+Development on MU is spearheaded by Automattic, since they use MU to power WordPress.com a great deal of the companies resources are poured into improving the code, and it all goes back into the open source world via MU.
+
+If you'd like some background on the WordPress project, check out its about page. Since WordPress and WordPress MU share 99% of the same codebase, the features and development on one also benefit another. As WordPress is used by everyone from Yahoo to the New York Times, it isn't going anywhere.
+
+= Details =
+
+Who is WordPress MU ideal for?
+
+  * Newspapers and magazines, like Le Monde. 
+  * Universities, like Harvard. 
+  * Blog networks 
+  * Niche-specific blog hosts, like Edublogs 
