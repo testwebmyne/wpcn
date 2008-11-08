@@ -9,22 +9,23 @@ WordPress MU 是 WordPress 的多用户（Multi-User）版本。
 
 WordPress MU 必须启用 Apache 的 mod_rewrite 模块才能正常服务。这里是一些 Apache 2 的介绍，Apache 1.3 的内容与其类似。
 
-  # 请确认类似下面这行代码出现在了您的 httpd.conf 文件中：
-{{{
-LoadModule rewrite_module /usr/lib/apache2/modules/mod_rewrite.so
-}}}
-  # 您的虚拟主机的`<Directory>`中，找到：
-{{{
-AllowOverride None
-}}}
-将其修改为：
-{{{
-AllowOverride FileInfo Options
-}}}
-  # 在配置文件的`<VirtualHost>`单元中将有一行定义了主机名称。您需要添加以下代码使主机正常工作：
+# 请确认类似下面这行代码出现在了您的 httpd.conf 文件中：
+  {{{
+    LoadModule rewrite_module /usr/lib/apache2/modules/mod_rewrite.so
+  }}}
+# 您的虚拟主机的`<Directory>`中，找到：
+  {{{
+    AllowOverride None
+  }}}
+  将其修改为：
+  {{{
+    AllowOverride FileInfo Options
+  }}}
+# 在配置文件的`<VirtualHost>`单元中将有一行定义了主机名称。您需要添加以下代码使主机正常工作：
 {{{
 ServerAlias *.domain.tld
-}}}，将
+}}}
+将
 {{{
 domain.tld
 }}}
