@@ -47,6 +47,7 @@ http://ma.tt/2003/10/10/wildcard-dns-and-sub-domains/
 ==PHP==
 
  # 不要在浏览器中显示错误信息。几乎所有的情况下都是关闭的，但有时当您进行测试的时候可能忘记了关闭；
+ # 如果您想限制 Blog 的注册，请在管理界面限制电子邮箱域名；
  # 如果您的 PHP 编译为对内存限制进行检查（默认为 8MB，当然，这太小了），您需要增加这个值到 32MB 或 64MB 以避免 PHP 出现内存溢出的错误。请在 php.ini 文件中查找 "memory_limit"；
  # 全局变量（GLOBAL variables）必须关闭。这是首先需要做的事情，也是安全检查管理中需要做的。近日，该参数的默认值已经被修改为关闭状态！
 
@@ -75,8 +76,6 @@ http://ma.tt/2003/10/10/wildcard-dns-and-sub-domains/
 }}}
 
 当您修改完 php.ini 文件后，您需要重新启动 Apache 服务，以使设置生效。
-   
- # 如果您想限制 Blog 的注册，请在管理界面限制电子邮箱域名。
 
 ==安装==
 
@@ -90,7 +89,7 @@ http://ma.tt/2003/10/10/wildcard-dns-and-sub-domains/
   * 如果您的 WordPress MU 安装在根目录中，您需要访问：http://example.com/index.php
   * 如果您的 WordPress MU 安装在您定义的子目录中，例如 blogs，您需要访问：http://example.com/blogs/index.php
 
-相关文档：http://codex.wordpress.org/Installing_WordPress，如果您是升级安装，请查看 http://codex.wordpress.org/Upgrading_WPMU
+相关文档：[http://codex.wordpress.org/Installing_WordPress]，如果您是升级安装，请查看 http://codex.wordpress.org/Upgrading_WPMU
 
 ==错误日志==
 
@@ -99,13 +98,9 @@ http://ma.tt/2003/10/10/wildcard-dns-and-sub-domains/
 如果开启，Mysql 数据库错误将记录到 PHP 错误日志中，或者根据您的选择同时发送到某个文件中。安装结束后，编辑 wp-config.php 文件并定义常量 "ERRORLOGFILE" 来指定 MySQL 错误日志。该文件必须为页面服务可写入。请不要记录到一个页面服务可见的文件中或人们可以直接下载的文件中。
 
 定义举例：
-
-    define( "ERRORLOGFILE", "/tmp/mysql.log" );
-
-
-==升级==
-
-请查看该升级的介绍页面：http://codex.wordpress.org/Upgrading_WPMU
+{{{
+  define( "ERRORLOGFILE", "/tmp/mysql.log" );
+}}}
 
 ==性能==
 
@@ -131,20 +126,14 @@ WordPress MU 拥有一个缓存的框架允许第三方开发人员创建缓存�
 
       WP Super Cache：http://ocaoimh.ie/wp-super-cache/
 
-支持论坛和问题反馈
+==支持论坛和问题反馈==
+
+ * http://mu.wordpress.org/forums/ （英文官方）
+ * http://wfans.org/forums/forum-15-1.html （中文用户）
 
 请在提出问题之前详细阅读：http://codex.wordpress.org/Debugging_WPMU。
-
-http://mu.wordpress.org/forums/
-
-Trac 是我们的一个问题跟踪系统。在提问之前，请再次查看以上链接。
+Trac 是我们的一个问题跟踪系统。在提问之前，请再次查看上面的链接。
 http://trac.mu.wordpress.org/report/1
 
 您可以使用您在 wordpress.org 的用户名和密码同时登录以下站点：
-
 http://mu.wordpress.org/
-中文文档说明
-
-本文档翻译自 WordPress MU 官方程序附带之 Readme 文件。
-
-本文由 WordPress 中文团队（非官方）翻译。http://www.wpcng.com/
