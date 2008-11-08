@@ -120,7 +120,9 @@ eAccelerator：http://neosmart.net/dl.php?id=13
 }}}
  # 全页面缓存。
     该类型插件将所有的页面进行了缓存，降低了灵活性，但系统开销要比对象缓存类插件低。在一个繁忙的 WordPress MU 站点中，频繁的生成缓存文件并进行存储，将有可能拖慢服务器的速度，定期的清理缓存文件将有效解决这个问题。您可以因地制宜。
+
     安装这些插件，请复制到 wp-content 目录中。
+
     WP Super Cache：http://ocaoimh.ie/wp-super-cache/
 
 ==支持论坛和问题反馈==
@@ -129,4 +131,5 @@ eAccelerator：http://neosmart.net/dl.php?id=13
  * http://wfans.org/forums/forum-15-1.html （中文用户）
 
 请在提出问题之前详细阅读：http://codex.wordpress.org/Debugging_WPMU
+
 如果确认是一个漏洞，请提交到这里：http://trac.mu.wordpress.org/report/1
