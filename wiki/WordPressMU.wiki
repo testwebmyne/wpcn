@@ -82,14 +82,16 @@ register_globals = Off
  # 下载并解压缩 WordPress MU 的压缩包。解压过程中会创建一个名为 "wordpressmu" 后面带版本号的目录。
  # 在您的服务器上为 WordPress MU 创建一个数据库，最好是让该 MySQL 数据库的用户有全部权限来对数据库进行访问和修改。
  # 请把 WordPress MU 的文件上传到服务器上合适的位置：
-  * 如果您想实现域名直接访问到 WordPress MU 站点（例如：http://example.com/），移动或上传所有的文件和目录到服务器站点的跟目录中。
-  * 如果您想让 WordPress MU 使用自己的子目录（例如：http://example.com/blogs/），重命名 wordpressmu 目录为您喜欢的目录名称并移动或上传该目录到您的服务器站点目录中。例如，您想将 WordPress MU 安装在一个名叫 "blogs" 目录中，您需要重命名 "wordpressmu" 目录为 "blogs"，并且将其上传到您服务器站点根目录中。
+  * 如果您想实现域名直接访问到 WordPress MU 站点（例如：[http://example.com/]），移动或上传所有的文件和目录到服务器站点的跟目录中。
+  * 如果您想让 WordPress MU 使用自己的子目录（例如：[http://example.com/blogs/]），重命名 wordpressmu 目录为您喜欢的目录名称并移动或上传该目录到您的服务器站点目录中。例如，您想将 WordPress MU 安装在一个名叫 "blogs" 目录中，您需要重命名 "wordpressmu" 目录为 "blogs"，并且将其上传到您服务器站点根目录中。
  # 请确认您的安装目录和 wp-contents 目录为页面服务可写入。
  # 在您最喜欢的浏览器中运行 WordPress MU 的安装脚本。这将访问 index.php 文件。
   * 如果您的 WordPress MU 安装在根目录中，您需要访问：http://example.com/index.php
   * 如果您的 WordPress MU 安装在您定义的子目录中，例如 blogs，您需要访问：http://example.com/blogs/index.php
 
-相关文档：[http://codex.wordpress.org/Installing_WordPress]，如果您是升级安装，请查看 http://codex.wordpress.org/Upgrading_WPMU
+相关文档：http://codex.wordpress.org/Installing_WordPress
+
+如果您是升级安装，请查看 http://codex.wordpress.org/Upgrading_WPMU
 
 =WordPress MU 其他资料=
 ==错误日志==
