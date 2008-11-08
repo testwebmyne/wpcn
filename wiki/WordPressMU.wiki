@@ -14,10 +14,21 @@ WordPress MU 必须启用 Apache 的 mod_rewrite 模块才能正常服务。这�
 LoadModule rewrite_module /usr/lib/apache2/modules/mod_rewrite.so
 }}}
   # 您的虚拟主机的`<Directory>`中，找到：
-{{{AllowOverride None}}}
+{{{
+AllowOverride None
+}}}
 将其修改为：
-{{{AllowOverride FileInfo Options}}}
-  # 在配置文件的`<VirtualHost>`单元中将有一行定义了主机名称。您需要添加以下代码使主机正常工作：{{{ServerAlias *.domain.tld}}}，将{{{domain.tld}}}替换成您的域名，并且移除引号。
+{{{
+AllowOverride FileInfo Options
+}}}
+  # 在配置文件的`<VirtualHost>`单元中将有一行定义了主机名称。您需要添加以下代码使主机正常工作：
+{{{
+ServerAlias *.domain.tld
+}}}，将
+{{{
+domain.tld
+}}}
+替换成您的域名，并且移除引号。
 
 =DNS=
 
