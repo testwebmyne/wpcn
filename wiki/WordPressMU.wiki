@@ -1,5 +1,5 @@
 #labels Featured
-#WordPress MU 的说明文档
+#_WordPress MU 的说明文档_
 
 WordPress MU 是 WordPress 的多用户（Multi-User）版本。
 
