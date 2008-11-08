@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary BuddyPress 的说明文档
 #labels Featured
 
 = Introduction =
