@@ -108,23 +108,25 @@ WordPress MU 拥有一个缓存的框架允许第三方开发人员创建缓存�
 
 这里有两种类型的缓存插件已可供 WordPress 使用。
 
-   1. 对象缓存。
+ # 对象缓存。
 
-      该类型插件将经常访问的那内容存储在高速存储设备中，例如内存或磁盘静态文件系统中。
+    该类型插件将经常访问的那内容存储在高速存储设备中，例如内存或磁盘静态文件系统中。
 
-      安装这些插件，请复制到 wp-content 目录中。
-
+    安装这些插件，请复制到 wp-content 目录中。
+    {{{
       Memcached：http://dev.wp-plugins.org/browser/memcached/trunk/
       Filesystem：http://neosmart.net/dl.php?id=14
       Xcache：http://neosmart.net/dl.php?id=12
       eAccelerator：http://neosmart.net/dl.php?id=13
-   2. 全页面缓存。
+    }}}
 
-      该类型插件将所有的页面进行了缓存，降低了灵活性，但系统开销要比对象缓存类插件低。在一个繁忙的 WordPress MU 站点中，频繁的生成缓存文件并进行存储，将有可能拖慢服务器的速度，定期的清理缓存文件将有效解决这个问题。您可以因地制宜。
+ # 全页面缓存。
 
-      安装这些插件，请复制到 wp-content 目录中。
+    该类型插件将所有的页面进行了缓存，降低了灵活性，但系统开销要比对象缓存类插件低。在一个繁忙的 WordPress MU 站点中，频繁的生成缓存文件并进行存储，将有可能拖慢服务器的速度，定期的清理缓存文件将有效解决这个问题。您可以因地制宜。
 
-      WP Super Cache：http://ocaoimh.ie/wp-super-cache/
+    安装这些插件，请复制到 wp-content 目录中。
+
+    WP Super Cache：http://ocaoimh.ie/wp-super-cache/
 
 ==支持论坛和问题反馈==
 
