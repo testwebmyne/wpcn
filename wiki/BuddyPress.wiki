@@ -1,4 +1,4 @@
-#summary BuddyPress 的说明文档
+#summary BuddyPress 说明文档
 #labels Featured
 
 = Introduction =
