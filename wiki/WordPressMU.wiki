@@ -7,7 +7,7 @@ WordPress MU 是 WordPress 的多用户（Multi-User）版本。
 
 如果您不善于编辑 PHP 代码，并且为配置那些复杂的页面服务和数据库系统而倍感头疼，也没想开发什么高端的项目来运行，那么别找了，访问 http://renren.in/ 为自己和朋友注册一个 Blog 空间吧！这将使您可以稳定长期的为自己保存很多计划和想法，并且免去了您的其他顾虑。
 
-=WordPress MU 的环境搭建=
+=WordPress MU 安装前的准备=
 
 ==Apache==
 
