@@ -1,5 +1,7 @@
-#summary bbPress is forum software with a twist from the creators of WordPress.
+#summary bbPress 说明文档
 #labels Featured,Phase-Requirements
+
+bbPress is forum software with a twist from the creators of WordPress.
 
 = The Skinny =
 
