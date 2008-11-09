@@ -1,0 +1,113 @@
+#summary K2 主题说明文档
+
+WhatisK2   
+A full summary of what makes K2, K2.
+What exactly is K2?
+
+K2 is an advanced template for the blogging engine WordPress developed by Michael Heilemann, Chris J Davis, Zeo, Steve Lam and Ben Sherratt.
+
+It won't make you coffee, sing songs of sweet regret or sit at your bedside when you're ill, but it might make life just a tad bit easier for you.
+
+Think of it this way: Where WordPress is everything that goes on behind the scenes, K2 is everything that reaches the readers of your blog.
+
+WordPress itself takes care of authenticating users, fetching and sending data to and from the database and provides you with the backend administration interface.
+
+K2 on the other hand is the frontend of WordPress. Its main concern is displaying the data fetches through WordPress in the right way at the right time. Furthermore, where more basic themes like Kubrick have little situational awareness, K2 cares about you and is always trying to make sure you are presented with exactly the tools and data you need.
+Is K2 'Kubrick 2'?
+
+In essence, yes. K2 is the follow-up to Kubrick, created by the same author. But where Kubrick is a little naive in terms of knowing what its readers want, K2 goes out of its way to cater not only to the readers, but also the admins of the blog.
+But what does it do?!
+
+Alright alright, example time. Say you've just installed WordPress, and you're up and running with the default theme, Kubrick. You've even posted a couple of entries. But you soon find out that you need to be able to keep better track of the comments left by readers of your blog. So you run off and download the Brian's Latest Comments plugin.
+
+Eagerly you read the instructions. Something about inserting a piece of code into a PHP file... You may know how to do that or you may not. Regardlessly it's a hassle.
+
+But you get it done, and it's working now.
+
+Then a new version of Kubrick is released, and you have to make sure you don't overwrite any of your old customized files and transfer over any changes in the new version.
+
+Blah!
+
+K2 takes care of business for you. It comes prepackaged with support for a range of some of the most widely used plugins, so all you have to do is upload and activate the plugin and you're up and running.
+What more does it do?
+
+Everybody wants their blog to be unique. Because of that K2 allows for a kind of sub-theme called 'styles'. Simply put a style is a stylesheet file, optionally with any needed images, which can be selected in the K2 options panel.
+
+You can distribute your own styles for other K2 users of course, and K2 will automagically show the relevant info about your style&mdash;giving you credit&mdash;in the footer of the blog using it.
+So it's a bit of a framework really?
+
+Yeah, you could say that.
+
+But more than that. K2 for instance also has an options panel, from which you can select custom styles, upload header images, configure the sidebar to infinitesimal levels, turn our AJAX features on and off and much more.
+AJAX? What's that?
+
+AJAX is a way for your browser to talk with the server without having to reload the page you're viewing. It makes web applications much faster and nicer to work with.
+
+K2 has the following AJAX-powered features:
+
+    * Live Commenting lets readers leave a comment without having to reload the page.
+    * Livesearch lets you type your search query and instantly have the results at hand. 
+
+Better yet, it integrates directly with...
+
+    * Rolling Archives is a navigation system designed specifically for K2, which allows you 
+
+to navigate through archives and search results without having to reload the page.
+
+All of our Javascript features use the fantabulous Prototype and Script.aculo.us libraries, which make our code less likely to break across browsers and also hides the more complex mechanics behind readable code.
+
+Furthermore, both Livesearch and Rolling Archives have been written in such a way as to make it easy for you to customize or even bring them over into your own template if you want to. Take it! It's yours!
+Man, that's a lot... Is there more?
+
+I'm glad you asked!
+
+K2 comes bundled with the magnificent Sidebar Modules, created by the dear Mr. Nybble. These allow you to 100% customize your sidebar in whatever way you see fit. And best of all, because the code is modular, you can either write your own new modules or count on plugin authors to supply their own. So now there's really no need to play around with conditional statements and template tags. Just drag and drop modules onto and off your sidebar at well.
+
+Oh, and the Sidebar Modules code of course also supports WordPress Widgets, so you get the best of both worlds.
+
+And finally, all of K2 has of course been prepared for localization, and is already available in a handful of languages.
+Phew, nice! That's all then?
+
+Yeah... HAH! As if! We've packed K2 with 'hidden' features. For instance, if you were to decide on using Christine's Ultimate Tag Warrior plugin (which we recommend if you're into folksonomy), you'll find your blog archive suddenly transforms from dull old chronological and categorical lists into a fully tag-support rock n' roll extravaganza!
+
+And then of course there's a lot of minor stuff, like providing you, the blog author, with the relevant edit links for entries and comments, welcoming back previous commenters and generally just making sure everyone is getting the info they need when they need it and not the other way around.
+
+In short, K2 is here to make sure everyone is having a nice time.
+Sounds like a bandwidth and processing hog to me!
+
+K2 is continually improved and optimized, and we are always doing our utmost to save your server from stressing itself too much. Where ever possible we make sure to not load CSS and JS files unless absolutely needed, and in our releases (not in the subversion repository) we gzip and compress as much code as we can get away with and still have K2 be workable for you.
+
+In other words, it can be if you enable all the bells and whistles of K2.
+
+Should you do this and subsequently experience issues with your server, you might want to turn off stuff like Rolling Archives and Livesearch, as those are the two major offenders.
+
+,,PS: If your host turns out to not be entirely up to par, we suggest giving Media Temple a try. Both the official K2 site as well as Michael Heilemann's site is hosted off of Media Temple, and they are K2 certified, so to speak.,,
+Alright. Sounds Complex Though
+
+It is. And it isn't. We've taken care of all the logic going on behind the scenes, all you've got to worry about is how you want your site to look and behave.
+
+Really.
+
+No. Really.
+
+By flicking through a few options and creating your own stylesheet you'll have your very own unique blog. And when that time rolls around where you need to upgrade K2 to the latest and greatest version, you don't have to worry about overwriting your changes, because you don't have to touch the core files to customize your blog.
+Just Give Me the Lowdown
+
+    * User-friendly.
+    * Admin-friendly.
+    * 100% open source.
+    * Semantic XHTML, CSS and JS structure.
+    * Supports custom CSS files, the so-called 'styles'.
+    * Smart layout adapts to needs.
+    * Fully configurable from options page.
+    * Upload and manage custom headers.
+    * Sidebar Modules comes bundled (with special K2 modules) and support WordPress Widgets.
+    * Live comment posting.
+    * Livesearch.
+    * Rolling Archives.
+    * Dozens of plugins supported out-of-the-box.
+    * "Fam fam fam icons":http://www.famfamfam.com/lab/icons/silk/ 
+
+And hell, we even threw in a special printer stylehsheet for printing out your blog, just cuz we like you. Not enough? Alright, well we've also packaged in a Star Wars themed style for you geeks out there.
+
+Ehm... May the force be with you... Always. 
