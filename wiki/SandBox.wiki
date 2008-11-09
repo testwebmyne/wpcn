@@ -1,7 +1,7 @@
-#summary SandBox 主题的简要说明。
+#summary SandBox 说明文档
 #labels Phase-Design
 
-= 简述 =
+=简述=
 
 Sandbox 是一个给主题设计者的主题。它能够轻易的被换一个皮（译者注：这里感觉有点像 K2 主题），所以初学者只需了解 CSS 就能够样式化它。有经验的设计师则会垂涎于它的丰富的语义标记和由一些函数动态产生的充沛的 Classes 。
 
